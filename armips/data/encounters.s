@@ -7093,7 +7093,7 @@ walklevels 3, 2, 3, 2, 2, 2, 2, 2, 3, 4, 3, 4
 // morning encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_SPEAROW
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_JIGGLYPUFF
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -7107,7 +7107,7 @@ pokemon SPECIES_RATTATA
 // day encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_SPEAROW
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_JIGGLYPUFF
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -7121,7 +7121,7 @@ pokemon SPECIES_RATTATA
 // night encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_JIGGLYPUFF
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
