@@ -9497,7 +9497,7 @@ movedata MOVE_PLAY_NICE, "Play Nice"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_PLAY_NICE, "The user and the\ntarget become friends,\nlowering the target's Attack\nstat. Bypasses Protect."
+    movedescription MOVE_PLAY_NICE, "The user and the\ntarget become pals,\nlowering the target's\nAttack stat.\nBypasses Protect."
 
 movedata MOVE_CONFIDE, "Confide"
     battleeffect MOVE_EFFECT_HIT
