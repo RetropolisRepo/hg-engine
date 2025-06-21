@@ -632,7 +632,7 @@ trainerdata 20, "Falkner"
         item ITEM_NONE
         move MOVE_TACKLE
         move MOVE_SAND_ATTACK
-        move MOVE_NONE
+        move MOVE_GUST
         move MOVE_NONE
         ballseal 0
 
@@ -645,7 +645,7 @@ trainerdata 20, "Falkner"
         move MOVE_TACKLE
         move MOVE_ROOST
         move MOVE_GUST
-        move MOVE_NONE
+        move MOVE_MUD_SLAP
         ballseal 0
     endparty
 
