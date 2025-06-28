@@ -740,7 +740,7 @@ trainerdata 23, "Larry"
         // mon 0
         ivs 0
         abilityslot 32
-        level 11
+        level 12
         pokemon SPECIES_SLOWPOKE
         ballseal 0
     endparty
@@ -782,7 +782,7 @@ trainerdata 25, "Russel"
         // mon 0
         ivs 0
         abilityslot 32
-        level 4
+        level 3
         pokemon SPECIES_GEODUDE
         ballseal 0
 
@@ -796,7 +796,7 @@ trainerdata 25, "Russel"
         // mon 2
         ivs 0
         abilityslot 32
-        level 8
+        level 9
         pokemon SPECIES_GEODUDE
         ballseal 0
     endparty
@@ -838,7 +838,7 @@ trainerdata 27, "Liz"
         // mon 0
         ivs 0
         abilityslot 32
-        level 8
+        level 9
         pokemon SPECIES_NIDORAN_F
         ballseal 0
     endparty
@@ -1593,7 +1593,7 @@ trainerdata 49, "Albert"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 7
         pokemon SPECIES_RATTATA
         ballseal 0
 
@@ -1782,7 +1782,7 @@ trainerdata 56, "Gordon"
         // mon 0
         ivs 0
         abilityslot 32
-        level 10
+        level 11
         pokemon SPECIES_WOOPER
         ballseal 0
     endparty
@@ -10906,14 +10906,14 @@ trainerdata 319, "Bill"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 7
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 6
+        level 8
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
@@ -12899,21 +12899,21 @@ trainerdata 383, "Peter"
         // mon 0
         ivs 50
         abilityslot 0
-        level 6
+        level 7
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
-        level 6
+        level 7
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 8
+        level 10
         pokemon SPECIES_SPEAROW
         ballseal 0
     endparty

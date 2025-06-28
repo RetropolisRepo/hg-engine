@@ -1788,9 +1788,9 @@ walklevels 6, 7, 6, 7, 6, 6, 6, 6, 8, 4, 8, 4
 
 // morning encounter slots
 pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
 pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
@@ -1802,9 +1802,9 @@ pokemon SPECIES_ZUBAT
 
 // day encounter slots
 pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
 pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
@@ -1816,9 +1816,9 @@ pokemon SPECIES_RATTATA
 
 // night encounter slots
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
