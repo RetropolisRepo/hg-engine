@@ -2096,7 +2096,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 5, 6, 5, 6, 6, 6, 5, 5, 5, 6, 5, 6
+walklevels 7, 8, 7, 8, 8, 8, 7, 7, 7, 8, 7, 8
 
 // morning encounter slots
 pokemon SPECIES_CATERPIE
@@ -2129,9 +2129,9 @@ pokemon SPECIES_PARAS
 // night encounter slots
 pokemon SPECIES_ODDISH
 pokemon SPECIES_ODDISH
+pokemon SPECIES_PHANTUMP
+pokemon SPECIES_PHANTUMP
 pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_PARAS
 pokemon SPECIES_PARAS
