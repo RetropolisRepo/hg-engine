@@ -368,7 +368,7 @@ trainerdata 12, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 7
+        level 8
         pokemon SPECIES_RATTATA
         ballseal 0
 
@@ -3159,7 +3159,7 @@ trainerdata 101, "Grunt"
         // mon 1
         ivs 30
         abilityslot 32
-        level 9
+        level 10
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
@@ -16197,7 +16197,7 @@ trainerdata 485, "Archer"
 trainerdata 486, "Proton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16220,6 +16220,13 @@ trainerdata 486, "Proton"
         level 12
         pokemon SPECIES_KOFFING
         ballseal 0
+		
+		// mon 2
+		ivs 100
+		abilityslot 0
+		level 11
+		monwithform SPECIES_SLOWPOKE, 1
+		ballseal 0
     endparty
 
 trainerdata 487, "Petrel"
