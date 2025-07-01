@@ -742,7 +742,7 @@ headbuttheader  33,  35,   0   // Route 29
     headbuttencounter SPECIES_PINECO, 2, 3
     headbuttencounter SPECIES_EXEGGCUTE, 2, 3
     headbuttencounter SPECIES_EXEGGCUTE, 2, 3
-    headbuttencounter SPECIES_EXEGGCUTE, 2, 3
+    headbuttencounter SPECIES_LEDYBA, 2, 3
     headbuttencounter SPECIES_HOOTHOOT, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
@@ -801,7 +801,7 @@ headbuttheader  34,  30,   0   // Route 30
     headbuttencounter SPECIES_PINECO, 2, 3
     headbuttencounter SPECIES_EXEGGCUTE, 2, 3
     headbuttencounter SPECIES_EXEGGCUTE, 2, 3
-    headbuttencounter SPECIES_EXEGGCUTE, 2, 3
+    headbuttencounter SPECIES_LEDYBA, 2, 3
     headbuttencounter SPECIES_HOOTHOOT, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
@@ -855,7 +855,7 @@ headbuttheader  35,  15,   0   // Route 31
     headbuttencounter SPECIES_PINECO, 3, 4
     headbuttencounter SPECIES_EXEGGCUTE, 3, 4
     headbuttencounter SPECIES_EXEGGCUTE, 3, 4
-    headbuttencounter SPECIES_EXEGGCUTE, 3, 4
+    headbuttencounter SPECIES_LEDYBA, 3, 4
     headbuttencounter SPECIES_HOOTHOOT, 5, 6
     headbuttencounter SPECIES_SPINARAK, 5, 6
     headbuttencounter SPECIES_SPINARAK, 5, 6
@@ -894,7 +894,7 @@ headbuttheader  36,  35,   0   // Route 32
     headbuttencounter SPECIES_PINECO, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
-    headbuttencounter SPECIES_EXEGGCUTE, 4, 5
+    headbuttencounter SPECIES_LEDYBA, 4, 5
     headbuttencounter SPECIES_HOOTHOOT, 6, 7
     headbuttencounter SPECIES_HOOTHOOT, 6, 7
     headbuttencounter SPECIES_HOOTHOOT, 6, 7
@@ -954,9 +954,9 @@ headbuttheader  37,   4,   0   // Route 33
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
-    headbuttencounter SPECIES_SPEAROW, 6, 8
-    headbuttencounter SPECIES_SPEAROW, 6, 8
-    headbuttencounter SPECIES_SPEAROW, 6, 8
+    headbuttencounter SPECIES_SEEDOT, 6, 8
+    headbuttencounter SPECIES_SEEDOT, 6, 8
+    headbuttencounter SPECIES_SEEDOT, 6, 8
     headbuttencounter SPECIES_AIPOM, 6, 8
     headbuttencounter SPECIES_AIPOM, 6, 8
     headbuttencounter SPECIES_AIPOM, 6, 8
@@ -980,8 +980,8 @@ headbuttheader  38,  15,   1   // Route 34
     headbuttencounter SPECIES_PINECO, 9, 10
     headbuttencounter SPECIES_PINECO, 9, 10
     headbuttencounter SPECIES_EXEGGCUTE, 9, 10
-    headbuttencounter SPECIES_EXEGGCUTE, 9, 10
-    headbuttencounter SPECIES_EXEGGCUTE, 9, 10
+    headbuttencounter SPECIES_SEEDOT, 9, 10
+    headbuttencounter SPECIES_LEDYBA, 9, 10
     headbuttencounter SPECIES_HOOTHOOT, 11, 12
     headbuttencounter SPECIES_SPINARAK, 11, 12
     headbuttencounter SPECIES_SPINARAK, 11, 12
@@ -1854,9 +1854,9 @@ headbuttheader  74,  15,   0   // Azalea Town
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
-    headbuttencounter SPECIES_SPEAROW, 6, 8
-    headbuttencounter SPECIES_SPEAROW, 6, 8
-    headbuttencounter SPECIES_SPEAROW, 6, 8
+    headbuttencounter SPECIES_SEEDOT, 6, 8
+    headbuttencounter SPECIES_SEEDOT, 6, 8
+    headbuttencounter SPECIES_SEEDOT, 6, 8
     headbuttencounter SPECIES_AIPOM, 6, 8
     headbuttencounter SPECIES_AIPOM, 6, 8
     headbuttencounter SPECIES_AIPOM, 6, 8
@@ -2197,10 +2197,10 @@ headbuttheader 117,  56,   0   // Ilex Forest
     headbuttencounter SPECIES_HOOTHOOT, 3, 5
     headbuttencounter SPECIES_CATERPIE, 3, 5
     headbuttencounter SPECIES_CATERPIE, 3, 5
-    headbuttencounter SPECIES_HOOTHOOT, 3, 5
+    headbuttencounter SPECIES_SEEDOT, 3, 5
     headbuttencounter SPECIES_METAPOD, 3, 5
     headbuttencounter SPECIES_METAPOD, 3, 5
-    headbuttencounter SPECIES_HOOTHOOT, 6, 8
+    headbuttencounter SPECIES_SEEDOT, 6, 8
     headbuttencounter SPECIES_PINECO, 6, 8
     headbuttencounter SPECIES_PINECO, 6, 8
     headbuttencounter SPECIES_NOCTOWL, 6, 8
