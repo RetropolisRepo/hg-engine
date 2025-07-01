@@ -681,8 +681,8 @@ trainerdata 21, "Bugsy"
         pokemon SPECIES_KAKUNA
         item ITEM_NONE
         move MOVE_POISON_STING
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_HARDEN
+        move MOVE_BUG_BITE
         move MOVE_NONE
         ballseal 0
 
@@ -690,12 +690,12 @@ trainerdata 21, "Bugsy"
         ivs 80
         abilityslot 0
         level 15
-        pokemon SPECIES_METAPOD
+        pokemon SPECIES_CHARJABUG
         item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_SHOCK_WAVE
+        move MOVE_BITE
+        move MOVE_STRING_SHOT
+        move MOVE_CHARGE
         ballseal 0
     endparty
 
@@ -13008,14 +13008,14 @@ trainerdata 387, "Amy & Mimi"
         // mon 0
         ivs 10
         abilityslot 32
-        level 10
+        level 11
         pokemon SPECIES_LEDYBA
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 32
-        level 10
+        level 11
         pokemon SPECIES_SPINARAK
         ballseal 0
     endparty
