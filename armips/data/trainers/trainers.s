@@ -305,14 +305,14 @@ trainerdata 10, "Amy & Mimi"
         // mon 0
         ivs 10
         abilityslot 32
-        level 10
+        level 11
         pokemon SPECIES_SPINARAK
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 32
-        level 10
+        level 11
         pokemon SPECIES_LEDYBA
         ballseal 0
     endparty
