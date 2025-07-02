@@ -2100,10 +2100,10 @@ walklevels 7, 8, 7, 8, 8, 8, 7, 7, 7, 8, 7, 8
 
 // morning encounter slots
 pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_WEEDLE
 pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_CATERPIE
 pokemon SPECIES_PARAS
 pokemon SPECIES_PARAS
@@ -2114,13 +2114,13 @@ pokemon SPECIES_PARAS
 
 // day encounter slots
 pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
 pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
 pokemon SPECIES_METAPOD
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_PARAS
 pokemon SPECIES_ZUBAT
@@ -2205,8 +2205,8 @@ walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
 // morning encounter slots
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
+pokemon SPECIES_FLABEBE
+pokemon SPECIES_FLABEBE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_ABRA
@@ -2219,8 +2219,8 @@ pokemon SPECIES_DITTO
 // day encounter slots
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
+pokemon SPECIES_FLABEBE
+pokemon SPECIES_FLABEBE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_ABRA
@@ -2239,9 +2239,9 @@ pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_FLABEBE
 pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
+pokemon SPECIES_FLABEBE
 pokemon SPECIES_DITTO
 
 // hoenn encounter slots
@@ -2309,8 +2309,8 @@ walklevels 12, 12, 12, 12, 14, 14, 10, 10, 14, 10, 14, 12
 // morning encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
+pokemon SPECIES_FLABEBE
+pokemon SPECIES_FLABEBE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_ABRA
@@ -2323,8 +2323,8 @@ pokemon SPECIES_YANMA
 // day encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
+pokemon SPECIES_FLABEBE
+pokemon SPECIES_FLABEBE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_ABRA
@@ -2345,7 +2345,7 @@ pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_DITTO
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_FLABEBE
 pokemon SPECIES_YANMA
 
 // hoenn encounter slots
@@ -2412,11 +2412,11 @@ walklevels 10, 10, 10, 10, 12, 12, 12, 12, 10, 14, 10, 14
 
 // morning encounter slots
 pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_FLETCHLING
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEY
@@ -2426,23 +2426,23 @@ pokemon SPECIES_PIDGEY
 
 // day encounter slots
 pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
 pokemon SPECIES_SUNKERN
 pokemon SPECIES_SUNKERN
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_FLETCHLING
 pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_FLETCHLING
 
 // night encounter slots
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT

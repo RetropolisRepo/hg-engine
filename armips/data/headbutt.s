@@ -1020,7 +1020,7 @@ headbuttheader  39,  14,   0   // Route 35
     headbuttencounter SPECIES_PINECO, 10, 11
     headbuttencounter SPECIES_EXEGGCUTE, 10, 11
     headbuttencounter SPECIES_EXEGGCUTE, 10, 11
-    headbuttencounter SPECIES_EXEGGCUTE, 10, 11
+    headbuttencounter SPECIES_LEDYBA, 10, 11
     headbuttencounter SPECIES_HOOTHOOT, 13, 14
     headbuttencounter SPECIES_SPINARAK, 13, 14
     headbuttencounter SPECIES_SPINARAK, 13, 14
@@ -2087,7 +2087,7 @@ headbuttheader  96,  22,   5   // National Park
     headbuttencounter SPECIES_PINECO, 10, 12
     headbuttencounter SPECIES_EXEGGCUTE, 10, 12
     headbuttencounter SPECIES_EXEGGCUTE, 10, 12
-    headbuttencounter SPECIES_EXEGGCUTE, 10, 12
+    headbuttencounter SPECIES_LEDYBA, 10, 12
     headbuttencounter SPECIES_HOOTHOOT, 13, 15
     headbuttencounter SPECIES_SPINARAK, 13, 15
     headbuttencounter SPECIES_SPINARAK, 13, 15
