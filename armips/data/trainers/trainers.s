@@ -165,14 +165,14 @@ trainerdata 5, "Victoria"
         // mon 0
         ivs 10
         abilityslot 32
-        level 9
+        level 12
         pokemon SPECIES_SENTRET
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 32
-        level 13
+        level 14
         pokemon SPECIES_SENTRET
         ballseal 0
 
@@ -221,28 +221,28 @@ trainerdata 7, "Irwin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 2
+        level 3
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 6
+        level 9
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 10
+        level 12
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 32
-        level 14
+        level 15
         pokemon SPECIES_VOLTORB
         ballseal 0
     endparty
@@ -921,7 +921,7 @@ trainerdata 29, "Rod"
 trainerdata 30, "Whitney"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_WHITNEY
-    nummons 2
+    nummons 3
     item ITEM_SUPER_POTION
     item ITEM_SUPER_POTION
     item ITEM_NONE
@@ -942,16 +942,28 @@ trainerdata 30, "Whitney"
         move MOVE_ENCORE
         move MOVE_METRONOME
         ballseal 0
-
+		
         // mon 1
         ivs 100
         abilityslot 32
-        level 19
+        level 16
+        pokemon SPECIES_STUFFUL
+        item ITEM_ORAN_BERRY
+        move MOVE_LOW_KICK
+        move MOVE_BABY_DOLL_EYES
+        move MOVE_BRUTAL_SWING
+        move MOVE_TACKLE
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 32
+        level 20
         pokemon SPECIES_MILTANK
         item ITEM_LUM_BERRY
         move MOVE_ROLLOUT
         move MOVE_ATTRACT
-        move MOVE_STOMP
+        move MOVE_HEADBUTT
         move MOVE_MILK_DRINK
         ballseal 0
     endparty
@@ -2246,14 +2258,14 @@ trainerdata 72, "Bryan"
         // mon 0
         ivs 50
         abilityslot 0
-        level 12
+        level 13
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 14
+        level 16
         pokemon SPECIES_PIDGEOTTO
         ballseal 0
     endparty
@@ -2323,14 +2335,14 @@ trainerdata 74, "Ivan"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 12
         pokemon SPECIES_DIGLETT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 10
+        level 12
         pokemon SPECIES_ZUBAT
         ballseal 0
 
@@ -2358,7 +2370,7 @@ trainerdata 75, "Elliot"
         // mon 0
         ivs 0
         abilityslot 0
-        level 13
+        level 14
         pokemon SPECIES_SANDSHREW
         ballseal 0
 
@@ -2386,7 +2398,7 @@ trainerdata 76, "Brooke"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_PIKACHU
         move MOVE_THUNDER_SHOCK
         move MOVE_GROWL
@@ -2411,7 +2423,7 @@ trainerdata 77, "Kim"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
+        level 16
         pokemon SPECIES_VULPIX
         ballseal 0
     endparty
@@ -2432,7 +2444,7 @@ trainerdata 78, "Arnie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
+        level 16
         pokemon SPECIES_VENONAT
         ballseal 0
     endparty
@@ -2481,14 +2493,14 @@ trainerdata 80, "Dirk"
         // mon 0
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_GROWLITHE
         ballseal 0
     endparty
