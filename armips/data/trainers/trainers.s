@@ -958,7 +958,7 @@ trainerdata 30, "Whitney"
         // mon 2
         ivs 100
         abilityslot 32
-        level 20
+        level 21
         pokemon SPECIES_MILTANK
         item ITEM_LUM_BERRY
         move MOVE_ROLLOUT
