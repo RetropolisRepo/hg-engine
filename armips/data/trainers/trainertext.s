@@ -350,7 +350,7 @@ _025C: // Trainer 69
 _0268: // Trainer 22
     trainertextentry  22, TEXT_NOTICE_IN_OVERWORLD, "You shouldn’t let your guard down just\n’cause I don’t look tough!\r"
     trainertextentry  22, TEXT_DEFEATED_IN_BATTLE, "Gosh...\nI thought you were weak...\n"
-    trainertextentry  22, TEXT_DEFEATED_IN_OVERWORLD, "Huh? SNUBBULL is a Fairy-Type?\Pffft, what do you know??\n"
+    trainertextentry  22, TEXT_DEFEATED_IN_OVERWORLD, "Huh? SNUBBULL is a Fairy-Type?\rPffft, what do you know??\n"
 
 _0274: // Trainer 71
     trainertextentry  71, TEXT_NOTICE_IN_OVERWORLD, "I like cute Pokémon better than\nstrong Pokémon.\rBut I have strong and cute Pokémon!\r"
