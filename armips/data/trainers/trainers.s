@@ -923,7 +923,7 @@ trainerdata 30, "Whitney"
     trainerclass TRAINERCLASS_LEADER_WHITNEY
     nummons 3
     item ITEM_SUPER_POTION
-    item ITEM_SUPER_POTION
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
