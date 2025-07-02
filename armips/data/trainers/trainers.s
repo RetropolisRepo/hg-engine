@@ -1936,28 +1936,28 @@ trainerdata 62, "Samuel"
         // mon 0
         ivs 0
         abilityslot 32
-        level 7
+        level 9
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_SANDSHREW
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 8
+        level 10
         pokemon SPECIES_SPEAROW
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 8
+        level 10
         pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
@@ -1999,20 +1999,20 @@ trainerdata 64, "Ian"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_MANKEY
         move MOVE_FOCUS_ENERGY
-        move MOVE_SCRATCH
-        move MOVE_LOW_KICK
+        move MOVE_FURY_SWIPES
+        move MOVE_KARATE_CHOP
         move MOVE_LEER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 12
+        level 14
         pokemon SPECIES_DIGLETT
-        move MOVE_ASTONISH
+        move MOVE_MUD_SLAP
         move MOVE_GROWL
         move MOVE_SCRATCH
         move MOVE_SAND_ATTACK
@@ -2035,21 +2035,21 @@ trainerdata 65, "Gina"
         // mon 0
         ivs 0
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_HOPPIP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_HOPPIP
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 12
+        level 13
         pokemon SPECIES_BULBASAUR
         ballseal 0
     endparty
@@ -2070,7 +2070,7 @@ trainerdata 66, "Todd"
         // mon 0
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_PSYDUCK
         ballseal 0
     endparty
@@ -13726,7 +13726,7 @@ trainerdata 409, "Brandon"
         // mon 1
         ivs 0
         abilityslot 0
-        level 13
+        level 14
         pokemon SPECIES_MAREEP
         ballseal 0
     endparty
