@@ -942,7 +942,7 @@ trainerdata 30, "Whitney"
         move MOVE_ENCORE
         move MOVE_METRONOME
         ballseal 0
-		
+
         // mon 1
         ivs 100
         abilityslot 32
