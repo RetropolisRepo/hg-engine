@@ -948,7 +948,7 @@ trainerdata 30, "Whitney"
         abilityslot 32
         level 16
         pokemon SPECIES_STUFFUL
-        item ITEM_ORAN_BERRY
+        item ITEM_NONE
         move MOVE_LOW_KICK
         move MOVE_BABY_DOLL_EYES
         move MOVE_BRUTAL_SWING
@@ -963,7 +963,7 @@ trainerdata 30, "Whitney"
         item ITEM_LUM_BERRY
         move MOVE_ROLLOUT
         move MOVE_ATTRACT
-        move MOVE_HEADBUTT
+        move MOVE_STOMP
         move MOVE_MILK_DRINK
         ballseal 0
     endparty
