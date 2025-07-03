@@ -2091,9 +2091,9 @@ headbuttheader  96,  22,   5   // National Park
     headbuttencounter SPECIES_HOOTHOOT, 13, 15
     headbuttencounter SPECIES_SPINARAK, 13, 15
     headbuttencounter SPECIES_SPINARAK, 13, 15
-    headbuttencounter SPECIES_EXEGGCUTE, 13, 15
-    headbuttencounter SPECIES_EXEGGCUTE, 13, 15
-    headbuttencounter SPECIES_EXEGGCUTE, 13, 15
+    headbuttencounter SPECIES_AIPOM, 13, 15
+    headbuttencounter SPECIES_AIPOM, 13, 15
+    headbuttencounter SPECIES_AIPOM, 13, 15
     // special slots
     headbuttencounter SPECIES_EXEGGCUTE, 18, 20
     headbuttencounter SPECIES_EXEGGCUTE, 18, 20
