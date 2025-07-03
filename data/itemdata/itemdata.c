@@ -143,7 +143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ULTRA_BALL] =
 {
-    .price = 1200,
+    .price = 800,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -208,7 +208,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GREAT_BALL] =
 {
-    .price = 600,
+    .price = 500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
