@@ -2521,14 +2521,14 @@ trainerdata 81, "Tori & Til"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_MARILL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_MAREEP
         ballseal 0
     endparty
@@ -12995,12 +12995,12 @@ trainerdata 386, "Greg"
         // mon 0
         ivs 0
         abilityslot 0
-        level 17
+        level 20
         pokemon SPECIES_DROWZEE
         move MOVE_HYPNOSIS
         move MOVE_DISABLE
         move MOVE_DREAM_EATER
-        move MOVE_NONE
+        move MOVE_HEADBUTT
         ballseal 0
     endparty
 
@@ -22870,9 +22870,9 @@ trainerdata 679, "Callie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_CLEFABLE
-        move MOVE_GROWL
+        move MOVE_DISARMING_VOICE
         move MOVE_ENCORE
         move MOVE_DOUBLE_SLAP
         move MOVE_METRONOME
@@ -22881,7 +22881,7 @@ trainerdata 679, "Callie"
         // mon 1
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_WIGGLYTUFF
         move MOVE_SING
         move MOVE_DEFENSE_CURL
@@ -22906,7 +22906,7 @@ trainerdata 680, "Kassandra"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_WIGGLYTUFF
         move MOVE_SING
         move MOVE_DEFENSE_CURL
@@ -22917,9 +22917,9 @@ trainerdata 680, "Kassandra"
         // mon 1
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_CLEFABLE
-        move MOVE_GROWL
+        move MOVE_DISARMING_VOICE
         move MOVE_ENCORE
         move MOVE_DOUBLE_SLAP
         move MOVE_METRONOME
