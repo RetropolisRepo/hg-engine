@@ -8656,40 +8656,40 @@ trainerdata 263, "Silver"
         // mon 0
         ivs 80
         abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
-        move MOVE_LICK
-        move MOVE_CONFUSE_RAY
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        ballseal 0
-
-        // mon 1
-        ivs 80
-        abilityslot 0
-        level 18
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_SHOCK
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        ballseal 0
-
-        // mon 2
-        ivs 80
-        abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_ZUBAT
-        move MOVE_ASTONISH
+        move MOVE_POISON_FANG
         move MOVE_SUPERSONIC
         move MOVE_BITE
         move MOVE_WING_ATTACK
         ballseal 0
 
+        // mon 1
+        ivs 80
+        abilityslot 0
+        level 19
+        pokemon SPECIES_MAGNEMITE
+        move MOVE_THUNDER_WAVE
+        move MOVE_ELECTRO_BALL
+        move MOVE_MAGNET_BOMB
+        move MOVE_SONIC_BOOM
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 32
+        level 18
+        pokemon SPECIES_HERACROSS
+        move MOVE_AERIAL_ACE
+        move MOVE_FURY_ATTACK
+        move MOVE_ROCK_SMASH
+        move MOVE_LEER
+        ballseal 0
+
         // mon 3
         ivs 80
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_BAYLEEF
         move MOVE_SYNTHESIS
         move MOVE_REFLECT
@@ -8850,40 +8850,40 @@ trainerdata 267, "Silver"
         // mon 0
         ivs 80
         abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
-        move MOVE_LICK
-        move MOVE_CONFUSE_RAY
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        ballseal 0
-
-        // mon 1
-        ivs 80
-        abilityslot 0
-        level 18
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_SHOCK
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        ballseal 0
-
-        // mon 2
-        ivs 80
-        abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_ZUBAT
-        move MOVE_ASTONISH
+        move MOVE_POISON_FANG
         move MOVE_SUPERSONIC
         move MOVE_BITE
         move MOVE_WING_ATTACK
         ballseal 0
 
+        // mon 1
+        ivs 80
+        abilityslot 0
+        level 19
+        pokemon SPECIES_MAGNEMITE
+        move MOVE_THUNDER_WAVE
+        move MOVE_ELECTRO_BALL
+        move MOVE_MAGNET_BOMB
+        move MOVE_SONIC_BOOM
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 32
+        level 18
+        pokemon SPECIES_HERACROSS
+        move MOVE_AERIAL_ACE
+        move MOVE_FURY_ATTACK
+        move MOVE_ROCK_SMASH
+        move MOVE_LEER
+        ballseal 0
+
         // mon 3
         ivs 80
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_QUILAVA
         move MOVE_FLAME_WHEEL
         move MOVE_SMOKESCREEN
@@ -9023,44 +9023,44 @@ trainerdata 270, "Silver"
         // mon 0
         ivs 80
         abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
-        move MOVE_LICK
-        move MOVE_CONFUSE_RAY
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        ballseal 0
-
-        // mon 1
-        ivs 80
-        abilityslot 0
-        level 18
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_SHOCK
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        ballseal 0
-
-        // mon 2
-        ivs 80
-        abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_ZUBAT
-        move MOVE_ASTONISH
+        move MOVE_POISON_FANG
         move MOVE_SUPERSONIC
         move MOVE_BITE
         move MOVE_WING_ATTACK
         ballseal 0
 
+        // mon 1
+        ivs 80
+        abilityslot 0
+        level 19
+        pokemon SPECIES_MAGNEMITE
+        move MOVE_THUNDER_WAVE
+        move MOVE_ELECTRO_BALL
+        move MOVE_MAGNET_BOMB
+        move MOVE_SONIC_BOOM
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 32
+        level 18
+        pokemon SPECIES_HERACROSS
+        move MOVE_AERIAL_ACE
+        move MOVE_FURY_ATTACK
+        move MOVE_ROCK_SMASH
+        move MOVE_LEER
+        ballseal 0
+
         // mon 3
         ivs 80
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_CROCONAW
+        move MOVE_WATER_GUN
         move MOVE_SCARY_FACE
         move MOVE_ICE_FANG
-        move MOVE_WATER_GUN
         move MOVE_BITE
         ballseal 0
     endparty
@@ -9493,7 +9493,7 @@ trainerdata 281, "Richard"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 21
         pokemon SPECIES_CHARMELEON
         ballseal 0
     endparty
@@ -9514,21 +9514,21 @@ trainerdata 282, "Ned"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 17
+        level 19
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
@@ -20082,7 +20082,7 @@ trainerdata 601, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 12
+        level 18
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
