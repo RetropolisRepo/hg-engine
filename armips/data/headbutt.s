@@ -1901,11 +1901,11 @@ headbuttheader  78,  18,   0   // Ecruteak City
     headbuttencounter SPECIES_PINECO, 12, 14
     headbuttencounter SPECIES_EXEGGCUTE, 12, 14
     headbuttencounter SPECIES_EXEGGCUTE, 12, 14
-    headbuttencounter SPECIES_EXEGGCUTE, 12, 14
+    headbuttencounter SPECIES_LEDYBA, 12, 14
     headbuttencounter SPECIES_HOOTHOOT, 15, 17
     headbuttencounter SPECIES_SPINARAK, 15, 17
     headbuttencounter SPECIES_SPINARAK, 15, 17
-    headbuttencounter SPECIES_EXEGGCUTE, 15, 17
+    headbuttencounter SPECIES_LEDYBA, 15, 17
     headbuttencounter SPECIES_EXEGGCUTE, 15, 17
     headbuttencounter SPECIES_EXEGGCUTE, 15, 17
     // special slots

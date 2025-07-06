@@ -9801,7 +9801,7 @@ movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_BABY_DOLL_EYES, "---"
+    movedescription MOVE_BABY_DOLL_EYES, "The user stares at\nthe target with its\nbaby-doll eyes, lowering\nits Attack stat.\nAlways goes first."
 
 movedata MOVE_NUZZLE, "Nuzzle"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
