@@ -934,10 +934,10 @@ trainerdata 30, "Whitney"
         // mon 0
         ivs 100
         abilityslot 0
-        level 17
+        level 18
         pokemon SPECIES_CLEFAIRY
         item ITEM_NONE
-        move MOVE_DOUBLE_SLAP
+        move MOVE_DISARMING_VOICE
         move MOVE_MIMIC
         move MOVE_ENCORE
         move MOVE_METRONOME
@@ -946,7 +946,7 @@ trainerdata 30, "Whitney"
         // mon 1
         ivs 100
         abilityslot 32
-        level 16
+        level 17
         pokemon SPECIES_STUFFUL
         item ITEM_NONE
         move MOVE_LOW_KICK
@@ -962,7 +962,7 @@ trainerdata 30, "Whitney"
         pokemon SPECIES_MILTANK
         item ITEM_LUM_BERRY
         move MOVE_ROLLOUT
-        move MOVE_ATTRACT
+        move MOVE_RETALIATE
         move MOVE_STOMP
         move MOVE_MILK_DRINK
         ballseal 0
@@ -984,7 +984,7 @@ trainerdata 31, "Morty"
         // mon 0
         ivs 100
         abilityslot 0
-        level 21
+        level 22
         pokemon SPECIES_GASTLY
         item ITEM_NONE
         move MOVE_LICK
@@ -996,7 +996,7 @@ trainerdata 31, "Morty"
         // mon 1
         ivs 100
         abilityslot 0
-        level 21
+        level 23
         pokemon SPECIES_HAUNTER
         item ITEM_NONE
         move MOVE_HYPNOSIS
@@ -1008,7 +1008,7 @@ trainerdata 31, "Morty"
         // mon 2
         ivs 100
         abilityslot 0
-        level 25
+        level 26
         pokemon SPECIES_GENGAR
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
@@ -1020,12 +1020,12 @@ trainerdata 31, "Morty"
         // mon 3
         ivs 100
         abilityslot 0
-        level 23
-        pokemon SPECIES_HAUNTER
+        level 22
+        pokemon SPECIES_DUSKULL
         item ITEM_NONE
-        move MOVE_CURSE
-        move MOVE_MEAN_LOOK
-        move MOVE_SUCKER_PUNCH
+        move MOVE_SHADOW_SNEAK
+        move MOVE_WILL_O_WISP
+        move MOVE_CONFUSE_RAY
         move MOVE_NIGHT_SHADE
         ballseal 0
     endparty
@@ -1521,7 +1521,7 @@ trainerdata 46, "Martha"
         // mon 1
         ivs 10
         abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_HAUNTER
         ballseal 0
 
@@ -8678,7 +8678,7 @@ trainerdata 263, "Silver"
         // mon 2
         ivs 80
         abilityslot 32
-        level 18
+        level 19
         pokemon SPECIES_HERACROSS
         move MOVE_AERIAL_ACE
         move MOVE_FURY_ATTACK
@@ -8689,7 +8689,7 @@ trainerdata 263, "Silver"
         // mon 3
         ivs 80
         abilityslot 0
-        level 23
+        level 24
         pokemon SPECIES_BAYLEEF
         move MOVE_SYNTHESIS
         move MOVE_REFLECT
@@ -8872,7 +8872,7 @@ trainerdata 267, "Silver"
         // mon 2
         ivs 80
         abilityslot 32
-        level 18
+        level 19
         pokemon SPECIES_HERACROSS
         move MOVE_AERIAL_ACE
         move MOVE_FURY_ATTACK
@@ -8883,7 +8883,7 @@ trainerdata 267, "Silver"
         // mon 3
         ivs 80
         abilityslot 0
-        level 23
+        level 24
         pokemon SPECIES_QUILAVA
         move MOVE_FLAME_WHEEL
         move MOVE_SMOKESCREEN
@@ -9045,7 +9045,7 @@ trainerdata 270, "Silver"
         // mon 2
         ivs 80
         abilityslot 32
-        level 18
+        level 19
         pokemon SPECIES_HERACROSS
         move MOVE_AERIAL_ACE
         move MOVE_FURY_ATTACK
@@ -9056,7 +9056,7 @@ trainerdata 270, "Silver"
         // mon 3
         ivs 80
         abilityslot 0
-        level 23
+        level 24
         pokemon SPECIES_CROCONAW
         move MOVE_WATER_GUN
         move MOVE_SCARY_FACE
@@ -16653,7 +16653,7 @@ trainerdata 493, "Edith"
         // mon 0
         ivs 10
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_HAUNTER
         ballseal 0
     endparty
@@ -16674,35 +16674,35 @@ trainerdata 494, "Georgina"
         // mon 0
         ivs 10
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 3
         ivs 10
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 4
         ivs 10
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_GASTLY
         ballseal 0
     endparty
