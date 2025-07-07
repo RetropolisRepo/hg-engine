@@ -973,7 +973,7 @@ trainerdata 31, "Morty"
     trainerclass TRAINERCLASS_LEADER_MORTY
     nummons 4
     item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
