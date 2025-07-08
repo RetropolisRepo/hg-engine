@@ -3968,13 +3968,13 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 16, 16, 16, 16, 16, 16, 16, 13, 13, 13, 13
+walklevels 16, 16, 16, 16, 16, 16, 17, 17, 15, 15, 15, 15
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_WOOLOO
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_FARFETCHD
@@ -3985,10 +3985,10 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_SNUBBULL
 
 // day encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_WOOLOO
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_FARFETCHD
@@ -3999,10 +3999,10 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_SNUBBULL
 
 // night encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_WOOLOO
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_RATTATA
@@ -4075,10 +4075,10 @@ superrodrate 0
 walklevels 16, 17, 16, 17, 16, 16, 16, 16, 15, 15, 15, 15
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_WOOLOO
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_FARFETCHD
@@ -4089,10 +4089,10 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 
 // day encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_WOOLOO
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_FARFETCHD
@@ -4103,10 +4103,10 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 
 // night encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_WOOLOO
+pokemon SPECIES_MEOWTH
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_RATTATA
@@ -5431,42 +5431,42 @@ pokemon SPECIES_MANKEY
 pokemon SPECIES_MAREEP
 pokemon SPECIES_MANKEY
 pokemon SPECIES_MAREEP
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_PANCHAM
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_FLAAFFY
+pokemon SPECIES_ELEKID
 pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+pokemon SPECIES_ELECTABUZZ
 
 // day encounter slots
 pokemon SPECIES_MANKEY
 pokemon SPECIES_MAREEP
 pokemon SPECIES_MANKEY
 pokemon SPECIES_MAREEP
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_PANCHAM
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_FLAAFFY
+pokemon SPECIES_ELEKID
 pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+pokemon SPECIES_ELECTABUZZ
 
 // night encounter slots
 pokemon SPECIES_MANKEY
 pokemon SPECIES_MAREEP
 pokemon SPECIES_MANKEY
 pokemon SPECIES_MAREEP
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_PANCHAM
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_FLAAFFY
+pokemon SPECIES_ELEKID
 pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+pokemon SPECIES_ELECTABUZZ
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -5528,13 +5528,13 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 13, 15, 13, 15, 14, 14, 14, 14, 14, 16, 14, 15
+walklevels 15, 17, 15, 17, 16, 16, 16, 15, 16, 17, 15, 17
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_MACHOP
 pokemon SPECIES_MACHOP
 pokemon SPECIES_MACHOP
 pokemon SPECIES_RATTATA
@@ -5548,7 +5548,7 @@ pokemon SPECIES_MARILL
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_MACHOP
 pokemon SPECIES_MACHOP
 pokemon SPECIES_MACHOP
 pokemon SPECIES_RATTATA
@@ -5562,7 +5562,7 @@ pokemon SPECIES_MARILL
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_MACHOP
 pokemon SPECIES_MACHOP
 pokemon SPECIES_MACHOP
 pokemon SPECIES_RATTATA
@@ -5632,11 +5632,11 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 13, 13, 13, 15, 15, 14, 14, 15, 14, 15, 14
+walklevels 15, 15, 15, 16, 17, 17, 16, 16, 17, 16, 15, 16
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
+pokemon SPECIES_SALANDIT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_GEODUDE
@@ -5650,7 +5650,7 @@ pokemon SPECIES_ZUBAT
 
 // day encounter slots
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
+pokemon SPECIES_SALANDIT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_GEODUDE
@@ -5664,7 +5664,7 @@ pokemon SPECIES_ZUBAT
 
 // night encounter slots
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
+pokemon SPECIES_SALANDIT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_GEODUDE
@@ -5750,7 +5750,7 @@ pokemon SPECIES_RATICATE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_SALAZZLE
 
 // day encounter slots
 pokemon SPECIES_GRAVELER
@@ -5764,7 +5764,7 @@ pokemon SPECIES_RATICATE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_SALAZZLE
 
 // night encounter slots
 pokemon SPECIES_GRAVELER
@@ -5778,7 +5778,7 @@ pokemon SPECIES_RATICATE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_SALAZZLE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5844,7 +5844,7 @@ walklevels 15, 17, 15, 17, 16, 16, 16, 16, 16, 16, 16, 16
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SALANDIT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_RATTATA
@@ -5858,7 +5858,7 @@ pokemon SPECIES_RATICATE
 
 // day encounter slots
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SALANDIT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_RATTATA
@@ -5872,7 +5872,7 @@ pokemon SPECIES_RATICATE
 
 // night encounter slots
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SALANDIT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_RATTATA
