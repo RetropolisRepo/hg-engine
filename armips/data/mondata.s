@@ -11759,7 +11759,7 @@ mondata SPECIES_PURRLOIN, "Purrloin"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_BLUE_SHARD, ITEM_RED_SHARD
     genderratio 127
     eggcycles 20
     basefriendship 50
