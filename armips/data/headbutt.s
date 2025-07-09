@@ -1145,11 +1145,11 @@ headbuttheader  42,  13,   1   // Route 38
     headbuttencounter SPECIES_PINECO, 13, 14
     headbuttencounter SPECIES_EXEGGCUTE, 13, 14
     headbuttencounter SPECIES_EXEGGCUTE, 13, 14
-    headbuttencounter SPECIES_EXEGGCUTE, 13, 14
+    headbuttencounter SPECIES_LEDYBA, 13, 14
     headbuttencounter SPECIES_HOOTHOOT, 15, 16
     headbuttencounter SPECIES_SPINARAK, 15, 16
     headbuttencounter SPECIES_SPINARAK, 15, 16
-    headbuttencounter SPECIES_EXEGGCUTE, 15, 16
+    headbuttencounter SPECIES_LEDYBA, 15, 16
     headbuttencounter SPECIES_EXEGGCUTE, 15, 16
     headbuttencounter SPECIES_EXEGGCUTE, 15, 16
     // special slots
@@ -1184,11 +1184,11 @@ headbuttheader  43,   3,   0   // Route 39
     headbuttencounter SPECIES_PINECO, 14, 15
     headbuttencounter SPECIES_EXEGGCUTE, 14, 15
     headbuttencounter SPECIES_EXEGGCUTE, 14, 15
-    headbuttencounter SPECIES_EXEGGCUTE, 14, 15
+    headbuttencounter SPECIES_LEDYBA, 14, 15
     headbuttencounter SPECIES_HOOTHOOT, 16, 17
     headbuttencounter SPECIES_SPINARAK, 16, 17
     headbuttencounter SPECIES_SPINARAK, 16, 17
-    headbuttencounter SPECIES_EXEGGCUTE, 16, 17
+    headbuttencounter SPECIES_LEDYBA, 16, 17
     headbuttencounter SPECIES_EXEGGCUTE, 16, 17
     headbuttencounter SPECIES_EXEGGCUTE, 16, 17
     // special slots

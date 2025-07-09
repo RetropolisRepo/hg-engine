@@ -1331,21 +1331,21 @@ trainerdata 39, "Eugene"
         // mon 0
         ivs 0
         abilityslot 0
-        level 17
+        level 18
         pokemon SPECIES_POLIWHIRL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 17
+        level 19
         pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 19
+        level 21
         pokemon SPECIES_KRABBY
         ballseal 0
     endparty
@@ -1464,12 +1464,12 @@ trainerdata 44, "Derek"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 23
         pokemon SPECIES_PIKACHU
-        move MOVE_DOUBLE_TEAM
-        move MOVE_QUICK_ATTACK
+        move MOVE_THUNDER_WAVE
+        move MOVE_ELECTRO_BALL
         move MOVE_TAIL_WHIP
-        move MOVE_THUNDER_SHOCK
+        move MOVE_SPARK
         ballseal 0
     endparty
 
@@ -1489,11 +1489,11 @@ trainerdata 45, "Ruth"
         // mon 0
         ivs 0
         abilityslot 0
-        level 17
+        level 21
         pokemon SPECIES_PIKACHU
         move MOVE_DOUBLE_TEAM
         move MOVE_QUICK_ATTACK
-        move MOVE_TAIL_WHIP
+        move MOVE_PLAY_NICE
         move MOVE_THUNDER_SHOCK
         ballseal 0
     endparty
@@ -2549,21 +2549,21 @@ trainerdata 82, "Toby"
         // mon 0
         ivs 50
         abilityslot 32
-        level 16
+        level 17
         pokemon SPECIES_DODUO
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
-        level 17
+        level 18
         pokemon SPECIES_DODUO
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 32
-        level 18
+        level 19
         pokemon SPECIES_DODUO
         ballseal 0
     endparty
@@ -13076,22 +13076,22 @@ trainerdata 389, "Nelson"
         // mon 0
         ivs 0
         abilityslot 0
-        level 17
+        level 19
         pokemon SPECIES_SLOWPOKE
         move MOVE_TACKLE
         move MOVE_GROWL
-        move MOVE_WATER_GUN
-        move MOVE_NONE
+        move MOVE_WATER_PULSE
+        move MOVE_YAWN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 20
+        level 22
         pokemon SPECIES_SLOWPOKE
         move MOVE_CURSE
         move MOVE_HEADBUTT
-        move MOVE_WATER_GUN
+        move MOVE_WATER_PULSE
         move MOVE_CONFUSION
         ballseal 0
     endparty
@@ -13357,7 +13357,7 @@ trainerdata 397, "Chad"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 23
         pokemon SPECIES_MR_MIME
         ballseal 0
     endparty
@@ -13378,21 +13378,21 @@ trainerdata 398, "Valerie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 19
         pokemon SPECIES_HOPPIP
         move MOVE_MEGA_DRAIN
         move MOVE_TAIL_WHIP
-        move MOVE_TACKLE
+        move MOVE_FAIRY_WIND
         move MOVE_POISON_POWDER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 18
+        level 21
         pokemon SPECIES_SKIPLOOM
         move MOVE_MEGA_DRAIN
-        move MOVE_TAIL_WHIP
+        move MOVE_BULLET_SEED
         move MOVE_TACKLE
         move MOVE_STUN_SPORE
         ballseal 0
@@ -13449,10 +13449,10 @@ trainerdata 400, "Dana"
         // mon 0
         ivs 0
         abilityslot 0
-        level 19
+        level 21
         pokemon SPECIES_FLAAFFY
         move MOVE_TACKLE
-        move MOVE_GROWL
+        move MOVE_COTTON_SPORE
         move MOVE_THUNDER_SHOCK
         move MOVE_THUNDER_WAVE
         ballseal 0
@@ -13460,12 +13460,12 @@ trainerdata 400, "Dana"
         // mon 1
         ivs 0
         abilityslot 0
-        level 19
+        level 21
         pokemon SPECIES_PSYDUCK
-        move MOVE_WATER_GUN
+        move MOVE_WATER_PULSE
         move MOVE_TAIL_WHIP
         move MOVE_DISABLE
-        move MOVE_CONFUSION
+        move MOVE_ZEN_HEADBUTT
         ballseal 0
     endparty
 
@@ -13759,7 +13759,7 @@ trainerdata 410, "Harry"
         // mon 0
         ivs 0
         abilityslot 32
-        level 20
+        level 22
         pokemon SPECIES_WOOPER
         move MOVE_WATER_GUN
         move MOVE_MUD_BOMB
