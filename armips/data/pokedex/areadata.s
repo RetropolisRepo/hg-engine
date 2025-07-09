@@ -1885,18 +1885,21 @@ specialareas SPECIES_JIGGLYPUFF, DEX_NIGHT
 routesandcities SPECIES_JIGGLYPUFF, DEX_MORNING
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_JIGGLYPUFF, DEX_DAY
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_JIGGLYPUFF, DEX_NIGHT
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -8397,6 +8400,7 @@ specialareas SPECIES_MURKROW, DEX_DAY
 
 
 specialareas SPECIES_MURKROW, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
