@@ -1014,7 +1014,7 @@ trainerdata 31, "Morty"
         move MOVE_HYPNOSIS
         move MOVE_SHADOW_BALL
         move MOVE_MEAN_LOOK
-        move MOVE_SUCKER_PUNCH
+        move MOVE_ENERGY_BALL
         ballseal 0
 
         // mon 3
