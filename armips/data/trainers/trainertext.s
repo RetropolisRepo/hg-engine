@@ -1364,7 +1364,7 @@ _0C08: // Trainer 400
 _0C18: // Trainer 410
     trainertextentry 410, TEXT_NOTICE_IN_OVERWORLD, "I’ve been overseas, so I know about all\nsorts of Pokémon!\r"
     trainertextentry 410, TEXT_DEFEATED_IN_BATTLE, "Your skill is world class!\n"
-    trainertextentry 410, TEXT_DEFEATED_IN_OVERWORLD, "All kinds of people around the world live\nhappily with Pokémon.\n"
+    trainertextentry 410, TEXT_DEFEATED_IN_OVERWORLD, "Frillish is a weird looking Pokémon, isn't\nit?\rI found it over in Kanto!\r"
 
 _0C24: // Trainer 397
     trainertextentry 397, TEXT_NOTICE_IN_OVERWORLD, "Let me try something I learned today.\r"
