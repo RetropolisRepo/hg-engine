@@ -13746,7 +13746,7 @@ trainerdata 409, "Brandon"
 trainerdata 410, "Harry"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_SAILOR
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -13765,6 +13765,17 @@ trainerdata 410, "Harry"
         move MOVE_MUD_BOMB
         move MOVE_SLAM
         move MOVE_MUD_SHOT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 21
+        pokemon SPECIES_FRILLISH
+        move MOVE_BUBBLE_BEAM
+        move MOVE_NIGHT_SHADE
+        move MOVE_ABSORB
+        move MOVE_WATER_SPORT
         ballseal 0
     endparty
 
