@@ -1282,14 +1282,14 @@ trainerdata 37, "Preston"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 23
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 18
+        level 23
         pokemon SPECIES_GROWLITHE
         ballseal 0
     endparty
@@ -2286,35 +2286,35 @@ trainerdata 73, "Theo"
         // mon 0
         ivs 50
         abilityslot 0
-        level 17
+        level 18
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
-        level 15
+        level 17
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 19
-        pokemon SPECIES_PIDGEY
+        level 22
+        pokemon SPECIES_PIDGEOTTO
         ballseal 0
 
         // mon 3
         ivs 50
         abilityslot 32
-        level 15
+        level 17
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 4
         ivs 50
         abilityslot 0
-        level 15
+        level 18
         pokemon SPECIES_PIDGEY
         ballseal 0
     endparty
@@ -2563,7 +2563,7 @@ trainerdata 82, "Toby"
         // mon 2
         ivs 50
         abilityslot 32
-        level 19
+        level 20
         pokemon SPECIES_DODUO
         ballseal 0
     endparty
@@ -3753,14 +3753,14 @@ trainerdata 118, "Kate"
         // mon 0
         ivs 50
         abilityslot 0
-        level 26
+        level 27
         pokemon SPECIES_SHELLDER
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 28
+        level 30
         pokemon SPECIES_CLOYSTER
         ballseal 0
     endparty
@@ -6510,14 +6510,14 @@ trainerdata 211, "Huey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 21
         pokemon SPECIES_POLIWAG
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
+        level 24
         pokemon SPECIES_POLIWHIRL
         ballseal 0
     endparty
@@ -6538,7 +6538,7 @@ trainerdata 212, "Terrell"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 26
         pokemon SPECIES_POLIWHIRL
         ballseal 0
     endparty
@@ -6559,22 +6559,22 @@ trainerdata 213, "Kent"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 21
         pokemon SPECIES_KRABBY
         move MOVE_BUBBLE_BEAM
         move MOVE_LEER
         move MOVE_VICE_GRIP
-        move MOVE_HARDEN
+        move MOVE_MUD_SHOT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 20
+        level 23
         pokemon SPECIES_KRABBY
         move MOVE_BUBBLE_BEAM
         move MOVE_MUD_SHOT
-        move MOVE_VICE_GRIP
+        move MOVE_METAL_CLAW
         move MOVE_HARDEN
         ballseal 0
     endparty
@@ -6595,22 +6595,22 @@ trainerdata 214, "Roberto"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 22
         pokemon SPECIES_MACHOP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 18
+        level 22
         pokemon SPECIES_MACHOP
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 18
-        pokemon SPECIES_POLIWHIRL
+        level 22
+        pokemon SPECIES_MANTINE
         ballseal 0
     endparty
 
@@ -6630,8 +6630,8 @@ trainerdata 215, "Connie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 21
-        pokemon SPECIES_MARILL
+        level 24
+        pokemon SPECIES_AZUMARILL
         ballseal 0
     endparty
 
@@ -6693,21 +6693,21 @@ trainerdata 217, "Denis"
         // mon 0
         ivs 50
         abilityslot 0
-        level 18
+        level 19
         pokemon SPECIES_SPEAROW
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 20
+        level 24
         pokemon SPECIES_FEAROW
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 18
+        level 19
         pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
@@ -13485,7 +13485,7 @@ trainerdata 401, "Alfred"
         // mon 0
         ivs 0
         abilityslot 0
-        level 22
+        level 25
         pokemon SPECIES_NOCTOWL
         ballseal 0
     endparty
@@ -14009,7 +14009,7 @@ trainerdata 417, "Jenn"
         // mon 1
         ivs 50
         abilityslot 0
-        level 26
+        level 27
         pokemon SPECIES_STARMIE
         ballseal 0
     endparty
@@ -25516,7 +25516,7 @@ trainerdata 728, "Charlotte"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 21
         pokemon SPECIES_BELLOSSOM
         ballseal 1
     endparty
