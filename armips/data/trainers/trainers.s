@@ -6609,7 +6609,7 @@ trainerdata 214, "Roberto"
         // mon 2
         ivs 0
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_MANTINE
         ballseal 0
     endparty
@@ -6629,7 +6629,7 @@ trainerdata 215, "Connie"
     party 215
         // mon 0
         ivs 0
-        abilityslot 0
+        abilityslot 32
         level 24
         pokemon SPECIES_AZUMARILL
         ballseal 0
@@ -6693,7 +6693,7 @@ trainerdata 217, "Denis"
         // mon 0
         ivs 50
         abilityslot 0
-        level 19
+        level 20
         pokemon SPECIES_SPEAROW
         ballseal 0
 
@@ -6707,7 +6707,7 @@ trainerdata 217, "Denis"
         // mon 2
         ivs 50
         abilityslot 0
-        level 19
+        level 21
         pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
