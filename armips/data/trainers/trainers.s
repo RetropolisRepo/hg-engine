@@ -6617,7 +6617,7 @@ trainerdata 214, "Roberto"
 trainerdata 215, "Connie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_LASS
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6632,6 +6632,13 @@ trainerdata 215, "Connie"
         abilityslot 32
         level 24
         pokemon SPECIES_AZUMARILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 22
+        pokemon SPECIES_FURRET
         ballseal 0
     endparty
 
