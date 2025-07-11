@@ -4334,7 +4334,7 @@ pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
+encounter SPECIES_WAILMER, 15, 25
 encounter SPECIES_TENTACRUEL, 15, 25
 encounter SPECIES_TENTACRUEL, 15, 25
 encounter SPECIES_TENTACRUEL, 15, 25
@@ -4438,10 +4438,10 @@ pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
+encounter SPECIES_WAILMER, 15, 25
+encounter SPECIES_MANTINE, 15, 25
+encounter SPECIES_MANTINE, 15, 25
 encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_MANTINE, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
