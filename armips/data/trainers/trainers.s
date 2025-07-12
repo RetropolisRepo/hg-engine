@@ -1150,7 +1150,7 @@ trainerdata 34, "Chuck"
         pokemon SPECIES_PRIMEAPE
         item ITEM_EXPERT_BELT
         move MOVE_ICE_PUNCH
-        move MOVE_PURSUIT
+        move MOVE_KNOCK_OFF
         move MOVE_CROSS_CHOP
         move MOVE_ROCK_SLIDE
         ballseal 0
@@ -1170,7 +1170,7 @@ trainerdata 34, "Chuck"
         // mon 2
         ivs 150
         abilityslot 0
-        level 33
+        level 34
         pokemon SPECIES_POLIWRATH
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
