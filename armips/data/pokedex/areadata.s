@@ -2028,7 +2028,6 @@ specialareas SPECIES_GOLBAT, DEX_MORNING
     .word DEX_DARK_CAVE
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_VICTORY_ROAD
     .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
@@ -2044,7 +2043,6 @@ specialareas SPECIES_GOLBAT, DEX_DAY
     .word DEX_DARK_CAVE
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_VICTORY_ROAD
     .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
@@ -2670,7 +2668,6 @@ specialareas SPECIES_GROWLITHE, DEX_NIGHT
 routesandcities SPECIES_GROWLITHE, DEX_MORNING
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
@@ -2679,7 +2676,6 @@ routesandcities SPECIES_GROWLITHE, DEX_MORNING
 routesandcities SPECIES_GROWLITHE, DEX_DAY
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
@@ -2688,7 +2684,6 @@ routesandcities SPECIES_GROWLITHE, DEX_DAY
 routesandcities SPECIES_GROWLITHE, DEX_NIGHT
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
