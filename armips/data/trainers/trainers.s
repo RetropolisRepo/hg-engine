@@ -1133,9 +1133,9 @@ trainerdata 33, "Jasmine"
 trainerdata 34, "Chuck"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_CHUCK
-    nummons 2
+    nummons 3
     item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
@@ -1146,19 +1146,31 @@ trainerdata 34, "Chuck"
         // mon 0
         ivs 150
         abilityslot 0
-        level 29
+        level 31
         pokemon SPECIES_PRIMEAPE
-        item ITEM_NONE
-        move MOVE_LEER
-        move MOVE_DOUBLE_TEAM
-        move MOVE_FOCUS_PUNCH
+        item ITEM_EXPERT_BELT
+        move MOVE_ICE_PUNCH
+        move MOVE_PURSUIT
+        move MOVE_CROSS_CHOP
         move MOVE_ROCK_SLIDE
         ballseal 0
 
         // mon 1
         ivs 150
         abilityslot 0
-        level 31
+        level 30
+        pokemon SPECIES_PANCHAM
+        item ITEM_NONE
+        move MOVE_DRAIN_PUNCH
+        move MOVE_PAYBACK
+        move MOVE_LOW_SWEEP
+        move MOVE_WORK_UP
+        ballseal 0
+
+        // mon 2
+        ivs 150
+        abilityslot 0
+        level 33
         pokemon SPECIES_POLIWRATH
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
@@ -4906,7 +4918,7 @@ trainerdata 156, "Yoshi"
         // mon 0
         ivs 40
         abilityslot 32
-        level 27
+        level 29
         pokemon SPECIES_HITMONLEE
         move MOVE_DOUBLE_KICK
         move MOVE_MEDITATE
@@ -4931,7 +4943,7 @@ trainerdata 157, "Lao"
         // mon 0
         ivs 40
         abilityslot 32
-        level 27
+        level 29
         pokemon SPECIES_HITMONCHAN
         move MOVE_MACH_PUNCH
         move MOVE_THUNDER_PUNCH
@@ -4984,21 +4996,21 @@ trainerdata 159, "Lung"
         // mon 0
         ivs 40
         abilityslot 0
-        level 23
+        level 25
         pokemon SPECIES_MANKEY
         ballseal 0
 
         // mon 1
         ivs 40
         abilityslot 32
-        level 23
+        level 25
         pokemon SPECIES_MANKEY
         ballseal 0
 
         // mon 2
         ivs 40
         abilityslot 32
-        level 25
+        level 27
         pokemon SPECIES_PRIMEAPE
         ballseal 0
     endparty
@@ -7953,20 +7965,20 @@ trainerdata 251, "Nob"
         // mon 0
         ivs 40
         abilityslot 32
-        level 25
+        level 26
         pokemon SPECIES_MACHOP
         move MOVE_VITAL_THROW
         move MOVE_FOCUS_ENERGY
         move MOVE_KARATE_CHOP
-        move MOVE_SEISMIC_TOSS
+        move MOVE_LOW_SWEEP
         ballseal 0
 
         // mon 1
         ivs 40
         abilityslot 32
-        level 25
+        level 27
         pokemon SPECIES_MACHOKE
-        move MOVE_LEER
+        move MOVE_KNOCK_OFF
         move MOVE_KARATE_CHOP
         move MOVE_SEISMIC_TOSS
         move MOVE_ROCK_SLIDE
@@ -16811,7 +16823,7 @@ trainerdata 498, "Eusine"
         // mon 0
         ivs 150
         abilityslot 0
-        level 25
+        level 26
         pokemon SPECIES_DROWZEE
         move MOVE_DREAM_EATER
         move MOVE_HYPNOSIS
@@ -16822,10 +16834,10 @@ trainerdata 498, "Eusine"
         // mon 1
         ivs 150
         abilityslot 0
-        level 25
+        level 26
         pokemon SPECIES_HAUNTER
-        move MOVE_LICK
-        move MOVE_HYPNOSIS
+        move MOVE_SHADOW_PUNCH
+        move MOVE_CONFUSE_RAY
         move MOVE_MEAN_LOOK
         move MOVE_CURSE
         ballseal 0
@@ -16833,10 +16845,10 @@ trainerdata 498, "Eusine"
         // mon 2
         ivs 150
         abilityslot 32
-        level 27
+        level 29
         pokemon SPECIES_ELECTRODE
         move MOVE_SCREECH
-        move MOVE_SONIC_BOOM
+        move MOVE_LIGHT_SCREEN
         move MOVE_THUNDER
         move MOVE_ROLLOUT
         ballseal 0
