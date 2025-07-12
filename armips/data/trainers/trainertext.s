@@ -1401,7 +1401,7 @@ _0C68: // Trainer 39
 _0C74: // Trainer 16
     trainertextentry  16, TEXT_NOTICE_IN_OVERWORLD, "You have to warm up before going into\nthe water.\rThat’s basic.\r"
     trainertextentry  16, TEXT_DEFEATED_IN_BATTLE, "OK! I give up!\n"
-    trainertextentry  16, TEXT_DEFEATED_IN_OVERWORLD, "Cianwood City is a good distance away\nfrom here.\n"
+    trainertextentry  16, TEXT_DEFEATED_IN_OVERWORLD, "Cianwood City is a good distance away\nfrom here.\fI hope you packed a snack.\n"
 
 _0C80: // Trainer 86
     trainertextentry  86, TEXT_NOTICE_IN_OVERWORLD, "Hey, you’re young and fit!\nDon’t ride your Pokémon! Swim!\r"
@@ -1431,7 +1431,7 @@ _0CB0: // Trainer 96
 _0CBC: // Trainer 97
     trainertextentry  97, TEXT_NOTICE_IN_OVERWORLD, "See those islands that are blocked\nby whirlpools?\fThere just has to be a secret!\r"
     trainertextentry  97, TEXT_DEFEATED_IN_BATTLE, "What’s the secret to your strength?\n"
-    trainertextentry  97, TEXT_DEFEATED_IN_OVERWORLD, "It was a dark and stormy night...\rI saw this giant Pokémon flying from\nthe Whirl Islands.\rFeathers were scattering from its\nsilver wings.\n"
+    trainertextentry  97, TEXT_DEFEATED_IN_OVERWORLD, "It was a dark and stormy night...\rI saw this giant Pokémon flying from\nthe Whirl Islands.\rFeathers were scattering from its\nsilver wings.\rC'mon, don't you believe me?\n"
 
 _0CC8: // Trainer 98
     trainertextentry  98, TEXT_NOTICE_IN_OVERWORLD, "The waves are wild here.\nThey tire you out as you swim.\r"
@@ -1464,7 +1464,7 @@ _0D04: // Trainer 93
     trainertextentry  93, TEXT_DEFEATED_IN_OVERWORLD, "I heard roars from deep inside\nthe islands.\n"
 
 _0D10: // Trainer 94
-    trainertextentry  94, TEXT_NOTICE_IN_OVERWORLD, "At night, STARYU gather near the\nwater’s surface.\r"
+    trainertextentry  94, TEXT_NOTICE_IN_OVERWORLD, "At night, STARYU gather near the\nwater’s surface just north from\fhere.\r"
     trainertextentry  94, TEXT_DEFEATED_IN_BATTLE, "Oh, dear...\n"
     trainertextentry  94, TEXT_DEFEATED_IN_OVERWORLD, "The clusters of STARYU light up at the\nsame time. It’s so beautiful,\fit’s scary.\n"
 
