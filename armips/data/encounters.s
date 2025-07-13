@@ -5601,14 +5601,14 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
 encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 encounter SPECIES_SEAKING, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
@@ -5809,14 +5809,14 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
 encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 encounter SPECIES_SEAKING, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
@@ -5913,14 +5913,14 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
 encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 encounter SPECIES_SEAKING, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
@@ -5944,7 +5944,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 15, 15, 15, 15, 17, 17, 15, 15, 16, 17, 16, 17
+walklevels 16, 16, 16, 15, 17, 17, 15, 15, 16, 17, 16, 17
 
 // morning encounter slots
 pokemon SPECIES_FLAAFFY
@@ -6019,14 +6019,14 @@ encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 
 // swarm grass
 pokemon SPECIES_FLAAFFY
