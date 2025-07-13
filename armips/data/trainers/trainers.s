@@ -1419,7 +1419,7 @@ trainerdata 41, "Clyde"
 trainerdata 42, "Nathan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PSYCHIC_M
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1432,7 +1432,14 @@ trainerdata 42, "Nathan"
         // mon 0
         ivs 0
         abilityslot 0
-        level 26
+        level 27
+        pokemon SPECIES_NATU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 28
         pokemon SPECIES_GIRAFARIG
         ballseal 0
     endparty

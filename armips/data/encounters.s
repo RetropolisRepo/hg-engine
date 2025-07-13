@@ -957,9 +957,9 @@ walklevels 20, 22, 20, 22, 18, 18, 24, 24, 20, 22, 20, 22
 // morning encounter slots
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
+pokemon SPECIES_SIGILYPH
+pokemon SPECIES_SIGILYPH
+pokemon SPECIES_SIGILYPH
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
@@ -971,9 +971,9 @@ pokemon SPECIES_SMEARGLE
 // day encounter slots
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
+pokemon SPECIES_SIGILYPH
+pokemon SPECIES_SIGILYPH
+pokemon SPECIES_SIGILYPH
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
@@ -985,9 +985,9 @@ pokemon SPECIES_SMEARGLE
 // night encounter slots
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
+pokemon SPECIES_SIGILYPH
+pokemon SPECIES_SIGILYPH
+pokemon SPECIES_SIGILYPH
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
 pokemon SPECIES_NATU
