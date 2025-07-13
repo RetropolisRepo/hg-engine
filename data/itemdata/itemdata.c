@@ -20748,7 +20748,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM14 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 8000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20813,7 +20813,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM15 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 7500,
+    .price = 9000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20878,7 +20878,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM16 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 4000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20943,7 +20943,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM17 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21268,7 +21268,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM22 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 6000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21463,7 +21463,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM25 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 8000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21983,7 +21983,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM33 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 4000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22308,7 +22308,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM38 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 8000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23218,7 +23218,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM52 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 7500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23348,7 +23348,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM54 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
