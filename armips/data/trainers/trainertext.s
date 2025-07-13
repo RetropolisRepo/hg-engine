@@ -2639,7 +2639,7 @@ _1840: // Trainer 731
 _184C: // Trainer 732
     trainertextentry 732, TEXT_NOTICE_IN_OVERWORLD, "I’m not good with large crowds, so\nI’m camping out here with my Pokémon!\fAre you the same way?\r"
     trainertextentry 732, TEXT_DEFEATED_IN_BATTLE, "I should be headed deeper into the\nmountain, I guess...\n"
-    trainertextentry 732, TEXT_DEFEATED_IN_OVERWORLD, "See ya!\n"
+    trainertextentry 732, TEXT_DEFEATED_IN_OVERWORLD, "Do you get that I find talking\n with Pokémon easier than talking\fwith people?\rI feel...listened to.\nIt's comforting.\n"
 
 _1858: // Trainer 733
     trainertextentry 733, TEXT_DEFEATED_IN_BATTLE, "Did you see that, Clair?\n"
