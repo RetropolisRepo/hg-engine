@@ -8648,7 +8648,7 @@ rocksmashrate 30
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 19, 20, 22, 19, 20, 18, 20, 20, 22, 23, 23
+walklevels 23, 24, 23, 25, 23, 24, 22, 23, 24, 22, 24, 23
 
 // morning encounter slots
 pokemon SPECIES_KLAWF
@@ -10624,7 +10624,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 25, 20, 20, 21, 22, 24, 21, 20, 20, 22, 22, 24
+walklevels 26, 23, 24, 25, 24, 24, 23, 26, 25, 23, 23, 24
 
 // morning encounter slots
 pokemon SPECIES_FARFETCHD
