@@ -5585,16 +5585,19 @@ specialareas SPECIES_ELECTABUZZ, DEX_NIGHT
 
 
 routesandcities SPECIES_ELECTABUZZ, DEX_MORNING
+    .word DEX_ROUTE_42
     .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_ELECTABUZZ, DEX_DAY
+    .word DEX_ROUTE_42
     .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_ELECTABUZZ, DEX_NIGHT
+    .word DEX_ROUTE_42
     .word DEX_ROUTE_10
     dexendareadata
 
@@ -9888,14 +9891,17 @@ specialareas SPECIES_ELEKID, DEX_NIGHT
 
 
 routesandcities SPECIES_ELEKID, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_ELEKID, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_ELEKID, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
