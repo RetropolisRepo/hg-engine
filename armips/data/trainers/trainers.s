@@ -6242,14 +6242,14 @@ trainerdata 201, "Andrew"
         // mon 0
         ivs 0
         abilityslot 0
-        level 24
+        level 25
         pokemon SPECIES_MAROWAK
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 24
+        level 25
         pokemon SPECIES_MAROWAK
         ballseal 0
     endparty
@@ -6270,7 +6270,7 @@ trainerdata 202, "Calvin"
         // mon 0
         ivs 0
         abilityslot 32
-        level 26
+        level 27
         pokemon SPECIES_KANGASKHAN
         ballseal 0
     endparty
@@ -6291,14 +6291,14 @@ trainerdata 203, "Phillip"
         // mon 0
         ivs 0
         abilityslot 32
-        level 23
+        level 25
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 25
+        level 27
         pokemon SPECIES_GRAVELER
         ballseal 0
     endparty
@@ -6319,15 +6319,15 @@ trainerdata 204, "Leonard"
         // mon 0
         ivs 0
         abilityslot 32
-        level 23
-        pokemon SPECIES_GEODUDE
+        level 25
+        pokemon SPECIES_MACHOP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 25
-        pokemon SPECIES_MACHOP
+        level 27
+        pokemon SPECIES_MACHOKE
         ballseal 0
     endparty
 
@@ -6401,21 +6401,21 @@ trainerdata 206, "Gwen"
         // mon 1
         ivs 50
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_FLAREON
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_VAPOREON
         ballseal 0
 
         // mon 3
         ivs 50
         abilityslot 0
-        level 22
+        level 23
         pokemon SPECIES_JOLTEON
         ballseal 0
     endparty
@@ -12319,8 +12319,8 @@ trainerdata 363, "Emma"
         // mon 0
         ivs 50
         abilityslot 0
-        level 28
-        pokemon SPECIES_POLIWHIRL
+        level 29
+        pokemon SPECIES_LAPRAS
         ballseal 0
     endparty
 
