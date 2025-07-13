@@ -1083,9 +1083,9 @@ trainerdata 32, "Pryce"
 trainerdata 33, "Jasmine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_JASMINE
-    nummons 3
+    nummons 4
     item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -1096,36 +1096,48 @@ trainerdata 33, "Jasmine"
         // mon 0
         ivs 150
         abilityslot 0
-        level 30
-        pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
-        move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        move MOVE_THUNDER_WAVE
+        level 31
+        pokemon SPECIES_LAIRON
+        item ITEM_EVIOLITE
+        move MOVE_STEALTH_ROCK
+        move MOVE_IRON_HEAD
+        move MOVE_ROCK_TOMB
+        move MOVE_ROAR
         ballseal 0
 
         // mon 1
         ivs 150
-        abilityslot 32
-        level 30
-        pokemon SPECIES_MAGNEMITE
+        abilityslot 0
+        level 32
+        pokemon SPECIES_MAGNETON
         item ITEM_NONE
         move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
+        move MOVE_TRI_ATTACK
+        move MOVE_LIGHT_SCREEN
         move MOVE_THUNDER_WAVE
         ballseal 0
 
         // mon 2
         ivs 150
         abilityslot 32
-        level 35
+        level 33
+        pokemon SPECIES_MAGNETON
+        item ITEM_SILK_SCARF
+        move MOVE_THUNDER
+        move MOVE_FLASH_CANNON
+        move MOVE_EXPLOSION
+        move MOVE_LIGHT_SCREEN
+        ballseal 0
+
+        // mon 3
+        ivs 150
+        abilityslot 32
+        level 36
         pokemon SPECIES_STEELIX
-        item ITEM_SITRUS_BERRY
-        move MOVE_SCREECH
+        item ITEM_ROCKY_HELMET
+        move MOVE_THUNDER_FANG
         move MOVE_SANDSTORM
-        move MOVE_ROCK_THROW
+        move MOVE_ROCK_SLIDE
         move MOVE_IRON_TAIL
         ballseal 0
     endparty
