@@ -4918,7 +4918,7 @@ trainerdata 156, "Yoshi"
         // mon 0
         ivs 40
         abilityslot 32
-        level 29
+        level 30
         pokemon SPECIES_HITMONLEE
         move MOVE_DOUBLE_KICK
         move MOVE_MEDITATE
@@ -4943,7 +4943,7 @@ trainerdata 157, "Lao"
         // mon 0
         ivs 40
         abilityslot 32
-        level 29
+        level 30
         pokemon SPECIES_HITMONCHAN
         move MOVE_MACH_PUNCH
         move MOVE_THUNDER_PUNCH
@@ -25550,7 +25550,7 @@ trainerdata 728, "Charlotte"
 trainerdata 729, "Duff & Eda"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNG_COUPLE
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -25563,15 +25563,29 @@ trainerdata 729, "Duff & Eda"
         // mon 0
         ivs 0
         abilityslot 32
-        level 30
+        level 29
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 30
+        level 29
         pokemon SPECIES_CLOYSTER
+        ballseal 0
+		
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_GALLADE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_GARDEVOIR
         ballseal 0
     endparty
 
@@ -25589,7 +25603,7 @@ trainerdata 730, "Thom & Kae"
 
     party 730
         // mon 0
-        ivs 50
+        ivs 80
         abilityslot 0
         level 31
         pokemon SPECIES_ELECTABUZZ
@@ -25600,7 +25614,7 @@ trainerdata 730, "Thom & Kae"
         ballseal 0
 
         // mon 1
-        ivs 50
+        ivs 80
         abilityslot 0
         level 31
         pokemon SPECIES_MAGMAR
@@ -25649,7 +25663,7 @@ trainerdata 731, "Devin"
 trainerdata 732, "Grant"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -25663,7 +25677,7 @@ trainerdata 732, "Grant"
         ivs 0
         abilityslot 0
         level 28
-        pokemon SPECIES_SKIPLOOM
+        pokemon SPECIES_NIDORINA
         ballseal 0
 
         // mon 1
@@ -25671,6 +25685,13 @@ trainerdata 732, "Grant"
         abilityslot 32
         level 28
         pokemon SPECIES_AZUMARILL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_SUNFLORA
         ballseal 0
     endparty
 
