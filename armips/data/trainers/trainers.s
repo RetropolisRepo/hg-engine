@@ -3937,7 +3937,7 @@ trainerdata 122, "Marvin"
 trainerdata 123, "Tully"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3950,8 +3950,15 @@ trainerdata 123, "Tully"
         // mon 0
         ivs 0
         abilityslot 0
-        level 19
+        level 23
         pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_WISHIWASHI
         ballseal 0
     endparty
 
@@ -4147,14 +4154,14 @@ trainerdata 129, "Shane"
         // mon 0
         ivs 0
         abilityslot 0
-        level 17
+        level 22
         pokemon SPECIES_NIDORINA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 17
+        level 22
         pokemon SPECIES_NIDORINO
         ballseal 0
     endparty
@@ -4273,21 +4280,21 @@ trainerdata 134, "Benjamin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
+        level 19
         pokemon SPECIES_DIGLETT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 15
+        level 18
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 17
+        level 21
         pokemon SPECIES_DUGTRIO
         ballseal 0
     endparty
@@ -18357,14 +18364,14 @@ trainerdata 537, "Harrison"
         // mon 0
         ivs 0
         abilityslot 32
-        level 17
+        level 21
         pokemon SPECIES_NIDOKING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 17
+        level 21
         pokemon SPECIES_NIDOQUEEN
         ballseal 0
     endparty
@@ -18410,11 +18417,11 @@ trainerdata 539, "Markus"
         // mon 0
         ivs 0
         abilityslot 32
-        level 19
+        level 24
         pokemon SPECIES_SLOWPOKE
         move MOVE_CURSE
-        move MOVE_WATER_GUN
-        move MOVE_GROWL
+        move MOVE_WATER_PULSE
+        move MOVE_YAWN
         move MOVE_STRENGTH
         ballseal 0
     endparty
