@@ -3490,22 +3490,22 @@ trainerdata 109, "Alton"
         // mon 0
         ivs 50
         abilityslot 0
-        level 24
-        pokemon SPECIES_IVYSAUR
+        level 36
+        pokemon SPECIES_VENUSAUR
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 24
-        pokemon SPECIES_CHARMELEON
+        level 36
+        pokemon SPECIES_CHARIZARD
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 24
-        pokemon SPECIES_WARTORTLE
+        level 36
+        pokemon SPECIES_BLASTOISE
         ballseal 0
     endparty
 
@@ -3727,21 +3727,21 @@ trainerdata 116, "Lois"
         // mon 0
         ivs 50
         abilityslot 0
-        level 25
-        pokemon SPECIES_MAREEP
-        move MOVE_THUNDER_SHOCK
+        level 35
+        pokemon SPECIES_AMPHAROS
+        move MOVE_POWER_GEM
         move MOVE_COTTON_SPORE
-        move MOVE_THUNDER_WAVE
+        move MOVE_THUNDERBOLT
         move MOVE_CHARGE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 25
+        level 35
         pokemon SPECIES_NINETALES
         move MOVE_FLAMETHROWER
-        move MOVE_QUICK_ATTACK
+        move MOVE_EXTRASENSORY
         move MOVE_CONFUSE_RAY
         move MOVE_NASTY_PLOT
         ballseal 0
@@ -4049,7 +4049,7 @@ trainerdata 126, "Andre"
         // mon 0
         ivs 0
         abilityslot 0
-        level 27
+        level 35
         pokemon SPECIES_GYARADOS
         ballseal 0
     endparty
@@ -4057,7 +4057,7 @@ trainerdata 126, "Andre"
 trainerdata 127, "Raymond"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 4
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4070,28 +4070,35 @@ trainerdata 127, "Raymond"
         // mon 0
         ivs 0
         abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
+        level 31
+        pokemon SPECIES_HORSEA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
+        level 31
+        pokemon SPECIES_CARVANHA
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
+        level 31
+        pokemon SPECIES_FEEBAS
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 22
+        level 31
+        pokemon SPECIES_CLAUNCHER
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 42
         pokemon SPECIES_MAGIKARP
         ballseal 0
     endparty

@@ -1502,7 +1502,7 @@ _0D5C: // Trainer 130
 _0D68: // Trainer 131
     trainertextentry 131, TEXT_NOTICE_IN_OVERWORLD, "Hey! Do you have any rare Pokémon?\r"
     trainertextentry 131, TEXT_DEFEATED_IN_BATTLE, "Oh, my poor Pokémon! Darlings!\n"
-    trainertextentry 131, TEXT_DEFEATED_IN_OVERWORLD, "I’d be happy just to own a single\nrare Pokémon.\n"
+    trainertextentry 131, TEXT_DEFEATED_IN_OVERWORLD, "I won't be happy until I own\nevery rare Pokémon!\n"
     trainertextentry 131, TEXT_REMATCH_IN_OVERWORLD, "I’ve been waiting!\nDid you bring any rare Pokémon\fwith you?\r"
 
 _0D78: // Trainer 132
@@ -1640,9 +1640,9 @@ _0EA4: // Trainer 126
     trainertextentry 126, TEXT_DEFEATED_IN_OVERWORLD, "I won’t lose as an angler! I catch\nPokémon all day.\n"
 
 _0EB0: // Trainer 127
-    trainertextentry 127, TEXT_NOTICE_IN_OVERWORLD, "No matter what I do, all I catch are\nthe same Pokémon...\r"
+    trainertextentry 127, TEXT_NOTICE_IN_OVERWORLD, "I've been fishing all over the world!\nLet me show you some of\fmy finest catches...\r"
     trainertextentry 127, TEXT_DEFEATED_IN_BATTLE, "My line’s all tangled up...\n"
-    trainertextentry 127, TEXT_DEFEATED_IN_OVERWORLD, "Why can’t I catch any good Pokémon?\n"
+    trainertextentry 127, TEXT_DEFEATED_IN_OVERWORLD, "All of these catches, and none of\nthem can win me a battle...\n"
 
 _0EBC: // Trainer 235
     trainertextentry 235, TEXT_NOTICE_IN_OVERWORLD, "Are you alone?\nThen let’s battle!\r"
