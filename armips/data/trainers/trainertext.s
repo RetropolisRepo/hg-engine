@@ -1990,7 +1990,7 @@ _11F4: // Trainer 206
 _1200: // Trainer 363
     trainertextentry 363, TEXT_NOTICE_IN_OVERWORLD, "If the Pokémon I liked were there,\nI’d go anywhere.\rThat’s what a real Trainer does.\r"
     trainertextentry 363, TEXT_DEFEATED_IN_BATTLE, "I’d rather pet my Pokémon than battle!\n"
-    trainertextentry 363, TEXT_DEFEATED_IN_OVERWORLD, "Just once a week, a Pokémon comes to\nthe water’s edge.\rI wanted to see that Pokémon...\n"
+    trainertextentry 363, TEXT_DEFEATED_IN_OVERWORLD, "Just once a week, LAPRAS come to\nthe water’s edge.\rThis is the only place I've found\nthem. They're quite remarkable.\n"
 
 _120C: // Trainer 486
     trainertextentry 486, TEXT_LAST_MON_SENT_OUT, "It doesn’t matter where we go, there’s\nalways someone who doesn’t agree\fwith us...\n"
