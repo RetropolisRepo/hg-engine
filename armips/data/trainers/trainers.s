@@ -1135,7 +1135,7 @@ trainerdata 33, "Jasmine"
         level 36
         pokemon SPECIES_STEELIX
         item ITEM_ROCKY_HELMET
-        move MOVE_THUNDER_FANG
+        move MOVE_ICE_FANG
         move MOVE_SANDSTORM
         move MOVE_ROCK_SLIDE
         move MOVE_IRON_TAIL
@@ -1161,7 +1161,7 @@ trainerdata 34, "Chuck"
         level 31
         pokemon SPECIES_PRIMEAPE
         item ITEM_EXPERT_BELT
-        move MOVE_ICE_PUNCH
+        move MOVE_THUNDER_PUNCH
         move MOVE_KNOCK_OFF
         move MOVE_CROSS_CHOP
         move MOVE_ROCK_SLIDE
