@@ -6285,7 +6285,7 @@ trainerdata 202, "Calvin"
         ivs 0
         abilityslot 0
         level 27
-        pokemon SPECIES_CHANSEY
+        pokemon SPECIES_HAPPINY
         ballseal 0
 
         // mon 1
