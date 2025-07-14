@@ -4889,16 +4889,19 @@ specialareas SPECIES_LICKITUNG, DEX_NIGHT
 
 
 routesandcities SPECIES_LICKITUNG, DEX_MORNING
+    .word DEX_ROUTE_43
     .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_LICKITUNG, DEX_DAY
+    .word DEX_ROUTE_43
     .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_LICKITUNG, DEX_NIGHT
+    .word DEX_ROUTE_43
     .word DEX_ROUTE_44
     dexendareadata
 
@@ -6054,14 +6057,17 @@ specialareas SPECIES_EEVEE, DEX_NIGHT
 
 
 routesandcities SPECIES_EEVEE, DEX_MORNING
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_EEVEE, DEX_DAY
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_EEVEE, DEX_NIGHT
+    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -7729,7 +7735,6 @@ routesandcities SPECIES_MAREEP, DEX_DAY
 routesandcities SPECIES_MAREEP, DEX_NIGHT
     .word DEX_ROUTE_32
     .word DEX_ROUTE_42
-    .word DEX_ROUTE_43
     dexendareadata
 
 
