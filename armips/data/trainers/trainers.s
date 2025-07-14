@@ -3903,18 +3903,18 @@ trainerdata 122, "Marvin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 35
         pokemon SPECIES_MAGIKARP
         move MOVE_SPLASH
         move MOVE_TACKLE
-        move MOVE_NONE
+        move MOVE_FLAIL
         move MOVE_NONE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
+        level 32
         pokemon SPECIES_GYARADOS
         move MOVE_THRASH
         move MOVE_SURF
@@ -3925,11 +3925,11 @@ trainerdata 122, "Marvin"
         // mon 2
         ivs 0
         abilityslot 0
-        level 15
+        level 40
         pokemon SPECIES_MAGIKARP
         move MOVE_SPLASH
         move MOVE_TACKLE
-        move MOVE_NONE
+        move MOVE_FLAIL
         move MOVE_NONE
         ballseal 0
     endparty
@@ -4169,7 +4169,7 @@ trainerdata 129, "Shane"
 trainerdata 130, "Beckett"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKE_MANIAC
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4182,8 +4182,15 @@ trainerdata 130, "Beckett"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 33
         pokemon SPECIES_SLOWBRO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_POLITOED
         ballseal 0
     endparty
 
@@ -4203,22 +4210,22 @@ trainerdata 131, "Brent"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_NIDORINA
+        level 34
+        pokemon SPECIES_LICKITUNG
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 24
-        pokemon SPECIES_NIDORINO
+        level 33
+        pokemon SPECIES_PORYGON
         ballseal 0
     endparty
 
 trainerdata 132, "Ron"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKE_MANIAC
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4231,7 +4238,14 @@ trainerdata 132, "Ron"
         // mon 0
         ivs 0
         abilityslot 32
-        level 20
+        level 32
+        pokemon SPECIES_NIDORINO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 34
         pokemon SPECIES_NIDOKING
         ballseal 0
     endparty
@@ -13565,12 +13579,12 @@ trainerdata 402, "Tiffany"
         // mon 0
         ivs 0
         abilityslot 0
-        level 21
-        pokemon SPECIES_CLEFAIRY
-        move MOVE_ENCORE
+        level 33
+        pokemon SPECIES_CLEFABLE
+        move MOVE_COSMIC_POWER
         move MOVE_SING
-        move MOVE_DOUBLE_SLAP
-        move MOVE_MINIMIZE
+        move MOVE_WAKE_UP_SLAP
+        move MOVE_MOONLIGHT
         ballseal 0
     endparty
 
@@ -13590,22 +13604,22 @@ trainerdata 403, "Spencer"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
-        pokemon SPECIES_SANDSHREW
+        level 31
+        pokemon SPECIES_GLIGAR
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 18
+        level 31
         pokemon SPECIES_SANDSLASH
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_ZUBAT
+        level 32
+        pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
 

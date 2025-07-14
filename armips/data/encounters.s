@@ -5944,7 +5944,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 16, 16, 16, 15, 17, 17, 15, 15, 16, 17, 16, 17
+walklevels 19, 18, 18, 17, 19, 17, 17, 18, 16, 17, 16, 17
 
 // morning encounter slots
 pokemon SPECIES_FLAAFFY
@@ -5956,9 +5956,9 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_MAREEP
 pokemon SPECIES_MAREEP
 pokemon SPECIES_VENONAT
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_VENONAT
-pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_EEVEE
+pokemon SPECIES_LICKITUNG
 
 // day encounter slots
 pokemon SPECIES_FLAAFFY
@@ -5970,9 +5970,9 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_MAREEP
 pokemon SPECIES_MAREEP
 pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_EEVEE
+pokemon SPECIES_LICKITUNG
 
 // night encounter slots
 pokemon SPECIES_FLAAFFY
@@ -5983,10 +5983,10 @@ pokemon SPECIES_NOCTOWL
 pokemon SPECIES_NOCTOWL
 pokemon SPECIES_VENONAT
 pokemon SPECIES_VENONAT
-pokemon SPECIES_MAREEP
+pokemon SPECIES_LICKITUNG
 pokemon SPECIES_VENONAT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_VENONAT
+pokemon SPECIES_LICKITUNG
+pokemon SPECIES_EEVEE
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
