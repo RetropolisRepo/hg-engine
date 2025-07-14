@@ -6271,7 +6271,7 @@ trainerdata 201, "Andrew"
 trainerdata 202, "Calvin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKE_MANIAC
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6282,6 +6282,13 @@ trainerdata 202, "Calvin"
 
     party 202
         // mon 0
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_CHANSEY
+        ballseal 0
+
+        // mon 1
         ivs 0
         abilityslot 32
         level 27
@@ -6407,29 +6414,29 @@ trainerdata 206, "Gwen"
     party 206
         // mon 0
         ivs 50
-        abilityslot 32
-        level 26
-        pokemon SPECIES_EEVEE
+        abilityslot 0
+        level 24
+        pokemon SPECIES_SYLVEON
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 23
+        level 24
         pokemon SPECIES_FLAREON
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 23
+        level 24
         pokemon SPECIES_VAPOREON
         ballseal 0
 
         // mon 3
         ivs 50
         abilityslot 0
-        level 23
+        level 24
         pokemon SPECIES_JOLTEON
         ballseal 0
     endparty

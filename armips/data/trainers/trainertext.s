@@ -1930,7 +1930,7 @@ _1164: // Trainer 485
 _1170: // Trainer 42
     trainertextentry  42, TEXT_NOTICE_IN_OVERWORLD, "Hmmm...\nThis is a strange place.\r"
     trainertextentry  42, TEXT_DEFEATED_IN_BATTLE, "...\n"
-    trainertextentry  42, TEXT_DEFEATED_IN_OVERWORLD, "I like thinking here.\n"
+    trainertextentry  42, TEXT_DEFEATED_IN_OVERWORLD, "...Do you hear that music?\n"
 
 _117C: // Trainer 319
     trainertextentry 319, TEXT_NOTICE_IN_OVERWORLD, "ZUBAT’s Supersonic keeps confusing my\nPokémon. I’m seriously upset\fabout that!\r"
