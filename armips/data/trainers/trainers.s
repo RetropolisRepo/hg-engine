@@ -665,7 +665,7 @@ trainerdata 21, "Bugsy"
         // mon 0
         ivs 80
         abilityslot 32
-        level 17
+        level 18
         pokemon SPECIES_SCYTHER
         item ITEM_SITRUS_BERRY
         move MOVE_QUICK_ATTACK
