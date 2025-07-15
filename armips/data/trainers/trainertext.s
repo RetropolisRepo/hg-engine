@@ -2106,7 +2106,7 @@ _1304: // Trainer 488
 _1310: // Trainer 468
     trainertextentry 468, TEXT_NOTICE_IN_OVERWORLD, "I used to work for Silph, but now I run\nresearch for Team Rocket.\rA meddlesome child like you needs to be\npunished.\r"
     trainertextentry 468, TEXT_DEFEATED_IN_BATTLE, "A mere tactical error cost me...\n"
-    trainertextentry 468, TEXT_DEFEATED_IN_OVERWORLD, "A radio signal that drives Pokémon\nmad... My experiment is a complete\fsuccess. My promotion is assured.\fThis loss means absolutely nothing.\n"
+    trainertextentry 468, TEXT_DEFEATED_IN_OVERWORLD, "A radio signal that forces Pokémon\nto be obedient...My experiment is a\fcomplete success. My promotion is\fassured.\rWhat we've done here is unparalleled.\n This loss means absolutely nothing.\n"
 
 _131C: // Trainer 469
     trainertextentry 469, TEXT_NOTICE_IN_OVERWORLD, "I don’t care that Pokémon are hurt by\nour experiment.\r"
