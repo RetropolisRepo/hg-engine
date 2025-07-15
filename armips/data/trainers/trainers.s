@@ -6731,29 +6731,29 @@ trainerdata 216, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 16
+        level 31
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 16
-        pokemon SPECIES_RATTATA
+        level 33
+        pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 16
-        pokemon SPECIES_RATTATA
+        level 31
+        pokemon SPECIES_PURRLOIN
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
-        level 16
-        pokemon SPECIES_RATTATA
+        level 33
+        pokemon SPECIES_LIEPARD
         ballseal 0
     endparty
 
@@ -6808,7 +6808,7 @@ trainerdata 218, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 18
+        level 34
         pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
@@ -6829,22 +6829,22 @@ trainerdata 219, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 17
-        pokemon SPECIES_RATTATA
+        level 33
+        pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 17
+        level 31
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 17
-        pokemon SPECIES_RATTATA
+        level 33
+        pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
@@ -6864,15 +6864,15 @@ trainerdata 220, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 18
+        level 32
         pokemon SPECIES_VENONAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 18
-        pokemon SPECIES_VENONAT
+        level 34
+        pokemon SPECIES_VENOMOTH
         ballseal 0
     endparty
 
@@ -6913,7 +6913,7 @@ trainerdata 222, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 19
+        level 36
         pokemon SPECIES_RATICATE
         ballseal 0
     endparty
@@ -6934,14 +6934,14 @@ trainerdata 223, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 17
+        level 32
         pokemon SPECIES_DROWZEE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 19
+        level 32
         pokemon SPECIES_ZUBAT
         ballseal 0
     endparty
@@ -6962,21 +6962,21 @@ trainerdata 224, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 16
+        level 31
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 17
+        level 31
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 18
+        level 32
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
@@ -13646,20 +13646,20 @@ trainerdata 404, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 18
-        pokemon SPECIES_EKANS
-        move MOVE_WRAP
-        move MOVE_LEER
+        level 35
+        pokemon SPECIES_ARBOK
+        move MOVE_ACID_SPRAY
+        move MOVE_SCREECH
         move MOVE_POISON_STING
-        move MOVE_BITE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 18
+        level 35
         pokemon SPECIES_GLOOM
-        move MOVE_ABSORB
+        move MOVE_GIGA_DRAIN
         move MOVE_SWEET_SCENT
         move MOVE_STUN_SPORE
         move MOVE_SLEEP_POWDER
@@ -15732,15 +15732,15 @@ trainerdata 468, "Ross"
         // mon 0
         ivs 0
         abilityslot 0
-        level 22
+        level 34
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 22
-        pokemon SPECIES_KOFFING
+        level 34
+        pokemon SPECIES_WEEZING
         ballseal 0
     endparty
 
@@ -15760,7 +15760,7 @@ trainerdata 469, "Mitch"
         // mon 0
         ivs 0
         abilityslot 0
-        level 24
+        level 37
         pokemon SPECIES_DITTO
         ballseal 0
     endparty
@@ -15781,22 +15781,22 @@ trainerdata 470, "Gregg"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 31
         pokemon SPECIES_MAGNEMITE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 20
-        pokemon SPECIES_MAGNEMITE
+        level 34
+        pokemon SPECIES_MAGNETON
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_MAGNEMITE
+        level 32
+        pokemon SPECIES_NOSEPASS
         ballseal 0
     endparty
 
