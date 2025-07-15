@@ -16428,22 +16428,22 @@ trainerdata 488, "Petrel"
         // mon 0
         ivs 100
         abilityslot 0
-        level 22
-        pokemon SPECIES_ZUBAT
+        level 35
+        pokemon SPECIES_GOLBAT
         ballseal 0
 
         // mon 1
         ivs 100
         abilityslot 32
-        level 24
-        pokemon SPECIES_RATICATE
+        level 35
+        pokemon SPECIES_ELECTRODE
         ballseal 0
 
         // mon 2
         ivs 100
         abilityslot 0
-        level 22
-        pokemon SPECIES_KOFFING
+        level 37
+        pokemon SPECIES_WEEZING
         ballseal 0
     endparty
 
