@@ -1640,7 +1640,7 @@ _0EA4: // Trainer 126
     trainertextentry 126, TEXT_DEFEATED_IN_OVERWORLD, "I won’t lose as an angler! I catch\nPokémon all day.\n"
 
 _0EB0: // Trainer 127
-    trainertextentry 127, TEXT_NOTICE_IN_OVERWORLD, "I've been fishing all over the world!\nLet me show you some of\fmy finest catches...\r"
+    trainertextentry 127, TEXT_NOTICE_IN_OVERWORLD, "I've been fishing all over the world!\nLet me show you some of my\ffinest catches...\r"
     trainertextentry 127, TEXT_DEFEATED_IN_BATTLE, "My line’s all tangled up...\n"
     trainertextentry 127, TEXT_DEFEATED_IN_OVERWORLD, "All of these catches, and none of\nthem can win me a battle...\n"
 
