@@ -16067,10 +16067,10 @@ trainerdata 479, "Ariana"
         // mon 0
         ivs 100
         abilityslot 0
-        level 25
+        level 35
         pokemon SPECIES_ARBOK
         move MOVE_WRAP
-        move MOVE_POISON_STING
+        move MOVE_POISON_JAB
         move MOVE_CRUNCH
         move MOVE_GLARE
         ballseal 0
@@ -16078,23 +16078,23 @@ trainerdata 479, "Ariana"
         // mon 1
         ivs 100
         abilityslot 0
-        level 25
+        level 37
         pokemon SPECIES_GLOOM
-        move MOVE_MEGA_DRAIN
+        move MOVE_GIGA_DRAIN
         move MOVE_SWEET_SCENT
         move MOVE_SLEEP_POWDER
-        move MOVE_ACID
+        move MOVE_SLUDGE_BOMB
         ballseal 0
 
         // mon 2
         ivs 100
-        abilityslot 32
-        level 27
-        pokemon SPECIES_MURKROW
-        move MOVE_WING_ATTACK
-        move MOVE_PURSUIT
-        move MOVE_ASTONISH
-        move MOVE_NIGHT_SHADE
+        abilityslot 0
+        level 35
+        pokemon SPECIES_SALAZZLE
+        move MOVE_ACID_SPRAY
+        move MOVE_FIRE_LASH
+        move MOVE_NASTY_PLOT
+        move MOVE_POISON_FANG
         ballseal 0
     endparty
 
@@ -16911,7 +16911,7 @@ trainerdata 498, "Eusine"
 trainerdata 499, "Grunt"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16924,23 +16924,34 @@ trainerdata 499, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 18
+        level 34
         pokemon SPECIES_DROWZEE
         move MOVE_HYPNOSIS
         move MOVE_DISABLE
-        move MOVE_CONFUSION
+        move MOVE_PSYBEAM
         move MOVE_HEADBUTT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 20
-        pokemon SPECIES_GRIMER
-        move MOVE_SLUDGE
+        level 35
+        pokemon SPECIES_MUK
+        move MOVE_SLUDGE_WAVE
         move MOVE_DISABLE
-        move MOVE_MUD_SLAP
-        move MOVE_MINIMIZE
+        move MOVE_MUD_BOMB
+        move MOVE_THIEF
+        ballseal 0
+
+        // mon 3
+        ivs 90
+        abilityslot 32
+        level 31
+        pokemon SPECIES_MURKROW
+        move MOVE_WING_ATTACK
+        move MOVE_PURSUIT
+        move MOVE_ASTONISH
+        move MOVE_NIGHT_SHADE
         ballseal 0
     endparty
 
@@ -22850,10 +22861,10 @@ trainerdata 675, "Lance"
         // mon 0
         ivs 250
         abilityslot 0
-        level 40
+        level 44
         pokemon SPECIES_DRAGONITE
         move MOVE_FLY
-        move MOVE_TWISTER
+        move MOVE_DRAGON_BREATH
         move MOVE_THUNDER
         move MOVE_HYPER_BEAM
         ballseal 0
