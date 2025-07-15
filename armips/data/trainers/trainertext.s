@@ -2106,12 +2106,12 @@ _1304: // Trainer 488
 _1310: // Trainer 468
     trainertextentry 468, TEXT_NOTICE_IN_OVERWORLD, "I used to work for Silph, but now I run\nresearch for Team Rocket.\rA meddlesome child like you needs to be\npunished.\r"
     trainertextentry 468, TEXT_DEFEATED_IN_BATTLE, "A mere tactical error cost me...\n"
-    trainertextentry 468, TEXT_DEFEATED_IN_OVERWORLD, "A radio signal that forces Pokémon\nto be obedient...My experiment is a\fcomplete success. My promotion is\fassured.\rWhat we've done here is unparalleled.\n This loss means absolutely nothing.\n"
+    trainertextentry 468, TEXT_DEFEATED_IN_OVERWORLD, "A radio signal that forces Pokémon\nto be obedient...My experiment is a\fcomplete success. My promotion is\fassured.\rWhat we've done here is unparalleled.\nThis loss means absolutely nothing.\n"
 
 _131C: // Trainer 469
     trainertextentry 469, TEXT_NOTICE_IN_OVERWORLD, "I don’t care that Pokémon are hurt by\nour experiment.\r"
     trainertextentry 469, TEXT_DEFEATED_IN_BATTLE, "Thinking is my strong suit, not battling.\n"
-    trainertextentry 469, TEXT_DEFEATED_IN_OVERWORLD, "If we turn up the power of our radio\nsignal for broadcast nationwide...\rThe very thought excites me!\n"
+    trainertextentry 469, TEXT_DEFEATED_IN_OVERWORLD, "If we can force MAGIKARP to evolve\nand rampage throughout the Lake...\rFufufufu...could you imagine\nwhat else we could do?\n"
 
 _1328: // Trainer 222
     trainertextentry 222, TEXT_NOTICE_IN_OVERWORLD, "Hyuck-hyuck-hyuck!\rYou’re challenging me to a battle?\nHah! You’re nuts, but you have guts!\rI like that! If you can beat me, I’ll\ntell you a password to the boss’s room!\r"
