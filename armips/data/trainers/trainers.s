@@ -22885,7 +22885,7 @@ trainerdata 675, "Lance"
         // mon 0
         ivs 250
         abilityslot 0
-        level 44
+        level 42
         pokemon SPECIES_DRAGONITE
         move MOVE_FLY
         move MOVE_DRAGON_BREATH
