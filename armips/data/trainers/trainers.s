@@ -1061,9 +1061,9 @@ trainerdata 32, "Pryce"
         level 36
         pokemon SPECIES_FROSMOTH
         item ITEM_NONE
-        move MOVE_AURORA_VEIL
+        move MOVE_DAZZLING_GLEAM
         move MOVE_BUG_BUZZ
-        move MOVE_AURORA_BEAM
+        move MOVE_BLIZZARD
         move MOVE_FEATHER_DANCE
         ballseal 0
 
@@ -1088,7 +1088,7 @@ trainerdata 32, "Pryce"
         move MOVE_HAIL
         move MOVE_ICE_BEAM
         move MOVE_SURF
-        move MOVE_CONFUSE_RAY
+        move MOVE_ANCIENT_POWER
         ballseal 0
 
         // mon 4
@@ -1100,7 +1100,7 @@ trainerdata 32, "Pryce"
         move MOVE_HAIL
         move MOVE_AVALANCHE
         move MOVE_EARTHQUAKE
-        move MOVE_BLIZZARD
+        move MOVE_SUPERPOWER
         ballseal 0
     endparty
 
