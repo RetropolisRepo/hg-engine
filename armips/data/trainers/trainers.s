@@ -1033,9 +1033,9 @@ trainerdata 31, "Morty"
 trainerdata 32, "Pryce"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_PRYCE
-    nummons 3
-    item ITEM_HYPER_POTION
+    nummons 5
     item ITEM_FULL_RESTORE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
@@ -1046,10 +1046,10 @@ trainerdata 32, "Pryce"
         // mon 0
         ivs 150
         abilityslot 0
-        level 30
-        pokemon SPECIES_SEEL
-        item ITEM_NONE
-        move MOVE_SNORE
+        level 37
+        pokemon SPECIES_DEWGONG
+        item ITEM_LEFTOVERS
+        move MOVE_SLEEP_TALK
         move MOVE_HAIL
         move MOVE_ICY_WIND
         move MOVE_REST
@@ -1058,24 +1058,48 @@ trainerdata 32, "Pryce"
         // mon 1
         ivs 150
         abilityslot 0
-        level 32
-        pokemon SPECIES_DEWGONG
+        level 36
+        pokemon SPECIES_FROSMOTH
         item ITEM_NONE
-        move MOVE_SLEEP_TALK
-        move MOVE_ICE_SHARD
+        move MOVE_AURORA_VEIL
+        move MOVE_BUG_BUZZ
         move MOVE_AURORA_BEAM
-        move MOVE_REST
+        move MOVE_FEATHER_DANCE
         ballseal 0
 
         // mon 2
         ivs 150
         abilityslot 32
-        level 34
+        level 38
         pokemon SPECIES_PILOSWINE
         item ITEM_SITRUS_BERRY
         move MOVE_HAIL
-        move MOVE_ICE_FANG
-        move MOVE_MUD_BOMB
+        move MOVE_ICICLE_SPEAR
+        move MOVE_EARTH_POWER
+        move MOVE_BLIZZARD
+        ballseal 0
+
+        // mon 3
+        ivs 150
+        abilityslot 32
+        level 37
+        pokemon SPECIES_LAPRAS
+        item ITEM_LUM_BERRY
+        move MOVE_HAIL
+        move MOVE_ICE_BEAM
+        move MOVE_SURF
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 150
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MAMOSWINE
+        item ITEM_NEVER_MELT_ICE
+        move MOVE_HAIL
+        move MOVE_AVALANCHE
+        move MOVE_EARTHQUAKE
         move MOVE_BLIZZARD
         ballseal 0
     endparty
