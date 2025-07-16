@@ -1058,7 +1058,7 @@ trainerdata 32, "Pryce"
         // mon 1
         ivs 150
         abilityslot 0
-        level 36
+        level 37
         pokemon SPECIES_FROSMOTH
         item ITEM_NONE
         move MOVE_DAZZLING_GLEAM
@@ -1070,7 +1070,7 @@ trainerdata 32, "Pryce"
         // mon 2
         ivs 150
         abilityslot 32
-        level 38
+        level 39
         pokemon SPECIES_PILOSWINE
         item ITEM_SITRUS_BERRY
         move MOVE_HAIL
@@ -1082,7 +1082,7 @@ trainerdata 32, "Pryce"
         // mon 3
         ivs 150
         abilityslot 32
-        level 37
+        level 38
         pokemon SPECIES_LAPRAS
         item ITEM_LUM_BERRY
         move MOVE_HAIL
@@ -1094,7 +1094,7 @@ trainerdata 32, "Pryce"
         // mon 4
         ivs 150
         abilityslot 0
-        level 40
+        level 41
         pokemon SPECIES_MAMOSWINE
         item ITEM_NEVER_MELT_ICE
         move MOVE_HAIL
