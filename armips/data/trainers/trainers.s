@@ -5811,14 +5811,14 @@ trainerdata 185, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 24
+        level 37
         pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 24
+        level 37
         pokemon SPECIES_RATICATE
         ballseal 0
     endparty
@@ -5839,21 +5839,21 @@ trainerdata 186, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 23
+        level 35
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 35
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 25
+        level 36
         pokemon SPECIES_MUK
         ballseal 0
     endparty
@@ -5874,36 +5874,36 @@ trainerdata 187, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 21
-        pokemon SPECIES_RATTATA
+        level 32
+        pokemon SPECIES_PURRLOIN
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 21
-        pokemon SPECIES_RATTATA
+        level 32
+        pokemon SPECIES_PURRLOIN
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 23
-        pokemon SPECIES_RATTATA
+        level 34
+        pokemon SPECIES_PURRLOIN
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
-        level 23
-        pokemon SPECIES_RATTATA
+        level 34
+        pokemon SPECIES_PURRLOIN
         ballseal 0
 
         // mon 4
         ivs 30
         abilityslot 32
-        level 23
-        pokemon SPECIES_RATTATA
+        level 34
+        pokemon SPECIES_PURRLOIN
         ballseal 0
     endparty
 
@@ -5923,15 +5923,15 @@ trainerdata 188, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 26
+        level 34
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 26
-        pokemon SPECIES_ZUBAT
+        level 37
+        pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
 
@@ -5951,28 +5951,28 @@ trainerdata 189, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 23
+        level 35
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 35
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 23
+        level 35
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
-        level 23
+        level 35
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
@@ -5993,7 +5993,7 @@ trainerdata 190, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 26
+        level 38
         pokemon SPECIES_WEEZING
         ballseal 0
     endparty
@@ -6014,15 +6014,15 @@ trainerdata 191, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 24
-        pokemon SPECIES_RATICATE
+        level 37
+        pokemon SPECIES_LIEPARD
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 26
-        pokemon SPECIES_KOFFING
+        level 37
+        pokemon SPECIES_MUK
         ballseal 0
     endparty
 
@@ -6042,21 +6042,21 @@ trainerdata 192, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 22
+        level 36
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 24
+        level 37
         pokemon SPECIES_GOLBAT
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 22
+        level 35
         pokemon SPECIES_GRIMER
         ballseal 0
     endparty
@@ -6210,7 +6210,7 @@ trainerdata 198, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 26
+        level 38
         pokemon SPECIES_ARBOK
         ballseal 0
     endparty
@@ -6259,28 +6259,28 @@ trainerdata 200, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 21
+        level 35
         pokemon SPECIES_EKANS
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 35
         pokemon SPECIES_ODDISH
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 21
-        pokemon SPECIES_EKANS
+        level 36
+        pokemon SPECIES_ARBOK
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 0
-        level 24
+        level 36
         pokemon SPECIES_GLOOM
         ballseal 0
     endparty
@@ -15855,22 +15855,22 @@ trainerdata 471, "Garett"
         // mon 0
         ivs 0
         abilityslot 32
-        level 27
-        pokemon SPECIES_MAGNEMITE
+        level 35
+        pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 27
+        level 35
         pokemon SPECIES_MAGNEMITE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 27
-        pokemon SPECIES_MAGNEMITE
+        level 37
+        pokemon SPECIES_MAGNETON
         ballseal 0
     endparty
 
@@ -15890,8 +15890,8 @@ trainerdata 472, "Trenton"
         // mon 0
         ivs 0
         abilityslot 32
-        level 30
-        pokemon SPECIES_PORYGON
+        level 39
+        pokemon SPECIES_PORYGON2
         move MOVE_CONVERSION
         move MOVE_CONVERSION_2
         move MOVE_RECOVER
@@ -16387,7 +16387,7 @@ trainerdata 487, "Petrel"
         // mon 0
         ivs 100
         abilityslot 0
-        level 30
+        level 35
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
@@ -16398,31 +16398,31 @@ trainerdata 487, "Petrel"
         // mon 1
         ivs 100
         abilityslot 0
-        level 30
-        pokemon SPECIES_KOFFING
+        level 35
+        pokemon SPECIES_VOLTORB
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
-        move MOVE_SLUDGE
-        move MOVE_SMOKESCREEN
+        move MOVE_SPARK
+        move MOVE_SCREECH
         ballseal 0
 
         // mon 2
         ivs 100
         abilityslot 0
-        level 30
-        pokemon SPECIES_KOFFING
+        level 35
+        pokemon SPECIES_VOLTORB
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
-        move MOVE_SLUDGE
-        move MOVE_SMOKESCREEN
+        move MOVE_SPARK
+        move MOVE_SCREECH
         ballseal 0
 
         // mon 3
         ivs 100
         abilityslot 0
-        level 32
+        level 39
         pokemon SPECIES_WEEZING
-        move MOVE_TACKLE
+        move MOVE_ASSURANCE
         move MOVE_EXPLOSION
         move MOVE_SLUDGE
         move MOVE_SMOKESCREEN
@@ -16431,7 +16431,7 @@ trainerdata 487, "Petrel"
         // mon 4
         ivs 100
         abilityslot 0
-        level 30
+        level 35
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
@@ -16442,12 +16442,12 @@ trainerdata 487, "Petrel"
         // mon 5
         ivs 100
         abilityslot 0
-        level 30
-        pokemon SPECIES_KOFFING
-        move MOVE_TACKLE
-        move MOVE_SMOG
-        move MOVE_SLUDGE
-        move MOVE_SMOKESCREEN
+        level 39
+        pokemon SPECIES_ELECTRODE
+        move MOVE_MAGNET_RISE
+        move MOVE_SWIFT
+        move MOVE_CHARGE_BEAM
+        move MOVE_EXPLOSION
         ballseal 0
     endparty
 
