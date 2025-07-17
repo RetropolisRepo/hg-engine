@@ -9209,7 +9209,7 @@ trainerdata 271, "Silver"
         // mon 2
         ivs 130
         abilityslot 32
-        level 37
+        level 39
         pokemon SPECIES_HERACROSS
         item ITEM_EXPERT_BELT
         move MOVE_ROCK_TOMB
@@ -10000,7 +10000,7 @@ trainerdata 288, "Silver"
         // mon 2
         ivs 130
         abilityslot 32
-        level 37
+        level 39
         pokemon SPECIES_HERACROSS
         item ITEM_EXPERT_BELT
         move MOVE_ROCK_TOMB
@@ -10074,7 +10074,7 @@ trainerdata 289, "Silver"
         // mon 2
         ivs 130
         abilityslot 32
-        level 37
+        level 39
         pokemon SPECIES_HERACROSS
         item ITEM_EXPERT_BELT
         move MOVE_ROCK_TOMB
