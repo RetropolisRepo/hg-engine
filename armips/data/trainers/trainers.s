@@ -16057,7 +16057,7 @@ trainerdata 478, "Ariana"
 
     party 478
         // mon 0
-        ivs 100
+        ivs 150
         abilityslot 0
         level 39
         pokemon SPECIES_ARBOK
@@ -16068,7 +16068,7 @@ trainerdata 478, "Ariana"
         ballseal 0
 
         // mon 1
-        ivs 100
+        ivs 150
         abilityslot 0
         level 40
         pokemon SPECIES_VILEPLUME
@@ -16079,7 +16079,7 @@ trainerdata 478, "Ariana"
         ballseal 0
 
         // mon 2
-        ivs 100
+        ivs 150
         abilityslot 0
         level 41
         pokemon SPECIES_SALAZZLE
@@ -24127,7 +24127,7 @@ trainerdata 706, "Proton"
 
     party 706
         // mon 0
-        ivs 100
+        ivs 150
         abilityslot 0
         level 40
         pokemon SPECIES_CROBAT
@@ -24138,7 +24138,7 @@ trainerdata 706, "Proton"
         ballseal 0
 
         // mon 1
-        ivs 100
+        ivs 150
         abilityslot 0
         level 39
         pokemon SPECIES_WEEZING
@@ -24149,7 +24149,7 @@ trainerdata 706, "Proton"
         ballseal 0
 
         // mon 2
-        ivs 100
+        ivs 150
         abilityslot 0
         level 41
         monwithform SPECIES_SLOWBRO, 1
