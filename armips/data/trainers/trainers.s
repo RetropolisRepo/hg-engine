@@ -16290,9 +16290,9 @@ trainerdata 484, "Gerardo"
     endparty
 
 trainerdata 485, "Archer"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_EXECUTIVE_ARCHER
-    nummons 3
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16304,35 +16304,62 @@ trainerdata 485, "Archer"
     party 485
         // mon 0
         ivs 200
-        abilityslot 0
-        level 35
-        pokemon SPECIES_HOUNDOUR
-        move MOVE_FIRE_FANG
-        move MOVE_ROAR
-        move MOVE_BITE
+        abilityslot 32
+        level 40
+        pokemon SPECIES_PERSIAN
+        item ITEM_SCOPE_LENS
+        move MOVE_SLASH
+        move MOVE_SCREECH
+        move MOVE_POWER_GEM
         move MOVE_FEINT_ATTACK
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 0
-        level 35
-        pokemon SPECIES_KOFFING
-        move MOVE_TACKLE
-        move MOVE_SLUDGE
-        move MOVE_SMOKESCREEN
-        move MOVE_HAZE
+        level 39
+        pokemon SPECIES_ARCANINE
+        item ITEM_NONE
+        move MOVE_FLARE_BLITZ
+        move MOVE_EXTREME_SPEED
+        move MOVE_PLAY_ROUGH
+        move MOVE_ROAR
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 38
+        level 40
+        pokemon SPECIES_WEEZING
+        item ITEM_BLACK_SLUDGE
+        move MOVE_THUNDERBOLT
+        move MOVE_SLUDGE_BOMB
+        move MOVE_EXPLOSION
+        move MOVE_HAZE
+        ballseal 0
+		
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 39
+        pokemon SPECIES_LIEPARD
+        item ITEM_NONE
+        move MOVE_HONE_CLAWS
+        move MOVE_SWAGGER
+        move MOVE_THIEF
+        move MOVE_SNARL
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 2
+        level 42
         pokemon SPECIES_HOUNDOOM
-        move MOVE_FIRE_FANG
-        move MOVE_SMOG
-        move MOVE_BITE
-        move MOVE_FEINT_ATTACK
+        item ITEM_LIFE_ORB
+        move MOVE_HEAT_WAVE
+        move MOVE_NASTY_PLOT
+        move MOVE_DARK_PULSE
+        move MOVE_HYPER_BEAM
         ballseal 0
     endparty
 
@@ -24152,7 +24179,7 @@ trainerdata 706, "Proton"
         ivs 150
         abilityslot 0
         level 41
-        monwithform SPECIES_SLOWBRO, 1
+        monwithform SPECIES_SLOWBRO, 2
         move MOVE_SHELL_SIDE_ARM
         move MOVE_ZEN_HEADBUTT
         move MOVE_AMNESIA
