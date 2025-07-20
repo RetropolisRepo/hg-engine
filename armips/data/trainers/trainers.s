@@ -9661,7 +9661,7 @@ trainerdata 283, "Orson"
         level 38
         pokemon SPECIES_GROWLITHE
         move MOVE_ROAR
-        move MOVE_FLAME_FANG
+        move MOVE_FIRE_FANG
         move MOVE_LEER
         move MOVE_CRUNCH
         ballseal 0
