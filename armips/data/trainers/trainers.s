@@ -431,21 +431,21 @@ trainerdata 14, "Duncan"
         // mon 0
         ivs 0
         abilityslot 0
-        level 23
-        pokemon SPECIES_KOFFING
+        level 38
+        pokemon SPECIES_MEOWTH
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 25
+        level 37
         pokemon SPECIES_MAGMAR
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 23
+        level 36
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
@@ -6077,22 +6077,22 @@ trainerdata 193, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 23
+        level 37
         pokemon SPECIES_MUK
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 36
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 25
-        pokemon SPECIES_RATTATA
+        level 37
+        pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
@@ -6132,9 +6132,9 @@ trainerdata 195, "Grunt"
     party 195
         // mon 0
         ivs 30
-        abilityslot 32
-        level 27
-        pokemon SPECIES_RATTATA
+        abilityslot 0
+        level 39
+        pokemon SPECIES_LIEPARD
         ballseal 0
     endparty
 
@@ -6154,14 +6154,14 @@ trainerdata 196, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 24
+        level 37
         pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 24
+        level 37
         pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
@@ -6182,14 +6182,14 @@ trainerdata 197, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 26
+        level 37
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 35
         pokemon SPECIES_WEEZING
         ballseal 0
     endparty
@@ -6231,14 +6231,14 @@ trainerdata 199, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 25
+        level 38
         pokemon SPECIES_GLOOM
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 25
+        level 38
         pokemon SPECIES_GLOOM
         ballseal 0
     endparty
@@ -7063,15 +7063,15 @@ trainerdata 227, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 25
+        level 36
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 25
-        pokemon SPECIES_KOFFING
+        level 38
+        pokemon SPECIES_HYPNO
         ballseal 0
     endparty
 
@@ -7091,14 +7091,14 @@ trainerdata 228, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 24
-        pokemon SPECIES_KOFFING
+        level 37
+        pokemon SPECIES_DROWZEE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 24
+        level 38
         pokemon SPECIES_MUK
         ballseal 0
     endparty
@@ -9658,23 +9658,23 @@ trainerdata 283, "Orson"
         // mon 0
         ivs 0
         abilityslot 0
-        level 26
+        level 38
         pokemon SPECIES_GROWLITHE
         move MOVE_ROAR
-        move MOVE_FLAME_WHEEL
+        move MOVE_FLAME_FANG
         move MOVE_LEER
-        move MOVE_BITE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 24
-        pokemon SPECIES_KOFFING
-        move MOVE_TACKLE
-        move MOVE_SMOG
-        move MOVE_SLUDGE
-        move MOVE_SMOKESCREEN
+        level 38
+        pokemon SPECIES_AIPOM
+        move MOVE_SCREECH
+        move MOVE_SWIFT
+        move MOVE_THIEF
+        move MOVE_FURY_SWIPES
         ballseal 0
     endparty
 
@@ -16059,10 +16059,10 @@ trainerdata 478, "Ariana"
         // mon 0
         ivs 100
         abilityslot 0
-        level 32
+        level 39
         pokemon SPECIES_ARBOK
-        move MOVE_WRAP
-        move MOVE_POISON_STING
+        move MOVE_MUD_BOMB
+        move MOVE_POISON_JAB
         move MOVE_CRUNCH
         move MOVE_GLARE
         ballseal 0
@@ -16070,23 +16070,23 @@ trainerdata 478, "Ariana"
         // mon 1
         ivs 100
         abilityslot 0
-        level 32
+        level 40
         pokemon SPECIES_VILEPLUME
-        move MOVE_MEGA_DRAIN
-        move MOVE_SWEET_SCENT
+        move MOVE_GIGA_DRAIN
+        move MOVE_PETAL_BLIZZARD
         move MOVE_SLEEP_POWDER
-        move MOVE_ACID
+        move MOVE_ACID_SPRAY
         ballseal 0
 
         // mon 2
         ivs 100
-        abilityslot 32
-        level 32
-        pokemon SPECIES_MURKROW
-        move MOVE_WING_ATTACK
-        move MOVE_PURSUIT
-        move MOVE_ASTONISH
-        move MOVE_NIGHT_SHADE
+        abilityslot 0
+        level 41
+        pokemon SPECIES_SALAZZLE
+        move MOVE_VENOSHOCK
+        move MOVE_FLAMETHROWER
+        move MOVE_NASTY_PLOT
+        move MOVE_SLUDGE_BOMB
         ballseal 0
     endparty
 
@@ -24116,7 +24116,7 @@ trainerdata 705, "Karen"
 trainerdata 706, "Proton"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -24129,23 +24129,34 @@ trainerdata 706, "Proton"
         // mon 0
         ivs 100
         abilityslot 0
-        level 28
-        pokemon SPECIES_GOLBAT
+        level 40
+        pokemon SPECIES_CROBAT
         move MOVE_LEECH_LIFE
-        move MOVE_BITE
+        move MOVE_CROSS_POISON
         move MOVE_CONFUSE_RAY
-        move MOVE_WING_ATTACK
+        move MOVE_AIR_CUTTER
         ballseal 0
 
         // mon 1
         ivs 100
         abilityslot 0
-        level 33
+        level 39
         pokemon SPECIES_WEEZING
         move MOVE_DOUBLE_HIT
-        move MOVE_SLUDGE
+        move MOVE_SLUDGE_BOMB
         move MOVE_SMOKESCREEN
-        move MOVE_SMOG
+        move MOVE_GYRO_BALL
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 41
+        monwithform SPECIES_SLOWBRO, 1
+        move MOVE_SHELL_SIDE_ARM
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_AMNESIA
+        move MOVE_YAWN
         ballseal 0
     endparty
 
