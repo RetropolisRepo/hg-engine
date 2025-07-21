@@ -1821,18 +1821,21 @@ specialareas SPECIES_VULPIX, DEX_NIGHT
 routesandcities SPECIES_VULPIX, DEX_MORNING
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_VULPIX, DEX_DAY
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_VULPIX, DEX_NIGHT
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
+    .word DEX_ROUTE_44
     dexendareadata
 
 
@@ -2674,6 +2677,7 @@ specialareas SPECIES_GROWLITHE, DEX_NIGHT
 routesandcities SPECIES_GROWLITHE, DEX_MORNING
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
+    .word DEX_ROUTE_44
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
@@ -2682,6 +2686,7 @@ routesandcities SPECIES_GROWLITHE, DEX_MORNING
 routesandcities SPECIES_GROWLITHE, DEX_DAY
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
+    .word DEX_ROUTE_44
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
@@ -2690,6 +2695,7 @@ routesandcities SPECIES_GROWLITHE, DEX_DAY
 routesandcities SPECIES_GROWLITHE, DEX_NIGHT
     .word DEX_ROUTE_36
     .word DEX_ROUTE_37
+    .word DEX_ROUTE_44
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
@@ -3172,7 +3178,6 @@ specialareas SPECIES_BELLSPROUT, DEX_NIGHT
 routesandcities SPECIES_BELLSPROUT, DEX_MORNING
     .word DEX_ROUTE_31
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_44
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
     .word DEX_ROUTE_24
@@ -3183,7 +3188,6 @@ routesandcities SPECIES_BELLSPROUT, DEX_MORNING
 routesandcities SPECIES_BELLSPROUT, DEX_DAY
     .word DEX_ROUTE_31
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_44
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
     .word DEX_ROUTE_24
@@ -3194,7 +3198,6 @@ routesandcities SPECIES_BELLSPROUT, DEX_DAY
 routesandcities SPECIES_BELLSPROUT, DEX_NIGHT
     .word DEX_ROUTE_31
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_44
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
     .word DEX_ROUTE_24
@@ -16812,14 +16815,17 @@ specialareas SPECIES_MUNCHLAX, DEX_NIGHT
 
 
 routesandcities SPECIES_MUNCHLAX, DEX_MORNING
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_MUNCHLAX, DEX_DAY
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_MUNCHLAX, DEX_NIGHT
+    .word DEX_ROUTE_44
     dexendareadata
 
 
