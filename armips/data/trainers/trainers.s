@@ -16310,8 +16310,8 @@ trainerdata 485, "Archer"
         item ITEM_SCOPE_LENS
         move MOVE_SLASH
         move MOVE_SCREECH
-        move MOVE_POWER_GEM
-        move MOVE_FEINT_ATTACK
+        move MOVE_PLAY_ROUGH
+        move MOVE_KNOCK_OFF
         ballseal 0
 
         // mon 1
@@ -16319,35 +16319,35 @@ trainerdata 485, "Archer"
         abilityslot 0
         level 39
         pokemon SPECIES_ARCANINE
-        item ITEM_NONE
+        item ITEM_RED_CARD
         move MOVE_FLARE_BLITZ
-        move MOVE_EXTREME_SPEED
-        move MOVE_PLAY_ROUGH
-        move MOVE_ROAR
+        move MOVE_PSYCHIC_FANGS
+        move MOVE_IRON_HEAD
+        move MOVE_SWAGGER
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 40
+        level 39
         pokemon SPECIES_WEEZING
         item ITEM_BLACK_SLUDGE
         move MOVE_THUNDERBOLT
         move MOVE_SLUDGE_BOMB
-        move MOVE_EXPLOSION
-        move MOVE_HAZE
+        move MOVE_WILL_O_WISP
+        move MOVE_CLEAR_SMOG
         ballseal 0
 		
         // mon 3
         ivs 200
-        abilityslot 0
-        level 39
-        pokemon SPECIES_LIEPARD
-        item ITEM_NONE
-        move MOVE_HONE_CLAWS
-        move MOVE_SWAGGER
-        move MOVE_THIEF
-        move MOVE_SNARL
+        abilityslot 32
+        level 41
+        pokemon SPECIES_RHYDON
+        item ITEM_EVIOLITE
+        move MOVE_EARTHQUAKE
+        move MOVE_ROCK_POLISH
+        move MOVE_HAMMER_ARM
+        move MOVE_ICE_PUNCH
         ballseal 0
 
         // mon 4
@@ -16358,7 +16358,7 @@ trainerdata 485, "Archer"
         item ITEM_LIFE_ORB
         move MOVE_HEAT_WAVE
         move MOVE_NASTY_PLOT
-        move MOVE_DARK_PULSE
+        move MOVE_SNARL
         move MOVE_HYPER_BEAM
         ballseal 0
     endparty
