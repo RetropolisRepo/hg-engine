@@ -4002,21 +4002,21 @@ trainerdata 124, "Wilton"
         // mon 0
         ivs 0
         abilityslot 0
-        level 26
+        level 39
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 26
-        pokemon SPECIES_GOLDEEN
+        level 41
+        pokemon SPECIES_SEADRA
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 28
+        level 41
         pokemon SPECIES_SEAKING
         ballseal 0
     endparty
@@ -4024,7 +4024,7 @@ trainerdata 124, "Wilton"
 trainerdata 125, "Edgar"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4037,7 +4037,7 @@ trainerdata 125, "Edgar"
         // mon 0
         ivs 0
         abilityslot 0
-        level 28
+        level 40
         pokemon SPECIES_REMORAID
         move MOVE_LOCK_ON
         move MOVE_PSYBEAM
@@ -4048,12 +4048,22 @@ trainerdata 125, "Edgar"
         // mon 1
         ivs 0
         abilityslot 32
-        level 28
-        pokemon SPECIES_REMORAID
+        level 42
+        pokemon SPECIES_OCTILLERY
         move MOVE_LOCK_ON
-        move MOVE_PSYBEAM
+        move MOVE_ROCK_BLAST
         move MOVE_AURORA_BEAM
-        move MOVE_BUBBLE_BEAM
+        move MOVE_OCTAZOOKA
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_MANTINE
+        move MOVE_AQUA_RING
+        move MOVE_BULLET_SEED
+        move MOVE_WATER_PULSE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
     endparty
 
@@ -4429,7 +4439,7 @@ trainerdata 136, "Linda"
 trainerdata 137, "Vance"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4442,15 +4452,22 @@ trainerdata 137, "Vance"
         // mon 0
         ivs 50
         abilityslot 0
-        level 28
-        pokemon SPECIES_HOOTHOOT
+        level 41
+        pokemon SPECIES_NOCTOWL
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 28
-        pokemon SPECIES_PIDGEOTTO
+        level 41
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 41
+        pokemon SPECIES_TALONFLAME
         ballseal 0
     endparty
 
@@ -13721,18 +13738,18 @@ trainerdata 405, "Phil"
         // mon 0
         ivs 0
         abilityslot 0
-        level 27
-        pokemon SPECIES_NATU
-        move MOVE_LEER
-        move MOVE_NIGHT_SHADE
-        move MOVE_ME_FIRST
+        level 41
+        pokemon SPECIES_XATU
+        move MOVE_AIR_SLASH
+        move MOVE_OMINOUS_WIND
+        move MOVE_PSYCHIC
         move MOVE_CONFUSE_RAY
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 29
+        level 39
         pokemon SPECIES_KADABRA
         move MOVE_DISABLE
         move MOVE_PSYBEAM
@@ -13744,7 +13761,7 @@ trainerdata 405, "Phil"
 trainerdata 406, "Zach"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKE_MANIAC
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -13757,15 +13774,22 @@ trainerdata 406, "Zach"
         // mon 0
         ivs 0
         abilityslot 0
-        level 30
+        level 41
         pokemon SPECIES_RHYHORN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_MUNCHLAX
         ballseal 0
     endparty
 
 trainerdata 407, "Allen"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -13776,32 +13800,42 @@ trainerdata 407, "Allen"
 
     party 407
         // mon 0
-        ivs 50
+        ivs 100
         abilityslot 0
-        level 29
-        pokemon SPECIES_CHARMELEON
-        move MOVE_EMBER
-        move MOVE_SMOKESCREEN
-        move MOVE_FIRE_FANG
-        move MOVE_SCARY_FACE
+        level 41
+        pokemon SPECIES_NINETALES
+        move MOVE_FLAMETHROWER
+        move MOVE_WILL_O_WISP
+        move MOVE_PSYSHOCK
+        move MOVE_CONFUSE_RAY
         ballseal 0
 
         // mon 1
-        ivs 50
+        ivs 100
         abilityslot 0
-        level 29
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_SPARK
+        level 42
+        pokemon SPECIES_MAGNEZONE
+        move MOVE_THUNDER
         move MOVE_THUNDER_WAVE
-        move MOVE_SUPERSONIC
-        move MOVE_METAL_SOUND
+        move MOVE_FLASH_CANNON
+        move MOVE_LIGHT_SCREEN
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 41
+        pokemon SPECIES_DONPHAN
+        move MOVE_BULLDOZE
+        move MOVE_THUNDER_FANG
+        move MOVE_IRON_DEFENSE
+        move MOVE_ROLLOUT
         ballseal 0
     endparty
 
 trainerdata 408, "Cybil"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_F
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -13812,25 +13846,36 @@ trainerdata 408, "Cybil"
 
     party 408
         // mon 0
-        ivs 50
+        ivs 100
         abilityslot 0
-        level 29
-        pokemon SPECIES_MAREEP
+        level 41
+        pokemon SPECIES_AMPHAROS
         move MOVE_DISCHARGE
         move MOVE_COTTON_SPORE
         move MOVE_CHARGE
-        move MOVE_TACKLE
+        move MOVE_POWER_GEM
         ballseal 0
 
         // mon 1
-        ivs 50
+        ivs 100
         abilityslot 0
-        level 29
+        level 42
         pokemon SPECIES_BELLOSSOM
-        move MOVE_MEGA_DRAIN
+        move MOVE_GIGA_DRAIN
         move MOVE_STUN_SPORE
-        move MOVE_ACID
-        move MOVE_MAGICAL_LEAF
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SOLAR_BEAM
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 41
+        pokemon SPECIES_GLIGAR
+        move MOVE_X_SCISSOR
+        move MOVE_ACROBATICS
+        move MOVE_POISON_JAB
+        move MOVE_SCREECH
         ballseal 0
     endparty
 
