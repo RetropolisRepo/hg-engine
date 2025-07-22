@@ -13820,6 +13820,7 @@ trainerdata 407, "Allen"
         move MOVE_THUNDER_WAVE
         move MOVE_FLASH_CANNON
         move MOVE_LIGHT_SCREEN
+        ballseal 0
 
         // mon 2
         ivs 100

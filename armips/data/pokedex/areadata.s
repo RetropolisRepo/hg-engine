@@ -9405,14 +9405,17 @@ routesandcities SPECIES_OCTILLERY, DEX_SPECIAL
 
 
 specialareas SPECIES_DELIBIRD, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_DELIBIRD, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_DELIBIRD, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
