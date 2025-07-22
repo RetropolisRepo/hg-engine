@@ -6256,7 +6256,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
@@ -6265,11 +6265,11 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // day encounter slots
@@ -6278,12 +6278,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // night encounter slots
@@ -6293,11 +6293,11 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
@@ -6360,7 +6360,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
@@ -6369,11 +6369,11 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // day encounter slots
@@ -6382,12 +6382,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // night encounter slots
@@ -6397,11 +6397,11 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
@@ -6464,7 +6464,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
@@ -6473,11 +6473,11 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // day encounter slots
@@ -6486,12 +6486,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // night encounter slots
@@ -6501,11 +6501,11 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
@@ -6568,20 +6568,20 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNOM
+pokemon SPECIES_SNOM
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // day encounter slots
@@ -6589,13 +6589,13 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_SNOM
+pokemon SPECIES_SNOM
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // night encounter slots
@@ -6603,13 +6603,13 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNOM
+pokemon SPECIES_SNOM
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_SNORUNT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
