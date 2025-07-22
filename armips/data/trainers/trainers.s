@@ -4054,6 +4054,7 @@ trainerdata 125, "Edgar"
         move MOVE_ROCK_BLAST
         move MOVE_AURORA_BEAM
         move MOVE_OCTAZOOKA
+        ballseal 0
 
         // mon 2
         ivs 0
