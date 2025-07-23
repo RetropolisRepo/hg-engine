@@ -5736,7 +5736,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 31, 32, 31, 32, 31, 31, 30, 30, 28, 30, 28, 30
+walklevels 35, 36, 35, 36, 35, 35, 34, 34, 37, 35, 37, 35
 
 // morning encounter slots
 pokemon SPECIES_GRAVELER
@@ -6849,15 +6849,15 @@ encounter SPECIES_POLIWAG, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
 // swarm grass
@@ -6984,49 +6984,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 23, 23, 23, 23, 24, 24, 20, 20, 25, 27, 25, 27
+walklevels 33, 33, 33, 33, 34, 34, 32, 32, 34, 35, 34, 35
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_TEDDIURSA
+pokemon SPECIES_SKARMORY
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_PHANPY
 pokemon SPECIES_PHANPY
 pokemon SPECIES_GRAVELER
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
 
 // day encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_TEDDIURSA
+pokemon SPECIES_SKARMORY
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_PHANPY
 pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
 
 // night encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_TEDDIURSA
+pokemon SPECIES_SKARMORY
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_PHANPY
 pokemon SPECIES_PHANPY
 pokemon SPECIES_GRAVELER
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -7057,15 +7057,15 @@ encounter SPECIES_POLIWAG, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
 // swarm grass
@@ -7265,14 +7265,14 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
 encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 encounter SPECIES_SEAKING, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
@@ -7296,14 +7296,14 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 23, 23, 23, 23, 25, 25, 20, 20, 25, 23, 25, 23
+walklevels 33, 33, 33, 33, 35, 35, 32, 32, 35, 33, 35, 33
 
 // morning encounter slots
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_ARON
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_ARON
+pokemon SPECIES_LAIRON
 pokemon SPECIES_GRAVELER
 pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_WOBBUFFET
@@ -7313,11 +7313,11 @@ pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_GOLBAT
 
 // day encounter slots
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_ARON
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_ARON
+pokemon SPECIES_LAIRON
 pokemon SPECIES_GRAVELER
 pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_WOBBUFFET
@@ -7327,11 +7327,11 @@ pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_GOLBAT
 
 // night encounter slots
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_ARON
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_ARON
+pokemon SPECIES_LAIRON
 pokemon SPECIES_GRAVELER
 pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_WOBBUFFET
@@ -7369,14 +7369,14 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_WISHIWASHI, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
 encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_WISHIWASHI, 40, 40
 encounter SPECIES_SEAKING, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
