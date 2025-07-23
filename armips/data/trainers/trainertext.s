@@ -1596,7 +1596,7 @@ _0E4C: // Trainer 147
     trainertextentry 147, TEXT_DEFEATED_IN_OVERWORLD, "I did my best but came up short.\nNo excuses--I admit I lost.\n"
 
 _0E58: // Trainer 154
-    trainertextentry 154, TEXT_NOTICE_IN_OVERWORLD, "Awright! I’ll show you the power of\nmountain Pokémon!\r"
+    trainertextentry 154, TEXT_NOTICE_IN_OVERWORLD, "Surprise! I’ll show you the power\nof mountain Pokémon!\r"
     trainertextentry 154, TEXT_DEFEATED_IN_BATTLE, "Mercy! You showed me your power!\n"
     trainertextentry 154, TEXT_DEFEATED_IN_OVERWORLD, "It’s over. I don’t mind. We Hikers are\nlike that.\n"
 
