@@ -11513,7 +11513,7 @@ movedata MOVE_TEARFUL_LOOK, "Tearful Look"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TEARFUL_LOOK, "---"
+    movedescription MOVE_TEARFUL_LOOK, "The user tears up,\nlowering the target's\nAttack and Sp. Atk\nstats.\nBypasses Protect."
 
 movedata MOVE_ZING_ZAP, "Zing Zap"
     battleeffect MOVE_EFFECT_FLINCH_HIT
