@@ -3567,22 +3567,22 @@ trainerdata 110, "Paulo"
         // mon 0
         ivs 60
         abilityslot 0
-        level 35
+        level 41
         pokemon SPECIES_DRATINI
         ballseal 0
 
         // mon 1
         ivs 60
         abilityslot 32
-        level 35
+        level 41
         pokemon SPECIES_SEADRA
         ballseal 0
 
         // mon 2
         ivs 60
         abilityslot 0
-        level 35
-        pokemon SPECIES_DRATINI
+        level 43
+        pokemon SPECIES_DRAGONAIR
         ballseal 0
     endparty
 
@@ -3602,7 +3602,7 @@ trainerdata 111, "Mike"
         // mon 0
         ivs 60
         abilityslot 0
-        level 38
+        level 44
         pokemon SPECIES_DRAGONAIR
         ballseal 0
     endparty
@@ -3623,15 +3623,15 @@ trainerdata 112, "Cody"
         // mon 0
         ivs 60
         abilityslot 0
-        level 35
-        pokemon SPECIES_HORSEA
+        level 42
+        pokemon SPECIES_SEADRA
         ballseal 0
 
         // mon 1
         ivs 60
         abilityslot 32
-        level 37
-        pokemon SPECIES_SEADRA
+        level 42
+        pokemon SPECIES_GYARADOS
         ballseal 0
     endparty
 
@@ -3805,14 +3805,14 @@ trainerdata 117, "Lola"
         // mon 0
         ivs 60
         abilityslot 0
-        level 35
-        pokemon SPECIES_DRATINI
+        level 42
+        pokemon SPECIES_SALAZZLE
         ballseal 0
 
         // mon 1
         ivs 60
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_DRAGONAIR
         ballseal 0
     endparty
@@ -3861,8 +3861,8 @@ trainerdata 119, "Fran"
         // mon 0
         ivs 60
         abilityslot 32
-        level 38
-        pokemon SPECIES_SEADRA
+        level 44
+        pokemon SPECIES_SLIGGOO
         ballseal 0
     endparty
 
