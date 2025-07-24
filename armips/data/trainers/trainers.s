@@ -1226,9 +1226,9 @@ trainerdata 34, "Chuck"
 trainerdata 35, "Clair"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_CLAIR
-    nummons 4
-    item ITEM_HYPER_POTION
+    nummons 5
     item ITEM_FULL_RESTORE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -1239,48 +1239,60 @@ trainerdata 35, "Clair"
         // mon 0
         ivs 200
         abilityslot 0
-        level 38
+        level 42
         pokemon SPECIES_GYARADOS
-        item ITEM_NONE
-        move MOVE_TWISTER
-        move MOVE_DRAGON_RAGE
-        move MOVE_BITE
-        move MOVE_DRAGON_PULSE
+        item ITEM_SITRUS_BERRY
+        move MOVE_ICE_FANG
+        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
+        move MOVE_EARTHQUAKE
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 0
-        level 38
+        level 44
         pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
+        item ITEM_EVIOLITE
         move MOVE_THUNDER_WAVE
-        move MOVE_FIRE_BLAST
-        move MOVE_SLAM
-        move MOVE_DRAGON_PULSE
+        move MOVE_FLAMETHROWER
+        move MOVE_DRAGON_TAIL
+        move MOVE_THUNDERBOLT
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 38
+        level 43
         pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
-        move MOVE_THUNDER_WAVE
+        item ITEM_EXPERT_BELT
+        move MOVE_DRAGON_DANCE
         move MOVE_AQUA_TAIL
-        move MOVE_SLAM
-        move MOVE_DRAGON_PULSE
+        move MOVE_IRON_TAIL
+        move MOVE_DRAGON_RUSH
         ballseal 0
 
         // mon 3
         ivs 200
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GABITE
+        item ITEM_YACHE_BERRY
+        move MOVE_BULLDOZE
+        move MOVE_DRAGON_CLAW
+        move MOVE_SWORDS_DANCE
+        move MOVE_SHADOW_CLAW
+        ballseal 0
+
+        // mon 4
+        ivs 200
         abilityslot 32
-        level 41
+        level 46
         pokemon SPECIES_KINGDRA
-        item ITEM_SITRUS_BERRY
-        move MOVE_SMOKESCREEN
+        item ITEM_WIDE_LENS
+        move MOVE_FOCUS_ENERGY
         move MOVE_HYDRO_PUMP
-        move MOVE_HYPER_BEAM
+        move MOVE_FLASH_CANNON
         move MOVE_DRAGON_PULSE
         ballseal 0
     endparty
