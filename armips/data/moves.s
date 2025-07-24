@@ -9193,7 +9193,7 @@ movedatalongname MOVE_PARABOLIC_CHARGE, "ParabolicCharge", "Parabolic Charge"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_PARABOLIC_CHARGE, "---"
+    movedescription MOVE_PARABOLIC_CHARGE, "An energy-draining\nshockwave. The user’s\nHP is restored by\nhalf the damage taken\nby those hit."
 
 movedata MOVE_FORESTS_CURSE, "Forest’s Curse"
     battleeffect MOVE_EFFECT_HIT
