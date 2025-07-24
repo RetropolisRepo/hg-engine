@@ -6934,7 +6934,7 @@ pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
+encounter SPECIES_GOOMY, 5, 15
 encounter SPECIES_DRATINI, 5, 15
 encounter SPECIES_DRATINI, 5, 15
 encounter SPECIES_DRATINI, 5, 15
@@ -6955,14 +6955,14 @@ encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_DRATINI, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GOOMY, 20, 20
 
 // super rod encounters
 encounter SPECIES_MAGIKARP, 40, 40
 encounter SPECIES_DRATINI, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOOMY, 40, 40
 encounter SPECIES_DRAGONAIR, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOOMY, 40, 40
 
 // swarm grass
 pokemon SPECIES_NONE

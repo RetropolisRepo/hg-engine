@@ -17121,11 +17121,11 @@ trainerdata 500, "Kobe"
         // mon 0
         ivs 50
         abilityslot 0
-        level 37
+        level 45
         pokemon SPECIES_DRAGONAIR
         move MOVE_THUNDER
         move MOVE_SURF
-        move MOVE_DRAGON_RAGE
+        move MOVE_DRAGON_RUSH
         move MOVE_IRON_TAIL
         ballseal 0
     endparty
@@ -17146,7 +17146,7 @@ trainerdata 501, "Piper"
         // mon 0
         ivs 50
         abilityslot 32
-        level 33
+        level 42
         pokemon SPECIES_HORSEA
         move MOVE_SMOKESCREEN
         move MOVE_LEER
@@ -17156,22 +17156,22 @@ trainerdata 501, "Piper"
 
         // mon 1
         ivs 50
-        abilityslot 32
-        level 33
-        pokemon SPECIES_HORSEA
-        move MOVE_SMOKESCREEN
-        move MOVE_LEER
-        move MOVE_BRINE
-        move MOVE_TWISTER
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SLIGGOO
+        move MOVE_ACID_SPRAY
+        move MOVE_RAIN_DANCE
+        move MOVE_WATER_PULSE
+        move MOVE_DRAGON_PULSE
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 32
-        level 35
+        level 43
         pokemon SPECIES_SEADRA
         move MOVE_AGILITY
-        move MOVE_LEER
+        move MOVE_BRINE
         move MOVE_WATERFALL
         move MOVE_TWISTER
         ballseal 0
@@ -17193,18 +17193,18 @@ trainerdata 502, "Clea & Gil"
         // mon 0
         ivs 0
         abilityslot 0
-        level 35
-        pokemon SPECIES_DRATINI
-        move MOVE_THUNDER_WAVE
-        move MOVE_TWISTER
-        move MOVE_THUNDERBOLT
-        move MOVE_HEADBUTT
+        level 42
+        pokemon SPECIES_GOOMY
+        move MOVE_PROTECT
+        move MOVE_WATER_PULSE
+        move MOVE_BODY_SLAM
+        move MOVE_RAIN_DANCE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 35
+        level 42
         pokemon SPECIES_DRATINI
         move MOVE_THUNDER_WAVE
         move MOVE_TWISTER
