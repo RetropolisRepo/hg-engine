@@ -5079,7 +5079,7 @@ trainerdata 157, "Lao"
     endparty
 
 trainerdata 158, "Kiyo"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 2
     item ITEM_NONE
@@ -5094,15 +5094,23 @@ trainerdata 158, "Kiyo"
         // mon 0
         ivs 100
         abilityslot 32
-        level 34
+        level 45
         pokemon SPECIES_HITMONLEE
+        move MOVE_MIND_READER
+        move MOVE_HIGH_JUMP_KICK
+        move MOVE_BLAZE_KICK
+        move MOVE_MEGA_KICK
         ballseal 0
 
         // mon 1
         ivs 100
         abilityslot 32
-        level 34
+        level 45
         pokemon SPECIES_HITMONCHAN
+        move MOVE_SKY_UPPERCUT
+        move MOVE_ICE_PUNCH
+        move MOVE_THUNDER_PUNCH
+        move MOVE_FIRE_PUNCH
         ballseal 0
     endparty
 
@@ -18568,7 +18576,7 @@ trainerdata 537, "Harrison"
 trainerdata 538, "Hugh"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_SUPER_NERD
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -18581,12 +18589,23 @@ trainerdata 538, "Hugh"
         // mon 0
         ivs 0
         abilityslot 0
-        level 39
+        level 43
         pokemon SPECIES_SEADRA
         move MOVE_SMOKESCREEN
         move MOVE_TWISTER
         move MOVE_SURF
         move MOVE_WATERFALL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_RAICHU
+        move MOVE_DISCHARGE
+        move MOVE_FLASH
+        move MOVE_AGILITY
+        move MOVE_SLAM
         ballseal 0
     endparty
 
