@@ -2199,7 +2199,7 @@ _13E0: // Trainer 500
 _13EC: // Trainer 501
     trainertextentry 501, TEXT_NOTICE_IN_OVERWORLD, "You shouldn’t be in here!\r"
     trainertextentry 501, TEXT_DEFEATED_IN_BATTLE, "Oh yikes, I lost!\n"
-    trainertextentry 501, TEXT_DEFEATED_IN_OVERWORLD, "Soon I’m going to get permission from\nour Master to use dragons.\rWhen I do, I’m going to become an\nadmirable Dragon Tamer and gain our\fMaster’s approval.\n"
+    trainertextentry 501, TEXT_DEFEATED_IN_OVERWORLD, "Some of our peers trained for years for\nMaster's approval to use dragons.\rIt's rumored that Clair had spent\na very long time trying to pass\fthe Master's tests.\rBut she's such a powerful trainer...\nI thought she'd have passed in\fan instant!\n"
 
 _13F8: // Trainer 502
     trainertextentry 502, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "It’s a stranger--someone we\ndon’t know.\r"
