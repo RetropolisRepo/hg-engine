@@ -5165,13 +5165,13 @@ trainerdata 160, "Naoko"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 46
         pokemon SPECIES_ESPEON
-        item ITEM_NONE
+        item ITEM_BRIGHT_POWDER
         move MOVE_LAST_RESORT
         move MOVE_PSYCHIC
         move MOVE_PSYCH_UP
-        move MOVE_SWIFT
+        move MOVE_DAZZLING_GLEAM
         ballseal 0
     endparty
 
@@ -5191,9 +5191,9 @@ trainerdata 161, "Sayo"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 46
         pokemon SPECIES_JOLTEON
-        item ITEM_NONE
+        item ITEM_AIR_BALLOON
         move MOVE_LAST_RESORT
         move MOVE_THUNDERBOLT
         move MOVE_DOUBLE_TEAM
@@ -5217,9 +5217,9 @@ trainerdata 162, "Zuki"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 46
         pokemon SPECIES_UMBREON
-        item ITEM_NONE
+        item ITEM_SHELL_BELL
         move MOVE_LAST_RESORT
         move MOVE_DARK_PULSE
         move MOVE_CONFUSE_RAY
@@ -5243,12 +5243,12 @@ trainerdata 163, "Kuni"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 46
         pokemon SPECIES_VAPOREON
-        item ITEM_NONE
+        item ITEM_CLEAR_AMULET
         move MOVE_LAST_RESORT
         move MOVE_SURF
-        move MOVE_QUICK_ATTACK
+        move MOVE_ACID_ARMOR
         move MOVE_AURORA_BEAM
         ballseal 0
     endparty
@@ -5269,12 +5269,12 @@ trainerdata 164, "Miki"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 46
         pokemon SPECIES_FLAREON
-        item ITEM_NONE
+        item ITEM_EXPERT_BELT
         move MOVE_LAST_RESORT
-        move MOVE_FIRE_BLAST
-        move MOVE_QUICK_ATTACK
+        move MOVE_FLARE_BLITZ
+        move MOVE_SUPERPOWER
         move MOVE_WILL_O_WISP
         ballseal 0
     endparty
