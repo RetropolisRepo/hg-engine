@@ -20748,7 +20748,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM14 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 8000,
+    .price = 9000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21463,7 +21463,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM25 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 8000,
+    .price = 9000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22308,7 +22308,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM38 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 8000,
+    .price = 9000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
