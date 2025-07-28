@@ -795,10 +795,14 @@ routesandcities SPECIES_BUTTERFREE, DEX_SPECIAL
 
 
 specialareas SPECIES_WEEDLE, DEX_MORNING
+    .word DEX_ILEX_FOREST
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_WEEDLE, DEX_DAY
+    .word DEX_ILEX_FOREST
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -807,10 +811,14 @@ specialareas SPECIES_WEEDLE, DEX_NIGHT
 
 
 routesandcities SPECIES_WEEDLE, DEX_MORNING
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_WEEDLE, DEX_DAY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -827,10 +835,14 @@ routesandcities SPECIES_WEEDLE, DEX_SPECIAL
 
 
 specialareas SPECIES_KAKUNA, DEX_MORNING
+    .word DEX_ILEX_FOREST
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_KAKUNA, DEX_DAY
+    .word DEX_ILEX_FOREST
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -839,10 +851,14 @@ specialareas SPECIES_KAKUNA, DEX_NIGHT
 
 
 routesandcities SPECIES_KAKUNA, DEX_MORNING
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_KAKUNA, DEX_DAY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -2438,14 +2454,20 @@ specialareas SPECIES_MEOWTH, DEX_NIGHT
 
 
 routesandcities SPECIES_MEOWTH, DEX_MORNING
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_MEOWTH, DEX_DAY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_MEOWTH, DEX_NIGHT
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -5064,6 +5086,7 @@ specialareas SPECIES_CHANSEY, DEX_NIGHT
 
 
 routesandcities SPECIES_CHANSEY, DEX_MORNING
+    .word DEX_ROUTE_47
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -5071,6 +5094,7 @@ routesandcities SPECIES_CHANSEY, DEX_MORNING
 
 
 routesandcities SPECIES_CHANSEY, DEX_DAY
+    .word DEX_ROUTE_47
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -5078,6 +5102,7 @@ routesandcities SPECIES_CHANSEY, DEX_DAY
 
 
 routesandcities SPECIES_CHANSEY, DEX_NIGHT
+    .word DEX_ROUTE_47
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -7174,14 +7199,35 @@ routesandcities SPECIES_LEDYBA, DEX_DAY
 
 
 routesandcities SPECIES_LEDYBA, DEX_NIGHT
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 specialareas SPECIES_LEDYBA, DEX_SPECIAL
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 routesandcities SPECIES_LEDYBA, DEX_SPECIAL
+    .word DEX_NEW_BARK_TOWN
+    .word DEX_ROUTE_29
+    .word DEX_CHERRYGROVE_CITY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_ROUTE_34
+    .word DEX_ROUTE_35
+    .word DEX_ROUTE_36
+    .word DEX_ROUTE_37
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_39
+    .word DEX_ROUTE_47
+    .word DEX_ROUTE_48
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
+    .word DEX_SAFARI_ZONE_GATE
     dexendareadata
 
 
@@ -8118,6 +8164,7 @@ routesandcities SPECIES_AIPOM, DEX_NIGHT
 
 
 specialareas SPECIES_AIPOM, DEX_SPECIAL
+    .word DEX_NATIONAL_PARK
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
