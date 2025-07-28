@@ -620,12 +620,12 @@ headbuttheader  30,  17,   0   // Route 26
     headbuttencounter SPECIES_PINECO, 28, 29
     headbuttencounter SPECIES_PINECO, 28, 29
     headbuttencounter SPECIES_EXEGGCUTE, 28, 29
-    headbuttencounter SPECIES_EXEGGCUTE, 28, 29
-    headbuttencounter SPECIES_EXEGGCUTE, 28, 29
+    headbuttencounter SPECIES_LEDYBA, 28, 29
+    headbuttencounter SPECIES_LEDYBA, 28, 29
     headbuttencounter SPECIES_HOOTHOOT, 31, 32
     headbuttencounter SPECIES_SPINARAK, 31, 32
     headbuttencounter SPECIES_SPINARAK, 31, 32
-    headbuttencounter SPECIES_EXEGGCUTE, 31, 32
+    headbuttencounter SPECIES_LEDYBA, 31, 32
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     // special slots
@@ -661,12 +661,12 @@ headbuttheader  31,  17,   0   // Route 27
     headbuttencounter SPECIES_PINECO, 28, 29
     headbuttencounter SPECIES_PINECO, 28, 29
     headbuttencounter SPECIES_EXEGGCUTE, 28, 29
-    headbuttencounter SPECIES_EXEGGCUTE, 28, 29
-    headbuttencounter SPECIES_EXEGGCUTE, 28, 29
+    headbuttencounter SPECIES_LEDYBA, 28, 29
+    headbuttencounter SPECIES_LEDYBA, 28, 29
     headbuttencounter SPECIES_HOOTHOOT, 31, 32
     headbuttencounter SPECIES_SPINARAK, 31, 32
     headbuttencounter SPECIES_SPINARAK, 31, 32
-    headbuttencounter SPECIES_EXEGGCUTE, 31, 32
+    headbuttencounter SPECIES_LEDYBA, 31, 32
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     // special slots
@@ -894,7 +894,7 @@ headbuttheader  36,  35,   0   // Route 32
     headbuttencounter SPECIES_PINECO, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
-    headbuttencounter SPECIES_LEDYBA, 4, 5
+    headbuttencounter SPECIES_EXEGGCUTE, 4, 5
     headbuttencounter SPECIES_HOOTHOOT, 6, 7
     headbuttencounter SPECIES_HOOTHOOT, 6, 7
     headbuttencounter SPECIES_HOOTHOOT, 6, 7
@@ -1697,12 +1697,12 @@ headbuttheader  60,  11,   0   // New Bark Town
     headbuttencounter SPECIES_PINECO, 2, 3
     headbuttencounter SPECIES_PINECO, 2, 3
     headbuttencounter SPECIES_EXEGGCUTE, 2, 3
-    headbuttencounter SPECIES_EXEGGCUTE, 2, 3
-    headbuttencounter SPECIES_EXEGGCUTE, 2, 3
+    headbuttencounter SPECIES_LEDYBA, 2, 3
+    headbuttencounter SPECIES_LEDYBA, 2, 3
     headbuttencounter SPECIES_HOOTHOOT, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
-    headbuttencounter SPECIES_EXEGGCUTE, 4, 5
+    headbuttencounter SPECIES_LEDYBA, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
     // special slots
@@ -1750,12 +1750,12 @@ headbuttheader  67,   7,   4   // Cherrygrove City
     headbuttencounter SPECIES_PINECO, 2, 3
     headbuttencounter SPECIES_PINECO, 2, 3
     headbuttencounter SPECIES_EXEGGCUTE, 2, 3
-    headbuttencounter SPECIES_EXEGGCUTE, 2, 3
-    headbuttencounter SPECIES_EXEGGCUTE, 2, 3
+    headbuttencounter SPECIES_LEDYBA, 2, 3
+    headbuttencounter SPECIES_LEDYBA, 2, 3
     headbuttencounter SPECIES_HOOTHOOT, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
     headbuttencounter SPECIES_SPINARAK, 4, 5
-    headbuttencounter SPECIES_EXEGGCUTE, 4, 5
+    headbuttencounter SPECIES_LEDYBA, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
     headbuttencounter SPECIES_EXEGGCUTE, 4, 5
     // special slots
@@ -2555,7 +2555,7 @@ headbuttheader 174,  17,   0   // Safari Zone Gate (Outside)
     headbuttencounter SPECIES_PINECO, 14, 16
     headbuttencounter SPECIES_EXEGGCUTE, 14, 16
     headbuttencounter SPECIES_EXEGGCUTE, 14, 16
-    headbuttencounter SPECIES_EXEGGCUTE, 14, 16
+    headbuttencounter SPECIES_LEDYBA, 14, 16
     headbuttencounter SPECIES_HOOTHOOT, 17, 19
     headbuttencounter SPECIES_SPINARAK, 17, 19
     headbuttencounter SPECIES_SPINARAK, 17, 19
