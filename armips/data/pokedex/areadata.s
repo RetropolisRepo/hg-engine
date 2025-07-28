@@ -1167,7 +1167,6 @@ routesandcities SPECIES_RATICATE, DEX_MORNING
     .word DEX_ROUTE_38
     .word DEX_ROUTE_39
     .word DEX_ROUTE_47
-    .word DEX_ROUTE_26
     .word DEX_ROUTE_27
     .word DEX_ROUTE_7
     .word DEX_ROUTE_9
@@ -1179,7 +1178,6 @@ routesandcities SPECIES_RATICATE, DEX_DAY
     .word DEX_ROUTE_38
     .word DEX_ROUTE_39
     .word DEX_ROUTE_47
-    .word DEX_ROUTE_26
     .word DEX_ROUTE_27
     .word DEX_ROUTE_7
     .word DEX_ROUTE_9
@@ -1368,14 +1366,20 @@ specialareas SPECIES_ARBOK, DEX_NIGHT
 
 
 routesandcities SPECIES_ARBOK, DEX_MORNING
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_ARBOK, DEX_DAY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_ARBOK, DEX_NIGHT
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     dexendareadata
 
 
@@ -5184,14 +5188,20 @@ specialareas SPECIES_KANGASKHAN, DEX_NIGHT
 
 
 routesandcities SPECIES_KANGASKHAN, DEX_MORNING
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_KANGASKHAN, DEX_DAY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_KANGASKHAN, DEX_NIGHT
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     dexendareadata
 
 

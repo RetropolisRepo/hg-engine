@@ -10728,34 +10728,34 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 28, 28, 28, 28, 32, 32, 30, 30, 30, 30, 30, 30
+walklevels 37, 37, 37, 37, 39, 39, 38, 38, 40, 38, 40, 38
 
 // morning encounter slots
 pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
 pokemon SPECIES_DODUO
+pokemon SPECIES_PONYTA
 pokemon SPECIES_SANDSLASH
 pokemon SPECIES_PONYTA
 pokemon SPECIES_PONYTA
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ARBOK
+pokemon SPECIES_ARBOK
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_DODRIO
-pokemon SPECIES_RATICATE
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_DODRIO
 
 // day encounter slots
 pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
+pokemon SPECIES_PONYTA
 pokemon SPECIES_DODUO
 pokemon SPECIES_SANDSLASH
 pokemon SPECIES_PONYTA
 pokemon SPECIES_PONYTA
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ARBOK
+pokemon SPECIES_ARBOK
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_DODRIO
-pokemon SPECIES_RATICATE
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_DODRIO
 
 // night encounter slots
@@ -10766,11 +10766,11 @@ pokemon SPECIES_SANDSLASH
 pokemon SPECIES_PONYTA
 pokemon SPECIES_PONYTA
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ARBOK
 pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -10782,7 +10782,7 @@ pokemon SPECIES_BIDOOF
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACOOL, 25, 25
+encounter SPECIES_CLAUNCHER, 25, 25
 encounter SPECIES_TENTACRUEL, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
@@ -10832,49 +10832,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 28, 28, 28, 28, 30, 30, 30, 30, 32, 30, 32, 30
+walklevels 37, 37, 37, 37, 39, 39, 38, 38, 40, 38, 40, 38
 
 // morning encounter slots
 pokemon SPECIES_DODUO
 pokemon SPECIES_RATICATE
 pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ARBOK
 pokemon SPECIES_PONYTA
+pokemon SPECIES_DODUO
+pokemon SPECIES_ARBOK
+pokemon SPECIES_RATICATE
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_SANDSLASH
 
 // day encounter slots
 pokemon SPECIES_DODUO
 pokemon SPECIES_RATICATE
 pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ARBOK
 pokemon SPECIES_PONYTA
+pokemon SPECIES_PONYTA
+pokemon SPECIES_ARBOK
+pokemon SPECIES_RATICATE
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_SANDSLASH
 
 // night encounter slots
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_SANDSLASH
 pokemon SPECIES_RATICATE
 pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_ARBOK
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
+pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
+pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -10887,7 +10887,7 @@ pokemon SPECIES_BIDOOF
 // surf encounters
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_TENTACOOL, 15, 15
-encounter SPECIES_TENTACRUEL, 20, 20
+encounter SPECIES_CLAUNCHER, 20, 20
 encounter SPECIES_TENTACRUEL, 20, 20
 encounter SPECIES_TENTACRUEL, 20, 20
 
@@ -13744,7 +13744,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
+walklevels 25, 26, 26, 25, 25, 24, 24, 24, 23, 26, 23, 26
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
