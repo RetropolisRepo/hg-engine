@@ -1334,14 +1334,17 @@ specialareas SPECIES_EKANS, DEX_NIGHT
 
 
 routesandcities SPECIES_EKANS, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_EKANS, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_EKANS, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
