@@ -3320,10 +3320,10 @@ trainerdata 103, "Blake"
         // mon 0
         ivs 50
         abilityslot 32
-        level 33
+        level 45
         pokemon SPECIES_MAGNETON
         move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
+        move MOVE_EXPLOSION
         move MOVE_MAGNET_BOMB
         move MOVE_SCREECH
         ballseal 0
@@ -3331,10 +3331,10 @@ trainerdata 103, "Blake"
         // mon 1
         ivs 50
         abilityslot 32
-        level 31
+        level 45
         pokemon SPECIES_QUAGSIRE
-        move MOVE_WATER_GUN
-        move MOVE_SLAM
+        move MOVE_SURF
+        move MOVE_HEADBUTT
         move MOVE_YAWN
         move MOVE_EARTHQUAKE
         ballseal 0
@@ -3342,12 +3342,12 @@ trainerdata 103, "Blake"
         // mon 2
         ivs 50
         abilityslot 0
-        level 31
-        pokemon SPECIES_EXEGGCUTE
-        move MOVE_LEECH_SEED
-        move MOVE_CONFUSION
+        level 46
+        pokemon SPECIES_EXEGGUTOR
+        move MOVE_REFLECT
+        move MOVE_PSYSHOCK
         move MOVE_SLEEP_POWDER
-        move MOVE_SOLAR_BEAM
+        move MOVE_SEED_BOMB
         ballseal 0
     endparty
 
@@ -3367,12 +3367,12 @@ trainerdata 104, "Brian"
         // mon 0
         ivs 50
         abilityslot 0
-        level 35
-        pokemon SPECIES_MAREEP
+        level 47
+        pokemon SPECIES_AMPHAROS
         move MOVE_DISCHARGE
         move MOVE_SIGNAL_BEAM
-        move MOVE_COTTON_SPORE
-        move MOVE_TACKLE
+        move MOVE_COTTON_GUARD
+        move MOVE_POWER_GEM
         ballseal 0
     endparty
 
@@ -3699,22 +3699,22 @@ trainerdata 114, "Reena"
         // mon 0
         ivs 50
         abilityslot 0
-        level 36
-        pokemon SPECIES_GROWLITHE
+        level 45
+        pokemon SPECIES_ARCANINE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 33
-        pokemon SPECIES_NIDORINA
+        level 46
+        pokemon SPECIES_NIDOQUEEN
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 36
-        pokemon SPECIES_STARYU
+        level 45
+        pokemon SPECIES_STARMIE
         ballseal 0
     endparty
 
@@ -3734,29 +3734,29 @@ trainerdata 115, "Megan"
         // mon 0
         ivs 50
         abilityslot 0
-        level 32
-        pokemon SPECIES_BULBASAUR
-        move MOVE_GROWL
-        move MOVE_LEECH_SEED
-        move MOVE_TAKE_DOWN
-        move MOVE_RAZOR_LEAF
+        level 45
+        pokemon SPECIES_VICTREEBEL
+        move MOVE_KNOCK_OFF
+        move MOVE_POISON_POWDER
+        move MOVE_POISON_JAB
+        move MOVE_LEAF_BLADE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 32
-        pokemon SPECIES_IVYSAUR
+        level 45
+        pokemon SPECIES_ROSERADE
         move MOVE_GIGA_DRAIN
-        move MOVE_LEECH_SEED
-        move MOVE_POISON_POWDER
+        move MOVE_TOXIC_SPIKES
+        move MOVE_GRASSY_TERRAIN
         move MOVE_PETAL_DANCE
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 32
+        level 46
         pokemon SPECIES_VENUSAUR
         move MOVE_PETAL_DANCE
         move MOVE_SLEEP_POWDER
@@ -14027,21 +14027,21 @@ trainerdata 412, "Eli"
         // mon 0
         ivs 0
         abilityslot 0
-        level 30
-        pokemon SPECIES_STARMIE
+        level 45
+        pokemon SPECIES_BRONZONG
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 30
-        pokemon SPECIES_EXEGGCUTE
+        level 44
+        pokemon SPECIES_MR_MIME
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 34
+        level 45
         pokemon SPECIES_GIRAFARIG
         ballseal 0
     endparty
@@ -14096,7 +14096,7 @@ trainerdata 413, "Scott"
 trainerdata 414, "Jose"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -14109,8 +14109,15 @@ trainerdata 414, "Jose"
         // mon 0
         ivs 50
         abilityslot 0
-        level 40
+        level 45
         pokemon SPECIES_FARFETCHD
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_TOGETIC
         ballseal 0
     endparty
 
