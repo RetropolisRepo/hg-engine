@@ -1151,7 +1151,7 @@ _09EC: // Trainer 114
 _09FC: // Trainer 115
     trainertextentry 115, TEXT_NOTICE_IN_OVERWORLD, "It’s rare to see anyone come here.\nAre you training on your own?\r"
     trainertextentry 115, TEXT_DEFEATED_IN_BATTLE, "Oh! You’re really strong!\n"
-    trainertextentry 115, TEXT_DEFEATED_IN_OVERWORLD, "I’m checking out pre- and\npost-evolution Pokémon. Evolution\freally does make Pokémon stronger.\rBut evolved forms also learn moves\nlater on.\n"
+    trainertextentry 115, TEXT_DEFEATED_IN_OVERWORLD, "Choose carefully when you\nevolve your Pokémon. Evolution\freally does make Pokémon stronger.\rBut evolved forms also learn moves\nlater on, or not at all.\n"
 
 _0A08: // Trainer 412
     trainertextentry 412, TEXT_NOTICE_IN_OVERWORLD, "Don’t say a thing! Let me guess what\nyou’re thinking. Mmmmmmm...\rI got it! You’re on the Pokémon\nLeague challenge!\r"
