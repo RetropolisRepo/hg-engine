@@ -11456,13 +11456,13 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 39, 39, 39, 39, 40, 40, 41, 41, 39, 40, 39, 40
 
 // morning encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -11473,10 +11473,10 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // day encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -11487,10 +11487,10 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // night encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -13952,13 +13952,13 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 39, 39, 39, 39, 40, 40, 41, 41, 39, 40, 39, 40
 
 // morning encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -13969,10 +13969,10 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // day encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -13983,10 +13983,10 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // night encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -14056,13 +14056,13 @@ rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 39, 39, 39, 39, 40, 40, 41, 41, 39, 40, 39, 40
 
 // morning encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -14073,10 +14073,10 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // day encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -14087,10 +14087,10 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // night encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_URSARING
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_RIOLU
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX

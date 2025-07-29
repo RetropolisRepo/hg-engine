@@ -9183,14 +9183,17 @@ routesandcities SPECIES_TEDDIURSA, DEX_SPECIAL
 
 
 specialareas SPECIES_URSARING, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_URSARING, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_URSARING, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 

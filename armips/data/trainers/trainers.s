@@ -8866,7 +8866,7 @@ trainerdata 263, "Silver"
     endparty
 
 trainerdata 264, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
     item ITEM_NONE
@@ -8879,69 +8879,75 @@ trainerdata 264, "Silver"
 
     party 264
         // mon 0
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 36
-        pokemon SPECIES_SNEASEL
-        move MOVE_QUICK_ATTACK
-        move MOVE_ICY_WIND
-        move MOVE_FEINT_ATTACK
-        move MOVE_FURY_SWIPES
+        level 46
+        pokemon SPECIES_GOLBAT
+        item ITEM_LUM_BERRY
+        move MOVE_TAILWIND
+        move MOVE_POISON_FANG
+        move MOVE_CONFUSE_RAY
+        move MOVE_PLUCK
         ballseal 0
 
         // mon 1
-        ivs 160
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GOLBAT
-        move MOVE_ASTONISH
-        move MOVE_BITE
-        move MOVE_CONFUSE_RAY
-        move MOVE_AIR_CUTTER
+        ivs 200
+        abilityslot 32
+        level 47
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_RED_CARD
+        move MOVE_LIGHT_SCREEN
+        move MOVE_CHARGE_BEAM
+        move MOVE_FLASH_CANNON
+        move MOVE_DISCHARGE
         ballseal 0
 
         // mon 2
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_MAGNETON
-        move MOVE_SPARK
-        move MOVE_SUPERSONIC
-        move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
+        ivs 200
+        abilityslot 32
+        level 48
+        pokemon SPECIES_HERACROSS
+        item ITEM_EXPERT_BELT
+        move MOVE_STONE_EDGE
+        move MOVE_THROAT_CHOP
+        move MOVE_BRICK_BREAK
+        move MOVE_MEGAHORN
         ballseal 0
 
         // mon 3
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 37
-        pokemon SPECIES_HAUNTER
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        move MOVE_SHADOW_BALL
-        move MOVE_CONFUSE_RAY
+        level 48
+        pokemon SPECIES_SNEASEL
+        item ITEM_EVIOLITE
+        move MOVE_ICICLE_SPEAR
+        move MOVE_LOW_SWEEP
+        move MOVE_SWORDS_DANCE
+        move MOVE_KNOCK_OFF
         ballseal 0
 
         // mon 4
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 37
-        pokemon SPECIES_KADABRA
-        move MOVE_DISABLE
-        move MOVE_PSYBEAM
-        move MOVE_RECOVER
-        move MOVE_REFLECT
+        level 47
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_LIFE_ORB
+        move MOVE_ENERGY_BALL
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        move MOVE_SHADOW_BALL
         ballseal 0
 
         // mon 5
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 40
+        level 50
         pokemon SPECIES_MEGANIUM
+        item ITEM_SHELL_BELL
         move MOVE_REFLECT
         move MOVE_PETAL_DANCE
-        move MOVE_POISON_POWDER
-        move MOVE_SYNTHESIS
+        move MOVE_BODY_SLAM
+        move MOVE_EARTHQUAKE
         ballseal 0
     endparty
 
@@ -9060,7 +9066,7 @@ trainerdata 267, "Silver"
     endparty
 
 trainerdata 268, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
     item ITEM_NONE
@@ -9073,69 +9079,75 @@ trainerdata 268, "Silver"
 
     party 268
         // mon 0
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 36
-        pokemon SPECIES_SNEASEL
-        move MOVE_QUICK_ATTACK
-        move MOVE_ICY_WIND
-        move MOVE_FEINT_ATTACK
-        move MOVE_FURY_SWIPES
+        level 46
+        pokemon SPECIES_GOLBAT
+        item ITEM_LUM_BERRY
+        move MOVE_TAILWIND
+        move MOVE_POISON_FANG
+        move MOVE_CONFUSE_RAY
+        move MOVE_PLUCK
         ballseal 0
 
         // mon 1
-        ivs 160
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GOLBAT
-        move MOVE_ASTONISH
-        move MOVE_BITE
-        move MOVE_CONFUSE_RAY
-        move MOVE_AIR_CUTTER
+        ivs 200
+        abilityslot 32
+        level 47
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_RED_CARD
+        move MOVE_LIGHT_SCREEN
+        move MOVE_CHARGE_BEAM
+        move MOVE_FLASH_CANNON
+        move MOVE_DISCHARGE
         ballseal 0
 
         // mon 2
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_MAGNETON
-        move MOVE_SPARK
-        move MOVE_SUPERSONIC
-        move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
+        ivs 200
+        abilityslot 32
+        level 48
+        pokemon SPECIES_HERACROSS
+        item ITEM_EXPERT_BELT
+        move MOVE_STONE_EDGE
+        move MOVE_THROAT_CHOP
+        move MOVE_BRICK_BREAK
+        move MOVE_MEGAHORN
         ballseal 0
 
         // mon 3
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 37
-        pokemon SPECIES_HAUNTER
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        move MOVE_SHADOW_BALL
-        move MOVE_CONFUSE_RAY
+        level 48
+        pokemon SPECIES_SNEASEL
+        item ITEM_EVIOLITE
+        move MOVE_ICICLE_SPEAR
+        move MOVE_LOW_SWEEP
+        move MOVE_SWORDS_DANCE
+        move MOVE_KNOCK_OFF
         ballseal 0
 
         // mon 4
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 37
-        pokemon SPECIES_KADABRA
-        move MOVE_DISABLE
-        move MOVE_PSYBEAM
-        move MOVE_RECOVER
-        move MOVE_REFLECT
+        level 47
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_LIFE_ORB
+        move MOVE_ENERGY_BALL
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        move MOVE_SHADOW_BALL
         ballseal 0
 
         // mon 5
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 40
+        level 50
         pokemon SPECIES_TYPHLOSION
-        move MOVE_LAVA_PLUME
-        move MOVE_SWIFT
-        move MOVE_QUICK_ATTACK
-        move MOVE_FLAME_WHEEL
+        item ITEM_SHELL_BELL
+        move MOVE_EARTHQUAKE
+        move MOVE_FLAMETHROWER
+        move MOVE_SUNNY_DAY
+        move MOVE_SOLAR_BEAM
         ballseal 0
     endparty
 
@@ -9307,7 +9319,7 @@ trainerdata 271, "Silver"
     endparty
 
 trainerdata 272, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
     item ITEM_NONE
@@ -9320,69 +9332,75 @@ trainerdata 272, "Silver"
 
     party 272
         // mon 0
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 36
-        pokemon SPECIES_SNEASEL
-        move MOVE_QUICK_ATTACK
-        move MOVE_ICY_WIND
-        move MOVE_FEINT_ATTACK
-        move MOVE_FURY_SWIPES
+        level 46
+        pokemon SPECIES_GOLBAT
+        item ITEM_LUM_BERRY
+        move MOVE_TAILWIND
+        move MOVE_POISON_FANG
+        move MOVE_CONFUSE_RAY
+        move MOVE_PLUCK
         ballseal 0
 
         // mon 1
-        ivs 160
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GOLBAT
-        move MOVE_ASTONISH
-        move MOVE_BITE
-        move MOVE_CONFUSE_RAY
-        move MOVE_AIR_CUTTER
+        ivs 200
+        abilityslot 32
+        level 47
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_RED_CARD
+        move MOVE_LIGHT_SCREEN
+        move MOVE_CHARGE_BEAM
+        move MOVE_FLASH_CANNON
+        move MOVE_DISCHARGE
         ballseal 0
 
         // mon 2
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_MAGNETON
-        move MOVE_SPARK
-        move MOVE_SUPERSONIC
-        move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
+        ivs 200
+        abilityslot 32
+        level 48
+        pokemon SPECIES_HERACROSS
+        item ITEM_EXPERT_BELT
+        move MOVE_STONE_EDGE
+        move MOVE_THROAT_CHOP
+        move MOVE_BRICK_BREAK
+        move MOVE_MEGAHORN
         ballseal 0
 
         // mon 3
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 37
-        pokemon SPECIES_HAUNTER
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        move MOVE_SHADOW_BALL
-        move MOVE_CONFUSE_RAY
+        level 48
+        pokemon SPECIES_SNEASEL
+        item ITEM_EVIOLITE
+        move MOVE_ICICLE_SPEAR
+        move MOVE_LOW_SWEEP
+        move MOVE_SWORDS_DANCE
+        move MOVE_KNOCK_OFF
         ballseal 0
 
         // mon 4
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 37
-        pokemon SPECIES_KADABRA
-        move MOVE_DISABLE
-        move MOVE_PSYBEAM
-        move MOVE_RECOVER
-        move MOVE_REFLECT
+        level 47
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_LIFE_ORB
+        move MOVE_ENERGY_BALL
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        move MOVE_SHADOW_BALL
         ballseal 0
 
         // mon 5
-        ivs 160
+        ivs 200
         abilityslot 0
-        level 40
+        level 50
         pokemon SPECIES_FERALIGATR
+        item ITEM_SHELL_BELL
         move MOVE_WATERFALL
-        move MOVE_ICE_FANG
-        move MOVE_CRUNCH
-        move MOVE_SLASH
+        move MOVE_AVALANCHE
+        move MOVE_SCREECH
+        move MOVE_EARTHQUAKE
         ballseal 0
     endparty
 
