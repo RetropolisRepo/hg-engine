@@ -866,7 +866,7 @@ trainerdata 28, "Jake"
         // mon 0
         ivs 50
         abilityslot 32
-        level 33
+        level 45
         pokemon SPECIES_PARASECT
         move MOVE_LEECH_LIFE
         move MOVE_SPORE
@@ -877,22 +877,22 @@ trainerdata 28, "Jake"
         // mon 1
         ivs 50
         abilityslot 32
-        level 35
+        level 45
         pokemon SPECIES_GOLDUCK
-        move MOVE_PSYCHIC
+        move MOVE_ZEN_HEADBUTT
         move MOVE_SCREECH
         move MOVE_WATER_PULSE
-        move MOVE_FURY_SWIPES
+        move MOVE_AQUA_JET
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 33
+        level 46
         pokemon SPECIES_VAPOREON
-        move MOVE_BITE
+        move MOVE_ICE_BEAM
         move MOVE_QUICK_ATTACK
-        move MOVE_SAND_ATTACK
+        move MOVE_BABY_DOLL_EYES
         move MOVE_SURF
         ballseal 0
     endparty
@@ -1313,23 +1313,23 @@ trainerdata 36, "Joyce"
         // mon 0
         ivs 50
         abilityslot 0
-        level 36
-        pokemon SPECIES_PIKACHU
-        move MOVE_QUICK_ATTACK
-        move MOVE_DOUBLE_TEAM
-        move MOVE_THUNDERBOLT
-        move MOVE_THUNDER_WAVE
+        level 46
+        pokemon SPECIES_LUXRAY
+        move MOVE_SWAGGER
+        move MOVE_CRUNCH
+        move MOVE_THUNDER_FANG
+        move MOVE_VOLT_SWITCH
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 36
+        level 46
         pokemon SPECIES_BLASTOISE
-        move MOVE_BITE
+        move MOVE_EARTHQUAKE
         move MOVE_AQUA_TAIL
-        move MOVE_SURF
-        move MOVE_RAIN_DANCE
+        move MOVE_SHELL_SMASH
+        move MOVE_FOCUS_BLAST
         ballseal 0
     endparty
 
@@ -3273,20 +3273,20 @@ trainerdata 102, "Gaven"
         // mon 0
         ivs 50
         abilityslot 0
-        level 32
-        pokemon SPECIES_VICTREEBEL
-        move MOVE_WRAP
-        move MOVE_TOXIC
-        move MOVE_ACID
-        move MOVE_RAZOR_LEAF
+        level 45
+        pokemon SPECIES_SHIFTRY
+        move MOVE_HURRICANE
+        move MOVE_PAYBACK
+        move MOVE_FAKE_OUT
+        move MOVE_LEAF_BLADE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 32
+        level 45
         pokemon SPECIES_KINGLER
-        move MOVE_BUBBLE_BEAM
+        move MOVE_RAZOR_SHELL
         move MOVE_STOMP
         move MOVE_GUILLOTINE
         move MOVE_PROTECT
@@ -3295,12 +3295,12 @@ trainerdata 102, "Gaven"
         // mon 2
         ivs 50
         abilityslot 0
-        level 32
+        level 46
         pokemon SPECIES_FLAREON
         move MOVE_SAND_ATTACK
         move MOVE_QUICK_ATTACK
-        move MOVE_BITE
-        move MOVE_EMBER
+        move MOVE_FLARE_BLITZ
+        move MOVE_CHARM
         ballseal 0
     endparty
 
@@ -3663,23 +3663,23 @@ trainerdata 113, "Jamie"
         // mon 0
         ivs 50
         abilityslot 32
-        level 36
+        level 46
         pokemon SPECIES_RAPIDASH
         move MOVE_STOMP
-        move MOVE_FIRE_SPIN
+        move MOVE_FLAME_CHARGE
         move MOVE_WILL_O_WISP
-        move MOVE_AGILITY
+        move MOVE_SMART_STRIKE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 31
-        pokemon SPECIES_FLAAFFY
-        move MOVE_DISCHARGE
-        move MOVE_COTTON_SPORE
-        move MOVE_THUNDER_WAVE
-        move MOVE_CHARGE
+        level 46
+        pokemon SPECIES_GLACEON
+        move MOVE_ICY_WIND
+        move MOVE_SAND_ATTACK
+        move MOVE_MIRROR_COAT
+        move MOVE_SIGNAL_BEAM
         ballseal 0
     endparty
 
@@ -14006,7 +14006,7 @@ trainerdata 411, "Vernon"
         // mon 0
         ivs 0
         abilityslot 0
-        level 36
+        level 46
         pokemon SPECIES_ESPEON
         ballseal 0
     endparty
@@ -14062,20 +14062,20 @@ trainerdata 413, "Scott"
         // mon 0
         ivs 0
         abilityslot 32
-        level 30
+        level 44
         pokemon SPECIES_QWILFISH
-        move MOVE_WATER_GUN
+        move MOVE_WATER_PULSE
         move MOVE_REVENGE
         move MOVE_ROLLOUT
-        move MOVE_POISON_STING
+        move MOVE_POISON_JAB
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 30
+        level 44
         pokemon SPECIES_QWILFISH
-        move MOVE_WATER_GUN
+        move MOVE_WATER_PULSE
         move MOVE_REVENGE
         move MOVE_STOCKPILE
         move MOVE_SPIT_UP
@@ -14084,12 +14084,12 @@ trainerdata 413, "Scott"
         // mon 2
         ivs 0
         abilityslot 0
-        level 34
+        level 45
         pokemon SPECIES_SEAKING
-        move MOVE_FURY_ATTACK
+        move MOVE_HORN_ATTACK
         move MOVE_AQUA_RING
         move MOVE_FLAIL
-        move MOVE_WATER_PULSE
+        move MOVE_WATERFALL
         ballseal 0
     endparty
 
