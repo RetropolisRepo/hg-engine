@@ -1518,7 +1518,7 @@ trainerdata 43, "Chow"
         ivs 0
         abilityslot 0
         level 4
-        pokemon SPECIES_BELLSPROUT
+        pokemon SPECIES_HOOTHOOT
         ballseal 0
     endparty
 
@@ -1729,7 +1729,7 @@ trainerdata 51, "Nico"
         ivs 0
         abilityslot 0
         level 4
-        pokemon SPECIES_BELLSPROUT
+        pokemon SPECIES_POLIWAG
         ballseal 0
 
         // mon 1
@@ -1771,7 +1771,7 @@ trainerdata 52, "Edmond"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_BELLSPROUT
+        pokemon SPECIES_POLIWAG
         ballseal 0
 
         // mon 2
@@ -10220,7 +10220,7 @@ trainerdata 290, "Li"
         ivs 0
         abilityslot 0
         level 10
-        pokemon SPECIES_HOOTHOOT
+        pokemon SPECIES_NATU
         ballseal 0
     endparty
 
