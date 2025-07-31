@@ -621,7 +621,7 @@ trainerdata 19, "Mickey"
 trainerdata 20, "Falkner"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_FALKNER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -644,6 +644,18 @@ trainerdata 20, "Falkner"
         ballseal 0
 
         // mon 1
+        ivs 50
+        abilityslot 0
+        level 7
+        pokemon SPECIES_FLETCHLING
+        item ITEM_NONE
+        move MOVE_TACKLE
+        move MOVE_QUICK_ATTACK
+        move MOVE_GROWL
+        move MOVE_PECK
+        ballseal 0
+
+        // mon 2
         ivs 50
         abilityslot 0
         level 13
