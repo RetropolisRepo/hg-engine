@@ -1784,7 +1784,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 6, 7, 6, 7, 6, 6, 6, 6, 8, 4, 8, 4
+walklevels 9, 8, 9, 8, 7, 7, 9, 9, 8, 7, 8, 7
 
 // morning encounter slots
 pokemon SPECIES_HOPPIP
@@ -2096,7 +2096,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 7, 8, 7, 8, 8, 8, 7, 7, 7, 8, 7, 8
+walklevels 10, 8, 10, 10, 10, 8, 11, 11, 9, 10, 9, 10
 
 // morning encounter slots
 pokemon SPECIES_CATERPIE
@@ -2200,7 +2200,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
+walklevels 10, 11, 10, 11, 13, 13, 10, 10, 13, 10, 13, 10
 
 // morning encounter slots
 pokemon SPECIES_DROWZEE
@@ -2408,7 +2408,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 10, 10, 10, 12, 12, 12, 12, 10, 14, 10, 14
+walklevels 12, 12, 13, 13, 12, 12, 12, 12, 10, 14, 10, 14
 
 // morning encounter slots
 pokemon SPECIES_CATERPIE
@@ -2616,7 +2616,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 12, 12, 12, 12, 13, 13, 13, 13, 13, 15, 13, 15
+walklevels 14, 14, 12, 12, 13, 13, 13, 13, 13, 15, 13, 15
 
 // morning encounter slots
 pokemon SPECIES_NIDORAN_M
@@ -2720,7 +2720,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 15, 13, 15, 15, 15, 14, 14, 15, 15, 15, 15
+walklevels 13, 16, 13, 16, 15, 15, 14, 14, 15, 15, 15, 15
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
@@ -2928,7 +2928,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 14, 13, 14, 15, 15, 14, 14, 16, 15, 16, 15
+walklevels 15, 14, 15, 14, 15, 15, 14, 14, 16, 15, 16, 15
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -3032,7 +3032,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 16, 16, 16, 16, 15, 14, 15, 14
+walklevels 15, 14, 15, 14, 16, 16, 16, 16, 15, 14, 15, 14
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -5424,7 +5424,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 15, 13, 15, 13, 14, 14, 16, 16, 15, 17, 15, 17
+walklevels 15, 14, 15, 14, 15, 15, 16, 16, 15, 17, 15, 17
 
 // morning encounter slots
 pokemon SPECIES_MANKEY
