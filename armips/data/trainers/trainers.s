@@ -708,7 +708,7 @@ trainerdata 21, "Bugsy"
         // mon 2
         ivs 80
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_CHARJABUG
         item ITEM_NONE
         move MOVE_SHOCK_WAVE
