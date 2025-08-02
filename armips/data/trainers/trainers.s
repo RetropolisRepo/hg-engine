@@ -1139,7 +1139,7 @@ trainerdata 33, "Jasmine"
         // mon 0
         ivs 150
         abilityslot 0
-        level 31
+        level 32
         pokemon SPECIES_LAIRON
         item ITEM_EVIOLITE
         move MOVE_STEALTH_ROCK
@@ -16246,7 +16246,7 @@ trainerdata 479, "Ariana"
         // mon 1
         ivs 100
         abilityslot 0
-        level 37
+        level 38
         pokemon SPECIES_GLOOM
         move MOVE_GIGA_DRAIN
         move MOVE_SWEET_SCENT
@@ -16637,7 +16637,7 @@ trainerdata 488, "Petrel"
         // mon 2
         ivs 100
         abilityslot 0
-        level 37
+        level 38
         pokemon SPECIES_WEEZING
         ballseal 0
     endparty
