@@ -2034,7 +2034,7 @@ trainerdata 62, "Samuel"
         // mon 0
         ivs 0
         abilityslot 32
-        level 9
+        level 10
         pokemon SPECIES_RATTATA
         ballseal 0
 
@@ -2048,14 +2048,14 @@ trainerdata 62, "Samuel"
         // mon 2
         ivs 0
         abilityslot 0
-        level 10
+        level 13
         pokemon SPECIES_SPEAROW
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
@@ -2097,7 +2097,7 @@ trainerdata 64, "Ian"
         // mon 0
         ivs 0
         abilityslot 0
-        level 11
+        level 12
         pokemon SPECIES_MANKEY
         move MOVE_FOCUS_ENERGY
         move MOVE_FURY_SWIPES
@@ -2133,21 +2133,21 @@ trainerdata 65, "Gina"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 12
         pokemon SPECIES_HOPPIP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_HOPPIP
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 13
+        level 14
         pokemon SPECIES_BULBASAUR
         ballseal 0
     endparty
@@ -2168,7 +2168,7 @@ trainerdata 66, "Todd"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
+        level 16
         pokemon SPECIES_PSYDUCK
         ballseal 0
     endparty
@@ -2435,7 +2435,7 @@ trainerdata 74, "Ivan"
         // mon 2
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_DIGLETT
         ballseal 0
     endparty
@@ -2586,7 +2586,7 @@ trainerdata 80, "Dirk"
         // mon 1
         ivs 0
         abilityslot 0
-        level 15
+        level 16
         pokemon SPECIES_GROWLITHE
         ballseal 0
     endparty
@@ -8857,7 +8857,7 @@ trainerdata 263, "Silver"
         // mon 2
         ivs 80
         abilityslot 32
-        level 19
+        level 20
         pokemon SPECIES_HERACROSS
         move MOVE_AERIAL_ACE
         move MOVE_FURY_ATTACK
@@ -9057,7 +9057,7 @@ trainerdata 267, "Silver"
         // mon 2
         ivs 80
         abilityslot 32
-        level 19
+        level 20
         pokemon SPECIES_HERACROSS
         move MOVE_AERIAL_ACE
         move MOVE_FURY_ATTACK
@@ -9236,7 +9236,7 @@ trainerdata 270, "Silver"
         // mon 2
         ivs 80
         abilityslot 32
-        level 19
+        level 20
         pokemon SPECIES_HERACROSS
         move MOVE_AERIAL_ACE
         move MOVE_FURY_ATTACK
@@ -9695,7 +9695,7 @@ trainerdata 281, "Richard"
         // mon 0
         ivs 0
         abilityslot 0
-        level 21
+        level 22
         pokemon SPECIES_CHARMELEON
         ballseal 0
     endparty
@@ -9723,14 +9723,14 @@ trainerdata 282, "Ned"
         // mon 1
         ivs 0
         abilityslot 0
-        level 19
+        level 20
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 17
+        level 18
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
@@ -13972,7 +13972,7 @@ trainerdata 409, "Brandon"
         // mon 0
         ivs 0
         abilityslot 0
-        level 13
+        level 14
         pokemon SPECIES_SNUBBULL
         ballseal 0
 
