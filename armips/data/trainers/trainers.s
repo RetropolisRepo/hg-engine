@@ -1188,7 +1188,7 @@ trainerdata 33, "Jasmine"
 trainerdata 34, "Chuck"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_CHUCK
-    nummons 3
+    nummons 4
     item ITEM_HYPER_POTION
     item ITEM_NONE
     item ITEM_NONE
@@ -1219,10 +1219,22 @@ trainerdata 34, "Chuck"
         move MOVE_DRAIN_PUNCH
         move MOVE_PAYBACK
         move MOVE_LOW_SWEEP
-        move MOVE_WORK_UP
+        move MOVE_BULK_UP
         ballseal 0
 
         // mon 2
+        ivs 150
+        abilityslot 32
+        level 32
+        pokemon SPECIES_MACHOKE
+        item ITEM_HARD_STONE
+        move MOVE_POISON_JAB
+        move MOVE_FLING
+        move MOVE_BRICK_BREAK
+        move MOVE_SWAGGER
+        ballseal 0
+
+        // mon 3
         ivs 150
         abilityslot 0
         level 34

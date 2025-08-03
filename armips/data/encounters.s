@@ -5944,7 +5944,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 19, 18, 18, 20, 19, 17, 17, 18, 19, 17, 19, 17
+walklevels 21, 20, 22, 22, 19, 21, 20, 19, 19, 22, 19, 21
 
 // morning encounter slots
 pokemon SPECIES_FLAAFFY
@@ -7400,7 +7400,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 35, 35, 34, 33, 32, 31, 32, 31, 34, 31, 33, 40
+walklevels 38, 39, 37, 37, 39, 40, 38, 38, 40, 38, 40, 38
 
 // morning encounter slots
 pokemon SPECIES_FARFETCHD
@@ -10832,7 +10832,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 37, 38, 37, 37, 39, 39, 38, 38, 40, 38, 40, 38
+walklevels 38, 39, 37, 37, 39, 40, 38, 38, 40, 38, 40, 38
 
 // morning encounter slots
 pokemon SPECIES_DODUO
