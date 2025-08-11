@@ -648,6 +648,7 @@ trainerdata 20, "Falkner"
         abilityslot 0
         level 9
         pokemon SPECIES_PIDGEY
+        item ITEM_NONE
         move MOVE_TACKLE
         move MOVE_SAND_ATTACK
         move MOVE_GUST
