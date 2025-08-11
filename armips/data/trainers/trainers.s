@@ -634,25 +634,24 @@ trainerdata 20, "Falkner"
         // mon 0
         ivs 50
         abilityslot 0
-        level 9
-        pokemon SPECIES_PIDGEY
+        level 7
+        pokemon SPECIES_FLETCHLING
         item ITEM_NONE
+        move MOVE_PECK
+        move MOVE_GROWL
+        move MOVE_QUICK_ATTACK
         move MOVE_TACKLE
-        move MOVE_SAND_ATTACK
-        move MOVE_GUST
-        move MOVE_NONE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 7
-        pokemon SPECIES_FLETCHLING
-        item ITEM_NONE
+        level 9
+        pokemon SPECIES_PIDGEY
         move MOVE_TACKLE
-        move MOVE_QUICK_ATTACK
-        move MOVE_GROWL
-        move MOVE_PECK
+        move MOVE_SAND_ATTACK
+        move MOVE_GUST
+        move MOVE_NONE
         ballseal 0
 
         // mon 2
@@ -16520,7 +16519,7 @@ trainerdata 486, "Proton"
         // mon 0
         ivs 100
         abilityslot 0
-        level 8
+        level 9
         pokemon SPECIES_ZUBAT
         ballseal 0
 
@@ -16531,12 +16530,12 @@ trainerdata 486, "Proton"
         pokemon SPECIES_KOFFING
         ballseal 0
 		
-		// mon 2
-		ivs 100
-		abilityslot 0
-		level 11
-		monwithform SPECIES_SLOWPOKE, 1
-		ballseal 0
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 14
+        monwithform SPECIES_SLOWPOKE, 1
+        ballseal 0
     endparty
 
 trainerdata 487, "Petrel"
