@@ -1138,26 +1138,26 @@ trainerdata 33, "Jasmine"
     party 33
         // mon 0
         ivs 150
-        abilityslot 0
-        level 32
-        pokemon SPECIES_LAIRON
-        item ITEM_EVIOLITE
+        abilityslot 32
+        level 33
+        pokemon SPECIES_SKARMORY
+        item ITEM_BERRY_JUICE
         move MOVE_STEALTH_ROCK
-        move MOVE_IRON_HEAD
-        move MOVE_ROCK_TOMB
+        move MOVE_IRON_DEFENSE
+        move MOVE_PLUCK
         move MOVE_ROAR
         ballseal 0
 
         // mon 1
         ivs 150
-        abilityslot 0
-        level 32
-        pokemon SPECIES_MAGNETON
-        item ITEM_NONE
-        move MOVE_THUNDERBOLT
-        move MOVE_TRI_ATTACK
-        move MOVE_LIGHT_SCREEN
-        move MOVE_THUNDER_WAVE
+        abilityslot 32
+        level 34
+        pokemon SPECIES_TINKATUFF
+        item ITEM_EVIOLITE
+        move MOVE_SWORDS_DANCE
+        move MOVE_PLAY_ROUGH
+        move MOVE_DRAINING_KISS
+        move MOVE_KNOCK_OFF
         ballseal 0
 
         // mon 2
@@ -1165,8 +1165,8 @@ trainerdata 33, "Jasmine"
         abilityslot 32
         level 33
         pokemon SPECIES_MAGNETON
-        item ITEM_SILK_SCARF
-        move MOVE_THUNDER
+        item ITEM_AIR_BALLOON
+        move MOVE_THUNDERBOLT
         move MOVE_FLASH_CANNON
         move MOVE_EXPLOSION
         move MOVE_LIGHT_SCREEN
@@ -1178,9 +1178,9 @@ trainerdata 33, "Jasmine"
         level 36
         pokemon SPECIES_STEELIX
         item ITEM_ROCKY_HELMET
-        move MOVE_ICE_FANG
+        move MOVE_AQUA_TAIL
         move MOVE_SANDSTORM
-        move MOVE_ROCK_SLIDE
+        move MOVE_EARTHQUAKE
         move MOVE_IRON_TAIL
         ballseal 0
     endparty
