@@ -1156,7 +1156,7 @@ trainerdata 33, "Jasmine"
         item ITEM_EVIOLITE
         move MOVE_SWORDS_DANCE
         move MOVE_PLAY_ROUGH
-        move MOVE_DRAINING_KISS
+        move MOVE_THUNDER_WAVE
         move MOVE_KNOCK_OFF
         ballseal 0
 
