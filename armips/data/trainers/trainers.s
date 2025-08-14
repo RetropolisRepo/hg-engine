@@ -1079,7 +1079,7 @@ trainerdata 32, "Pryce"
         abilityslot 0
         level 37
         pokemon SPECIES_FROSMOTH
-        item ITEM_NONE
+        item ITEM_CHARTI_BERRY
         move MOVE_DAZZLING_GLEAM
         move MOVE_BUG_BUZZ
         move MOVE_BLIZZARD
@@ -1088,13 +1088,13 @@ trainerdata 32, "Pryce"
 
         // mon 2
         ivs 150
-        abilityslot 32
+        abilityslot 0
         level 39
-        pokemon SPECIES_PILOSWINE
-        item ITEM_SITRUS_BERRY
-        move MOVE_HAIL
-        move MOVE_ICICLE_SPEAR
-        move MOVE_EARTH_POWER
+        pokemon SPECIES_JYNX
+        item ITEM_LIGHT_CLAY
+        move MOVE_PSYCHIC
+        move MOVE_REFLECT
+        move MOVE_SWEET_KISS
         move MOVE_BLIZZARD
         ballseal 0
 
@@ -1115,7 +1115,7 @@ trainerdata 32, "Pryce"
         abilityslot 0
         level 41
         pokemon SPECIES_MAMOSWINE
-        item ITEM_NEVER_MELT_ICE
+        item ITEM_FOCUS_SASH
         move MOVE_HAIL
         move MOVE_AVALANCHE
         move MOVE_EARTHQUAKE
@@ -1126,7 +1126,7 @@ trainerdata 32, "Pryce"
 trainerdata 33, "Jasmine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_JASMINE
-    nummons 4
+    nummons 5
     item ITEM_HYPER_POTION
     item ITEM_NONE
     item ITEM_NONE
@@ -1173,6 +1173,18 @@ trainerdata 33, "Jasmine"
         ballseal 0
 
         // mon 3
+        ivs 150
+        abilityslot 0
+        level 34
+        pokemon SPECIES_METANG
+        item ITEM_HARD_STONE
+        move MOVE_BULLET_PUNCH
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_HONE_CLAWS
+        move MOVE_ROLLOUT
+        ballseal 0
+
+        // mon 4
         ivs 150
         abilityslot 32
         level 36

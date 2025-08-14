@@ -9386,7 +9386,7 @@ mondata SPECIES_MUNCHLAX, "Munchlax"
     catchrate 50
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
-    items ITEM_LEFTOVERS, ITEM_NONE
+    items ITEM_LEFTOVERS, ITEM_LEFTOVERS
     genderratio 31
     eggcycles 10
     basefriendship 50
