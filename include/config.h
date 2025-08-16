@@ -119,7 +119,7 @@
 
 // FRIENDSHIP_EVOLUTION_THRESHOLD defines the amount of friendship needed to evolve mons with friendship-related evolutions
 // modern generations have this value at 160, older ones at 220.  still max out at 255
-#define FRIENDSHIP_EVOLUTION_THRESHOLD 160
+#define FRIENDSHIP_EVOLUTION_THRESHOLD 190
 
 
 // Friendship grants additional bonuses.
