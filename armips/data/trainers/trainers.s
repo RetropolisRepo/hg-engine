@@ -1069,7 +1069,7 @@ trainerdata 32, "Pryce"
         pokemon SPECIES_DEWGONG
         item ITEM_LEFTOVERS
         move MOVE_SLEEP_TALK
-        move MOVE_HAIL
+        move MOVE_SNOWSCAPE
         move MOVE_ICY_WIND
         move MOVE_REST
         ballseal 0
@@ -1104,7 +1104,7 @@ trainerdata 32, "Pryce"
         level 38
         pokemon SPECIES_LAPRAS
         item ITEM_LUM_BERRY
-        move MOVE_HAIL
+        move MOVE_SNOWSCAPE
         move MOVE_ICE_BEAM
         move MOVE_SURF
         move MOVE_ANCIENT_POWER
@@ -1116,7 +1116,7 @@ trainerdata 32, "Pryce"
         level 41
         pokemon SPECIES_MAMOSWINE
         item ITEM_FOCUS_SASH
-        move MOVE_HAIL
+        move MOVE_SNOWSCAPE
         move MOVE_AVALANCHE
         move MOVE_EARTHQUAKE
         move MOVE_SUPERPOWER
