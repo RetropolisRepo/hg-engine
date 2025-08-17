@@ -965,7 +965,7 @@ void BattleEndRevertFormChange(struct BattleSystem *bw)
     {
         u32 battleItem = newBS.itemsToRestore[i];
         pp = BattleWorkPokemonParamGet(bw, 0, i);
-        if (!IS_ITEM_BERRY(newBS.itemsToRestore[i]) && !IS_ITEM_CONSUMABLE(newBS.itemsToRestore[i]))
+        if (!IS_ITEM_BERRY(newBS.itemsToRestore[i]))
         {
             SetMonData(pp, MON_DATA_HELD_ITEM, &battleItem);
         }
@@ -1003,7 +1003,7 @@ void LONG_CALL ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].is_currently_terastallized = 0;
     sp->battlemon[client].is_currently_dynamaxed = 0;
     sp->battlemon[client].has_dynamaxed_before = 0;
-    sp->battlemon[client].type3 = 0;
+    sp->battlemon[client].type3 = TYPE_TYPELESS;
     sp->oneTurnFlag[client].parental_bond_flag = 0;
     sp->oneTurnFlag[client].parental_bond_is_active = 0;
 

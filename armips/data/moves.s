@@ -7862,7 +7862,7 @@ movedata MOVE_SOAK, "Soak"
     priority 0
     flags FLAG_PROTECT | FLAG_MAGIC_COAT | FLAG_MIRROR_MOVE
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_CUTE
     terminatedata
     movedescription MOVE_SOAK, "The user shoots a\ntorrent of water at\nthe target and\nchanges the target’s\ntype to Water."
 
@@ -8219,7 +8219,7 @@ movedata MOVE_CIRCLE_THROW, "Circle Throw"
     movedescription MOVE_CIRCLE_THROW, "The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends."
 
 movedata MOVE_INCINERATE, "Incinerate"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_INCINERATE
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_FIRE
@@ -9132,7 +9132,7 @@ movedata MOVE_PHANTOM_FORCE, "Phantom Force"
     movedescription MOVE_PHANTOM_FORCE, "The user disappears,\nthen strikes the foe\non the second turn.\nIt hits even if the\nfoe protects itself."
 
 movedata MOVE_TRICK_OR_TREAT, "Trick-or-Treat"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_ADD_THIRD_TYPE_GHOST
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GHOST
@@ -9143,7 +9143,7 @@ movedata MOVE_TRICK_OR_TREAT, "Trick-or-Treat"
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_CUTE
     terminatedata
     movedescription MOVE_TRICK_OR_TREAT, "The user takes the\ntarget\ntrick-or-treating.\nThis adds Ghost type\nto the target's type."
 
@@ -9191,12 +9191,12 @@ movedatalongname MOVE_PARABOLIC_CHARGE, "ParabolicCharge", "Parabolic Charge"
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_SMART
     terminatedata
     movedescription MOVE_PARABOLIC_CHARGE, "An energy-draining\nshockwave. The user’s\nHP is restored by\nhalf the damage taken\nby those hit."
 
 movedata MOVE_FORESTS_CURSE, "Forest’s Curse"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_ADD_THIRD_TYPE_GRASS
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -9207,7 +9207,7 @@ movedata MOVE_FORESTS_CURSE, "Forest’s Curse"
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_SMART
     terminatedata
     movedescription MOVE_FORESTS_CURSE, "The user puts a forest\ncurse on the target.\nThis adds Grass type\nto the target's type."
 
@@ -9303,7 +9303,7 @@ movedata MOVE_DRAINING_KISS, "Draining Kiss"
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_CUTE
     terminatedata
     movedescription MOVE_DRAINING_KISS, "An energy-stealing\nkiss. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
 
@@ -9495,7 +9495,7 @@ movedata MOVE_PLAY_NICE, "Play Nice"
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_CUTE
     terminatedata
     movedescription MOVE_PLAY_NICE, "The user and the\ntarget become pals,\nlowering the target's\nAttack stat.\nBypasses Protect."
 
@@ -9799,7 +9799,7 @@ movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
     priority 1
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_CUTE
     terminatedata
     movedescription MOVE_BABY_DOLL_EYES, "The user stares at\nthe target with its\nbaby-eyes, lowering\nits Attack stat.\nAlways goes first."
 
@@ -10620,7 +10620,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     movedescription MOVE_SHORE_UP, "The user restores its\nown HP by up to half\nits max HP.\nIt regains more HP\nin a sandstorm."
 
 movedatalongname MOVE_FIRST_IMPRESSION, "FirstImpression", "First Impression"
-    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY
+    battleeffect MOVE_EFFECT_FIRST_TURN_ONLY
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_BUG
@@ -11511,7 +11511,7 @@ movedata MOVE_TEARFUL_LOOK, "Tearful Look"
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_CUTE
     terminatedata
     movedescription MOVE_TEARFUL_LOOK, "The user tears up,\nlowering the target's\nAttack and Sp. Atk\nstats.\nBypasses Protect."
 
@@ -12057,7 +12057,7 @@ movedata MOVE_TAR_SHOT, "Tar Shot"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TAR_SHOT, "---"
+    movedescription MOVE_TAR_SHOT, "The user pours tar on\nthe target, dropping\ntheir Speed stat.\nFire attacks deal\nmore damage."
 
 movedata MOVE_MAGIC_POWDER, "Magic Powder"
     battleeffect MOVE_EFFECT_HIT
@@ -12071,7 +12071,7 @@ movedata MOVE_MAGIC_POWDER, "Magic Powder"
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype CONTEST_BEAUTY
     terminatedata
     movedescription MOVE_MAGIC_POWDER, "The user scatters a\ncloud of magic powder\nthat changes the\ntarget's type to\nPsychic."
 

@@ -1464,14 +1464,19 @@ u16 gf_p_rand(const u16 denominator)
 // TODO: Refactor this function
 int LONG_CALL GetTypeEffectiveness(struct BattleSystem *bw, struct BattleStruct *sp, int attack_client, int defence_client, int move_type, u32 *flag) {
     int i = 0;
-    u8 attacker_type_1 UNUSED = GetSanitisedType(BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE1, NULL));
-    u8 attacker_type_2 UNUSED = GetSanitisedType(BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE2, NULL));
+    u8 attacker_type_1 UNUSED = sp->battlemon[attack_client].type1;
+    u8 attacker_type_2 UNUSED = sp->battlemon[attack_client].type2;
+    u8 attacker_type_3 UNUSED = sp->battlemon[attack_client].type3;
+    u8 attacker_tera_type UNUSED = sp->battlemon[attack_client].tera_type;
     // https://xcancel.com/Sibuna_Switch/status/1827463371383328877#m
-    u8 defender_type_1 = GetSanitisedType(BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL));
-    u8 defender_type_2 = GetSanitisedType(BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL));
+    u8 defender_type_1 = sp->battlemon[defence_client].type1;
+    u8 defender_type_2 = sp->battlemon[defence_client].type2;
+    u8 defender_type_3 = sp->battlemon[defence_client].type3;
+    u8 defender_tera_type = sp->battlemon[defence_client].tera_type;
 
     u32 type1Effectiveness = TYPE_MUL_NORMAL;
     u32 type2Effectiveness = TYPE_MUL_NORMAL;
+    u32 type3Effectiveness = TYPE_MUL_NORMAL;
 
     // TODO: handle Ring Target, Thousand Arrows, Freeze-Dry, Flying Press
 
@@ -1490,44 +1495,62 @@ int LONG_CALL GetTypeEffectiveness(struct BattleSystem *bw, struct BattleStruct 
             }
         }
         if (TypeEffectivenessTable[i][0] == move_type) {
-            if (TypeEffectivenessTable[i][1] == defender_type_1) {
-                if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE && !(!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) && sp->field_condition & WEATHER_STRONG_WINDS && (TypeEffectivenessTable[i][2] == 20) && defender_type_1 == TYPE_FLYING)) {
-                    type1Effectiveness = TypeEffectivenessTable[i][2];
-                    TypeCheckCalc(sp, attack_client, type1Effectiveness, 42, 42, flag);
+            if (sp->battlemon[defence_client].is_currently_terastallized)
+            {
+                if (TypeEffectivenessTable[i][1] == defender_tera_type) {
+                    if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE && !(!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) && sp->field_condition & WEATHER_STRONG_WINDS && (TypeEffectivenessTable[i][2] == 20) && defender_tera_type == TYPE_FLYING)) {
+                        type1Effectiveness = TypeEffectivenessTable[i][2];
+                        TypeCheckCalc(sp, attack_client, type1Effectiveness, 42, 42, flag);
+                    }
                 }
             }
-            if ((TypeEffectivenessTable[i][1] == defender_type_2) && (defender_type_1 != defender_type_2)) {
-                if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE && !(!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) && sp->field_condition & WEATHER_STRONG_WINDS && (TypeEffectivenessTable[i][2] == 20) && defender_type_2 == TYPE_FLYING)) {
-                    type2Effectiveness = TypeEffectivenessTable[i][2];
-                    TypeCheckCalc(sp, attack_client, type1Effectiveness, 42, 42, flag);
+            else
+            {
+                if (TypeEffectivenessTable[i][1] == defender_type_1) {
+                    if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE && !(!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) && sp->field_condition & WEATHER_STRONG_WINDS && (TypeEffectivenessTable[i][2] == 20) && defender_type_1 == TYPE_FLYING)) {
+                        type1Effectiveness = TypeEffectivenessTable[i][2];
+                        TypeCheckCalc(sp, attack_client, type1Effectiveness, 42, 42, flag);
+                    }
+                }
+                if ((TypeEffectivenessTable[i][1] == defender_type_2) && (defender_type_1 != defender_type_2)) {
+                    if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE && !(!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) && sp->field_condition & WEATHER_STRONG_WINDS && (TypeEffectivenessTable[i][2] == 20) && defender_type_2 == TYPE_FLYING)) {
+                        type2Effectiveness = TypeEffectivenessTable[i][2];
+                        TypeCheckCalc(sp, attack_client, type2Effectiveness, 42, 42, flag);
+                    }
+                }
+                if ((TypeEffectivenessTable[i][1] == defender_type_3) && (defender_type_3 != defender_type_1 && defender_type_3 != defender_type_2)) {
+                    if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE && !(!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) && sp->field_condition & WEATHER_STRONG_WINDS && (TypeEffectivenessTable[i][2] == 20) && defender_type_3 == TYPE_FLYING)) {
+                        type3Effectiveness = TypeEffectivenessTable[i][2];
+                        TypeCheckCalc(sp, attack_client, type3Effectiveness, 42, 42, flag);
+                    }
                 }
             }
-            // TODO: Handle type3, Tera Type
         }
         i++;
     }
 
-    // TODO: Refactor!!!
-    if (type1Effectiveness == TYPE_MUL_NO_EFFECT || type2Effectiveness == TYPE_MUL_NO_EFFECT) {
-        return TYPE_MUL_NO_EFFECT;
+    // TODO: Refactor, probably.
+    // Returns the correct multiplier but moved to the right 3 decimal places.
+    int typeMul = type1Effectiveness * type2Effectiveness * type3Effectiveness;
+    // Unfortunately this can't be directly converted into the double or triple flags, so we're stuck with this switch statement.
+    switch (typeMul)
+    {
+        case 8000:
+            return TYPE_MUL_TRIPLE_SUPER_EFFECTIVE; // 40
+        case 4000:
+            return TYPE_MUL_DOUBLE_SUPER_EFFECTIVE; // 30
+        case 2000:
+            return TYPE_MUL_SUPER_EFFECTIVE;        // 20
+        case 1000:
+            return TYPE_MUL_NORMAL;                 // 10
+        case 500:
+            return TYPE_MUL_NOT_EFFECTIVE;          // 5
+        case 250:
+            return TYPE_MUL_DOUBLE_NOT_EFFECTIVE;   // 4
+        case 125:
+            return TYPE_MUL_TRIPLE_NOT_EFFECTIVE;   // 3
     }
-    if (type1Effectiveness == TYPE_MUL_NOT_EFFECTIVE && type2Effectiveness == TYPE_MUL_NOT_EFFECTIVE) {
-        return TYPE_MUL_DOUBLE_NOT_EFFECTIVE;
-    }
-    if ((type1Effectiveness == TYPE_MUL_SUPER_EFFECTIVE && type2Effectiveness == TYPE_MUL_NOT_EFFECTIVE)
-    || (type2Effectiveness == TYPE_MUL_SUPER_EFFECTIVE && type1Effectiveness == TYPE_MUL_NOT_EFFECTIVE)) {
-        return TYPE_MUL_NORMAL;
-    }
-    if (type1Effectiveness == TYPE_MUL_NORMAL) {
-        return type2Effectiveness;
-    }
-    if (type2Effectiveness == TYPE_MUL_NORMAL) {
-        return type1Effectiveness;
-    }
-    if (type1Effectiveness == type2Effectiveness && type1Effectiveness == TYPE_MUL_SUPER_EFFECTIVE) {
-        return TYPE_MUL_DOUBLE_SUPER_EFFECTIVE;
-    }
-    return TYPE_MUL_NO_EFFECT;
+    return TYPE_MUL_NO_EFFECT;                      // 0
 }
 
 /**
@@ -1565,10 +1588,12 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
 
     u8 attacker_type_1 = GetSanitisedType(BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE1, NULL));
     u8 attacker_type_2 = GetSanitisedType(BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE2, NULL));
+    u8 attacker_type_3 = sp->battlemon[attack_client].type3;
     u8 defender_type_1 = GetSanitisedType(BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL));
     u8 defender_type_2 = GetSanitisedType(BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL));
+    u8 defender_type_3 = sp->battlemon[defence_client].type3;
 
-    if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0) && ((attacker_type_1 == move_type) || (attacker_type_2 == move_type)))
+    if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0) && ((attacker_type_1 == move_type) || (attacker_type_2 == move_type) || (attacker_type_3 == move_type)))
     {
         if (GetBattlerAbility(sp,attack_client) == ABILITY_ADAPTABILITY)
         {
@@ -1629,6 +1654,22 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                     }
                 }
             }
+            if ((TypeEffectivenessTable[i][1] == defender_type_3) && (defender_type_3 != defender_type_1) && (defender_type_3 != defender_type_2))
+            {
+                if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE
+                && !(!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE)
+                    && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK)
+                    && sp->field_condition & WEATHER_STRONG_WINDS
+                    && (TypeEffectivenessTable[i][2] == 20)
+                    && defender_type_3 == TYPE_FLYING))
+                {
+                    damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
+                    if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                    {
+                        modifier *= 2;
+                    }
+                }
+            }
         }
         i++;
     }
@@ -1680,7 +1721,7 @@ BOOL CantEscape(void *bw, struct BattleStruct *sp, int battlerId, MESSAGE_PARAM 
     item = HeldItemHoldEffectGet(sp, battlerId);
 
     // if shed shell or no experience or has run away or has ghost type then there is nothing stopping the battler from escaping
-    if (item == HOLD_EFFECT_FLEE || (battleType & BATTLE_TYPE_NO_EXPERIENCE) || GetBattlerAbility(sp, battlerId) == ABILITY_RUN_AWAY || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST)) {
+    if (item == HOLD_EFFECT_FLEE || (battleType & BATTLE_TYPE_NO_EXPERIENCE) || GetBattlerAbility(sp, battlerId) == ABILITY_RUN_AWAY || HasType(sp, battlerId, TYPE_GHOST)) {
         return FALSE;
     }
 
@@ -1702,7 +1743,7 @@ BOOL CantEscape(void *bw, struct BattleStruct *sp, int battlerId, MESSAGE_PARAM 
     battlerIdAbility = CheckSideAbility(bw, sp, CHECK_ABILITY_OPPOSING_SIDE_HP, battlerId, ABILITY_ARENA_TRAP);
     if (battlerIdAbility) {
         if (!(sp->field_condition & FIELD_STATUS_GRAVITY) && item != HOLD_EFFECT_SPEED_DOWN_GROUNDED) {
-            if (GetBattlerAbility(sp, battlerId) != ABILITY_LEVITATE && !sp->battlemon[battlerId].moveeffect.magnetRiseTurns && !BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_FLYING)) {
+            if (GetBattlerAbility(sp, battlerId) != ABILITY_LEVITATE && !sp->battlemon[battlerId].moveeffect.magnetRiseTurns && !HasType(sp, battlerId, TYPE_FLYING)) {
                if (msg == NULL) {
                     return TRUE;
                 }
@@ -1725,7 +1766,7 @@ BOOL CantEscape(void *bw, struct BattleStruct *sp, int battlerId, MESSAGE_PARAM 
     }
 
     battlerIdAbility = CheckSideAbility(bw, sp, CHECK_ABILITY_OPPOSING_SIDE_HP, battlerId, ABILITY_MAGNET_PULL);
-    if (battlerIdAbility && BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_STEEL)) {
+    if (battlerIdAbility && HasType(sp, battlerId, TYPE_STEEL)) {
         if (msg == NULL) {
             return TRUE;
         }
@@ -1761,7 +1802,7 @@ BOOL BattlerCantSwitch(void *bw, struct BattleStruct *sp, int battlerId) {
     BOOL ret = FALSE;
 
     // ghost types can switch from anything like they had shed skin
-    if (HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SWITCH || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST)) {
+    if (HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SWITCH || HasType(sp, battlerId, TYPE_GHOST)) {
         return FALSE;
     }
 
@@ -1770,14 +1811,14 @@ BOOL BattlerCantSwitch(void *bw, struct BattleStruct *sp, int battlerId) {
     }
 
     if ((GetBattlerAbility(sp, battlerId) != ABILITY_SHADOW_TAG && CheckSideAbility(bw, sp, CHECK_ABILITY_OPPOSING_SIDE_HP, battlerId, ABILITY_SHADOW_TAG))
-     || (BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_STEEL) && CheckSideAbility(bw, sp, CHECK_ABILITY_OPPOSING_SIDE_HP, battlerId, ABILITY_MAGNET_PULL)))
+     || (HasType(sp, battlerId, TYPE_STEEL) && CheckSideAbility(bw, sp, CHECK_ABILITY_OPPOSING_SIDE_HP, battlerId, ABILITY_MAGNET_PULL)))
     {
         ret = TRUE;
     }
 
     if (((GetBattlerAbility(sp, battlerId) != ABILITY_LEVITATE
        && sp->battlemon[battlerId].moveeffect.magnetRiseTurns == 0
-       && !BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_FLYING))
+       && !HasType(sp, battlerId, TYPE_FLYING))
       || HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SPEED_DOWN_GROUNDED
       || (sp->field_condition & FIELD_STATUS_GRAVITY))
      && CheckSideAbility(bw, sp, CHECK_ABILITY_OPPOSING_SIDE_HP, battlerId, ABILITY_ARENA_TRAP))
@@ -1811,7 +1852,7 @@ BOOL BattleTryRun(void *bw, struct BattleStruct *sp, int battlerId) {
     if (item == HOLD_EFFECT_FLEE) {
         sp->oneTurnFlag[battlerId].escape_flag = 1;
         ret = TRUE;
-    } else if (battleType & BATTLE_TYPE_NO_EXPERIENCE || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST)) { // ghost types can always escape regardless of speed
+    } else if (battleType & BATTLE_TYPE_NO_EXPERIENCE || HasType(sp, battlerId, TYPE_GHOST)) { // ghost types can always escape regardless of speed
         ret = TRUE;
     } else if (GetBattlerAbility(sp, battlerId) == ABILITY_RUN_AWAY) {
         sp->oneTurnFlag[battlerId].escape_flag = 2;
@@ -2732,7 +2773,6 @@ int LONG_CALL GetDynamicMoveType(struct BattleSystem *bsys, struct BattleStruct 
             }
             break;
         case MOVE_REVELATION_DANCE:
-            // TODO: Handle 3rd Types
             if (ctx->battlemon[battlerId].is_currently_terastallized && ctx->battlemon[battlerId].tera_type != TYPE_STELLAR) {
                 // Assert that the Tera Type is valid
                 GF_ASSERT(TYPE_NORMAL <= ctx->battlemon[battlerId].tera_type && TYPE_STELLAR >= ctx->battlemon[battlerId].tera_type && TYPE_TYPELESS != ctx->battlemon[battlerId].tera_type);
@@ -2742,10 +2782,9 @@ int LONG_CALL GetDynamicMoveType(struct BattleSystem *bsys, struct BattleStruct 
                 type = ctx->battlemon[battlerId].type1;
             } else if (ctx->battlemon[battlerId].type2 != TYPE_TYPELESS) {
                 type = ctx->battlemon[battlerId].type2;
-            } /*else if (ctx->battlemon[battlerId].type3 != TYPE_TYPELESS) {
+            } else if (ctx->battlemon[battlerId].type3 != TYPE_TYPELESS) {
                 type = ctx->battlemon[battlerId].type3;
-            }*/
-            else {
+            } else {
                 type = TYPE_TYPELESS;
             }
             break;
@@ -3134,10 +3173,11 @@ int LONG_CALL GetClientActionPriority(struct BattleSystem *bsys UNUSED, struct B
 BOOL LONG_CALL HasType(struct BattleStruct *ctx, int battlerId, int type) {
     GF_ASSERT(TYPE_NORMAL < type && type < TYPE_STELLAR);
     struct BattlePokemon *client = &ctx->battlemon[battlerId];
-    return (client->type1 == type
+    return ((!(client->is_currently_terastallized) // Only check the client's base types if they are not terastallized. 
+         && (client->type1 == type
          || client->type2 == type
-         || client->type3 == type
-         || (client->is_currently_terastallized ? client->tera_type == type : FALSE));
+         || client->type3 == type))
+         || (client->is_currently_terastallized && client->tera_type == type));
 }
 
 
@@ -3225,7 +3265,7 @@ BOOL LONG_CALL CanActivateDamageReductionBerry(struct BattleSystem *bsys UNUSED,
 BOOL IsPureType(struct BattleStruct *ctx, int battlerId, int type) {
     GF_ASSERT(TYPE_NORMAL < type && type < TYPE_STELLAR);
     struct BattlePokemon client = ctx->battlemon[battlerId];
-    return ((client.type1 == type && client.type2 == type && client.type3 == type) || (client.is_currently_terastallized ? client.tera_type == type : FALSE));
+    return (client.is_currently_terastallized ? client.tera_type == type : (client.type1 == type && client.type2 == type && client.type3 == TYPE_TYPELESS));
 }
 
 /// @brief Check if ability is disabled if user is Transformed
