@@ -93,6 +93,7 @@ void BattleContext_RemoveEntryHazardFromQueue(struct BattleStruct *ctx, u32 side
 BOOL btl_scr_cmd_102_removeentryhazardfromqueue(void *bsys UNUSED, struct BattleStruct *ctx);
 BOOL btl_scr_cmd_103_checkprotectcontactmoves(void *bsys, struct BattleStruct *ctx);
 BOOL btl_scr_cmd_104_tryincinerate(void* bsys, struct BattleStruct* ctx);
+BOOL btl_scr_cmd_105_addthirdtype(void* bsys UNUSED, struct BattleStruct* ctx);
 BOOL BtlCmd_GoToMoveScript(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp);
@@ -378,6 +379,7 @@ const u8 *BattleScrCmdNames[] =
     "RemoveEntryHazardFromQueue",
     "CheckProtectContactMoves",
     "TryIncinerate",
+    "AddThirdType",
     // "YourCustomCommand",
 };
 
@@ -425,6 +427,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0x102 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_102_removeentryhazardfromqueue,
     [0x103 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_103_checkprotectcontactmoves,
     [0x104 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_104_tryincinerate,
+    [0x105 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_105_addthirdtype,
     // [BASE_ENGINE_BTL_SCR_CMDS_MAX - START_OF_NEW_BTL_SCR_CMDS + 1] = btl_scr_cmd_custom_01_your_custom_command,
 };
 
@@ -3258,7 +3261,7 @@ BOOL btl_scr_cmd_103_checkprotectcontactmoves(void *bsys UNUSED, struct BattleSt
                 break;
         }
     }
-    
+
     return FALSE;
 }
 
@@ -3529,7 +3532,7 @@ BOOL BtlCmd_SetMultiHit(struct BattleSystem *bsys, struct BattleStruct *ctx) {
 
 BOOL BtlCmd_TryProtection(void *bsys UNUSED, struct BattleStruct *ctx) {
     IncrementBattleScriptPtr(ctx, 1);
-    
+
     int UNUSED adrs = read_battle_script_param(ctx); // Unused, but still required as param
 
     if (ctx->moveTbl[ctx->current_move_index].effect == MOVE_EFFECT_PROTECT) {
@@ -3565,8 +3568,8 @@ BOOL BtlCmd_TryProtection(void *bsys UNUSED, struct BattleStruct *ctx) {
 
     // Don't increase protectSuccessTurns at max
     // Mat Block and Crafty Shield don't increase the counter, Quick Guard and Wide Guard do.
-    if (ctx->protectSuccessTurns[ctx->attack_client] < 6 
-    && !(ctx->current_move_index == MOVE_MAT_BLOCK) 
+    if (ctx->protectSuccessTurns[ctx->attack_client] < 6
+    && !(ctx->current_move_index == MOVE_MAT_BLOCK)
     && !(ctx->current_move_index == MOVE_CRAFTY_SHIELD)) {
         ctx->protectSuccessTurns[ctx->attack_client]++;
     }
@@ -4029,6 +4032,29 @@ BOOL btl_scr_cmd_104_tryincinerate(void* bw, struct BattleStruct* sp)
 }
 
 /**
+ *  @brief script command to add type3 to a pokemon
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_105_addthirdtype(void* bw UNUSED, struct BattleStruct* sp)
+{
+    s32 type;
+
+    IncrementBattleScriptPtr(sp, 1);
+    type = read_battle_script_param(sp);
+
+    if (FAIRY_TYPE_IMPLEMENTED == 0 && type == TYPE_FAIRY) // revert fairy to normal if someone tries to add fairy with the flag disabled
+        type = TYPE_NORMAL;
+
+    if (type >= 0 && type < NUMBER_OF_MON_TYPES) // proceed only if type ID is a valid, existing type
+        sp->battlemon[sp->defence_client].type3 = type;
+
+    return FALSE;
+}
+
+/**
  *  @brief script command to jump somewhere if pluck/bugbite cannot eat the berry
  *
  *  @param bw battle work structure
@@ -4040,7 +4066,7 @@ BOOL BtlCmd_TryPluck(void* bw, struct BattleStruct* sp)
     IncrementBattleScriptPtr(sp, 1);
 
     u32 adrs = read_battle_script_param(sp);
-    u32 adrs2 = read_battle_script_param(sp);
+    u32 adrs2 UNUSED = read_battle_script_param(sp);
     if (CanActivateDamageReductionBerry(bw, sp, sp->defence_client))
     {
         IncrementBattleScriptPtr(sp, adrs);
