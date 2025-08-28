@@ -2804,23 +2804,49 @@ trainerdata 86, "Randall"
     endparty
 
 trainerdata 87, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SAGE
-    nummons 1
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_POTION
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 87
         // mon 0
-        ivs 0
+        ivs 50
         abilityslot 0
-        level 22
-        pokemon SPECIES_HAUNTER
+        level 11
+        pokemon SPECIES_LILLIPUP
+        move MOVE_WORK_UP
+        move MOVE_BITE
+        move MOVE_TACKLE
+        move MOVE_LEER
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 10
+        pokemon SPECIES_HOPPIP
+        move MOVE_ABSORB
+        move MOVE_FAIRY_WIND
+        move MOVE_TACKLE
+        move MOVE_TAIL_WHIP
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 12
+        pokemon SPECIES_TIMBURR
+        move MOVE_LOW_KICK
+        move MOVE_FOCUS_ENERGY
+        move MOVE_ROCK_THROW
+        move MOVE_LEER
         ballseal 0
     endparty
 
@@ -16532,7 +16558,7 @@ trainerdata 486, "Proton"
         // mon 0
         ivs 100
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_ZUBAT
         ballseal 0
 
