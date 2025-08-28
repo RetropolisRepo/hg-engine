@@ -7098,7 +7098,7 @@ pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_PHANPY
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
 pokemon SPECIES_SPEAROW
@@ -7112,7 +7112,7 @@ pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_PHANPY
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
 pokemon SPECIES_SPEAROW
@@ -7126,7 +7126,7 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_PHANPY
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GEODUDE
@@ -11456,7 +11456,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 41, 41, 41, 40, 42, 40, 42, 41, 39, 42, 39, 41
+walklevels 41, 41, 41, 35, 42, 40, 42, 41, 39, 42, 39, 41
 
 // morning encounter slots
 pokemon SPECIES_URSARING
@@ -13952,7 +13952,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 41, 41, 41, 40, 42, 40, 42, 41, 39, 42, 39, 41
+walklevels 41, 41, 41, 35, 42, 40, 42, 41, 39, 42, 39, 41
 
 // morning encounter slots
 pokemon SPECIES_URSARING
@@ -14056,7 +14056,7 @@ rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 41, 41, 41, 40, 42, 40, 42, 41, 39, 42, 39, 41
+walklevels 41, 41, 41, 35, 42, 40, 42, 41, 39, 42, 39, 41
 
 // morning encounter slots
 pokemon SPECIES_URSARING
