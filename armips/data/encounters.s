@@ -2720,7 +2720,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 16, 14, 16, 15, 15, 14, 14, 16, 15, 16, 15
+walklevels 16, 18, 16, 17, 17, 18, 17, 17, 16, 15, 16, 15
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
@@ -2928,7 +2928,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 18, 16, 17, 17, 18, 17, 17, 16, 15, 16, 15
+walklevels 17, 19, 18, 18, 19, 18, 17, 18, 16, 17, 16, 17
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -3032,7 +3032,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 18, 16, 17, 17, 18, 17, 17, 16, 15, 16, 15
+walklevels 17, 19, 18, 18, 19, 18, 17, 18, 16, 17, 16, 17
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -5424,7 +5424,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 16, 18, 16, 17, 17, 18, 17, 17, 16, 15, 16, 15
+walklevels 17, 18, 16, 17, 17, 18, 17, 17, 16, 15, 16, 15
 
 // morning encounter slots
 pokemon SPECIES_MANKEY
