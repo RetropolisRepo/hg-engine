@@ -6256,7 +6256,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
+walklevels 35, 33, 35, 36, 34, 34, 34, 33, 33, 36, 33, 36
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
@@ -6360,7 +6360,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
+walklevels 35, 33, 35, 36, 34, 34, 34, 33, 33, 36, 33, 36
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
@@ -6464,7 +6464,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
+walklevels 35, 33, 35, 36, 34, 34, 34, 33, 33, 36, 33, 36
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
@@ -6568,7 +6568,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 31, 32, 31, 32, 32, 32, 33, 33, 32, 34, 32, 34
+walklevels 35, 33, 35, 36, 34, 34, 34, 33, 33, 36, 33, 36
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
@@ -6984,7 +6984,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 33, 33, 35, 34, 34, 34, 33, 33, 34, 35, 34, 35
+walklevels 36, 35, 37, 36, 36, 36, 34, 34, 36, 35, 36, 35
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
@@ -8648,7 +8648,7 @@ rocksmashrate 30
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 25, 24, 25, 27, 23, 24, 23, 26, 24, 24, 27, 26
+walklevels 26, 25, 27, 28, 24, 25, 24, 27, 25, 25, 28, 26
 
 // morning encounter slots
 pokemon SPECIES_KLAWF
@@ -10624,7 +10624,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 26, 24, 25, 27, 24, 27, 24, 26, 25, 25, 24, 25
+walklevels 26, 25, 25, 28, 25, 28, 25, 27, 25, 25, 24, 27
 
 // morning encounter slots
 pokemon SPECIES_FARFETCHD
@@ -10728,7 +10728,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 38, 37, 37, 37, 39, 39, 38, 38, 40, 38, 40, 38
+walklevels 39, 38, 38, 40, 39, 39, 40, 41, 40, 39, 41, 39
 
 // morning encounter slots
 pokemon SPECIES_DODUO
@@ -10832,7 +10832,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 38, 39, 37, 37, 39, 40, 38, 38, 40, 38, 40, 38
+walklevels 39, 38, 38, 40, 39, 39, 40, 41, 40, 39, 41, 39
 
 // morning encounter slots
 pokemon SPECIES_DODUO
@@ -11456,7 +11456,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 41, 41, 41, 35, 42, 40, 42, 41, 39, 42, 39, 41
+walklevels 43, 42, 42, 35, 43, 41, 42, 41, 42, 43, 41, 43
 
 // morning encounter slots
 pokemon SPECIES_URSARING
@@ -13952,7 +13952,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 41, 41, 41, 35, 42, 40, 42, 41, 39, 42, 39, 41
+walklevels 43, 42, 42, 35, 43, 41, 42, 41, 42, 43, 41, 43
 
 // morning encounter slots
 pokemon SPECIES_URSARING
@@ -14056,7 +14056,7 @@ rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 41, 41, 41, 35, 42, 40, 42, 41, 39, 42, 39, 41
+walklevels 43, 42, 42, 35, 43, 41, 42, 41, 42, 43, 41, 43
 
 // morning encounter slots
 pokemon SPECIES_URSARING
