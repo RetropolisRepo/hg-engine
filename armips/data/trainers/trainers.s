@@ -1027,7 +1027,7 @@ trainerdata 31, "Morty"
         // mon 2
         ivs 100
         abilityslot 0
-        level 26
+        level 25
         pokemon SPECIES_GENGAR
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
