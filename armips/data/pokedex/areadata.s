@@ -9692,16 +9692,19 @@ specialareas SPECIES_PHANPY, DEX_NIGHT
 
 routesandcities SPECIES_PHANPY, DEX_MORNING
     .word DEX_ROUTE_45
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_PHANPY, DEX_DAY
     .word DEX_ROUTE_45
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_PHANPY, DEX_NIGHT
     .word DEX_ROUTE_45
+    .word DEX_ROUTE_46
     dexendareadata
 
 

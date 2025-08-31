@@ -1716,7 +1716,7 @@ trainerdata 49, "Albert"
         ivs 0
         abilityslot 0
         level 7
-        pokemon SPECIES_RATTATA
+        pokemon SPECIES_PHANPY
         ballseal 0
 
         // mon 1
@@ -25895,14 +25895,14 @@ trainerdata 729, "Duff & Eda"
         // mon 0
         ivs 0
         abilityslot 32
-        level 29
+        level 30
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 29
+        level 30
         pokemon SPECIES_CLOYSTER
         ballseal 0
 		
@@ -25937,7 +25937,7 @@ trainerdata 730, "Thom & Kae"
         // mon 0
         ivs 80
         abilityslot 0
-        level 31
+        level 32
         pokemon SPECIES_ELECTABUZZ
         move MOVE_THUNDERBOLT
         move MOVE_LIGHT_SCREEN
@@ -25948,7 +25948,7 @@ trainerdata 730, "Thom & Kae"
         // mon 1
         ivs 80
         abilityslot 0
-        level 31
+        level 32
         pokemon SPECIES_MAGMAR
         move MOVE_FLAMETHROWER
         move MOVE_CONFUSE_RAY
@@ -25973,14 +25973,14 @@ trainerdata 731, "Devin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 27
+        level 28
         pokemon SPECIES_GRAVELER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 26
+        level 28
         pokemon SPECIES_PONYTA
         ballseal 0
 
@@ -26015,14 +26015,14 @@ trainerdata 732, "Grant"
         // mon 1
         ivs 0
         abilityslot 32
-        level 28
+        level 29
         pokemon SPECIES_AZUMARILL
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 28
+        level 29
         pokemon SPECIES_SUNFLORA
         ballseal 0
     endparty
