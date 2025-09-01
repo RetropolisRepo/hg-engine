@@ -8746,55 +8746,55 @@ pokemon SPECIES_NONE
 
 encounterdata  84   // Bell Tower 10F
 
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walkrate 25
+surfrate 15
+rocksmashrate 20
+oldrodrate 25
+goodrodrate 50
+superrodrate 75
+walklevels 9, 8, 9, 8, 7, 7, 9, 9, 8, 7, 8, 7
 
 // morning encounter slots
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
+pokemon SPECIES_NIDORAN_M
+pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_EKANS
+pokemon SPECIES_HERACROSS
+pokemon SPECIES_EKANS
+pokemon SPECIES_HERACROSS
 
 // day encounter slots
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_LOTAD
 pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
+pokemon SPECIES_NIDORAN_M
+pokemon SPECIES_NIDORAN_F
+pokemon SPECIES_LOTAD
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
+pokemon SPECIES_LOTAD
+pokemon SPECIES_EKANS
+pokemon SPECIES_HERACROSS
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_WOOPER
+pokemon SPECIES_LOTAD
+pokemon SPECIES_RATTATA
+pokemon SPECIES_EKANS
+pokemon SPECIES_NIDORAN_M
+pokemon SPECIES_NIDORAN_F
+pokemon SPECIES_WOOPER
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
+pokemon SPECIES_WOOPER
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_HERACROSS
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -8805,36 +8805,36 @@ pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWAG, 10, 25
+encounter SPECIES_WOOPER, 10, 25
+encounter SPECIES_POLIWHIRL, 15, 25
+encounter SPECIES_QUAGSIRE, 15, 25
+encounter SPECIES_QUAGSIRE, 15, 25
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GEODUDE, 8, 14
+encounter SPECIES_GEODUDE, 3, 6
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_POLIWAG, 10, 10
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_QWILFISH, 20, 20
+encounter SPECIES_QWILFISH, 20, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_MAGIKARP, 40, 40
 
 // swarm grass
 pokemon SPECIES_RATTATA
