@@ -13244,7 +13244,7 @@ trainerdata 385, "Dara & Dia"
 trainerdata 386, "Greg"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_PSYCHIC_M
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -13263,6 +13263,17 @@ trainerdata 386, "Greg"
         move MOVE_DISABLE
         move MOVE_DREAM_EATER
         move MOVE_HEADBUTT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_STANTLER
+        move MOVE_HYPNOSIS
+        move MOVE_STOMP
+        move MOVE_ASTONISH
+        move MOVE_LEER
         ballseal 0
     endparty
 
