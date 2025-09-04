@@ -1930,12 +1930,12 @@ _1164: // Trainer 485
 _1170: // Trainer 42
     trainertextentry  42, TEXT_NOTICE_IN_OVERWORLD, "Hmmm...\nThis is a strange place.\r"
     trainertextentry  42, TEXT_DEFEATED_IN_BATTLE, "...\n"
-    trainertextentry  42, TEXT_DEFEATED_IN_OVERWORLD, "...Do you hear that music?\n"
+    trainertextentry  42, TEXT_DEFEATED_IN_OVERWORLD, "...Do you hear that noise?\nSome kind of...melody?\n"
 
 _117C: // Trainer 319
-    trainertextentry 319, TEXT_NOTICE_IN_OVERWORLD, "ZUBAT’s Supersonic keeps confusing my\nPokémon. I’m seriously upset\fabout that!\r"
-    trainertextentry 319, TEXT_DEFEATED_IN_BATTLE, "I flamed out!\n"
-    trainertextentry 319, TEXT_DEFEATED_IN_OVERWORLD, "I’ve practiced training my Pokémon,\nbut I’ve practiced breathing fire many\fmore times than that.\rDon’t try this at home, OK?\n"
+    trainertextentry 319, TEXT_NOTICE_IN_OVERWORLD, "Eek!\rYou found my secret meditation spot!\r"
+    trainertextentry 319, TEXT_DEFEATED_IN_BATTLE, "Nothing but cinders...\n"
+    trainertextentry 319, TEXT_DEFEATED_IN_OVERWORLD, "This is when I go when I'm not\nfire-breathing. A strict no-fire zone.\rYou better not think about\ncausing trouble around here,\fyou promise?\n"
 
 _1188: // Trainer 390
     trainertextentry 390, TEXT_NOTICE_IN_OVERWORLD, "If there’s light, a cave isn’t scary. If\nyou’re strong, Pokémon aren’t scary.\r"
