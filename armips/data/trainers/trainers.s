@@ -2803,7 +2803,7 @@ trainerdata 86, "Randall"
         ballseal 0
     endparty
 
-trainerdata 87, "Mickey"
+trainerdata 87, "Dean"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
@@ -4866,7 +4866,7 @@ trainerdata 148, "Lloyd"
         ballseal 0
     endparty
 
-trainerdata 149, "Dean"
+trainerdata 149, "Cory"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
