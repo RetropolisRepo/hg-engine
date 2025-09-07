@@ -1,3 +1,4 @@
+#!/bin/bash
 ./tools/source/dumptools/dumprom.sh
 rm -rf build/pokemonow
 mkdir -p data/graphics/overworlds

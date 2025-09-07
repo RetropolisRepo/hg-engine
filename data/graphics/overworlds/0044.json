@@ -1,6 +1,6 @@
 {
 	"frames": {
-		"clown.1": {
+		"icpo.1": {
 			"frame": 0,
 			"coordTrans": 0,
 			"color0": 1,
@@ -11,13 +11,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 573,
+			"unkBlockUnk0": 565,
 			"unkBlockUnk1": 267,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.10": {
+		"icpo.10": {
 			"frame": 1,
 			"coordTrans": 0,
 			"color0": 1,
@@ -28,13 +28,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 53,
+			"unkBlockUnk0": 45,
 			"unkBlockUnk1": 3,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.11": {
+		"icpo.11": {
 			"frame": 2,
 			"coordTrans": 0,
 			"color0": 1,
@@ -45,13 +45,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 1075,
+			"unkBlockUnk0": 1067,
 			"unkBlockUnk1": 3594,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.12": {
+		"icpo.12": {
 			"frame": 3,
 			"coordTrans": 0,
 			"color0": 1,
@@ -62,13 +62,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 1330,
+			"unkBlockUnk0": 1322,
 			"unkBlockUnk1": 2567,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.13": {
+		"icpo.13": {
 			"frame": 4,
 			"coordTrans": 0,
 			"color0": 1,
@@ -79,13 +79,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 561,
+			"unkBlockUnk0": 553,
 			"unkBlockUnk1": 2054,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.14": {
+		"icpo.14": {
 			"frame": 5,
 			"coordTrans": 0,
 			"color0": 1,
@@ -96,13 +96,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 1328,
+			"unkBlockUnk0": 1320,
 			"unkBlockUnk1": 2310,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.15": {
+		"icpo.15": {
 			"frame": 4,
 			"coordTrans": 0,
 			"color0": 1,
@@ -113,13 +113,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 2097,
+			"unkBlockUnk0": 2089,
 			"unkBlockUnk1": 3081,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.16": {
+		"icpo.16": {
 			"frame": 6,
 			"coordTrans": 0,
 			"color0": 1,
@@ -130,13 +130,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 1072,
+			"unkBlockUnk0": 1064,
 			"unkBlockUnk1": 2824,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.2": {
+		"icpo.2": {
 			"frame": 7,
 			"coordTrans": 0,
 			"color0": 1,
@@ -147,13 +147,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 1840,
+			"unkBlockUnk0": 1832,
 			"unkBlockUnk1": 3337,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.3": {
+		"icpo.3": {
 			"frame": 0,
 			"coordTrans": 0,
 			"color0": 1,
@@ -164,13 +164,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 816,
+			"unkBlockUnk0": 808,
 			"unkBlockUnk1": 3850,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.4": {
+		"icpo.4": {
 			"frame": 8,
 			"coordTrans": 0,
 			"color0": 1,
@@ -181,13 +181,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 3130,
+			"unkBlockUnk0": 3122,
 			"unkBlockUnk1": 1295,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.5": {
+		"icpo.5": {
 			"frame": 9,
 			"coordTrans": 0,
 			"color0": 1,
@@ -198,13 +198,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 3385,
+			"unkBlockUnk0": 3377,
 			"unkBlockUnk1": 782,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.6": {
+		"icpo.6": {
 			"frame": 10,
 			"coordTrans": 0,
 			"color0": 1,
@@ -215,13 +215,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 312,
+			"unkBlockUnk0": 304,
 			"unkBlockUnk1": 525,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.7": {
+		"icpo.7": {
 			"frame": 9,
 			"coordTrans": 0,
 			"color0": 1,
@@ -232,13 +232,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 3128,
+			"unkBlockUnk0": 3120,
 			"unkBlockUnk1": 1038,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.8": {
+		"icpo.8": {
 			"frame": 11,
 			"coordTrans": 0,
 			"color0": 1,
@@ -249,13 +249,13 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 4153,
+			"unkBlockUnk0": 4145,
 			"unkBlockUnk1": 1807,
 			"unk0": 0,
 			"unk1": 1,
 			"unk2": 128
 		},
-		"clown.9": {
+		"icpo.9": {
 			"frame": 2,
 			"coordTrans": 0,
 			"color0": 1,
@@ -266,7 +266,7 @@
 			"flipX": 0,
 			"repeatY": 0,
 			"repeatX": 0,
-			"unkBlockUnk0": 2872,
+			"unkBlockUnk0": 2864,
 			"unkBlockUnk1": 1552,
 			"unk0": 0,
 			"unk1": 1,
@@ -274,11 +274,11 @@
 		}
 	},
 	"palettes": {
-		"clown": {
+		"icpo": {
 			"offset": 0,
-			"unk0": 38,
+			"unk0": 30,
 			"unk1": 1,
-			"fileName": "clown.pal"
+			"fileName": "icpo.pal"
 		}
 	}
 }
