@@ -634,7 +634,7 @@ trainerdata 20, "Falkner"
         // mon 0
         ivs 50
         abilityslot 0
-        level 7
+        level 8
         pokemon SPECIES_FLETCHLING
         item ITEM_NONE
         move MOVE_PECK
@@ -658,7 +658,7 @@ trainerdata 20, "Falkner"
         // mon 2
         ivs 50
         abilityslot 0
-        level 13
+        level 12
         pokemon SPECIES_PIDGEOTTO
         item ITEM_NONE
         move MOVE_TACKLE
