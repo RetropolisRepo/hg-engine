@@ -564,21 +564,21 @@ trainerdata 18, "Justin"
         // mon 1
         ivs 0
         abilityslot 0
-        level 5
+        level 7
         pokemon SPECIES_MAGIKARP
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 15
+        level 12
         pokemon SPECIES_MAGIKARP
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 5
+        level 9
         pokemon SPECIES_MAGIKARP
         ballseal 0
     endparty
@@ -11165,7 +11165,7 @@ trainerdata 318, "Burt"
     endparty
 
 trainerdata 319, "Bill"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 2
     item ITEM_NONE
@@ -11179,16 +11179,24 @@ trainerdata 319, "Bill"
     party 319
         // mon 0
         ivs 0
-        abilityslot 0
-        level 7
-        pokemon SPECIES_KOFFING
+        abilityslot 32
+        level 9
+        pokemon SPECIES_GROWLITHE
+        move MOVE_LEER
+        move MOVE_HOWL
+        move MOVE_BITE
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
         ivs 0
-        abilityslot 0
-        level 8
-        pokemon SPECIES_KOFFING
+        abilityslot 32
+        level 10
+        pokemon SPECIES_HOUNDOUR
+        move MOVE_LEER
+        move MOVE_HOWL
+        move MOVE_HEADBUTT
+        move MOVE_NONE
         ballseal 0
     endparty
 
