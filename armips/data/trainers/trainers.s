@@ -13393,7 +13393,7 @@ trainerdata 390, "Ray"
         // mon 0
         ivs 0
         abilityslot 0
-        level 9
+        level 11
         pokemon SPECIES_VULPIX
         ballseal 0
     endparty
