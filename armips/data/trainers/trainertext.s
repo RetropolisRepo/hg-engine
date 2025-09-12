@@ -1223,7 +1223,7 @@ _0AA8: // Trainer 56
     trainertextentry  56, TEXT_DEFEATED_IN_OVERWORLD, "Each Pokémon has its own nature.\nThey seem different every time I catch\fone. So there must be many natures!\n"
 
 _0AB4: // Trainer 61
-    trainertextentry  61, TEXT_NOTICE_IN_OVERWORLD, "I came through the cave, but I still\nhave plenty of energy left.\r"
+    trainertextentry  61, TEXT_NOTICE_IN_OVERWORLD, "I just finished my hike, but I still\nhave plenty of energy left.\r"
     trainertextentry  61, TEXT_DEFEATED_IN_BATTLE, "Whoa! You’ve got more zip than me!\n"
     trainertextentry  61, TEXT_DEFEATED_IN_OVERWORLD, "We Hikers are at our best in\nthe mountains.\n"
     trainertextentry  61, TEXT_REMATCH_IN_OVERWORLD, "All righty, then!\nMy Pokémon and I are raring to go!\r"
