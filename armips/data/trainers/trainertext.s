@@ -1955,7 +1955,7 @@ _11A0: // Trainer 25
 _11AC: // Trainer 384
     trainertextentry 384, TEXT_NOTICE_IN_OVERWORLD, "Whoa! What a surprise!\nI didn’t expect to see anyone here!\r"
     trainertextentry 384, TEXT_DEFEATED_IN_BATTLE, "Whoa! I’m beaten big time!\n"
-    trainertextentry 384, TEXT_DEFEATED_IN_OVERWORLD, "I was conned into buying a\nSlowpokeTail. I feel sorry for the\fpoor Pokémon.\n"
+    trainertextentry 384, TEXT_DEFEATED_IN_OVERWORLD, "Some weirdo tried to sell\nme a SlowpokeTail. I feel sorry for\fthe poor Pokémon.\n"
 
 _11B8: // Trainer 201
     trainertextentry 201, TEXT_NOTICE_IN_OVERWORLD, "Who’s there?\nLeave me and my Pokémon alone!\r"
