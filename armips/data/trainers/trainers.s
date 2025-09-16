@@ -2058,14 +2058,14 @@ trainerdata 62, "Samuel"
         // mon 0
         ivs 0
         abilityslot 32
-        level 10
+        level 12
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 11
+        level 12
         pokemon SPECIES_SANDSHREW
         ballseal 0
 
@@ -2121,7 +2121,7 @@ trainerdata 64, "Ian"
         // mon 0
         ivs 0
         abilityslot 0
-        level 12
+        level 13
         pokemon SPECIES_MANKEY
         move MOVE_FOCUS_ENERGY
         move MOVE_FURY_SWIPES
@@ -2132,7 +2132,7 @@ trainerdata 64, "Ian"
         // mon 1
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_DIGLETT
         move MOVE_MUD_SLAP
         move MOVE_GROWL
