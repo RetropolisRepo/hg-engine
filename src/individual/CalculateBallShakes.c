@@ -90,7 +90,9 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
         ballCaptureRatio = 0x1000;
         break;
     case ITEM_SAFARI_BALL:
-        ballCaptureRatio = 0x1000;
+        if (BattleTypeGet(bw) & BATTLE_TYPE_SAFARI) {
+            ballCaptureRatio = 0x1800;
+        }
         break;
     case ITEM_NET_BALL:
         if (HasType(sp, sp->defence_client, TYPE_WATER) || HasType(sp, sp->defence_client, TYPE_BUG)) {
@@ -160,10 +162,11 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
             }
         }
         break;
-    // case ITEM_LURE_BALL:
-    //     if (Battle_IsFishingEncounter(bw))
-    //         ballRate = 40; // as of sword and shield
-    //     break;
+    case ITEM_LURE_BALL:
+        if (Battle_IsFishingEncounter(bw)) {
+            ballCaptureRatio = 0x4000; // as of sword and shield
+        }
+        break;
     case ITEM_HEAVY_BALL:
         if (GetPokemonWeight(bw, sp, sp->defence_client) < 999) {
             heavyBallMod = -20;
@@ -202,7 +205,9 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
         }
         break;
     case ITEM_SPORT_BALL:
-        ballCaptureRatio = 0x1000;
+        if (BattleTypeGet(bw) & BATTLE_TYPE_BUG_CONTEST) {
+            ballCaptureRatio = 0x1800;
+        }
         break;
     //case ITEM_PARK_BALL:
     //
@@ -293,12 +298,31 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
 #ifdef DEBUG_CAPTURE_RATE_PERCENTAGES
     debug_printf("Step 5: Calculate the badge penalty\n");
 #endif
+
+    u8 badgeLevel[] = {
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        100,
+    };
+
     struct PlayerProfile *profile = Sav2_PlayerData_GetProfileAddr(SaveBlock2_get());
     badges = profile->johtoBadges + profile->kantoBadges;
-    missingBadges = 8 - badges;
-    if (missingBadges < 0) {
-        missingBadges = 0;
+    badges = badges > 8 ? 8 : badges;
+    missingBadges = 0;
+    if (sp->battlemon[sp->defence_client].level + 5 > badgeLevel[badges]) {
+        for (int i = badges; i <= 8; i++) {
+            if (sp->battlemon[sp->defence_client].level > badgeLevel[i]) {
+                missingBadges++;
+            }
+        }
     }
+    
 #ifdef DEBUG_CAPTURE_RATE_PERCENTAGES
     debug_printf("missingBadges: %d\n", missingBadges);
 #endif
