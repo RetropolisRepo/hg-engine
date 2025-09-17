@@ -5582,7 +5582,7 @@ pokemon SPECIES_CHINGLING
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
+encounter SPECIES_MARILL, 10, 20
 encounter SPECIES_SEAKING, 15, 25
 encounter SPECIES_SEAKING, 15, 25
 encounter SPECIES_SEAKING, 15, 25
@@ -5790,7 +5790,7 @@ pokemon SPECIES_CHINGLING
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 20, 30
+encounter SPECIES_MARILL, 20, 30
 encounter SPECIES_SEAKING, 20, 30
 encounter SPECIES_SEAKING, 20, 30
 encounter SPECIES_SEAKING, 20, 30
@@ -5894,7 +5894,7 @@ pokemon SPECIES_CHINGLING
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
+encounter SPECIES_MARILL, 10, 20
 encounter SPECIES_SEAKING, 15, 25
 encounter SPECIES_SEAKING, 15, 25
 encounter SPECIES_SEAKING, 15, 25
