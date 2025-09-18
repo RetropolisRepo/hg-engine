@@ -2554,7 +2554,7 @@ trainerdata 78, "Arnie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_VENONAT
         ballseal 0
     endparty
@@ -13329,8 +13329,8 @@ trainerdata 388, "Walt"
         // mon 0
         ivs 0
         abilityslot 0
-        level 11
-        pokemon SPECIES_MAGMAR
+        level 12
+        pokemon SPECIES_MAGBY
         ballseal 0
 
         // mon 1
@@ -13439,14 +13439,14 @@ trainerdata 392, "Donald"
         // mon 0
         ivs 0
         abilityslot 32
-        level 14
+        level 15
         pokemon SPECIES_SLOWPOKE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 14
+        level 15
         pokemon SPECIES_SLOWPOKE
         ballseal 0
     endparty
@@ -13467,28 +13467,28 @@ trainerdata 393, "Teru"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 12
         pokemon SPECIES_MAGNEMITE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 13
+        level 14
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 10
+        level 12
         pokemon SPECIES_MAGNEMITE
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 12
+        level 13
         pokemon SPECIES_MAGNEMITE
         ballseal 0
     endparty

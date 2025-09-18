@@ -2200,7 +2200,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 13, 12, 13, 12, 14, 14, 11, 11, 13, 12, 13, 12
+walklevels 13, 12, 13, 12, 13, 13, 11, 11, 13, 12, 13, 12
 
 // morning encounter slots
 pokemon SPECIES_DROWZEE
