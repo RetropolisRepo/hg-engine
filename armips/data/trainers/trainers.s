@@ -5728,7 +5728,7 @@ trainerdata 178, "Jack"
         // mon 0
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_ODDISH
         ballseal 0
 
@@ -5908,7 +5908,7 @@ trainerdata 184, "Krise"
         // mon 0
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_ODDISH
         ballseal 0
 
