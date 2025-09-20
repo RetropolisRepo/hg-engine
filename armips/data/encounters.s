@@ -5424,7 +5424,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 17, 18, 16, 17, 17, 18, 17, 17, 16, 15, 16, 15
+walklevels 17, 18, 16, 17, 17, 18, 17, 17, 16, 15, 16, 17
 
 // morning encounter slots
 pokemon SPECIES_MANKEY
@@ -5528,7 +5528,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 15, 17, 18, 17, 16, 16, 18, 15, 16, 17, 15, 17
+walklevels 18, 17, 19, 17, 16, 19, 18, 16, 19, 17, 18, 17
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -5632,7 +5632,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 18, 15, 15, 16, 17, 17, 16, 16, 18, 16, 18, 16
+walklevels 18, 17, 19, 17, 16, 19, 18, 16, 19, 17, 18, 17
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
@@ -5736,7 +5736,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 35, 36, 35, 36, 35, 35, 34, 34, 37, 35, 37, 35
+walklevels 41, 42, 40, 39, 40, 39, 41, 42, 40, 41, 39, 42
 
 // morning encounter slots
 pokemon SPECIES_GRAVELER
@@ -5840,7 +5840,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 18, 17, 15, 17, 16, 16, 18, 16, 16, 16, 16, 16
+walklevels 18, 17, 19, 17, 16, 19, 18, 16, 19, 17, 18, 17
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -5944,7 +5944,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 21, 20, 22, 22, 19, 21, 20, 19, 19, 22, 19, 21
+walklevels 21, 21, 22, 22, 20, 21, 20, 19, 19, 22, 19, 21
 
 // morning encounter slots
 pokemon SPECIES_FLAAFFY
@@ -7296,7 +7296,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 33, 33, 33, 33, 35, 35, 32, 32, 35, 33, 35, 33
+walklevels 36, 36, 37, 37, 38, 38, 37, 36, 35, 38, 38, 37
 
 // morning encounter slots
 pokemon SPECIES_ARON
@@ -7400,7 +7400,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 38, 39, 37, 37, 39, 40, 38, 38, 40, 38, 40, 38
+walklevels 41, 42, 40, 39, 40, 39, 41, 42, 40, 41, 39, 42
 
 // morning encounter slots
 pokemon SPECIES_FARFETCHD
