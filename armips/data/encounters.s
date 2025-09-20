@@ -1888,7 +1888,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 10, 8, 10, 10, 10, 8, 11, 11, 9, 10, 9, 10
+walklevels 10, 9, 10, 11, 11, 9, 11, 11, 9, 10, 9, 10
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -2096,7 +2096,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 10, 8, 10, 10, 10, 8, 11, 11, 9, 10, 9, 10
+walklevels 10, 9, 10, 11, 11, 9, 11, 11, 9, 10, 9, 10
 
 // morning encounter slots
 pokemon SPECIES_CATERPIE
@@ -2928,7 +2928,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 17, 19, 18, 18, 19, 18, 17, 18, 16, 17, 16, 17
+walklevels 19, 20, 19, 18, 19, 19, 18, 19, 18, 20, 18, 19
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -3032,7 +3032,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 17, 19, 18, 18, 19, 18, 17, 18, 16, 17, 16, 17
+walklevels 19, 20, 19, 18, 19, 19, 18, 19, 18, 20, 18, 19
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -6101,11 +6101,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_GYARADOS, 10, 20
-encounter SPECIES_GYARADOS, 10, 20
-encounter SPECIES_GYARADOS, 10, 20
+encounter SPECIES_MAGIKARP, 15, 20
+encounter SPECIES_MAGIKARP, 20, 25
+encounter SPECIES_GYARADOS, 20, 25
+encounter SPECIES_GYARADOS, 20, 25
+encounter SPECIES_GYARADOS, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
