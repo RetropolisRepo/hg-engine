@@ -1993,9 +1993,9 @@ _1200: // Trainer 363
     trainertextentry 363, TEXT_DEFEATED_IN_OVERWORLD, "Just once a week, LAPRAS come to\nthe water’s edge.\rThis is the only place I've found\nthem. They're quite remarkable.\n"
 
 _120C: // Trainer 486
-    trainertextentry 486, TEXT_LAST_MON_SENT_OUT, "It doesn’t matter where we go, there’s\nalways someone who doesn’t agree\fwith us...\n"
+    trainertextentry 486, TEXT_LAST_MON_SENT_OUT, "It doesn’t matter where I go, there’s\nalways someone who doesn’t agree\fwith me...\n"
     trainertextentry 486, TEXT_LAST_MON_CRITICAL, "Are you serious? Did you come here\nthinking you could mess with our plans?\n"
-    trainertextentry 486, TEXT_DEFEATED_IN_BATTLE, "Grr...\nFor a kid to be this good...\fI didn’t see it coming.\n"
+    trainertextentry 486, TEXT_DEFEATED_IN_BATTLE, "Grr...\nFor a kid to be this good...\fI should've... I-.\n"
 
 _1218: // Trainer 12
     trainertextentry  12, TEXT_NOTICE_IN_OVERWORLD, "Quit taking SlowpokeTails?\rIf we listened to you, Team Rocket’s\nrep would be ruined!\r"
