@@ -1844,7 +1844,7 @@ _1090: // Trainer 184
 _10A0: // Trainer 178
     trainertextentry 178, TEXT_NOTICE_IN_OVERWORLD, "The world is deep. There are still lots\nof things we don’t know.\fBut I know more than you do!\r"
     trainertextentry 178, TEXT_DEFEATED_IN_BATTLE, "Wh-wh-what?\n"
-    trainertextentry 178, TEXT_DEFEATED_IN_OVERWORLD, "There is a lot to learn.\rFor example...\nThere are more than 90 kinds of TMs.\fAnd traded Pokémon level up faster.\n"
+    trainertextentry 178, TEXT_DEFEATED_IN_OVERWORLD, "There is a lot to learn.\rFor example...\nThere are more than 100 kinds of TMs.\fAnd traded Pokémon level up faster.\n"
     trainertextentry 178, TEXT_REMATCH_IN_OVERWORLD, "Yay!\nYou kept your promise and came back!\r"
 
 _10B0: // Trainer 185
