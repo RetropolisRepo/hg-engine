@@ -956,8 +956,8 @@ trainerdata 30, "Whitney"
         level 18
         pokemon SPECIES_CLEFAIRY
         item ITEM_NONE
-        move MOVE_DISARMING_VOICE
-        move MOVE_MIMIC
+        move MOVE_DRAINING_KISS
+        move MOVE_CHARM
         move MOVE_ENCORE
         move MOVE_METRONOME
         ballseal 0
@@ -965,7 +965,7 @@ trainerdata 30, "Whitney"
         // mon 1
         ivs 100
         abilityslot 32
-        level 17
+        level 18
         pokemon SPECIES_STUFFUL
         item ITEM_NONE
         move MOVE_LOW_KICK
