@@ -971,7 +971,7 @@ trainerdata 30, "Whitney"
         move MOVE_LOW_KICK
         move MOVE_BABY_DOLL_EYES
         move MOVE_BRUTAL_SWING
-        move MOVE_TACKLE
+        move MOVE_HEADBUTT
         ballseal 0
 
         // mon 2
@@ -1004,9 +1004,9 @@ trainerdata 31, "Morty"
         ivs 100
         abilityslot 0
         level 22
-        pokemon SPECIES_GASTLY
+        pokemon SPECIES_MISDREAVUS
         item ITEM_NONE
-        move MOVE_LICK
+        move MOVE_CONFUSION
         move MOVE_SPITE
         move MOVE_MEAN_LOOK
         move MOVE_CURSE
@@ -1021,7 +1021,7 @@ trainerdata 31, "Morty"
         move MOVE_HYPNOSIS
         move MOVE_DREAM_EATER
         move MOVE_CURSE
-        move MOVE_NIGHTMARE
+        move MOVE_OMINOUS_WIND
         ballseal 0
 
         // mon 2
@@ -1041,7 +1041,7 @@ trainerdata 31, "Morty"
         abilityslot 0
         level 22
         pokemon SPECIES_DUSKULL
-        item ITEM_NONE
+        item ITEM_SPELL_TAG
         move MOVE_SHADOW_SNEAK
         move MOVE_WILL_O_WISP
         move MOVE_CONFUSE_RAY
