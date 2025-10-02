@@ -956,7 +956,7 @@ trainerdata 30, "Whitney"
         level 18
         pokemon SPECIES_CLEFAIRY
         item ITEM_NONE
-        move MOVE_DRAINING_KISS
+        move MOVE_DISARMING_VOICE
         move MOVE_CHARM
         move MOVE_ENCORE
         move MOVE_METRONOME
