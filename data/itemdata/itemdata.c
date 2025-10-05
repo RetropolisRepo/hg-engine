@@ -36868,7 +36868,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CASTELIACONE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 100,
+    .price = 250,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
