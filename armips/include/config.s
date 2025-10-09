@@ -8,7 +8,7 @@ GEN_LATEST equ 9
 START_ADDRESS equ 0x0
 
 // DISALLOW_DEXIT_GEN controls whether to disallow selection of dexited moves in later generations. Choose any Generation below 8 for none. 0 will instead disable any unimplemented moves.
-DISALLOW_DEXIT_GEN equ 0
+DISALLOW_DEXIT_GEN equ 7
 
 // FAIRY_TYPE_IMPLEMENTED defines whether or not the Fairy type is to be implemented as type 9 or not.
 // If you do not want this change, then set it to 0.
