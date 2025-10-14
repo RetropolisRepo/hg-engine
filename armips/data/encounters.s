@@ -952,7 +952,7 @@ rocksmashrate 20
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 20, 22, 20, 22, 18, 18, 24, 24, 20, 22, 20, 22
+walklevels 21, 22, 21, 22, 24, 21, 24, 24, 23, 22, 23, 22
 
 // morning encounter slots
 pokemon SPECIES_NATU
