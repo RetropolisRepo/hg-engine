@@ -9628,7 +9628,7 @@ movedata MOVE_AROMATIC_MIST, "Aromatic Mist"
     movedescription MOVE_AROMATIC_MIST, "The user boosts the\nSp. Def stat of an\nally Pokémon by using\na mysterious aroma."
 
 movedata MOVE_EERIE_IMPULSE, "Eerie Impulse"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_SP_ATK_DOWN_2
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ELECTRIC
@@ -9641,7 +9641,7 @@ movedata MOVE_EERIE_IMPULSE, "Eerie Impulse"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_EERIE_IMPULSE, "---"
+    movedescription MOVE_EERIE_IMPULSE, "The user emits an\neerie impulse from its\nbody, harshly lowering\nthe target's Sp. Atk\nstat."
 
 movedata MOVE_VENOM_DRENCH, "Venom Drench"
     battleeffect MOVE_EFFECT_VENOM_DRENCH
