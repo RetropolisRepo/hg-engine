@@ -2577,7 +2577,7 @@
 
 #define IS_ITEM_BERRY(item) ((item >= ITEM_CHERI_BERRY && item <= ITEM_ROWAP_BERRY) || (item >= ITEM_ROSELI_BERRY && item <= ITEM_MARANGA_BERRY))
 
-#define IS_ITEM_CONSUMABLE(item) (item == ITEM_WHITE_HERB || item == ITEM_MENTAL_HERB || item == ITEM_POWER_HERB || item == ITEM_ABSORB_BULB || item == ITEM_MIRROR_HERB || item == ITEM_CELL_BATTERY)
+#define IS_ITEM_CONSUMABLE(item) (item == ITEM_WHITE_HERB || item == ITEM_MENTAL_HERB || item == ITEM_POWER_HERB || item == ITEM_ABSORB_BULB || item == ITEM_MIRROR_HERB || item == ITEM_CELL_BATTERY || item == ITEM_LUMINOUS_MOSS || item == ITEM_SNOWBALL)
 
 #define IS_ITEM_MAIL(item) ((item >= ITEM_GRASS_MAIL && item <= ITEM_BRICK_MAIL))
 
