@@ -6152,7 +6152,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 33, 32, 33, 32, 31, 31, 34, 34, 31, 34, 31, 32
+walklevels 33, 32, 33, 32, 31, 31, 34, 34, 31, 34, 31, 26
 
 // morning encounter slots
 pokemon SPECIES_TANGELA
