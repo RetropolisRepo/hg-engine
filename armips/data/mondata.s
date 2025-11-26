@@ -9410,7 +9410,7 @@ mondata SPECIES_RIOLU, "Riolu"
     items ITEM_NONE, ITEM_NONE
     genderratio 31
     eggcycles 10
-    basefriendship 50
+    basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_STEADFAST, ABILITY_INNER_FOCUS
