@@ -350,7 +350,7 @@ _025C: // Trainer 69
 _0268: // Trainer 22
     trainertextentry  22, TEXT_NOTICE_IN_OVERWORLD, "You shouldn’t let your guard down just\n’cause I don’t look tough!\r"
     trainertextentry  22, TEXT_DEFEATED_IN_BATTLE, "Gosh...\nI thought you were weak...\n"
-    trainertextentry  22, TEXT_DEFEATED_IN_OVERWORLD, "Huh? SNUBBULL is a Fairy-Type?\rPffft, what do you know??\n"
+    trainertextentry  22, TEXT_DEFEATED_IN_OVERWORLD, "Huh? SNUBBULL is a Fairy-Type?\rPffft, what do you know?\n"
 
 _0274: // Trainer 71
     trainertextentry  71, TEXT_NOTICE_IN_OVERWORLD, "I like cute Pokémon better than\nstrong Pokémon.\rBut I have strong and cute Pokémon!\r"
@@ -1935,7 +1935,7 @@ _1170: // Trainer 42
 _117C: // Trainer 319
     trainertextentry 319, TEXT_NOTICE_IN_OVERWORLD, "Eek!\rYou found my secret meditation spot!\r"
     trainertextentry 319, TEXT_DEFEATED_IN_BATTLE, "Nothing but cinders...\n"
-    trainertextentry 319, TEXT_DEFEATED_IN_OVERWORLD, "This is when I go when I'm not\nfire-breathing. A strict no-fire zone.\rYou better not think about\ncausing trouble around here,\fyou promise?\n"
+    trainertextentry 319, TEXT_DEFEATED_IN_OVERWORLD, "This is when I go when I'm not\nfire-breathing. A strict no-fire zone.\rYou better not think about\ncausing trouble around here.\fCan you promise me that?\n"
 
 _1188: // Trainer 390
     trainertextentry 390, TEXT_NOTICE_IN_OVERWORLD, "If there’s light, a cave isn’t scary. If\nyou’re strong, Pokémon aren’t scary.\r"
@@ -1995,7 +1995,7 @@ _1200: // Trainer 363
 _120C: // Trainer 486
     trainertextentry 486, TEXT_LAST_MON_SENT_OUT, "It doesn’t matter where I go, there’s\nalways someone who doesn’t agree\fwith me...\n"
     trainertextentry 486, TEXT_LAST_MON_CRITICAL, "Are you serious? Did you come here\nthinking you could mess with our plans?\n"
-    trainertextentry 486, TEXT_DEFEATED_IN_BATTLE, "Grr...\nFor a kid to be this good...\fI should've... I-.\n"
+    trainertextentry 486, TEXT_DEFEATED_IN_BATTLE, "What!?\nHow can a kid be this good...?\fNo, I should've... I-\n"
 
 _1218: // Trainer 12
     trainertextentry  12, TEXT_NOTICE_IN_OVERWORLD, "Quit taking SlowpokeTails?\rIf we listened to you, Team Rocket’s\nrep would be ruined!\r"

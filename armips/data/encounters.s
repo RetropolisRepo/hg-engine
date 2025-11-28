@@ -328,7 +328,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 2, 3, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4
+walklevels 2, 3, 2, 3, 4, 4, 3, 4, 3, 4, 3, 4
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
@@ -432,7 +432,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 3, 4, 3, 4, 3, 3, 5, 5, 5, 5, 5, 5
+walklevels 4, 4, 3, 3, 3, 3, 4, 3, 4, 4, 4, 4
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
@@ -640,7 +640,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
+walklevels 4, 5, 4, 3, 5, 5, 3, 3, 3, 5, 5, 4
 
 // morning encounter slots
 pokemon SPECIES_PURRLOIN
@@ -744,7 +744,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
+walklevels 4, 5, 4, 3, 5, 5, 3, 3, 3, 5, 5, 4
 
 // morning encounter slots
 pokemon SPECIES_PURRLOIN
@@ -848,7 +848,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 4
+walklevels 6, 5, 6, 4, 6, 6, 5, 6, 4, 5, 6, 4
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
@@ -1472,7 +1472,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 6, 6, 6, 5, 5, 4, 4, 7, 6, 7, 6
+walklevels 8, 8, 8, 8, 7, 7, 8, 8, 9, 6, 9, 6
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
