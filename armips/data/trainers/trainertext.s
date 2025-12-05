@@ -2100,8 +2100,8 @@ _1300: // Trainer 499
 
 _1304: // Trainer 488
     trainertextentry 488, TEXT_LAST_MON_SENT_OUT, "Hey, you’re good!\n"
-    trainertextentry 488, TEXT_LAST_MON_CRITICAL, "When I'm pushed, I push back!\n"
-    trainertextentry 488, TEXT_DEFEATED_IN_BATTLE, "I...I couldn’t do a thing...\nGiovanni, Archer, please\fforgive me...\n"
+    trainertextentry 488, TEXT_LAST_MON_CRITICAL, "If you keep pushing me, I will\npush back!\n"
+    trainertextentry 488, TEXT_DEFEATED_IN_BATTLE, "I...I couldn’t do a thing...\nGiovanni, Archer, please...\fForgive me...\n"
 
 _1310: // Trainer 468
     trainertextentry 468, TEXT_NOTICE_IN_OVERWORLD, "I used to work for Silph, but now I run\nresearch for Team Rocket.\rA meddlesome child like you needs to be\npunished.\r"
