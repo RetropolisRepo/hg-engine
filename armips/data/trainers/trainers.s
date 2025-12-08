@@ -1165,7 +1165,7 @@ trainerdata 33, "Jasmine"
         abilityslot 32
         level 33
         pokemon SPECIES_MAGNETON
-        item ITEM_AIR_BALLOON
+        item ITEM_SALAC_BERRY
         move MOVE_THUNDERBOLT
         move MOVE_FLASH_CANNON
         move MOVE_EXPLOSION
@@ -24378,10 +24378,10 @@ trainerdata 706, "Proton"
         abilityslot 0
         level 39
         pokemon SPECIES_WEEZING
-        move MOVE_DOUBLE_HIT
+        move MOVE_FLAMETHROWER
         move MOVE_SLUDGE_BOMB
         move MOVE_SMOKESCREEN
-        move MOVE_GYRO_BALL
+        move MOVE_WILL_O_WISP
         ballseal 0
 
         // mon 2

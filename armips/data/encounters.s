@@ -6568,7 +6568,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 35, 33, 35, 36, 34, 34, 34, 33, 33, 36, 33, 36
+walklevels 35, 33, 35, 36, 30, 30, 34, 33, 33, 36, 33, 36
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
