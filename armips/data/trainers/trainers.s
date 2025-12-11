@@ -14106,7 +14106,7 @@ trainerdata 411, "Vernon"
         ivs 0
         abilityslot 0
         level 46
-        pokemon SPECIES_ESPEON
+        pokemon SPECIES_WYRDEER
         ballseal 0
     endparty
 
