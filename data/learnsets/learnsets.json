@@ -35303,19 +35303,19 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_GROWTH"
+        "Move": "MOVE_TACKLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_ABSORB"
       },
       {
         "Level": 4,
         "Move": "MOVE_INGRAIN"
       },
       {
-        "Level": 7,
-        "Move": "MOVE_ABSORB"
+        "Level": 6,
+        "Move": "MOVE_GROWTH"
       },
       {
         "Level": 10,
@@ -35452,11 +35452,11 @@
     "LevelMoves": [
       {
         "Level": 0,
-        "Move": "MOVE_GROWTH"
+        "Move": "MOVE_SUNNY_DAY"
       },
       {
         "Level": 1,
-        "Move": "MOVE_GROWTH"
+        "Move": "MOVE_SUNNY_DAY"
       },
       {
         "Level": 1,
@@ -35465,10 +35465,6 @@
       {
         "Level": 1,
         "Move": "MOVE_ENDEAVOR"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_FLOWER_SHIELD"
       },
       {
         "Level": 1,
@@ -35487,12 +35483,16 @@
         "Move": "MOVE_TACKLE"
       },
       {
+        "Level": 1,
+        "Move": "MOVE_ABSORB"
+      },
+      {
         "Level": 4,
         "Move": "MOVE_INGRAIN"
       },
       {
-        "Level": 7,
-        "Move": "MOVE_ABSORB"
+        "Level": 6,
+        "Move": "MOVE_GROWTH"
       },
       {
         "Level": 10,
@@ -35540,7 +35540,7 @@
       },
       {
         "Level": 40,
-        "Move": "MOVE_SUNNY_DAY"
+        "Move": "MOVE_FLOWER_SHIELD"
       },
       {
         "Level": 43,
