@@ -18511,7 +18511,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ABSORB"
+        "Move": "MOVE_BARRAGE"
       },
       {
         "Level": 1,
@@ -18519,47 +18519,67 @@
       },
       {
         "Level": 5,
-        "Move": "MOVE_REFLECT"
-      },
-      {
-        "Level": 10,
         "Move": "MOVE_LEECH_SEED"
       },
       {
-        "Level": 15,
-        "Move": "MOVE_MEGA_DRAIN"
-      },
-      {
-        "Level": 20,
+        "Level": 7,
         "Move": "MOVE_CONFUSION"
       },
       {
-        "Level": 25,
-        "Move": "MOVE_SYNTHESIS"
+        "Level": 11,
+        "Move": "MOVE_REFLECT"
       },
       {
-        "Level": 30,
+        "Level": 14,
+        "Move": "MOVE_STUN_SPORE"
+      },
+      {
+        "Level": 17,
         "Move": "MOVE_BULLET_SEED"
       },
       {
-        "Level": 35,
-        "Move": "MOVE_GIGA_DRAIN"
+        "Level": 19,
+        "Move": "MOVE_MEGA_DRAIN"
       },
       {
-        "Level": 40,
-        "Move": "MOVE_EXTRASENSORY"
+        "Level": 21,
+        "Move": "MOVE_SLEEP_POWDER"
       },
       {
-        "Level": 45,
+        "Level": 21,
+        "Move": "MOVE_POISON_POWDER"
+      },
+      {
+        "Level": 23,
+        "Move": "MOVE_SYNTHESIS"
+      },
+      {
+        "Level": 27,
         "Move": "MOVE_UPROAR"
       },
       {
-        "Level": 50,
+        "Level": 33,
         "Move": "MOVE_WORRY_SEED"
       },
       {
-        "Level": 55,
+        "Level": 37,
+        "Move": "MOVE_NATURAL_GIFT"
+      },
+      {
+        "Level": 40,
+        "Move": "MOVE_GIGA_DRAIN"
+      },
+      {
+        "Level": 43,
+        "Move": "MOVE_EXTRASENSORY"
+      },
+      {
+        "Level": 47,
         "Move": "MOVE_SOLAR_BEAM"
+      },
+      {
+        "Level": 50,
+        "Move": "MOVE_BESTOW"
       }
     ],
     "MachineMoves": [
@@ -18677,19 +18697,31 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_GROWTH"
+        "Move": "MOVE_STOMP"
       },
       {
         "Level": 1,
-        "Move": "MOVE_LEAF_STORM"
+        "Move": "MOVE_STUN_SPORE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_SEED_BOMB"
+        "Move": "MOVE_SLEEP_POWDER"
       },
       {
         "Level": 1,
-        "Move": "MOVE_WORRY_SEED"
+        "Move": "MOVE_POISON_POWDER"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_ABSORB"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_BARRAGE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_BESTOW"
       },
       {
         "Level": 1,
@@ -18697,35 +18729,15 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_EXTRASENSORY"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_UPROAR"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_SYNTHESIS"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_PSYSHOCK"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_REFLECT"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_HYPNOSIS"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_CONFUSION"
       },
       {
         "Level": 1,
-        "Move": "MOVE_SOLAR_BEAM"
+        "Move": "MOVE_GIGA_DRAIN"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_HYPNOSIS"
       },
       {
         "Level": 1,
@@ -18737,15 +18749,51 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_ABSORB"
+        "Move": "MOVE_PSYCHIC"
       },
       {
         "Level": 1,
+        "Move": "MOVE_REFLECT"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SEED_BOMB"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SOLAR_BEAM"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SYNTHESIS"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_UPROAR"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_WORRY_SEED"
+      },
+      {
+        "Level": 22,
+        "Move": "MOVE_PSYSHOCK"
+      },
+      {
+        "Level": 29,
+        "Move": "MOVE_EGG_BOMB"
+      },
+      {
+        "Level": 36,
         "Move": "MOVE_WOOD_HAMMER"
       },
       {
-        "Level": 1,
-        "Move": "MOVE_GIGA_DRAIN"
+        "Level": 43,
+        "Move": "MOVE_EXTRASENSORY"
+      },
+      {
+        "Level": 50,
+        "Move": "MOVE_LEAF_STORM"
       }
     ],
     "MachineMoves": [
@@ -34168,6 +34216,10 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_SLAM"
+      },
+      {
+        "Level": 1,
         "Move": "MOVE_WOOD_HAMMER"
       },
       {
@@ -34180,18 +34232,18 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_HAMMER_ARM"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_FLAIL"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_FAKE_TEARS"
       },
       {
-        "Level": 1,
+        "Level": 4,
+        "Move": "MOVE_FLAIL"
+      },
+      {
+        "Level": 6,
+        "Move": "MOVE_LOW_KICK"
+      },
+      {
+        "Level": 8,
         "Move": "MOVE_ROCK_THROW"
       },
       {
@@ -34201,6 +34253,10 @@
       {
         "Level": 16,
         "Move": "MOVE_MIMIC"
+      },
+      {
+        "Level": 19,
+        "Move": "MOVE_FEINT_ATTACK"
       },
       {
         "Level": 20,
@@ -34220,7 +34276,7 @@
       },
       {
         "Level": 36,
-        "Move": "MOVE_LOW_KICK"
+        "Move": "MOVE_HAMMER_ARM"
       },
       {
         "Level": 40,
@@ -77254,6 +77310,10 @@
         "Move": "MOVE_FLAIL"
       },
       {
+        "Level": 6,
+        "Move": "MOVE_LOW_KICK"
+      },
+      {
         "Level": 8,
         "Move": "MOVE_ROCK_THROW"
       },
@@ -77264,6 +77324,10 @@
       {
         "Level": 16,
         "Move": "MOVE_MIMIC"
+      },
+      {
+        "Level": 19,
+        "Move": "MOVE_FEINT_ATTACK"
       },
       {
         "Level": 20,
@@ -77280,10 +77344,6 @@
       {
         "Level": 32,
         "Move": "MOVE_ROCK_SLIDE"
-      },
-      {
-        "Level": 36,
-        "Move": "MOVE_LOW_KICK"
       },
       {
         "Level": 40,
