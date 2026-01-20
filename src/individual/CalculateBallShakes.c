@@ -36,8 +36,22 @@ u16 MoonBallSpecies[] =
     SPECIES_IGGLYBUFF,
     SPECIES_JIGGLYPUFF,
     SPECIES_WIGGLYTUFF,
+    SPECIES_STARYU,
+    SPECIES_STARMIE,
+    SPECIES_UMBREON,
+    SPECIES_TEDDIURSA,
+    SPECIES_URSARING,
+    SPECIES_URSALUNA,
+    SPECIES_URSALUNA_BLOODMOON,
+    SPECIES_LUNATONE,
+    SPECIES_SOLROCK,
     SPECIES_SKITTY,
     SPECIES_DELCATTY,
+    SPECIES_DEOXYS,
+    SPECIES_DARKRAI,
+    SPECIES_CRESSELIA
+    SPECIES_ELGYEM,
+    SPECIES_BEHEEYEM,
     SPECIES_MUNNA,
     SPECIES_MUSHARNA,
 };
@@ -147,8 +161,13 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
     //
     //    break;
     case ITEM_FAST_BALL:
-        if (PokePersonalParaGet(sp->battlemon[sp->defence_client].species, PERSONAL_BASE_SPEED) >= 100) {
+        if (BattleTypeGet(bw) & BATTLE_TYPE_ROAMER || PokePersonalParaGet(sp->battlemon[sp->defence_client].species, PERSONAL_BASE_SPEED) >= 100) 
+        {
             ballCaptureRatio = 0x4000;
+        }
+        else if (PokePersonalParaGet(sp->battlemon[sp->defence_client].species, PERSONAL_BASE_SPEED) >= 80)
+        {
+            ballCaptureRatio = 0x2000;
         }
         break;
     case ITEM_LEVEL_BALL:
