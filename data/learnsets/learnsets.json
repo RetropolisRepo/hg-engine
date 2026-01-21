@@ -35321,7 +35321,7 @@
       },
       {
         "Level": 11,
-        "Move": "MOVE_BATON_PASS"
+        "Move": "MOVE_FAKE_OUT"
       },
       {
         "Level": 15,
@@ -35330,6 +35330,10 @@
       {
         "Level": 18,
         "Move": "MOVE_FURY_SWIPES"
+      },
+      {
+        "Level": 20,
+        "Move": "MOVE_BATON_PASS"
       },
       {
         "Level": 22,
@@ -35353,10 +35357,14 @@
       },
       {
         "Level": 39,
+        "Move": "MOVE_SWITCHEROO"
+      },
+      {
+        "Level": 44,
         "Move": "MOVE_NASTY_PLOT"
       },
       {
-        "Level": 43,
+        "Level": 49,
         "Move": "MOVE_LAST_RESORT"
       }
     ],
@@ -38844,26 +38852,6 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_TAIL_WHIP"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_GROWL"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_SCARY_FACE"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_CHARM"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_THUNDER_FANG"
       },
       {
@@ -38875,12 +38863,32 @@
         "Move": "MOVE_FIRE_FANG"
       },
       {
+        "Level": 1,
+        "Move": "MOVE_SCARY_FACE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_TACKLE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_TAIL_WHIP"
+      },
+      {
         "Level": 7,
         "Move": "MOVE_BITE"
       },
       {
+        "Level": 10,
+        "Move": "MOVE_CHARM"
+      },
+      {
         "Level": 13,
         "Move": "MOVE_LICK"
+      },
+      {
+        "Level": 16,
+        "Move": "MOVE_RAGE"
       },
       {
         "Level": 19,
@@ -38891,8 +38899,16 @@
         "Move": "MOVE_ROAR"
       },
       {
+        "Level": 28,
+        "Move": "MOVE_TAKE_DOWN"
+      },
+      {
         "Level": 31,
-        "Move": "MOVE_LAST_RESORT"
+        "Move": "MOVE_TAUNT"
+      },
+      {
+        "Level": 34,
+        "Move": "MOVE_CRUNCH"
       },
       {
         "Level": 37,
@@ -38901,10 +38917,6 @@
       {
         "Level": 43,
         "Move": "MOVE_PAYBACK"
-      },
-      {
-        "Level": 49,
-        "Move": "MOVE_CRUNCH"
       }
     ],
     "MachineMoves": [
@@ -39046,6 +39058,34 @@
   "SPECIES_GRANBULL": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_THUNDER_FANG"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_ICE_FANG"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_FIRE_FANG"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_THUNDER_FANG"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_ICE_FANG"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FIRE_FANG"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SCARY_FACE"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_OUTRAGE"
       },
@@ -39058,36 +39098,20 @@
         "Move": "MOVE_TAIL_WHIP"
       },
       {
-        "Level": 1,
-        "Move": "MOVE_GROWL"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_ICE_FANG"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_SCARY_FACE"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_FIRE_FANG"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_CHARM"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_THUNDER_FANG"
-      },
-      {
         "Level": 7,
         "Move": "MOVE_BITE"
       },
       {
+        "Level": 10,
+        "Move": "MOVE_CHARM"
+      },
+      {
         "Level": 13,
         "Move": "MOVE_LICK"
+      },
+      {
+        "Level": 16,
+        "Move": "MOVE_RAGE"
       },
       {
         "Level": 19,
@@ -39098,8 +39122,16 @@
         "Move": "MOVE_ROAR"
       },
       {
+        "Level": 30,
+        "Move": "MOVE_TAKE_DOWN"
+      },
+      {
         "Level": 35,
-        "Move": "MOVE_LAST_RESORT"
+        "Move": "MOVE_TAUNT"
+      },
+      {
+        "Level": 38,
+        "Move": "MOVE_CRUNCH"
       },
       {
         "Level": 43,
@@ -39110,8 +39142,8 @@
         "Move": "MOVE_PAYBACK"
       },
       {
-        "Level": 59,
-        "Move": "MOVE_CRUNCH"
+        "Level": 56,
+        "Move": "MOVE_OUTRAGE"
       }
     ],
     "MachineMoves": [
@@ -75196,7 +75228,7 @@
       },
       {
         "Level": 11,
-        "Move": "MOVE_BATON_PASS"
+        "Move": "MOVE_FAKE_OUT"
       },
       {
         "Level": 15,
@@ -75205,6 +75237,10 @@
       {
         "Level": 18,
         "Move": "MOVE_FURY_SWIPES"
+      },
+      {
+        "Level": 20,
+        "Move": "MOVE_BATON_PASS"
       },
       {
         "Level": 22,
@@ -75228,10 +75264,14 @@
       },
       {
         "Level": 39,
+        "Move": "MOVE_SWITCHEROO"
+      },
+      {
+        "Level": 44,
         "Move": "MOVE_NASTY_PLOT"
       },
       {
-        "Level": 43,
+        "Level": 49,
         "Move": "MOVE_LAST_RESORT"
       }
     ],
