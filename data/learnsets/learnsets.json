@@ -106,7 +106,6 @@
       "MOVE_POWER_WHIP",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SMASH",
@@ -270,7 +269,6 @@
       "MOVE_POWER_WHIP",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -459,7 +457,6 @@
       "MOVE_POWER_WHIP",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -645,7 +642,6 @@
       "MOVE_POWER_UP_PUNCH",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -825,7 +821,6 @@
       "MOVE_POWER_UP_PUNCH",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -1037,7 +1032,6 @@
       "MOVE_POWER_UP_PUNCH",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -1239,7 +1233,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SLIDE",
@@ -1427,7 +1420,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SLIDE",
@@ -1635,7 +1627,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -2237,7 +2228,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROOST",
@@ -2369,7 +2359,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROOST",
@@ -2507,7 +2496,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROOST",
@@ -4563,7 +4551,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SMASH",
@@ -4725,7 +4712,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SMASH",
@@ -4943,7 +4929,6 @@
       "MOVE_QUASH",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -5151,7 +5136,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SMASH",
@@ -5317,7 +5301,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SMASH",
@@ -5539,7 +5522,6 @@
       "MOVE_QUASH",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -6298,63 +6280,83 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_TAIL_WHIP"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_EMBER"
       },
       {
         "Level": 4,
-        "Move": "MOVE_DISABLE"
+        "Move": "MOVE_TAIL_WHIP"
       },
       {
-        "Level": 8,
+        "Level": 7,
+        "Move": "MOVE_ROAR"
+      },
+      {
+        "Level": 9,
+        "Move": "MOVE_BABY_DOLL_EYES"
+      },
+      {
+        "Level": 10,
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
         "Level": 12,
-        "Move": "MOVE_SPITE"
-      },
-      {
-        "Level": 16,
-        "Move": "MOVE_INCINERATE"
-      },
-      {
-        "Level": 20,
         "Move": "MOVE_CONFUSE_RAY"
       },
       {
-        "Level": 24,
-        "Move": "MOVE_WILL_O_WISP"
-      },
-      {
-        "Level": 28,
-        "Move": "MOVE_EXTRASENSORY"
-      },
-      {
-        "Level": 32,
-        "Move": "MOVE_FLAMETHROWER"
-      },
-      {
-        "Level": 36,
-        "Move": "MOVE_IMPRISON"
-      },
-      {
-        "Level": 40,
+        "Level": 15,
         "Move": "MOVE_FIRE_SPIN"
       },
       {
-        "Level": 44,
+        "Level": 18,
+        "Move": "MOVE_IMPRISON"
+      },
+      {
+        "Level": 20,
+        "Move": "MOVE_WILL_O_WISP"
+      },
+      {
+        "Level": 23,
+        "Move": "MOVE_FEINT_ATTACK"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_HEX"
+      },
+      {
+        "Level": 28,
+        "Move": "MOVE_FLAME_BURST"
+      },
+      {
+        "Level": 31,
+        "Move": "MOVE_EXTRASENSORY"
+      },
+      {
+        "Level": 34,
         "Move": "MOVE_SAFEGUARD"
       },
       {
-        "Level": 48,
-        "Move": "MOVE_INFERNO"
+        "Level": 36,
+        "Move": "MOVE_FLAMETHROWER"
       },
       {
-        "Level": 52,
+        "Level": 39,
+        "Move": "MOVE_PAYBACK"
+      },
+      {
+        "Level": 42,
         "Move": "MOVE_FIRE_BLAST"
+      },
+      {
+        "Level": 44,
+        "Move": "MOVE_GRUDGE"
+      },
+      {
+        "Level": 47,
+        "Move": "MOVE_CAPTIVATE"
+      },
+      {
+        "Level": 50,
+        "Move": "MOVE_INFERNO"
       }
     ],
     "MachineMoves": [
@@ -6472,64 +6474,16 @@
         "Move": "MOVE_DISABLE"
       },
       {
-        "Level": 0,
-        "Move": "MOVE_EMBER"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_FIRE_SPIN"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_CONFUSE_RAY"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_FIRE_BLAST"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_SPITE"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_SAFEGUARD"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_WILL_O_WISP"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_IMPRISON"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_EXTRASENSORY"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_NASTY_PLOT"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_INCINERATE"
-      },
-      {
-        "Level": 0,
-        "Move": "MOVE_INFERNO"
-      },
-      {
         "Level": 1,
         "Move": "MOVE_DISABLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_EMBER"
+        "Move": "MOVE_BABY_DOLL_EYES"
       },
       {
         "Level": 1,
-        "Move": "MOVE_FIRE_SPIN"
+        "Move": "MOVE_CAPTIVATE"
       },
       {
         "Level": 1,
@@ -6537,23 +6491,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_FIRE_BLAST"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_SPITE"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_SAFEGUARD"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_WILL_O_WISP"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_IMPRISON"
+        "Move": "MOVE_EMBER"
       },
       {
         "Level": 1,
@@ -6561,7 +6499,31 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_NASTY_PLOT"
+        "Move": "MOVE_FEINT_ATTACK"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FIRE_BLAST"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FIRE_SPIN"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FLAMETHROWER"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_GRUDGE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_HEX"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_IMPRISON"
       },
       {
         "Level": 1,
@@ -6577,11 +6539,27 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_FLAMETHROWER"
+        "Move": "MOVE_SPITE"
       },
       {
         "Level": 1,
         "Move": "MOVE_TAIL_WHIP"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_WILL_O_WISP"
+      },
+      {
+        "Level": 29,
+        "Move": "MOVE_FLAME_BURST"
+      },
+      {
+        "Level": 35,
+        "Move": "MOVE_SAFEGUARD"
+      },
+      {
+        "Level": 42,
+        "Move": "MOVE_NASTY_PLOT"
       }
     ],
     "MachineMoves": [
@@ -8218,7 +8196,6 @@
       "MOVE_NATURE_POWER",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SMASH",
@@ -8381,7 +8358,6 @@
       "MOVE_NATURE_POWER",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_SMASH",
@@ -8556,7 +8532,6 @@
       "MOVE_PSYCHIC_NOISE",
       "MOVE_PSYWAVE",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -8757,7 +8732,6 @@
       "MOVE_PSYWAVE",
       "MOVE_RAGE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROOST",
@@ -10417,67 +10391,79 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_EMBER"
       },
       {
-        "Level": 4,
-        "Move": "MOVE_HOWL"
+        "Level": 1,
+        "Move": "MOVE_ROAR"
       },
       {
         "Level": 8,
-        "Move": "MOVE_BITE"
+        "Move": "MOVE_LEER"
+      },
+      {
+        "Level": 10,
+        "Move": "MOVE_ODOR_SLEUTH"
       },
       {
         "Level": 12,
-        "Move": "MOVE_FLAME_WHEEL"
-      },
-      {
-        "Level": 16,
         "Move": "MOVE_HELPING_HAND"
       },
       {
-        "Level": 20,
-        "Move": "MOVE_AGILITY"
+        "Level": 14,
+        "Move": "MOVE_BITE"
       },
       {
-        "Level": 24,
+        "Level": 17,
+        "Move": "MOVE_FLAME_WHEEL"
+      },
+      {
+        "Level": 19,
+        "Move": "MOVE_REVERSAL"
+      },
+      {
+        "Level": 21,
         "Move": "MOVE_FIRE_FANG"
       },
       {
+        "Level": 23,
+        "Move": "MOVE_TAKE_DOWN"
+      },
+      {
         "Level": 28,
-        "Move": "MOVE_RETALIATE"
+        "Move": "MOVE_FLAME_BURST"
+      },
+      {
+        "Level": 30,
+        "Move": "MOVE_AGILITY"
       },
       {
         "Level": 32,
         "Move": "MOVE_CRUNCH"
       },
       {
-        "Level": 36,
-        "Move": "MOVE_TAKE_DOWN"
-      },
-      {
-        "Level": 40,
+        "Level": 34,
         "Move": "MOVE_FLAMETHROWER"
       },
       {
-        "Level": 44,
-        "Move": "MOVE_ROAR"
+        "Level": 39,
+        "Move": "MOVE_RETALIATE"
       },
       {
-        "Level": 48,
-        "Move": "MOVE_PLAY_ROUGH"
-      },
-      {
-        "Level": 52,
-        "Move": "MOVE_REVERSAL"
-      },
-      {
-        "Level": 56,
+        "Level": 41,
         "Move": "MOVE_FLARE_BLITZ"
+      },
+      {
+        "Level": 43,
+        "Move": "MOVE_OUTRAGE"
+      },
+      {
+        "Level": 45,
+        "Move": "MOVE_HEAT_WAVE"
+      },
+      {
+        "Level": 49,
+        "Move": "MOVE_BURN_UP"
       }
     ],
     "MachineMoves": [
@@ -10520,7 +10506,6 @@
       "MOVE_PROTECT",
       "MOVE_PSYCHIC_FANGS",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -10585,7 +10570,23 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_PLAY_ROUGH"
+        "Move": "MOVE_EXTREME_SPEED"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_AGILITY"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_BITE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_BURN_UP"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_EMBER"
       },
       {
         "Level": 1,
@@ -10593,11 +10594,19 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_FLARE_BLITZ"
+        "Move": "MOVE_FLAME_BURST"
       },
       {
         "Level": 1,
-        "Move": "MOVE_HOWL"
+        "Move": "MOVE_FLAME_WHEEL"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FLAMETHROWER"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_HEAT_WAVE"
       },
       {
         "Level": 1,
@@ -10605,7 +10614,19 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_CRUNCH"
+        "Move": "MOVE_LEER"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_ODOR_SLEUTH"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_OUTRAGE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_PLAY_ROUGH"
       },
       {
         "Level": 1,
@@ -10617,35 +10638,23 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_AGILITY"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_EMBER"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_ROAR"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_BITE"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_LEER"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_FLAME_WHEEL"
       },
       {
         "Level": 1,
         "Move": "MOVE_TAKE_DOWN"
       },
       {
-        "Level": 5,
-        "Move": "MOVE_FLAMETHROWER"
+        "Level": 29,
+        "Move": "MOVE_HOWL"
+      },
+      {
+        "Level": 35,
+        "Move": "MOVE_CRUNCH"
+      },
+      {
+        "Level": 42,
+        "Move": "MOVE_FLARE_BLITZ"
       }
     ],
     "MachineMoves": [
@@ -10695,7 +10704,6 @@
       "MOVE_PROTECT",
       "MOVE_PSYCHIC_FANGS",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -13116,7 +13124,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -13292,7 +13299,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -14038,7 +14044,6 @@
       "MOVE_PLAY_ROUGH",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -14173,7 +14178,6 @@
       "MOVE_POISON_JAB",
       "MOVE_PROTECT",
       "MOVE_RAGE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -15163,7 +15167,6 @@
       "MOVE_PSYCH_UP",
       "MOVE_RAGE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -15328,7 +15331,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROOST",
@@ -15477,7 +15479,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROOST",
@@ -18392,7 +18393,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROLLOUT",
@@ -18559,7 +18559,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROLLOUT",
@@ -20972,7 +20971,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RECYCLE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -24303,7 +24301,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -24509,7 +24506,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -24732,7 +24728,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -24955,7 +24950,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -25297,7 +25291,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_BLAST",
@@ -25472,7 +25465,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_BLAST",
@@ -25643,7 +25635,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_BLAST",
@@ -25834,7 +25825,6 @@
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_SHELL",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROCK_BLAST",
@@ -26027,7 +26017,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -26281,7 +26270,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RECYCLE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETALIATE",
       "MOVE_RETURN",
@@ -26673,7 +26661,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -26844,7 +26831,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -27007,7 +26993,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -27180,7 +27165,6 @@
       "MOVE_PROTECT",
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -27409,7 +27393,6 @@
       "MOVE_RAGE",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_WIND",
-      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROAR",
@@ -43281,6 +43264,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_RAIN_DANCE",
       "MOVE_RECYCLE",
+      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -83833,6 +83817,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_RAIN_DANCE",
       "MOVE_RECYCLE",
+      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_RETURN",
       "MOVE_ROUND",
@@ -149980,6 +149965,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_SHELL",
+      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_ROCK_BLAST",
       "MOVE_ROUND",
@@ -151007,6 +150993,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_RAIN_DANCE",
       "MOVE_RAZOR_SHELL",
+      "MOVE_REFLECT",
       "MOVE_REST",
       "MOVE_ROUND",
       "MOVE_SAFEGUARD",
