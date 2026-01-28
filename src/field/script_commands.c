@@ -6,6 +6,7 @@
 #include "../../include/constants/file.h"
 #include "../../include/message.h"
 #include "../../include/pokemon.h"
+#include "../../include/party_menu.h"
 #include "../../include/rtc.h"
 #include "../../include/save.h"
 #include "../../include/script.h"
@@ -314,6 +315,60 @@ BOOL ScrCmd_DaycareSanitizeMon(SCRIPTCONTEXT *ctx) {
         }
     }
     return FALSE;
+}
+
+BOOL ScrCmd_GetPartySlotWithMove(SCRIPTCONTEXT *ctx) {
+    FieldSystem *fsys = ctx->fsys;
+    u16 *slot = ScriptGetVarPointer(ctx);
+    u16 move = ScriptGetVar(ctx);
+    u8 i;
+
+    struct Party *party = SaveData_GetPlayerPartyPtr(fsys->savedata);
+    u8 partyCount = party->count;
+
+    for (i = 0, *slot = 6; i < partyCount; i++) {
+        struct PartyPokemon *mon = Party_GetMonByIndex(party, i);
+        if (GetMonData(mon, MON_DATA_IS_EGG, NULL)) {
+            continue;
+        }
+
+        /*if (GetMonData(mon, MON_DATA_MOVE1, NULL) == move || GetMonData(mon, MON_DATA_MOVE2, NULL) == move || GetMonData(mon, MON_DATA_MOVE3, NULL) == move || GetMonData(mon, MON_DATA_MOVE4, NULL) == move) {
+            *slot = i;
+            break;
+        }*/
+
+        if (CanAccessFieldMove(mon, move, HEAPID_MAIN_HEAP))
+        {
+            *slot = i;
+            break;
+        }
+    }
+
+    return FALSE;
+}
+
+int ScrCmd_GetIdxOfFirstPartyMonWithMove(struct Party *party, u16 move) {
+    struct PartyPokemon *mon;
+    u8 partyCount = party->count;
+    int i;
+
+    for (i = 0; i < partyCount; i++) {
+        mon = Party_GetMonByIndex(party, i);
+        if (GetMonData(mon, MON_DATA_IS_EGG, NULL)) {
+            continue;
+        }
+        /*if (GetMonData(mon, MON_DATA_MOVE1, NULL) == move
+            || GetMonData(mon, MON_DATA_MOVE2, NULL) == move
+            || GetMonData(mon, MON_DATA_MOVE3, NULL) == move
+            || GetMonData(mon, MON_DATA_MOVE4, NULL) == move) {
+            return i;
+        }*/
+        if (CanAccessFieldMove(mon, move, HEAPID_MAIN_HEAP))
+        {
+            return i;
+        }
+    }
+    return 0xFF;
 }
 
 /*

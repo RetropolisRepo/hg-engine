@@ -788,8 +788,9 @@ MapHeader_GetWeatherType = 0x0203B3E4 | 1;
 Save_SysInfo_RTC_Get = 0x02028D3C | 1;
 FieldSystem_HasPenalty = 0x02055670 | 1;
 
-GetItemAttrSub = 0x02077E48 | 1;
+SaveArray_Party_Get = 0x02074904 | 1;
 
+GetItemAttrSub = 0x02077E48 | 1;
 
 InitBattleMsgData = 0x022478F4 | 1;
 InitBattleMsg = 0x022479C0 | 1;
@@ -828,4 +829,3 @@ sButtonWindowTemplates = 0x02101654;
 sButtonWindowIDs = 0x021016B4;
 PartyMenu_DisableMainScreenBlend_AfterYesNo = 0x0207CB90 | 1;
 sBattleBgProfileTable = 0x0226E70C;
-
