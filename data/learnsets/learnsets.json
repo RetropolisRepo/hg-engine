@@ -20257,31 +20257,63 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_LICK"
       },
       {
-        "Level": 6,
-        "Move": "MOVE_REST"
+        "Level": 5,
+        "Move": "MOVE_SUPERSONIC"
       },
       {
-        "Level": 11,
-        "Move": "MOVE_BULLDOZE"
+        "Level": 9,
+        "Move": "MOVE_DEFENSE_CURL"
       },
       {
-        "Level": 18,
-        "Move": "MOVE_ZEN_HEADBUTT"
+        "Level": 13,
+        "Move": "MOVE_KNOCK_OFF"
+      },
+      {
+        "Level": 17,
+        "Move": "MOVE_WRAP"
+      },
+      {
+        "Level": 21,
+        "Move": "MOVE_STOMP"
       },
       {
         "Level": 25,
-        "Move": "MOVE_DOUBLE_EDGE"
+        "Move": "MOVE_DISABLE"
       },
       {
-        "Level": 34,
+        "Level": 29,
+        "Move": "MOVE_SLAM"
+      },
+      {
+        "Level": 33,
         "Move": "MOVE_ROLLOUT"
       },
       {
-        "Level": 43,
-        "Move": "MOVE_GIGA_IMPACT"
+        "Level": 37,
+        "Move": "MOVE_CHIP_AWAY"
+      },
+      {
+        "Level": 41,
+        "Move": "MOVE_ME_FIRST"
+      },
+      {
+        "Level": 45,
+        "Move": "MOVE_REFRESH"
+      },
+      {
+        "Level": 49,
+        "Move": "MOVE_SCREECH"
+      },
+      {
+        "Level": 53,
+        "Move": "MOVE_POWER_WHIP"
+      },
+      {
+        "Level": 57,
+        "Move": "MOVE_WRING_OUT"
       }
     ],
     "MachineMoves": [
@@ -21514,35 +21546,79 @@
     "LevelMoves": [
       {
         "Level": 1,
+        "Move": "MOVE_CONSTRICT"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_INGRAIN"
+      },
+      {
+        "Level": 4,
+        "Move": "MOVE_SLEEP_POWDER"
+      },
+      {
+        "Level": 7,
+        "Move": "MOVE_VINE_WHIP"
+      },
+      {
+        "Level": 10,
         "Move": "MOVE_ABSORB"
       },
       {
-        "Level": 6,
-        "Move": "MOVE_STUN_SPORE"
-      },
-      {
-        "Level": 11,
+        "Level": 14,
         "Move": "MOVE_POISON_POWDER"
       },
       {
-        "Level": 15,
-        "Move": "MOVE_ACID_SPRAY"
+        "Level": 17,
+        "Move": "MOVE_BIND"
       },
       {
-        "Level": 18,
-        "Move": "MOVE_DOUBLE_HIT"
+        "Level": 20,
+        "Move": "MOVE_GROWTH"
       },
       {
-        "Level": 25,
-        "Move": "MOVE_ENERGY_BALL"
+        "Level": 23,
+        "Move": "MOVE_MEGA_DRAIN"
       },
       {
-        "Level": 34,
+        "Level": 27,
+        "Move": "MOVE_KNOCK_OFF"
+      },
+      {
+        "Level": 30,
+        "Move": "MOVE_STUN_SPORE"
+      },
+      {
+        "Level": 33,
         "Move": "MOVE_ANCIENT_POWER"
       },
       {
-        "Level": 43,
-        "Move": "MOVE_SLEEP_POWDER"
+        "Level": 36,
+        "Move": "MOVE_GIGA_DRAIN"
+      },
+      {
+        "Level": 38,
+        "Move": "MOVE_NATURAL_GIFT"
+      },
+      {
+        "Level": 41,
+        "Move": "MOVE_SLAM"
+      },
+      {
+        "Level": 44,
+        "Move": "MOVE_TICKLE"
+      },
+      {
+        "Level": 46,
+        "Move": "MOVE_WRING_OUT"
+      },
+      {
+        "Level": 48,
+        "Move": "MOVE_GRASSY_TERRAIN"
+      },
+      {
+        "Level": 50,
+        "Move": "MOVE_POWER_WHIP"
       }
     ],
     "MachineMoves": [
@@ -82532,31 +82608,83 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_BELLY_DRUM"
       },
       {
-        "Level": 6,
-        "Move": "MOVE_REST"
+        "Level": 1,
+        "Move": "MOVE_GYRO_BALL"
       },
       {
-        "Level": 11,
-        "Move": "MOVE_BULLDOZE"
+        "Level": 1,
+        "Move": "MOVE_POWER_WHIP"
       },
       {
-        "Level": 18,
-        "Move": "MOVE_ZEN_HEADBUTT"
+        "Level": 1,
+        "Move": "MOVE_WRING_OUT"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_LICK"
+      },
+      {
+        "Level": 5,
+        "Move": "MOVE_SUPERSONIC"
+      },
+      {
+        "Level": 9,
+        "Move": "MOVE_DEFENSE_CURL"
+      },
+      {
+        "Level": 13,
+        "Move": "MOVE_KNOCK_OFF"
+      },
+      {
+        "Level": 17,
+        "Move": "MOVE_WRAP"
+      },
+      {
+        "Level": 21,
+        "Move": "MOVE_STOMP"
       },
       {
         "Level": 25,
-        "Move": "MOVE_DOUBLE_EDGE"
+        "Move": "MOVE_DISABLE"
       },
       {
-        "Level": 34,
+        "Level": 29,
+        "Move": "MOVE_SLAM"
+      },
+      {
+        "Level": 33,
         "Move": "MOVE_ROLLOUT"
       },
       {
-        "Level": 43,
-        "Move": "MOVE_GIGA_IMPACT"
+        "Level": 37,
+        "Move": "MOVE_CHIP_AWAY"
+      },
+      {
+        "Level": 41,
+        "Move": "MOVE_ME_FIRST"
+      },
+      {
+        "Level": 45,
+        "Move": "MOVE_REFRESH"
+      },
+      {
+        "Level": 49,
+        "Move": "MOVE_SCREECH"
+      },
+      {
+        "Level": 53,
+        "Move": "MOVE_POWER_WHIP"
+      },
+      {
+        "Level": 57,
+        "Move": "MOVE_WRING_OUT"
+      },
+      {
+        "Level": 61,
+        "Move": "MOVE_BELLY_DRUM"
       }
     ],
     "MachineMoves": [
@@ -82931,40 +83059,92 @@
   "SPECIES_TANGROWTH": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_INGRAIN"
+      },
+      {
         "Level": 1,
-        "Move": "MOVE_ABSORB"
+        "Move": "MOVE_INGRAIN"
       },
       {
-        "Level": 6,
-        "Move": "MOVE_STUN_SPORE"
+        "Level": 1,
+        "Move": "MOVE_BLOCK"
       },
       {
-        "Level": 11,
-        "Move": "MOVE_POISON_POWDER"
+        "Level": 1,
+        "Move": "MOVE_CONSTRICT"
       },
       {
-        "Level": 15,
-        "Move": "MOVE_ACID_SPRAY"
-      },
-      {
-        "Level": 18,
-        "Move": "MOVE_DOUBLE_HIT"
-      },
-      {
-        "Level": 25,
-        "Move": "MOVE_ENERGY_BALL"
-      },
-      {
-        "Level": 34,
-        "Move": "MOVE_ANCIENT_POWER"
-      },
-      {
-        "Level": 43,
+        "Level": 4,
         "Move": "MOVE_SLEEP_POWDER"
       },
       {
-        "Level": 52,
-        "Move": "MOVE_SLUDGE_BOMB"
+        "Level": 7,
+        "Move": "MOVE_VINE_WHIP"
+      },
+      {
+        "Level": 10,
+        "Move": "MOVE_ABSORB"
+      },
+      {
+        "Level": 14,
+        "Move": "MOVE_POISON_POWDER"
+      },
+      {
+        "Level": 17,
+        "Move": "MOVE_BIND"
+      },
+      {
+        "Level": 20,
+        "Move": "MOVE_GROWTH"
+      },
+      {
+        "Level": 23,
+        "Move": "MOVE_MEGA_DRAIN"
+      },
+      {
+        "Level": 27,
+        "Move": "MOVE_KNOCK_OFF"
+      },
+      {
+        "Level": 30,
+        "Move": "MOVE_STUN_SPORE"
+      },
+      {
+        "Level": 33,
+        "Move": "MOVE_ANCIENT_POWER"
+      },
+      {
+        "Level": 36,
+        "Move": "MOVE_GIGA_DRAIN"
+      },
+      {
+        "Level": 38,
+        "Move": "MOVE_NATURAL_GIFT"
+      },
+      {
+        "Level": 41,
+        "Move": "MOVE_SLAM"
+      },
+      {
+        "Level": 44,
+        "Move": "MOVE_TICKLE"
+      },
+      {
+        "Level": 46,
+        "Move": "MOVE_WRING_OUT"
+      },
+      {
+        "Level": 48,
+        "Move": "MOVE_GRASSY_TERRAIN"
+      },
+      {
+        "Level": 50,
+        "Move": "MOVE_POWER_WHIP"
+      },
+      {
+        "Level": 53,
+        "Move": "MOVE_BLOCK"
       }
     ],
     "MachineMoves": [

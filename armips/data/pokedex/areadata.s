@@ -5125,14 +5125,17 @@ routesandcities SPECIES_CHANSEY, DEX_SPECIAL
 
 
 specialareas SPECIES_TANGELA, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_TANGELA, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_TANGELA, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
