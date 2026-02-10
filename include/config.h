@@ -151,7 +151,7 @@
 #define IMPLEMENT_REUSABLE_REPELS
 
 // UPDATE_VITAMIN_EV_CAPS changes the cap on the vitamins from 100 to 252 per recent generations
-#define UPDATE_VITAMIN_EV_CAPS
+//#define UPDATE_VITAMIN_EV_CAPS
 
 // DISABLE_ITEMS_IN_TRAINER_BATTLE will disable the usage of items in trainer battles. This is also true for the AI.
 //#define DISABLE_ITEMS_IN_TRAINER_BATTLE
@@ -183,11 +183,11 @@
 #define REPEAT_BALL_GENERATION  GEN_LATEST
 #define TIMER_BALL_GENERATION   GEN_LATEST
 #define DUSK_BALL_GENERATION    GEN_LATEST
-#define QUICK_BALL_GENERATION   GEN_LATEST
+#define QUICK_BALL_GENERATION   4
 #define SAFARI_BALL_GENERATION  4
 #define LURE_BALL_GENERATION    4
 #define SPORT_BALL_GENERATION   4
-#define MOON_BALL_GENERATION    GEN_LATEST
+#define MOON_BALL_GENERATION    4
 
 // If caught, the Pokémon's friendship is set to 200 in Generations II through VII, or 150 in Generation VIII onwards.
 #define FRIEND_BALL_GENERATION  GEN_LATEST
