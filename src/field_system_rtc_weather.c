@@ -505,17 +505,21 @@ u32 Fsys_GetWeather_HandleDiamondDust(FieldSystem *fieldSystem, u32 mapId) {
         // Group 3:
         case MAP_ROUTE_36:
         case MAP_ROUTE_37:
-            for (c = 0; c < NELEMS(RainGroup_3); c++) 
+            // Only active after Ecruteak City gym is complete.
+            if (PlayerProfile_TestBadgeFlag(Sav2_PlayerData_GetProfileAddr(fieldSystem->savedata), BADGE_FOG))
             {
-                u8 month = RainGroup_3[c].month;
-                u8 day = RainGroup_3[c].day;
-                if ((sysinfo_rtc->date.month == month) && (sysinfo_rtc->date.day == day)) 
+                for (c = 0; c < NELEMS(RainGroup_3); c++) 
                 {
-                    if (!FieldSystem_HasPenalty(fieldSystem)) 
+                    u8 month = RainGroup_3[c].month;
+                    u8 day = RainGroup_3[c].day;
+                    if ((sysinfo_rtc->date.month == month) && (sysinfo_rtc->date.day == day)) 
                     {
-                        weatherType = WEATHER_SYS_RAIN;
+                        if (!FieldSystem_HasPenalty(fieldSystem)) 
+                        {
+                            weatherType = WEATHER_SYS_RAIN;
+                        }
+                        return weatherType;
                     }
-                    return weatherType;
                 }
             }
             break;
