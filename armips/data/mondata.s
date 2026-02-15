@@ -2582,7 +2582,7 @@ mondata SPECIES_MR_MIME, "Mr. Mime"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
-    items ITEM_LEPPA_BERRY, ITEM_LIGHT_CLAY
+    items ITEM_KEBIA_BERRY, ITEM_LIGHT_CLAY
     genderratio 127
     eggcycles 25
     basefriendship 50
@@ -2624,7 +2624,7 @@ mondata SPECIES_JYNX, "Jynx"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_ASPEAR_BERRY, ITEM_COLBUR_BERRY
+    items ITEM_BABIRI_BERRY, ITEM_COLBUR_BERRY
     genderratio 254
     eggcycles 25
     basefriendship 50
@@ -4178,7 +4178,7 @@ mondata SPECIES_MURKROW, "Murkrow"
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_BLACK_GLASSES
+    items ITEM_ROSELI_BERRY, ITEM_BLACK_GLASSES
     genderratio 127
     eggcycles 5
     basefriendship 35
@@ -5018,7 +5018,7 @@ mondata SPECIES_SMOOCHUM, "Smoochum"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_ASPEAR_BERRY, ITEM_COLBUR_BERRY
+    items ITEM_BABIRI_BERRY, ITEM_COLBUR_BERRY
     genderratio 254
     eggcycles 5
     basefriendship 50
@@ -9239,7 +9239,7 @@ mondata SPECIES_MIMEJR, "Mime Jr."
     catchrate 145
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
-    items ITEM_LEPPA_BERRY, ITEM_NONE
+    items ITEM_KEBIA_BERRY, ITEM_NONE
     genderratio 127
     eggcycles 25
     basefriendship 50
