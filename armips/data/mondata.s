@@ -650,7 +650,7 @@ mondata SPECIES_NIDORINA, "Nidorina"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_SHUCA_BERRY
+    items ITEM_SHUCA_BERRY, ITEM_RAZOR_FANG
     genderratio 254
     eggcycles 20
     basefriendship 50
@@ -713,7 +713,7 @@ mondata SPECIES_NIDORINO, "Nidorino"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_SHUCA_BERRY
+    items ITEM_SHUCA_BERRY, ITEM_RAZOR_CLAW
     genderratio 0
     eggcycles 20
     basefriendship 50
