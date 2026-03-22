@@ -464,6 +464,7 @@ BattleWorkClientParamGet = 0x0223A7E8 | 1;
 BattleStructureInit = 0x02250F44 | 1;
 BattleStructureCounterInit = 0x02251038 | 1;
 ServerMoveAIInit = 0x0224E384 | 1;
+BattleSystem_GetBattleMon = 0x0224E4FC | 1;
 DumpMoveTableData = 0x02073300 | 1;
 
 GF_ExpHeap_FndGetTotalFreeSize = 0x0201ABEC | 1;
@@ -586,6 +587,14 @@ GrabTimeOfDayFileAdjustment = 0x0223B52C | 1;
 gAnimScrTable = 0x02234DE8;
 DrawFrameAndWindow2	= 0x0200E998 | 1;
 AddWindowParameterized = 0x0201D40C | 1;
+SetBgPriority = 0x0201BB68 | 1;
+ov12_0223C224 = 0x0223C224 | 1;
+ov12_0223C4E8 = 0x0223C4E8 | 1;
+sub_0200E398 = 0x0200E398 | 1;
+sub_0200E5D4 = 0x0200E5D4 | 1;
+TextPrinterCheckActive = 0x02020094 | 1;
+sub_0200E3D8 = 0x0200E3D8 | 1;
+/*BattleMessage_ExpandPlaceholders = 0x0223CEF4 | 1;*/
 
 TryAppendMonMove = 0x0207137C | 1;
 
@@ -793,6 +802,8 @@ SaveArray_Party_Get = 0x02074904 | 1;
 
 GetItemAttrSub = 0x02077E48 | 1;
 
+gSystem = 0x021D110C;
+
 InitBattleMsgData = 0x022478F4 | 1;
 InitBattleMsg = 0x022479C0 | 1;
 BattleController_EmitPrintMessage = 0x022633F0 | 1;
@@ -830,3 +841,6 @@ sButtonWindowTemplates = 0x02101654;
 sButtonWindowIDs = 0x021016B4;
 PartyMenu_DisableMainScreenBlend_AfterYesNo = 0x0207CB90 | 1;
 sBattleBgProfileTable = 0x0226E70C;
+
+StringExpandPlaceholders = 0x0200CBBC | 1;
+
