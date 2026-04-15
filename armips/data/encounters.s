@@ -5497,7 +5497,7 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
@@ -5601,7 +5601,7 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
@@ -5809,7 +5809,7 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
@@ -5913,7 +5913,7 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
@@ -6019,7 +6019,7 @@ encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -6849,7 +6849,7 @@ encounter SPECIES_POLIWAG, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 
@@ -7057,7 +7057,7 @@ encounter SPECIES_POLIWAG, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 
@@ -7265,7 +7265,7 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
@@ -7296,7 +7296,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 36, 36, 37, 37, 38, 38, 37, 36, 35, 38, 38, 37
+walklevels 36, 36, 37, 35, 38, 38, 37, 36, 35, 38, 38, 37
 
 // morning encounter slots
 pokemon SPECIES_ARON
@@ -7369,7 +7369,7 @@ encounter SPECIES_GOLDEEN, 10, 10
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_WISHIWASHI, 20, 20
+encounter SPECIES_WISHIWASHI, 15, 15
 encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_GOLDEEN, 20, 20
 
