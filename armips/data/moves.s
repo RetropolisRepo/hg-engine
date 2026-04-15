@@ -79,7 +79,7 @@ movedata MOVE_COMET_PUNCH, "Comet Punch"
     pss SPLIT_PHYSICAL
     basepower 18
     type TYPE_NORMAL
-    accuracy 85
+    accuracy 90
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -413,7 +413,7 @@ movedata MOVE_DOUBLE_KICK, "Double Kick"
 movedata MOVE_MEGA_KICK, "Mega Kick"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 140
     type TYPE_NORMAL
     accuracy 75
     pp 5
@@ -511,7 +511,7 @@ movedata MOVE_FURY_ATTACK, "Fury Attack"
     pss SPLIT_PHYSICAL
     basepower 15
     type TYPE_NORMAL
-    accuracy 85
+    accuracy 90
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -1983,7 +1983,7 @@ movedata MOVE_SMOG, "Smog"
     pss SPLIT_SPECIAL
     basepower 30
     type TYPE_POISON
-    accuracy 70
+    accuracy 85
     pp 20
     effectchance 40
     target RANGE_SINGLE_TARGET
@@ -2479,7 +2479,7 @@ movedata MOVE_FURY_SWIPES, "Fury Swipes"
     pss SPLIT_PHYSICAL
     basepower 18
     type TYPE_NORMAL
-    accuracy 80
+    accuracy 85
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
