@@ -17153,12 +17153,16 @@
         "Move": "MOVE_MEAN_LOOK"
       },
       {
+        "Level": 9,
+        "Move": "MOVE_SMOG"
+      },
+      {
         "Level": 12,
-        "Move": "MOVE_CURSE"
+        "Move": "MOVE_NIGHT_SHADE"
       },
       {
         "Level": 15,
-        "Move": "MOVE_NIGHT_SHADE"
+        "Move": "MOVE_CURSE"
       },
       {
         "Level": 19,
@@ -17358,12 +17362,16 @@
         "Move": "MOVE_MEAN_LOOK"
       },
       {
+        "Level": 9,
+        "Move": "MOVE_SMOG"
+      },
+      {
         "Level": 12,
-        "Move": "MOVE_CURSE"
+        "Move": "MOVE_NIGHT_SHADE"
       },
       {
         "Level": 15,
-        "Move": "MOVE_NIGHT_SHADE"
+        "Move": "MOVE_CURSE"
       },
       {
         "Level": 19,
@@ -17579,12 +17587,16 @@
         "Move": "MOVE_MEAN_LOOK"
       },
       {
+        "Level": 9,
+        "Move": "MOVE_SMOG"
+      },
+      {
         "Level": 12,
-        "Move": "MOVE_CURSE"
+        "Move": "MOVE_NIGHT_SHADE"
       },
       {
         "Level": 15,
-        "Move": "MOVE_NIGHT_SHADE"
+        "Move": "MOVE_CURSE"
       },
       {
         "Level": 19,
@@ -37112,11 +37124,11 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_MUDDY_WATER"
+        "Move": "MOVE_AMNESIA"
       },
       {
         "Level": 32,
-        "Move": "MOVE_AMNESIA"
+        "Move": "MOVE_EARTHQUAKE"
       },
       {
         "Level": 36,
@@ -37124,7 +37136,7 @@
       },
       {
         "Level": 40,
-        "Move": "MOVE_EARTHQUAKE"
+        "Move": "MOVE_MUDDY_WATER"
       }
     ],
     "MachineMoves": [
@@ -37290,11 +37302,11 @@
       },
       {
         "Level": 34,
-        "Move": "MOVE_MUDDY_WATER"
+        "Move": "MOVE_AMNESIA"
       },
       {
         "Level": 40,
-        "Move": "MOVE_AMNESIA"
+        "Move": "MOVE_EARTHQUAKE"
       },
       {
         "Level": 46,
@@ -37302,7 +37314,7 @@
       },
       {
         "Level": 52,
-        "Move": "MOVE_EARTHQUAKE"
+        "Move": "MOVE_MUDDY_WATER"
       }
     ],
     "MachineMoves": [

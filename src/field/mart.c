@@ -30,7 +30,7 @@ const struct BadgeMartItems sBadgeMart[] = {
     { ITEM_REVIVE,         3 },
     { ITEM_ANTIDOTE,       0 },
     { ITEM_PARALYZE_HEAL,  0 },
-    { ITEM_AWAKENING,      1 },
+    { ITEM_AWAKENING,      0 },
     { ITEM_BURN_HEAL,      1 },
     { ITEM_ICE_HEAL,       1 },
     { ITEM_FULL_HEAL,      5 },

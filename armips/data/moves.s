@@ -2333,7 +2333,7 @@ movedata MOVE_TRANSFORM, "Transform"
 movedata MOVE_BUBBLE, "Bubble"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
-    basepower 20
+    basepower 40
     type TYPE_WATER
     accuracy 100
     pp 30
