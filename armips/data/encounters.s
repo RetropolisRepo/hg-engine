@@ -6001,7 +6001,7 @@ encounter SPECIES_MAGIKARP, 15, 25
 encounter SPECIES_MAGIKARP, 10, 20
 encounter SPECIES_MAGIKARP, 5, 15
 encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 40, 40
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
