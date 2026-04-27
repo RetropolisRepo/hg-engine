@@ -328,7 +328,7 @@ rocksmashrate 0
 oldrodrate 50
 goodrodrate 50
 superrodrate 75
-walklevels 2, 3, 2, 3, 4, 4, 3, 4, 3, 4, 3, 4
+walklevels 2, 3, 2, 3, 2, 4, 3, 4, 3, 4, 3, 4
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY

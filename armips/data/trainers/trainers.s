@@ -1660,14 +1660,14 @@ trainerdata 47, "Mikey"
         ivs 0
         abilityslot 0
         level 2
-        pokemon SPECIES_PIDGEY
+        pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 4
-        pokemon SPECIES_RATTATA
+        level 3
+        pokemon SPECIES_PIDGEY
         ballseal 0
     endparty
 
@@ -1771,7 +1771,7 @@ trainerdata 51, "Nico"
         // mon 1
         ivs 0
         abilityslot 0
-        level 5
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
@@ -1799,7 +1799,7 @@ trainerdata 52, "Edmond"
         // mon 0
         ivs 0
         abilityslot 0
-        level 5
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
@@ -1834,7 +1834,7 @@ trainerdata 53, "Jin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 7
+        level 6
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
@@ -10267,7 +10267,7 @@ trainerdata 290, "Li"
         // mon 0
         ivs 0
         abilityslot 0
-        level 7
+        level 6
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
