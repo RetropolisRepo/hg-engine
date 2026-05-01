@@ -382,7 +382,7 @@ trainerdata 12, "Grunt"
         // mon 2
         ivs 30
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_ZUBAT
         ballseal 0
     endparty
@@ -403,7 +403,7 @@ trainerdata 13, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_ZUBAT
         ballseal 0
 
@@ -686,7 +686,7 @@ trainerdata 21, "Bugsy"
         abilityslot 32
         level 18
         pokemon SPECIES_SCYTHER
-        item ITEM_SITRUS_BERRY
+        item ITEM_ORAN_BERRY
         move MOVE_QUICK_ATTACK
         move MOVE_LEER
         move MOVE_U_TURN
@@ -2037,7 +2037,7 @@ trainerdata 61, "Anthony"
         // mon 1
         ivs 0
         abilityslot 32
-        level 11
+        level 12
         pokemon SPECIES_MACHOP
         ballseal 0
     endparty
@@ -7755,7 +7755,7 @@ trainerdata 244, "Lance"
         // mon 0
         ivs 250
         abilityslot 0
-        level 46
+        level 56
         pokemon SPECIES_GYARADOS
         item ITEM_NONE
         move MOVE_FLAIL
@@ -7767,7 +7767,7 @@ trainerdata 244, "Lance"
         // mon 1
         ivs 250
         abilityslot 0
-        level 49
+        level 55
         pokemon SPECIES_DRAGONITE
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
@@ -7779,7 +7779,7 @@ trainerdata 244, "Lance"
         // mon 2
         ivs 250
         abilityslot 0
-        level 49
+        level 56
         pokemon SPECIES_DRAGONITE
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
@@ -7791,7 +7791,7 @@ trainerdata 244, "Lance"
         // mon 3
         ivs 250
         abilityslot 32
-        level 48
+        level 56
         pokemon SPECIES_AERODACTYL
         item ITEM_NONE
         move MOVE_AERIAL_ACE
@@ -7803,7 +7803,7 @@ trainerdata 244, "Lance"
         // mon 4
         ivs 250
         abilityslot 0
-        level 48
+        level 55
         pokemon SPECIES_CHARIZARD
         item ITEM_NONE
         move MOVE_SHADOW_CLAW
@@ -7815,7 +7815,7 @@ trainerdata 244, "Lance"
         // mon 5
         ivs 250
         abilityslot 0
-        level 50
+        level 57
         pokemon SPECIES_DRAGONITE
         item ITEM_SITRUS_BERRY
         move MOVE_FIRE_BLAST
@@ -7841,7 +7841,7 @@ trainerdata 245, "Will"
         // mon 0
         ivs 250
         abilityslot 0
-        level 40
+        level 49
         pokemon SPECIES_XATU
         item ITEM_NONE
         move MOVE_U_TURN
@@ -7853,7 +7853,7 @@ trainerdata 245, "Will"
         // mon 1
         ivs 250
         abilityslot 0
-        level 41
+        level 50
         pokemon SPECIES_JYNX
         item ITEM_NONE
         move MOVE_DOUBLE_SLAP
@@ -7865,7 +7865,7 @@ trainerdata 245, "Will"
         // mon 2
         ivs 250
         abilityslot 0
-        level 41
+        level 51
         pokemon SPECIES_EXEGGUTOR
         item ITEM_NONE
         move MOVE_REFLECT
@@ -7877,7 +7877,7 @@ trainerdata 245, "Will"
         // mon 3
         ivs 250
         abilityslot 32
-        level 41
+        level 50
         pokemon SPECIES_SLOWBRO
         item ITEM_NONE
         move MOVE_CURSE
@@ -7889,7 +7889,7 @@ trainerdata 245, "Will"
         // mon 4
         ivs 250
         abilityslot 32
-        level 42
+        level 52
         pokemon SPECIES_XATU
         item ITEM_SITRUS_BERRY
         move MOVE_AERIAL_ACE
@@ -7915,7 +7915,7 @@ trainerdata 246, "Karen"
         // mon 0
         ivs 250
         abilityslot 0
-        level 42
+        level 53
         pokemon SPECIES_UMBREON
         item ITEM_NONE
         move MOVE_DOUBLE_TEAM
@@ -7927,7 +7927,7 @@ trainerdata 246, "Karen"
         // mon 1
         ivs 250
         abilityslot 0
-        level 42
+        level 54
         pokemon SPECIES_VILEPLUME
         item ITEM_NONE
         move MOVE_STUN_SPORE
@@ -7939,7 +7939,7 @@ trainerdata 246, "Karen"
         // mon 2
         ivs 250
         abilityslot 0
-        level 45
+        level 54
         pokemon SPECIES_GENGAR
         item ITEM_NONE
         move MOVE_LICK
@@ -7951,7 +7951,7 @@ trainerdata 246, "Karen"
         // mon 3
         ivs 250
         abilityslot 32
-        level 44
+        level 53
         pokemon SPECIES_MURKROW
         item ITEM_NONE
         move MOVE_PLUCK
@@ -7963,7 +7963,7 @@ trainerdata 246, "Karen"
         // mon 4
         ivs 250
         abilityslot 0
-        level 47
+        level 55
         pokemon SPECIES_HOUNDOOM
         item ITEM_SITRUS_BERRY
         move MOVE_NASTY_PLOT
@@ -7989,7 +7989,7 @@ trainerdata 247, "Koga"
         // mon 0
         ivs 250
         abilityslot 32
-        level 40
+        level 51
         pokemon SPECIES_ARIADOS
         item ITEM_NONE
         move MOVE_POISON_JAB
@@ -8001,7 +8001,7 @@ trainerdata 247, "Koga"
         // mon 1
         ivs 250
         abilityslot 0
-        level 41
+        level 52
         pokemon SPECIES_VENOMOTH
         item ITEM_NONE
         move MOVE_SUPERSONIC
@@ -8013,7 +8013,7 @@ trainerdata 247, "Koga"
         // mon 2
         ivs 250
         abilityslot 0
-        level 43
+        level 52
         pokemon SPECIES_FORRETRESS
         item ITEM_NONE
         move MOVE_PROTECT
@@ -8025,7 +8025,7 @@ trainerdata 247, "Koga"
         // mon 3
         ivs 250
         abilityslot 32
-        level 42
+        level 51
         pokemon SPECIES_MUK
         item ITEM_BLACK_SLUDGE
         move MOVE_MINIMIZE
@@ -8037,7 +8037,7 @@ trainerdata 247, "Koga"
         // mon 4
         ivs 250
         abilityslot 0
-        level 44
+        level 53
         pokemon SPECIES_CROBAT
         item ITEM_SITRUS_BERRY
         move MOVE_DOUBLE_TEAM
@@ -11180,7 +11180,7 @@ trainerdata 319, "Bill"
         // mon 0
         ivs 0
         abilityslot 32
-        level 9
+        level 10
         pokemon SPECIES_GROWLITHE
         move MOVE_LEER
         move MOVE_HOWL
@@ -14347,7 +14347,7 @@ trainerdata 418, "Bruno"
         // mon 0
         ivs 250
         abilityslot 32
-        level 42
+        level 53
         pokemon SPECIES_HITMONTOP
         item ITEM_NONE
         move MOVE_COUNTER
@@ -14359,7 +14359,7 @@ trainerdata 418, "Bruno"
         // mon 1
         ivs 250
         abilityslot 32
-        level 42
+        level 53
         pokemon SPECIES_HITMONLEE
         item ITEM_NONE
         move MOVE_SWAGGER
@@ -14371,7 +14371,7 @@ trainerdata 418, "Bruno"
         // mon 2
         ivs 250
         abilityslot 32
-        level 42
+        level 53
         pokemon SPECIES_HITMONCHAN
         item ITEM_NONE
         move MOVE_THUNDER_PUNCH
@@ -14383,7 +14383,7 @@ trainerdata 418, "Bruno"
         // mon 3
         ivs 250
         abilityslot 32
-        level 43
+        level 52
         pokemon SPECIES_ONIX
         item ITEM_NONE
         move MOVE_DRAGON_BREATH
@@ -14395,7 +14395,7 @@ trainerdata 418, "Bruno"
         // mon 4
         ivs 250
         abilityslot 32
-        level 46
+        level 54
         pokemon SPECIES_MACHAMP
         item ITEM_SITRUS_BERRY
         move MOVE_ROCK_SLIDE
@@ -16577,7 +16577,7 @@ trainerdata 486, "Proton"
         // mon 0
         ivs 100
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_ZUBAT
         ballseal 0
 

@@ -1472,7 +1472,7 @@ rocksmashrate 0
 oldrodrate 50
 goodrodrate 50
 superrodrate 75
-walklevels 8, 8, 8, 8, 7, 7, 8, 8, 9, 6, 9, 6
+walklevels 8, 8, 9, 9, 8, 7, 8, 8, 9, 7, 9, 9
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
@@ -1784,7 +1784,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 9, 8, 9, 8, 7, 7, 9, 9, 8, 7, 8, 7
+walklevels 10, 9, 10, 9, 10, 8, 10, 10, 9, 8, 9, 10
 
 // morning encounter slots
 pokemon SPECIES_HOPPIP
@@ -1888,7 +1888,7 @@ rocksmashrate 0
 oldrodrate 50
 goodrodrate 50
 superrodrate 75
-walklevels 10, 9, 10, 11, 11, 9, 11, 11, 9, 10, 9, 10
+walklevels 11, 10, 11, 12, 12, 10, 12, 12, 10, 11, 10, 11
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -2096,7 +2096,7 @@ rocksmashrate 0
 oldrodrate 50
 goodrodrate 50
 superrodrate 75
-walklevels 10, 9, 10, 11, 11, 9, 11, 11, 9, 10, 9, 10
+walklevels 11, 11, 12, 12, 12, 11, 13, 12, 10, 10, 13, 11
 
 // morning encounter slots
 pokemon SPECIES_CATERPIE
@@ -2200,7 +2200,7 @@ rocksmashrate 0
 oldrodrate 50
 goodrodrate 50
 superrodrate 75
-walklevels 13, 12, 13, 12, 13, 13, 11, 11, 13, 12, 13, 12
+walklevels 13, 12, 13, 12, 13, 13, 11, 11, 13, 14, 13, 12
 
 // morning encounter slots
 pokemon SPECIES_DROWZEE
@@ -2928,7 +2928,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 19, 20, 19, 18, 19, 19, 18, 19, 18, 20, 18, 19
+walklevels 18, 19, 18, 17, 18, 18, 17, 18, 17, 19, 17, 18
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -8752,7 +8752,7 @@ rocksmashrate 20
 oldrodrate 50
 goodrodrate 50
 superrodrate 75
-walklevels 9, 8, 9, 8, 7, 7, 9, 9, 8, 7, 8, 7
+walklevels 9, 9, 9, 9, 8, 8, 10, 10, 9, 8, 9, 10
 
 // morning encounter slots
 pokemon SPECIES_SPEAROW
