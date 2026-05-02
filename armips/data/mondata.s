@@ -419,7 +419,7 @@ mondata SPECIES_RATTATA, "Rattata"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_ORAN_BERRY, ITEM_CHILAN_BERRY
+    items ITEM_NONE, ITEM_CHILAN_BERRY
     genderratio 127
     eggcycles 5
     basefriendship 70

@@ -2249,7 +2249,7 @@ trainerdata 68, "Al"
         ivs 10
         abilityslot 0
         level 12
-        pokemon SPECIES_CATERPIE
+        pokemon SPECIES_METAPOD
         ballseal 0
 
         // mon 1
