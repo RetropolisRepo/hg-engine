@@ -29293,11 +29293,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_GROWL"
+        "Move": "MOVE_TACKLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_GROWL"
       },
       {
         "Level": 6,
@@ -29450,11 +29450,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_GROWL"
+        "Move": "MOVE_TACKLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_GROWL"
       },
       {
         "Level": 6,
@@ -29627,15 +29627,15 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_GROWL"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_PETAL_DANCE"
       },
       {
         "Level": 1,
         "Move": "MOVE_TACKLE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_GROWL"
       },
       {
         "Level": 6,
@@ -29820,11 +29820,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_TACKLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 6,
@@ -29977,11 +29977,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_TACKLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 6,
@@ -30155,11 +30155,11 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_TACKLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 6,
@@ -30352,11 +30352,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_SCRATCH"
       },
       {
         "Level": 1,
-        "Move": "MOVE_SCRATCH"
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 6,
@@ -30544,11 +30544,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_SCRATCH"
       },
       {
         "Level": 1,
-        "Move": "MOVE_SCRATCH"
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 6,
@@ -30752,11 +30752,11 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_SCRATCH"
       },
       {
         "Level": 1,
-        "Move": "MOVE_SCRATCH"
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 6,
