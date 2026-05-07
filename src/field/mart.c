@@ -47,7 +47,7 @@ u16 sCherrygroveCityMart[] = {
 };
 
 u16 sVioletCityMart[] = {
-    ITEM_TUNNEL_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF
+    ITEM_TUNNEL_MAIL, ITEM_REPEAT_BALL, ITEM_NET_BALL, 0xFFFF
 };
 
 u16 sAzaleaCityMart[] = {
@@ -83,7 +83,7 @@ u16 sEcruteakMart[] = {
 };
 
 u16 sOlivineMart[] = {
-    ITEM_HEART_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF
+    ITEM_HEART_MAIL, ITEM_REPEAT_BALL, ITEM_NET_BALL, 0xFFFF
 };
 
 u16 sCianwoodPharmacy[] = {
