@@ -2611,11 +2611,11 @@ pokemon SPECIES_NONE
 encounterdata  25   // Route 36
 
 walkrate 25
-surfrate 0
+surfrate 10
 rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
+oldrodrate 50
+goodrodrate 50
+superrodrate 75
 walklevels 14, 14, 13, 15, 15, 13, 14, 14, 13, 15, 13, 15
 
 // morning encounter slots
@@ -2669,36 +2669,36 @@ pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWAG, 15, 25
+encounter SPECIES_POLIWAG, 10, 20
+encounter SPECIES_POLIWHIRL, 15, 25
+encounter SPECIES_POLIWHIRL, 15, 25
+encounter SPECIES_POLIWHIRL, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_POLIWAG, 10, 10
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 20, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_MAGIKARP, 40, 40
 
 // swarm grass
 pokemon SPECIES_NIDORAN_M

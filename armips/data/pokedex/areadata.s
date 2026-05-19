@@ -2802,6 +2802,7 @@ routesandcities SPECIES_POLIWAG, DEX_MORNING
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
     .word DEX_ROUTE_35
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_ROUTE_43
     .word DEX_ROUTE_44
@@ -2820,6 +2821,7 @@ routesandcities SPECIES_POLIWAG, DEX_DAY
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
     .word DEX_ROUTE_35
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_ROUTE_43
     .word DEX_ROUTE_44
@@ -2838,6 +2840,7 @@ routesandcities SPECIES_POLIWAG, DEX_NIGHT
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
     .word DEX_ROUTE_35
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_ROUTE_43
     .word DEX_ROUTE_44
@@ -2877,6 +2880,7 @@ routesandcities SPECIES_POLIWHIRL, DEX_MORNING
     .word DEX_ROUTE_30
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_ROUTE_44
     .word DEX_MT_SILVER
@@ -2890,6 +2894,7 @@ routesandcities SPECIES_POLIWHIRL, DEX_DAY
     .word DEX_ROUTE_30
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_ROUTE_44
     .word DEX_MT_SILVER
@@ -2903,6 +2908,7 @@ routesandcities SPECIES_POLIWHIRL, DEX_NIGHT
     .word DEX_ROUTE_30
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_ROUTE_44
     .word DEX_MT_SILVER
@@ -5828,6 +5834,7 @@ routesandcities SPECIES_MAGIKARP, DEX_MORNING
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
     .word DEX_ROUTE_35
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_OLIVINE_CITY
     .word DEX_ROUTE_40
@@ -5874,6 +5881,7 @@ routesandcities SPECIES_MAGIKARP, DEX_DAY
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
     .word DEX_ROUTE_35
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_OLIVINE_CITY
     .word DEX_ROUTE_40
@@ -5920,6 +5928,7 @@ routesandcities SPECIES_MAGIKARP, DEX_NIGHT
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
     .word DEX_ROUTE_35
+    .word DEX_ROUTE_36
     .word DEX_ECRUTEAK_CITY
     .word DEX_OLIVINE_CITY
     .word DEX_ROUTE_40
