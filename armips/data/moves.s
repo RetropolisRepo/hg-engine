@@ -2447,7 +2447,7 @@ movedata MOVE_CRABHAMMER, "Crabhammer"
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_WATER
-    accuracy 95
+    accuracy 90
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2928,7 +2928,7 @@ movedata MOVE_PROTECT, "Protect"
     basepower 0
     type TYPE_NORMAL
     accuracy 0
-    pp 5
+    pp 10
     effectchance 0
     target RANGE_USER
     priority 4
@@ -3168,7 +3168,7 @@ movedata MOVE_DETECT, "Detect"
     basepower 0
     type TYPE_FIGHTING
     accuracy 0
-    pp 5
+    pp 10
     effectchance 0
     target RANGE_USER
     priority 4
@@ -7089,7 +7089,7 @@ movedata MOVE_IRON_HEAD, "Iron Head"
     type TYPE_STEEL
     accuracy 100
     pp 15
-    effectchance 20
+    effectchance 30
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -8686,7 +8686,7 @@ movedata MOVE_COTTON_GUARD, "Cotton Guard"
 movedata MOVE_NIGHT_DAZE, "Night Daze"
     battleeffect MOVE_EFFECT_LOWER_ACCURACY_HIT
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 85
     type TYPE_DARK
     accuracy 95
     pp 10
@@ -9426,7 +9426,7 @@ movedata MOVE_MOONBLAST, "Moonblast"
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 100
     pp 15
-    effectchance 10
+    effectchance 20
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE
@@ -10624,7 +10624,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
 movedatalongname MOVE_FIRST_IMPRESSION, "FirstImpression", "First Impression"
     battleeffect MOVE_EFFECT_FIRST_TURN_ONLY
     pss SPLIT_PHYSICAL
-    basepower 100
+    basepower 90
     type TYPE_BUG
     accuracy 100
     pp 10
@@ -10944,7 +10944,7 @@ movedata MOVE_LUNGE, "Lunge"
 movedata MOVE_FIRE_LASH, "Fire Lash"
     battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 80
     type TYPE_FIRE
     accuracy 100
     pp 15
@@ -11040,7 +11040,7 @@ movedata MOVE_PURIFY, "Purify"
 movedatalongname MOVE_REVELATION_DANCE, "RevelationDance", "Revelation Dance"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 90
     type TYPE_NORMAL
     accuracy 100
     pp 15
@@ -13319,7 +13319,7 @@ movedata MOVE_DIRE_CLAW, "Dire Claw"
 movedata MOVE_PSYSHIELD_BASH, "Psyshield Bash"
     battleeffect MOVE_EFFECT_RAISE_DEF_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 70
     type TYPE_PSYCHIC
     accuracy 90
     pp 10
@@ -14264,7 +14264,7 @@ movedata MOVE_CHILLING_WATER, "Chilling Water"
 movedata MOVE_HYPER_DRILL, "Hyper Drill"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 100
     type TYPE_NORMAL
     accuracy 100
     pp 5
