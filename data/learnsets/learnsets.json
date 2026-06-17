@@ -12224,6 +12224,10 @@
         "Move": "MOVE_WAKE_UP_SLAP"
       },
       {
+        "Level": 28,
+        "Move": "MOVE_DETECT"
+      },
+      {
         "Level": 31,
         "Move": "MOVE_DUAL_CHOP"
       },
@@ -12435,6 +12439,10 @@
       {
         "Level": 27,
         "Move": "MOVE_WAKE_UP_SLAP"
+      },
+      {
+        "Level": 28,
+        "Move": "MOVE_DETECT"
       },
       {
         "Level": 33,
@@ -12662,6 +12670,10 @@
       {
         "Level": 27,
         "Move": "MOVE_WAKE_UP_SLAP"
+      },
+      {
+        "Level": 28,
+        "Move": "MOVE_DETECT"
       },
       {
         "Level": 33,

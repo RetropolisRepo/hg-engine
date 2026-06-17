@@ -3168,7 +3168,7 @@ movedata MOVE_DETECT, "Detect"
     basepower 0
     type TYPE_FIGHTING
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_USER
     priority 4
