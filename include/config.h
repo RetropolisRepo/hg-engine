@@ -234,10 +234,10 @@
 #define PREVENT_SELECTING_BERRY_PREREQUISITE_MOVES_GENERATION GEN_LATEST
 
 // Champions-specific move configurations. Set to 0 to use Scarlet/Violet values.
-#define CHAMPIONS_POWER_CHANGES         1
-#define CHAMPIONS_TYPE_CHANGES          1
-#define CHAMPIONS_ACC_CHANGES           1
-#define CHAMPIONS_PP_CHANGES            0
-#define CHAMPIONS_EFFECT_CHANCE_CHANGES 1
+//#define CHAMPIONS_POWER_CHANGES         1
+//#define CHAMPIONS_TYPE_CHANGES          1
+//#define CHAMPIONS_ACC_CHANGES           1
+//#define CHAMPIONS_PP_CHANGES            0
+//#define CHAMPIONS_EFFECT_CHANCE_CHANGES 1
 
 #endif
