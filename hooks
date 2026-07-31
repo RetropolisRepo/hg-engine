@@ -593,7 +593,7 @@ arm9 SetupAndStartTutorialBattle 02051334 1
 0012 BattleMessage_ExpandPlaceholders 0223CEF4
 #endif
 
-arm9 Fsys_GetWeather_HandleDiamondDust 0203BBB4 1
+arm9 Fsys_GetWeather_HandleDiamondDust 0203BBB4 2
 arm9 GetItemAttr_PreloadedItemData 02077DAC 2
 0012 TryUseHeldItem 0225471C 3
 0012 TryFling 02255F7C 3
