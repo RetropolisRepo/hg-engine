@@ -306,13 +306,13 @@ u32 *GetCompleteLearnset(struct PartyPokemon *mon, int heapID) {
 
     // Load TM learnset.
     u32 machineLearnset[MACHINE_LEARNSETS_BITFIELD_COUNT];
-    ArchiveDataLoadOfs(machineLearnset, ARC_CODE_ADDONS, CODE_ADDON_MACHINE_LEARNSETS, PokeOtherFormMonsNoGet(species, form) * MACHINE_LEARNSETS_BITFIELD_COUNT * sizeof(u32), MACHINE_LEARNSETS_BITFIELD_COUNT * sizeof(u32));
+    ReadFromNarcMemberByIdPair(machineLearnset, ARC_CODE_ADDONS, CODE_ADDON_MACHINE_LEARNSETS, PokeOtherFormMonsNoGet(species, form) * MACHINE_LEARNSETS_BITFIELD_COUNT * sizeof(u32), MACHINE_LEARNSETS_BITFIELD_COUNT * sizeof(u32));
 
     // Add TM learnset to returnTable.
 
     // Load tutor learnset.
     u32 tutorLearnset[TUTOR_LEARNSETS_BITFIELD_COUNT];
-    ArchiveDataLoadOfs(tutorLearnset, ARC_CODE_ADDONS, CODE_ADDON_TUTOR_LEARNSETS, PokeOtherFormMonsNoGet(species, form) * TUTOR_LEARNSETS_BITFIELD_COUNT * sizeof(u32), TUTOR_LEARNSETS_BITFIELD_COUNT * sizeof(u32));
+    ReadFromNarcMemberByIdPair(tutorLearnset, ARC_CODE_ADDONS, CODE_ADDON_TUTOR_LEARNSETS, PokeOtherFormMonsNoGet(species, form) * TUTOR_LEARNSETS_BITFIELD_COUNT * sizeof(u32), TUTOR_LEARNSETS_BITFIELD_COUNT * sizeof(u32));
 
     // Add tutorLearnset to returnTable.
 
