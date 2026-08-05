@@ -50,6 +50,8 @@ const RockSmashAbilityOdds RockSmashAbilityOddsTable[] = {
     { ABILITY_SUCTION_CUPS, 20 },
     { ABILITY_MAGNET_PULL,  20 },
     { ABILITY_KEEN_EYE,     20 },
+    { ABILITY_FRISK,        20 },
+    { ABILITY_ILLUMINATE,   20 },
 };
 
 // List of abilities that increase the quality of items received from a rock and their increase amounts.
@@ -62,6 +64,7 @@ const RockSmashAbilityQuality RockSmashAbilityQualityTable[] = {
 
 u32 DetermineRockSmashItem(u32 tableIndex, u32 quality)
 {
+    debug_printf("Quality: %d\n", quality);
     if (tableIndex >= NELEMS(RockSmashItemTable))
     {
         return ITEM_NONE;
@@ -80,8 +83,9 @@ u32 DetermineRockSmashItem(u32 tableIndex, u32 quality)
             ability = NUM_ABILITIES;
         }
 
-        for (u32 i = 0; i < NELEMS(RockSmashAbilityOddsTable); i++) {
+        for (u32 i = 0; i < NELEMS(RockSmashAbilityQualityTable); i++) {
             if (ability == RockSmashAbilityQualityTable[i].ability) {
+                debug_printf("Quality increased due to ability %d\n", RockSmashAbilityQualityTable[i].ability);
                 quality += RockSmashAbilityQualityTable[i].quality;
                 break;
             }
@@ -95,6 +99,7 @@ u32 DetermineRockSmashItem(u32 tableIndex, u32 quality)
         quality = MAX_ROCK_SMASH_ITEMS_PER_TABLE - 1;
     }
 
+    debug_printf("Boosted Quality: %d\n\n", quality);
     return RockSmashItemTable[tableIndex][quality];
 }
 
