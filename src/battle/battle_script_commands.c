@@ -3214,9 +3214,9 @@ BOOL btl_scr_cmd_103_checkprotectcontactmoves(void *bsys UNUSED, struct BattleSt
             break;
         case MOVE_DETECT:
             if (ctx->battlemon[ctx->defence_client].states[STAT_ACCURACY] < 12) {
-                ctx->addeffect_param = ADD_STATUS_EFF_BOOST_STATS_ACCURACY_UP;
+                ctx->addeffect_param = MOVE_SUBSCRIPT_PTR_ACCURACY_UP_1_STAGE;
                 ctx->state_client = ctx->defence_client;
-                SkillSequenceGosub(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BOOST_STATS);
+                SkillSequenceGosub(ctx, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_UPDATE_STAT_STAGE);
             }
             break;
         default:
