@@ -54,6 +54,7 @@ enum EndTurnResolutionOrder {
     ENDTURN_MAGIC_ROOM_DISSIPATING,
     ENDTURN_TERRAIN_DISSIPATING,
     ENDTURN_THIRD_EVENT_BLOCK,
+    ENDTURN_TOTEM_STAT_RESTORE,
     ENDTURN_RESOLVE_SWITCHES_4,
     ENDTURN_FORM_CHANGE,
     ENDTURN_FOURTH_EVENT_BLOCK,
@@ -1801,6 +1802,61 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp) {
 
                 break;
             }
+            case ENDTURN_TOTEM_STAT_RESTORE:
+                {
+                    #ifdef DEBUG_ENDTURN_LOGIC
+                    sprintf(buf, "In ENDTURN_TOTEM_STAT_RESTORE\n");
+                    debugsyscall(buf);
+                    #endif
+
+                    if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM)
+                    {
+                        int targetStatArray[8] = {6, 6, 6, 6, 6, 6, 6, 6};
+                        switch (sp->battlemon[BATTLER_ENEMY].species)
+                        {
+                            case SPECIES_GYARADOS:
+                                targetStatArray[STAT_SPECIAL_DEFENSE]++; // +1 Special Defense
+                                targetStatArray[STAT_SPEED]++; // +1 Speed
+                                break;
+                            case SPECIES_AMBIPOM:
+                                targetStatArray[STAT_ATTACK]++; // +1 Attack
+                                targetStatArray[STAT_DEFENSE]++; // +1 Defense
+                                targetStatArray[STAT_SPECIAL_DEFENSE]++; // +1 Special Defense
+                            default: break;
+                        }
+
+                        BOOL statsRestored = FALSE;
+                        // Skip STAT_HP (0)
+                        for (int stat = 1; stat < STAT_MAX; stat++)
+                        {
+                            if (sp->battlemon[BATTLER_ENEMY].states[stat] < targetStatArray[stat])
+                            {
+                                sp->battlemon[BATTLER_ENEMY].states[stat]++;
+                                statsRestored = TRUE;
+                            }
+                        }
+
+                        if (statsRestored)
+                        {
+                            sp->mp.id = 1781;  // The Totem Pokemon's lowered stats have returned to normal!
+                            sp->mp.tag = TAG_NONE; 
+                            for (int stat = 1; stat < STAT_MAX; stat++)
+                            {
+                                if (sp->battlemon[BATTLER_ENEMY].states[stat] < targetStatArray[stat])
+                                {
+                                    sp->mp.id = 1780;  // The Totem Pokemon's lowered stats are returning to normal!
+                                    break;
+                                }
+                            }
+                            LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_STAT_RESTORE);
+                            sp->next_server_seq_no = sp->server_seq_no;
+                            sp->server_seq_no = 22;
+                            ret = 1;
+                        }
+                    }
+                    sp->fcc_seq_no++;
+                    break;
+                }
             // TODO
             case ENDTURN_RESOLVE_SWITCHES_4: {
                 #ifdef DEBUG_ENDTURN_LOGIC

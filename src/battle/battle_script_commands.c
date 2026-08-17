@@ -5383,7 +5383,8 @@ u16 TotemSpecies[][STAT_MAX] = // Species, stat stage increases
     { SPECIES_TOGEDEMARU_LARGE,      0, 2, 0, 0, 0, 0, 0 },  // +2 Defense
     { SPECIES_MIMIKYU_LARGE,         1, 1, 1, 1, 1, 0, 0 },  // +1 Omni-boost
     { SPECIES_MIMIKYU_BUSTED_LARGE,  0, 0, 0, 0, 0, 0, 0 },
-    { SPECIES_KOMMO_O_LARGE,         1, 1, 1, 1, 1, 0, 0 }, // +1 Omni-boost
+    { SPECIES_KOMMO_O_LARGE,         1, 1, 1, 1, 1, 0, 0 },  // +1 Omni-boost
+    { SPECIES_GYARADOS,              0, 0, 1, 0, 1, 0, 0 },  // Speed and Sp. Def +1
     // Add your Totem species here.
     // Don't bother making a custom form unless you plan for it to be caught.
 };

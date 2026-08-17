@@ -413,15 +413,15 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
     BattleSetup_InitFromFieldSystem(setup, fieldSystem);
     ov02_02247F30(fieldSystem, species, level, shiny, setup);
 
-    // Uncomment this line if you want to manually adjust specific elements according to Totem Species.
-    // struct PartyPokemon *totem = Party_GetMonByIndex(setup->party[BATTLER_ENEMY], 0);
+    struct PartyPokemon *totem = Party_GetMonByIndex(setup->party[BATTLER_ENEMY], 0);
+    u16 data_1;
 
     switch (species)
     {
         // You can use the case below as a template:
-        /*case SPECIES_GYARADOS:
+        case SPECIES_GYARADOS:
             // Ability:
-            u16 data_1 = ABILITY_MOXIE;
+            data_1 = ABILITY_MOXIE;
             SetMonData(totem, MON_DATA_ABILITY, &data_1);
 
             // Item:
@@ -455,7 +455,7 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
             // Move slot 4:
             data_1 = MOVE_DRAGON_DANCE;
             SetMonData(totem, MON_DATA_MOVE4, &data_1);
-            data_1 = GetMoveMaxPP(data_1, 0);
+            data_1 = 1;
             SetMonData(totem, MON_DATA_MOVE4PP, &data_1);
             data_1 = 0;
             SetMonData(totem, MON_DATA_MOVE4PPUP, &data_1);
@@ -476,7 +476,7 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
             u8 currentNature_1 = pid_1 % 25;
             pid_1 = pid_1 + data_1 - currentNature_1;
             SetMonData(totem, MON_DATA_PERSONALITY, &pid_1);
-            break;*/
+            break;
 
         default: break;
     }

@@ -506,3 +506,6 @@ arm9 02000E54 24 00 00 00 04 5C 1E 02
 
 # make sure that the original antipiracy method is patched to vanilla
 arm9 02000A18 1E FF 2F E1
+
+# add BATTLE_TYPE_TOTEM to list of ai flag candidates
+0012 0225E4C8 01 41 00 00
