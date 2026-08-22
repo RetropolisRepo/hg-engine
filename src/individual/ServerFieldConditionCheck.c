@@ -1779,23 +1779,33 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                     sp->endTurnEventBlockSequenceNumber++;
                     break;
                 }
-
-                if (sp->scc_work >= client_set_max) {
-                    sp->scc_work = 0;
-                    sp->fcc_seq_no++;
+                case THIRD_EVENT_BLOCK_END: {
+#ifdef DEBUG_ENDTURN_LOGIC
+                    debug_printf("In THIRD_EVENT_BLOCK_END\n", NULL);
+#endif
+                    sp->endTurnEventBlockSequenceNumber = 0;
+                    sp->scc_work++;
+                    break;
                 }
-
+                }
                 break;
             }
-            case ENDTURN_TOTEM_STAT_RESTORE:
-                {
-                    #ifdef DEBUG_ENDTURN_LOGIC
-                    sprintf(buf, "In ENDTURN_TOTEM_STAT_RESTORE\n");
-                    debugsyscall(buf);
-                    #endif
 
-                    if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM)
-                    {
+            if (sp->scc_work >= client_set_max) {
+                sp->scc_work = 0;
+                sp->fcc_seq_no++;
+            }
+
+            break;
+        }
+        case ENDTURN_TOTEM_STAT_RESTORE: {
+            #ifdef DEBUG_ENDTURN_LOGIC
+            sprintf(buf, "In ENDTURN_TOTEM_STAT_RESTORE\n");
+            debugsyscall(buf);
+            #endif
+
+            if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM)
+            {
                         int targetStatArray[8] = {6, 6, 6, 6, 6, 6, 6, 6};
                         switch (sp->battlemon[BATTLER_ENEMY].species)
                         {
@@ -1838,47 +1848,8 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                             sp->server_seq_no = 22;
                             ret = 1;
                         }
-                    }
-                    sp->fcc_seq_no++;
-                    break;
-                }
-            // TODO
-            case ENDTURN_RESOLVE_SWITCHES_4: {
-                #ifdef DEBUG_ENDTURN_LOGIC
-                debug_printf("In ENDTURN_RESOLVE_SWITCHES_4\n");
-
-                #endif
-
-                sp->fcc_seq_no++;
-                break;
             }
-            // TODO
-            case ENDTURN_FORM_CHANGE: {
-                #ifdef DEBUG_ENDTURN_LOGIC
-                debug_printf("In ENDTURN_FORM_CHANGE\n");
-
-                #endif
-
-                sp->fcc_seq_no++;
-                break;
-            }
-            case ENDTURN_FOURTH_EVENT_BLOCK: {
-#ifdef DEBUG_ENDTURN_LOGIC
-                    debug_printf("In THIRD_EVENT_BLOCK_END\n", NULL);
-#endif
-                    sp->endTurnEventBlockSequenceNumber = 0;
-                    sp->scc_work++;
-                    break;
-                }
-                }
-                break;
-            }
-
-            if (sp->scc_work >= client_set_max) {
-                sp->scc_work = 0;
-                sp->fcc_seq_no++;
-            }
-
+            sp->fcc_seq_no++;
             break;
         }
         // TODO
