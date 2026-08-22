@@ -1,10 +1,12 @@
-#include "types.h"
 #include "debug.h"
-#include "map_events_internal.h"
+#include "types.h"
+
 #include "rock_smash_item.h"
-#include "script.h"
 
 #include "constants/maps.h"
+
+#include "map_events_internal.h"
+#include "script.h"
 
 /*
 This table can be expanded as you please.
@@ -58,13 +60,12 @@ const RockSmashAbilityOdds RockSmashAbilityOddsTable[] = {
 // Note: Having any of these abilities active will prevent items of the lowest quality from appearing at all!
 const RockSmashAbilityQuality RockSmashAbilityQualityTable[] = {
     { ABILITY_SERENE_GRACE, 1 },
-    { ABILITY_SUPER_LUCK,   1 },
+    { ABILITY_SUPER_LUCK, 1 },
 };
 
 u32 DetermineRockSmashItem(u32 tableIndex, u32 quality)
 {
-    if (tableIndex >= NELEMS(RockSmashItemTable))
-    {
+    if (tableIndex >= NELEMS(RockSmashItemTable)) {
         return ITEM_NONE;
     }
 
@@ -90,9 +91,8 @@ u32 DetermineRockSmashItem(u32 tableIndex, u32 quality)
 #ifdef ENTIRE_PARTY_AFFECTS_ROCK_SMASH
     }
 #endif
-    
-    if (quality >= MAX_ROCK_SMASH_ITEMS_PER_TABLE)
-    {
+
+    if (quality >= MAX_ROCK_SMASH_ITEMS_PER_TABLE) {
         quality = MAX_ROCK_SMASH_ITEMS_PER_TABLE - 1;
     }
 
@@ -102,25 +102,22 @@ u32 DetermineRockSmashItem(u32 tableIndex, u32 quality)
 BOOL LONG_CALL CheckRockSmashItemDrop(FieldSystem *fieldSystem, RockSmashItemCheckWork *env);
 int LONG_CALL DrawRockSmashIdx(FieldSystem *fieldSystem);
 
-BOOL LONG_CALL CheckRockSmashItemDrop(FieldSystem *fieldSystem, RockSmashItemCheckWork *env) {
+BOOL LONG_CALL CheckRockSmashItemDrop(FieldSystem *fieldSystem, RockSmashItemCheckWork *env)
+{
     int ability;
     RockSmashMapData data;
 
     int mapID = fieldSystem->location->mapId;
-    if (mapID < MAP_ID_MAX)
-    {
+    if (mapID < MAP_ID_MAX) {
         // Fills data with base odds and table ID.
         ReadWholeNarcMemberByIdPair(&data, 255, mapID); // NARC_a_2_5_3
-    }
-    else
-    {   
+    } else {
         // It's definitely easier to store that here for now with custom maps.
-        switch (mapID)
-        {
-            default:
-                data.odds = 50;
-                data.table = ROCK_SMASH_TABLE_DEFAULT;
-                break;
+        switch (mapID) {
+        default:
+            data.odds = 50;
+            data.table = ROCK_SMASH_TABLE_DEFAULT;
+            break;
         }
     }
 
@@ -170,9 +167,10 @@ BOOL LONG_CALL CheckRockSmashItemDrop(FieldSystem *fieldSystem, RockSmashItemChe
 }
 
 // Exposing this lets us mess with the odds and total number of items in the rock smash tables.
-int LONG_CALL DrawRockSmashIdx(UNUSED FieldSystem *fieldSystem) {
+int LONG_CALL DrawRockSmashIdx(UNUSED FieldSystem *fieldSystem)
+{
     u8 rand = gf_rand() % 100;
-    if (rand < 25) {        // 25%
+    if (rand < 25) { // 25%
         return 0;
     } else if (rand < 45) { // 20%
         return 1;
@@ -187,5 +185,5 @@ int LONG_CALL DrawRockSmashIdx(UNUSED FieldSystem *fieldSystem) {
     } else if (rand < 95) { // 10%
         return 6;
     }
-    return 7;               // 5%
+    return 7; // 5%
 }
