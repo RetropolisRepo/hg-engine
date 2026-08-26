@@ -915,3 +915,10 @@ BattleSystem_GetPokepicManager = 0x0223A8D4 | 1;
 ov12_0223B750 = 0x0223B750 | 1;
 sub_0207294C = 0x0207294C | 1;
 sub_02017068 = 0x02017068 | 1;
+
+GetLocalSoundplateID = 0x021E7D00 | 1;
+SoundplateIsActive = 0x021E7D58 | 1;
+sub_02006088 = 0x02006088 | 1;
+sub_02054874 = 0x02054874 | 1;
+GF_SndHandleMoveVolume = 0x02005408 | 1;
+StopSE = 0x02006154 | 1;
