@@ -1342,7 +1342,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_PECHA_BERRY,
-                .rare = ITEM_NONE,
+                .rare = ITEM_KEBIA_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -1399,7 +1399,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_PECHA_BERRY,
-                .rare = ITEM_NONE,
+                .rare = ITEM_KEBIA_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 20,
@@ -1455,7 +1455,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 2,
             },
             .wildHeldItems = {
-                .common = ITEM_ORAN_BERRY,
+                .common = ITEM_WACAN_BERRY,
                 .rare = ITEM_LIGHT_BALL,
             },
             .genderRatio = 127,
@@ -1513,7 +1513,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_ORAN_BERRY,
+                .rare = ITEM_WACAN_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 10,
@@ -2766,7 +2766,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_COBA_BERRY,
+                .common = ITEM_TANGA_BERRY,
                 .rare = ITEM_SILVER_POWDER,
             },
             .genderRatio = 127,
@@ -2823,7 +2823,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_COBA_BERRY,
+                .common = ITEM_TANGA_BERRY,
                 .rare = ITEM_SILVER_POWDER,
             },
             .genderRatio = 127,
@@ -3109,7 +3109,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_PERSIM_BERRY,
-                .rare = ITEM_RINDO_BERRY,
+                .rare = ITEM_PASSHO_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -3166,7 +3166,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_PERSIM_BERRY,
-                .rare = ITEM_RINDO_BERRY,
+                .rare = ITEM_PASSHO_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 20,
@@ -3223,7 +3223,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_PAYAPA_BERRY,
+                .rare = ITEM_CHOPLE_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -3280,7 +3280,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_PAYAPA_BERRY,
+                .rare = ITEM_CHOPLE_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 20,
@@ -3337,7 +3337,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_RAWST_BERRY,
-                .rare = ITEM_CHARTI_BERRY,
+                .rare = ITEM_OCCA_BERRY,
             },
             .genderRatio = 63,
             .hatchCycles = 10,
@@ -3394,7 +3394,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_RAWST_BERRY,
-                .rare = ITEM_CHARTI_BERRY,
+                .rare = ITEM_OCCA_BERRY,
             },
             .genderRatio = 63,
             .hatchCycles = 20,
@@ -3792,7 +3792,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PAYAPA_BERRY,
+                .common = ITEM_CHOPLE_BERRY,
                 .rare = ITEM_BLACK_BELT,
             },
             .genderRatio = 63,
@@ -3849,7 +3849,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PAYAPA_BERRY,
+                .common = ITEM_CHOPLE_BERRY,
                 .rare = ITEM_BLACK_BELT,
             },
             .genderRatio = 63,
@@ -3906,7 +3906,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PAYAPA_BERRY,
+                .common = ITEM_CHOPLE_BERRY,
                 .rare = ITEM_BLACK_BELT,
             },
             .genderRatio = 63,
@@ -3964,7 +3964,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_GREEN_SHARD,
-                .rare = ITEM_OCCA_BERRY,
+                .rare = ITEM_RINDO_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -4020,7 +4020,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_OCCA_BERRY,
+                .common = ITEM_RINDO_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -4077,7 +4077,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_OCCA_BERRY,
+                .common = ITEM_RINDO_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -4248,7 +4248,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PASSHO_BERRY,
+                .common = ITEM_CHARTI_BERRY,
                 .rare = ITEM_EVERSTONE,
             },
             .genderRatio = 127,
@@ -4305,7 +4305,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PASSHO_BERRY,
+                .common = ITEM_CHARTI_BERRY,
                 .rare = ITEM_EVERSTONE,
             },
             .genderRatio = 127,
@@ -4362,7 +4362,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PASSHO_BERRY,
+                .common = ITEM_CHARTI_BERRY,
                 .rare = ITEM_EVERSTONE,
             },
             .genderRatio = 127,
@@ -4420,7 +4420,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_SHUCA_BERRY,
+                .rare = ITEM_OCCA_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -4477,7 +4477,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_SHUCA_BERRY,
+                .rare = ITEM_OCCA_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 20,
@@ -5845,7 +5845,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_LUMINOUS_MOSS,
-                .rare = ITEM_TANGA_BERRY,
+                .rare = ITEM_RINDO_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -6186,7 +6186,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_CHOPLE_BERRY,
+                .common = ITEM_ORAN_BERRY,
                 .rare = ITEM_LAGGING_TAIL,
             },
             .genderRatio = 127,
@@ -6357,7 +6357,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_RINDO_BERRY,
+                .common = ITEM_CHARTI_BERRY,
                 .rare = ITEM_PROTECTOR,
             },
             .genderRatio = 127,
@@ -6414,7 +6414,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_RINDO_BERRY,
+                .common = ITEM_CHARTI_BERRY,
                 .rare = ITEM_PROTECTOR,
             },
             .genderRatio = 127,
@@ -6529,7 +6529,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_CHERI_BERRY,
-                .rare = ITEM_TANGA_BERRY,
+                .rare = ITEM_RINDO_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 10,
@@ -6756,7 +6756,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_WACAN_BERRY,
+                .common = ITEM_PASSHO_BERRY,
                 .rare = ITEM_MYSTIC_WATER,
             },
             .genderRatio = 127,
@@ -6813,7 +6813,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_WACAN_BERRY,
+                .common = ITEM_PASSHO_BERRY,
                 .rare = ITEM_MYSTIC_WATER,
             },
             .genderRatio = 127,
@@ -6984,7 +6984,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_KEBIA_BERRY,
+                .common = ITEM_PAYAPA_BERRY,
                 .rare = ITEM_LIGHT_CLAY,
             },
             .genderRatio = 127,
@@ -7098,8 +7098,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_BABIRI_BERRY,
-                .rare = ITEM_COLBUR_BERRY,
+                .common = ITEM_YACHE_BERRY,
+                .rare = ITEM_PAYAPA_BERRY,
             },
             .genderRatio = 254,
             .hatchCycles = 25,
@@ -9549,7 +9549,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_TANGA_BERRY,
                 .rare = ITEM_SHED_SHELL,
             },
             .genderRatio = 127,
@@ -9606,7 +9606,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_TANGA_BERRY,
                 .rare = ITEM_SHED_SHELL,
             },
             .genderRatio = 127,
@@ -9835,7 +9835,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_ORAN_BERRY,
+                .rare = ITEM_WACAN_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -10119,7 +10119,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_COLBUR_BERRY,
+                .common = ITEM_PAYAPA_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -10176,7 +10176,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_COLBUR_BERRY,
+                .common = ITEM_PAYAPA_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -10860,7 +10860,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_ORAN_BERRY,
+                .common = ITEM_SODA_POP,
                 .rare = ITEM_LEMONADE,
             },
             .genderRatio = 127,
@@ -10917,7 +10917,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_COBA_BERRY,
+                .common = ITEM_RINDO_BERRY,
                 .rare = ITEM_MIRACLE_SEED,
             },
             .genderRatio = 127,
@@ -11031,7 +11031,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_CHARTI_BERRY,
+                .common = ITEM_TANGA_BERRY,
                 .rare = ITEM_WIDE_LENS,
             },
             .genderRatio = 127,
@@ -11316,7 +11316,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_ROSELI_BERRY,
+                .common = ITEM_COLBUR_BERRY,
                 .rare = ITEM_BLACK_GLASSES,
             },
             .genderRatio = 127,
@@ -11829,7 +11829,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_YACHE_BERRY,
+                .common = ITEM_SHUCA_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -11886,7 +11886,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_BABIRI_BERRY,
                 .rare = ITEM_METAL_COAT,
             },
             .genderRatio = 127,
@@ -11943,7 +11943,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_BABIRI_BERRY,
+                .common = ITEM_ROSELI_BERRY,
                 .rare = ITEM_FAIRY_FEATHER,
             },
             .genderRatio = 190,
@@ -12000,7 +12000,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_BABIRI_BERRY,
+                .common = ITEM_ROSELI_BERRY,
                 .rare = ITEM_FAIRY_FEATHER,
             },
             .genderRatio = 190,
@@ -12456,7 +12456,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PASSHO_BERRY,
+                .common = ITEM_OCCA_BERRY,
                 .rare = ITEM_FLAME_ORB,
             },
             .genderRatio = 127,
@@ -12513,7 +12513,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_PASSHO_BERRY,
+                .common = ITEM_OCCA_BERRY,
                 .rare = ITEM_FLAME_ORB,
             },
             .genderRatio = 127,
@@ -12741,7 +12741,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_PASSHO_BERRY,
                 .rare = ITEM_DEEP_SEA_TOOTH,
             },
             .genderRatio = 127,
@@ -12798,7 +12798,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_PASSHO_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -12912,7 +12912,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_WACAN_BERRY,
+                .common = ITEM_COBA_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -13026,7 +13026,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_SHUCA_BERRY,
+                .common = ITEM_COLBUR_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -13083,7 +13083,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_SHUCA_BERRY,
+                .common = ITEM_COLBUR_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -13197,8 +13197,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_RINDO_BERRY,
-                .rare = ITEM_PASSHO_BERRY,
+                .common = ITEM_SHUCA_BERRY,
+                .rare = ITEM_SITRUS_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -13254,8 +13254,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_RINDO_BERRY,
-                .rare = ITEM_PASSHO_BERRY,
+                .common = ITEM_SHUCA_BERRY,
+                .rare = ITEM_SITRUS_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 20,
@@ -13368,7 +13368,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_ORAN_BERRY,
+                .common = ITEM_CHILAN_BERRY,
                 .rare = ITEM_CHESTO_BERRY,
             },
             .genderRatio = 127,
@@ -13596,8 +13596,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_BABIRI_BERRY,
-                .rare = ITEM_COLBUR_BERRY,
+                .common = ITEM_YACHE_BERRY,
+                .rare = ITEM_PAYAPA_BERRY,
             },
             .genderRatio = 254,
             .hatchCycles = 5,
@@ -14052,7 +14052,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_CHOPLE_BERRY,
+                .common = ITEM_CHARTI_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -14109,7 +14109,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_CHOPLE_BERRY,
+                .common = ITEM_CHARTI_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -15591,7 +15591,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_TANGA_BERRY,
+                .common = ITEM_COLBUR_BERRY,
                 .rare = ITEM_POWER_HERB,
             },
             .genderRatio = 127,
@@ -15648,7 +15648,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_TANGA_BERRY,
+                .common = ITEM_COLBUR_BERRY,
                 .rare = ITEM_POWER_HERB,
             },
             .genderRatio = 127,
@@ -15705,7 +15705,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_TANGA_BERRY,
+                .common = ITEM_COLBUR_BERRY,
                 .rare = ITEM_POWER_HERB,
             },
             .genderRatio = 127,
@@ -17358,8 +17358,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_OCCA_BERRY,
+                .common = ITEM_BABIRI_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 10,
@@ -17415,8 +17415,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_OCCA_BERRY,
+                .common = ITEM_BABIRI_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 35,
@@ -17472,8 +17472,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_OCCA_BERRY,
+                .common = ITEM_BABIRI_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 35,
@@ -20607,8 +20607,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_SNOWBALL,
-                .rare = ITEM_BABIRI_BERRY,
+                .common = ITEM_YACHE_BERRY,
+                .rare = ITEM_SNOWBALL,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -20664,8 +20664,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NEVER_MELT_ICE,
-                .rare = ITEM_BABIRI_BERRY,
+                .common = ITEM_YACHE_BERRY,
+                .rare = ITEM_NEVER_MELT_ICE,
             },
             .genderRatio = 127,
             .hatchCycles = 20,
@@ -25053,7 +25053,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_KEBIA_BERRY,
+                .common = ITEM_PAYAPA_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -25281,7 +25281,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_YACHE_BERRY,
+                .common = ITEM_HABAN_BERRY,
                 .rare = ITEM_DRAGON_FANG,
             },
             .genderRatio = 127,
@@ -25338,7 +25338,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_YACHE_BERRY,
+                .common = ITEM_HABAN_BERRY,
                 .rare = ITEM_DRAGON_FANG,
             },
             .genderRatio = 127,
@@ -26136,7 +26136,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_WACAN_BERRY,
+                .common = ITEM_COBA_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -27277,7 +27277,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_BABIRI_BERRY,
+                .rare = ITEM_YACHE_BERRY,
             },
             .genderRatio = 254,
             .hatchCycles = 20,
@@ -34857,7 +34857,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_CHARTI_BERRY,
+                .common = ITEM_COBA_BERRY,
                 .rare = ITEM_POWER_HERB,
             },
             .genderRatio = 127,
@@ -40558,7 +40558,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_PRETTY_FEATHER,
-                .rare = ITEM_NONE,
+                .rare = ITEM_RAWST_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -41013,7 +41013,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_KEBIA_BERRY,
+                .common = ITEM_ROSELI_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 254,
@@ -42324,7 +42324,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_WACAN_BERRY,
+                .common = ITEM_PASSHO_BERRY,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 127,
@@ -42438,7 +42438,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_WACAN_BERRY,
                 .rare = ITEM_POWER_HERB,
             },
             .genderRatio = 127,
@@ -42951,8 +42951,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_BABIRI_BERRY,
-                .rare = ITEM_NONE,
+                .common = ITEM_ROSELI_BERRY,
+                .rare = ITEM_STAR_PIECE,
             },
             .genderRatio = 255,
             .hatchCycles = 25,
@@ -46029,7 +46029,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_PASSHO_BERRY,
+                .common = ITEM_KEBIA_BERRY,
                 .rare = ITEM_SMOKE_BALL,
             },
             .genderRatio = 31,
@@ -46086,7 +46086,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 2,
             },
             .wildHeldItems = {
-                .common = ITEM_PASSHO_BERRY,
+                .common = ITEM_KEBIA_BERRY,
                 .rare = ITEM_SMOKE_BALL,
             },
             .genderRatio = 254,
@@ -46143,8 +46143,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_CHILAN_BERRY,
-                .rare = ITEM_CHOPLE_BERRY,
+                .common = ITEM_CHOPLE_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -50589,8 +50589,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_BABIRI_BERRY,
+                .common = ITEM_OCCA_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -50646,8 +50646,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_BABIRI_BERRY,
+                .common = ITEM_OCCA_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 15,
@@ -50703,8 +50703,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_BABIRI_BERRY,
+                .common = ITEM_OCCA_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 15,
