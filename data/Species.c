@@ -9207,8 +9207,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_ORAN_BERRY,
-                .rare = ITEM_NONE,
+                .common = ITEM_NONE,
+                .rare = ITEM_ORAN_BERRY,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -9435,8 +9435,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_COBA_BERRY,
+                .common = ITEM_COBA_BERRY,
+                .rare = ITEM_NONE,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
