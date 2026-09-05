@@ -224,6 +224,12 @@
 #define STEAL_EFFECT_BAD_POISON             29
 #define STEAL_EFFECT_BURN                   30
 
+// Define custom Pluck/Fling effects below here:
+#define STEAL_EFFECT_SPEED_DOWN             (STEAL_EFFECT_BURN + 1)
+#define STEAL_EFFECT_CURSE                  (STEAL_EFFECT_BURN + 2)
+#define STEAL_EFFECT_RESTORE_HP_OR_POISON   (STEAL_EFFECT_BURN + 3)
+
+
 #define DRAGON_DARTS_NO_DIVERTING            0
 #define DRAGON_DARTS_CAN_DIVERT              1
 #define DRAGON_DARTS_DIVERTING               2
@@ -721,7 +727,8 @@ typedef enum FutureConditionType {
     FUTURE_CONDITION_NONE = 0,
     FUTURE_CONDITION_WISH,
     FUTURE_CONDITION_FUTURE_SIGHT_OR_DOOM_DESIRE,
-    FUTURE_CONDITION_MAX = FUTURE_CONDITION_FUTURE_SIGHT_OR_DOOM_DESIRE,
+    FUTURE_CONDITION_TOTEM_TEMPEST,
+    FUTURE_CONDITION_MAX = FUTURE_CONDITION_TOTEM_TEMPEST,
 } FutureConditionType;
 
 // Cannonade, Vine Lash, Volcalith, Wildfire) and Pledge Sea of Fire

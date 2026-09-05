@@ -86237,10 +86237,6 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_CLOSE_COMBAT"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_FALSE_SWIPE"
       },
       {
@@ -86250,6 +86246,10 @@
       {
         "Level": 1,
         "Move": "MOVE_LUCKY_CHANT"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SACRED_SWORD"
       },
       {
         "Level": 1,
@@ -86330,6 +86330,10 @@
       {
         "Level": 58,
         "Move": "MOVE_STORED_POWER"
+      },
+      {
+        "Level": 62,
+        "Move": "MOVE_SACRED_SWORD"
       }
     ],
     "MachineMoves": [

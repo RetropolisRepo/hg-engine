@@ -820,6 +820,30 @@ BOOL LONG_CALL TryFling(struct BattleSystem *bsys, struct BattleStruct *sp, int 
     case STEAL_EFFECT_ACC_UP: // Micle Berry
         sp->flingScript = BATTLE_SUBSCRIPT_HELD_ITEM_TEMP_ACC_UP;
         break;
+    case STEAL_EFFECT_SPEED_DOWN: // (Custom) Snowball
+        if (sp->battlemon[sp->defence_client].states[STAT_SPEED] > 0) {
+            sp->msg_work = STAT_SPEED;
+            sp->flingScript = BATTLE_SUBSCRIPT_ITEM_STAT_LOWER;
+        }
+        break;
+    case STEAL_EFFECT_CURSE: // (Custom) Odd Keystone
+        if (!(sp->battlemon[sp->defence_client].condition2 & STATUS2_CURSE)) {
+            sp->flingScript = BATTLE_SUBSCRIPT_ITEM_CURSE;
+        }
+        break;
+    case STEAL_EFFECT_RESTORE_HP_OR_POISON: // (Custom) Unused
+        if (BattleRand(bsys) % 2 == 0)
+        {
+            sp->flingData = mod;
+            sp->flingScript = BATTLE_SUBSCRIPT_HELD_ITEM_HP_RESTORE;
+        }
+        else
+        {
+            sp->state_client = battlerId;
+            sp->addeffect_type = SIDE_EFFECT_TYPE_INDIRECT;
+            sp->flingScript = BATTLE_SUBSCRIPT_POISON;
+        }
+        break;
     default:
         break;
     }

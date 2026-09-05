@@ -27,7 +27,9 @@ enum EndTurnResolutionOrder {
     ENDTURN_WEATHER_ANIMATION_AND_DAMAGE_AND_HEAL,
     ENDTURN_RESOLVE_SWITCHES_1,
     ENDTURN_AFFECTION_SELF_CURE,
+    ENDTURN_TOTEM_TEMPEST,
     ENDTURN_FUTURE_EFFECT,
+    ENDTURN_TOTEM_TEMPEST_BURN_HEAL,
     ENDTURN_FIRST_EVENT_BLOCK,
     ENDTURN_RESOLVE_SWITCHES_2,
     ENDTURN_AQUA_RING,
@@ -61,6 +63,7 @@ enum EndTurnResolutionOrder {
     ENDTURN_TERRAIN_DISSIPATING,
     ENDTURN_THIRD_EVENT_BLOCK,
     ENDTURN_TOTEM_STAT_RESTORE,
+    ENDTURN_TOTEM_PARK_PICKUP,
     ENDTURN_RESOLVE_SWITCHES_4,
     ENDTURN_FORM_CHANGE,
     ENDTURN_FOURTH_EVENT_BLOCK,
@@ -303,6 +306,33 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
             sp->fcc_seq_no++;
             break;
         }
+        case ENDTURN_TOTEM_TEMPEST: {
+            #ifdef DEBUG_ENDTURN_LOGIC
+            sprintf(buf, "In ENDTURN_TOTEM_TEMPEST\n");
+            debugsyscall(buf);
+            #endif
+
+            if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM 
+            && sp->battlemon[BATTLER_ENEMY].species == SPECIES_GYARADOS) {
+                sp->temp_work = (sp->total_turn + 1) % 3;
+                if (sp->temp_work) { // There are turns remaining until tempest hits.
+                    LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_TEMPEST);
+                    sp->next_server_seq_no = sp->server_seq_no;
+                    sp->server_seq_no = 22;
+                    ret = 1;
+                } else { // Add our condition to the queue right before we need it.
+                    for (int i = 0; i < CLIENT_MAX * FUTURE_CONDITION_MAX; i++) {
+                        if (sp->futureConditionQueue[i].conditionType.futureConditionType == FUTURE_CONDITION_NONE && sp->futureConditionQueue[sp->scc_work].defenderSlot == 0) {
+                            sp->futureConditionQueue[i].conditionType.futureConditionType = FUTURE_CONDITION_TOTEM_TEMPEST;
+                            sp->futureConditionQueue[sp->scc_work].defenderSlot = BATTLER_NONE; // This needs to be set or you will get to see an infinite combo.
+                            break;
+                        }
+                    }
+                }
+            }
+            sp->fcc_seq_no++;
+            break;
+        }
         case ENDTURN_FUTURE_EFFECT: {
 #ifdef DEBUG_ENDTURN_LOGIC
             debug_printf("In ENDTURN_FUTURE_EFFECT\n");
@@ -320,7 +350,32 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
 
 #endif
                 switch (futureCondition.conditionType.futureConditionType) {
-                case FUTURE_CONDITION_FUTURE_SIGHT_OR_DOOM_DESIRE: {
+                    case FUTURE_CONDITION_TOTEM_TEMPEST: {
+                        if (sp->battlemon[BATTLER_PLAYER].hp && (sp->total_turn + 1) % 3 == 0) { // This condition should only be queued immediately before it happens.
+#ifdef DEBUG_ENDTURN_LOGIC
+                            debug_printf("In Totem Tempest Hit\n");
+#endif
+                            ov12_02252D14(bw, sp); //reset damage, status
+                            sp->futureSightHitTurn = TRUE;
+
+                            // All this stuff is hardcoded for us since it can only happen one way.
+                            sp->defence_client = BATTLER_PLAYER;
+                            sp->attack_client = BATTLER_ENEMY;
+                            sp->current_move_index = MOVE_TOTEM_TEMPEST;
+
+                            sp->futureSightSTAB = HasType(sp, sp->attack_client, TYPE_FLYING);
+
+                            LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_TEMPEST);
+                            sp->waza_out_check_on_off |= (SYSCTL_SKIP_STATUS_CHECK | SYSCTL_SKIP_OBEDIENCE_CHECK | SYSCTL_SKIP_PP_DECREMENT);
+                            sp->next_server_seq_no = CONTROLLER_COMMAND_23;
+                            //sp->wb_seq_no = BEFORE_MOVE_STATE_TYPE_CHART_IMMUNITY;
+                            sp->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+                            ret = 1;
+                            sp->futureConditionQueue[sp->scc_work].conditionType.futureConditionType = FUTURE_CONDITION_NONE;
+                        }
+                        break;
+                    }
+                    case FUTURE_CONDITION_FUTURE_SIGHT_OR_DOOM_DESIRE: {
                     if (sp->fcc.future_prediction_count[futureCondition.defenderSlot]) {
 #ifdef DEBUG_ENDTURN_LOGIC
                         debug_printf("In Future Sight\n");
@@ -456,6 +511,53 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                 sp->scc_work = 0;
                 sp->fcc_seq_no++;
             }
+            break;
+        }
+        case ENDTURN_TOTEM_TEMPEST_BURN_HEAL: {
+            #ifdef DEBUG_ENDTURN_LOGIC
+            sprintf(buf, "In ENDTURN_TOTEM_TEMPEST_BURN_HEAL\n");
+            debugsyscall(buf);
+            #endif
+
+            if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM 
+            && sp->battlemon[BATTLER_ENEMY].species == SPECIES_GYARADOS
+            && (sp->total_turn + 1) % 3 == 0) { // Heal all burns immediately after the tempest occurs.
+                // Heal Burn loop
+                while ((sp->scc_work & ((1 << 3) - 1)) < CLIENT_MAX) { // Access the lowest 3 bits only when checking our client loop.
+                    int client_no = sp->turnOrder[sp->scc_work];
+                    sp->scc_work++;
+                    if (sp->battlemon[client_no].hp
+                    && sp->battlemon[client_no].condition & STATUS_BURN
+                    && GetBattlerAbility(sp, client_no) != ABILITY_SHIELD_DUST
+                    && HeldItemHoldEffectGet(sp, client_no) != HOLD_EFFECT_PREVENT_SECONDARY_EFFECTS) {
+                        sp->battlerIdTemp = client_no;
+                        LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_HEAL_TARGET_BURN);
+                        sp->next_server_seq_no = sp->server_seq_no;
+                        sp->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+                        ret = 1;
+
+                        sp->scc_work |= (1 << 3); // Set an unused bit in scc_work to keep track of whether a burn has been healed.
+                        break;
+                    }
+                }
+
+                if ((sp->scc_work & ((1 << 3) - 1)) >= CLIENT_MAX) {
+                    if (sp->scc_work & (1 << 3)) {
+                        sp->mp.id = BATTLE_MSG_TOTEM_TEMPEST_BURN_HEAL;  // The roaring winds extinguished the burning Pokémon!
+                        sp->mp.tag = TAG_NONE;
+                        LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_SHOW_PREPARED_MESSAGE);
+
+                        sp->next_server_seq_no = sp->server_seq_no;
+                        sp->server_seq_no = 22;
+                        ret = 1;
+                    }
+                    sp->scc_work = 0;
+                    sp->fcc_seq_no++;
+                }
+            } else {
+                sp->fcc_seq_no++;
+            }
+
             break;
         }
         case ENDTURN_FIRST_EVENT_BLOCK: {
@@ -1833,13 +1935,13 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
 
                         if (statsRestored)
                         {
-                            sp->mp.id = 1781;  // The Totem Pokemon's lowered stats have returned to normal!
+                            sp->mp.id = BATTLE_MSG_TOTEM_STATS_RETURNED_TO_NORMAL;  // The Totem Pokemon's lowered stats have returned to normal!
                             sp->mp.tag = TAG_NONE; 
                             for (int stat = 1; stat < STAT_MAX; stat++)
                             {
                                 if (sp->battlemon[BATTLER_ENEMY].states[stat] < targetStatArray[stat])
                                 {
-                                    sp->mp.id = 1780;  // The Totem Pokemon's lowered stats are returning to normal!
+                                    sp->mp.id = BATTLE_MSG_TOTEM_STATS_RETURNING_TO_NORMAL;  // The Totem Pokemon's lowered stats are returning to normal!
                                     break;
                                 }
                             }
@@ -1848,6 +1950,36 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                             sp->server_seq_no = 22;
                             ret = 1;
                         }
+            }
+            sp->fcc_seq_no++;
+            break;
+        }
+        case ENDTURN_TOTEM_PARK_PICKUP: {
+            #ifdef DEBUG_ENDTURN_LOGIC
+            sprintf(buf, "In ENDTURN_TOTEM_PARK_PICKUP\n");
+            debugsyscall(buf);
+            #endif
+
+            if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM 
+            && sp->battlemon[BATTLER_ENEMY].species == SPECIES_AMBIPOM
+            && sp->battlemon[BATTLER_ENEMY].item == ITEM_NONE) {
+                // If the Totem Pokemon is badly poisoned, set our held item to be a Lum Berry.
+                // If the Totem Pokemon has any other non-volatile status, there is a 1 in 3 chance instead.
+                if ((sp->battlemon[BATTLER_ENEMY].condition & STATUS_BAD_POISON)
+                || ((sp->battlemon[BATTLER_ENEMY].condition & STATUS_ANY_PERSISTENT) && (BattleRand(bw) % 3 == 0))) {
+                    sp->item_work = ITEM_LUM_BERRY;
+                }
+                else { // Otherwise, pick a random item from a set list.
+                    int parkItems[22] = {ITEM_LUM_BERRY, ITEM_FANCY_APPLE, ITEM_COMET_SHARD, ITEM_RARE_CANDY, ITEM_CASTELIACONE, ITEM_HEART_SCALE, ITEM_TOXIC_ORB, ITEM_SNOWBALL, ITEM_KINGS_ROCK, ITEM_LIGHT_BALL, ITEM_DUBIOUS_DISC, ITEM_LEEK, ITEM_UTILITY_UMBRELLA, ITEM_HEAT_ROCK, ITEM_POISON_BARB, ITEM_TIN_OF_BEANS, ITEM_ODD_KEYSTONE, ITEM_CHIPPED_POT, ITEM_THICK_CLUB, ITEM_RARE_BONE, ITEM_HARD_STONE, ITEM_IRON_BALL};
+                    sp->item_work = parkItems[BattleRand(bw) % 22];
+                }
+                sp->battlemon[BATTLER_ENEMY].item = sp->item_work;
+                sp->battlerIdTemp = BATTLER_ENEMY; // TODO: Check if this one is necessary.
+                sp->state_client = BATTLER_ENEMY; 
+                LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_PARK_PICKUP);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                ret = 1;
             }
             sp->fcc_seq_no++;
             break;

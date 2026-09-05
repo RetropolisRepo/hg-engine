@@ -415,6 +415,7 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
 
     struct PartyPokemon *totem = Party_GetMonByIndex(setup->party[BATTLER_ENEMY], 0);
     u16 data_1;
+    u16 data_2;
 
     switch (species) {
         // You can use the case below as a template:
@@ -475,6 +476,64 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
             u8 currentNature_1 = pid_1 % 25;
             pid_1 = pid_1 + data_1 - currentNature_1;
             SetMonData(totem, MON_DATA_PERSONALITY, &pid_1);
+            break;
+        case SPECIES_AMBIPOM:
+            // Ability:
+            data_2 = ABILITY_TECHNICIAN;
+            SetMonData(totem, MON_DATA_ABILITY, &data_2);
+
+            // Item:
+            data_2 = ITEM_HARD_STONE;
+            SetMonData(totem, MON_DATA_HELD_ITEM, &data_2);
+
+            // Move slot 1:
+            data_2 = MOVE_FLING;
+            SetMonData(totem, MON_DATA_MOVE1, &data_2);
+            data_2 = 16; // GetMoveMaxPP(data_2, 0);
+            SetMonData(totem, MON_DATA_MOVE1PP, &data_2);
+            data_2 = 0;
+            SetMonData(totem, MON_DATA_MOVE1PPUP, &data_2);
+
+            // Move slot 2:
+            data_2 = MOVE_DOUBLE_HIT;
+            SetMonData(totem, MON_DATA_MOVE2, &data_2);
+            data_2 = GetMoveMaxPP(data_2, 0);
+            SetMonData(totem, MON_DATA_MOVE2PP, &data_2);
+            data_2 = 0;
+            SetMonData(totem, MON_DATA_MOVE2PPUP, &data_2);
+
+            // Move slot 3:
+            data_2 = MOVE_SWIFT;
+            SetMonData(totem, MON_DATA_MOVE3, &data_2);
+            data_2 = GetMoveMaxPP(data_2, 0);
+            SetMonData(totem, MON_DATA_MOVE3PP, &data_2);
+            data_2 = 0;
+            SetMonData(totem, MON_DATA_MOVE3PPUP, &data_2);
+
+            // Move slot 4:
+            data_2 = MOVE_DUAL_CHOP;
+            SetMonData(totem, MON_DATA_MOVE4, &data_2);
+            data_2 = GetMoveMaxPP(data_2, 0);
+            SetMonData(totem, MON_DATA_MOVE4PP, &data_2);
+            data_2 = 0;
+            SetMonData(totem, MON_DATA_MOVE4PPUP, &data_2);
+            break;
+
+            // IVs:
+            data_2 = 15;
+            SetMonData(totem, MON_DATA_HP_IV, &data_2);
+            SetMonData(totem, MON_DATA_ATK_IV, &data_2);
+            SetMonData(totem, MON_DATA_DEF_IV, &data_2);
+            SetMonData(totem, MON_DATA_SPEED_IV, &data_2);
+            SetMonData(totem, MON_DATA_SPATK_IV, &data_2);
+            SetMonData(totem, MON_DATA_SPDEF_IV, &data_2);
+
+            // Nature:
+            data_2 = NATURE_IMPISH;
+            u32 pid_2 = GetMonData(totem, MON_DATA_PERSONALITY, NULL);
+            u8 currentNature_2 = pid_2 % 25;
+            pid_2 = pid_2 + data_2 - currentNature_2;
+            SetMonData(totem, MON_DATA_PERSONALITY, &pid_2);
             break;
 
     default:
