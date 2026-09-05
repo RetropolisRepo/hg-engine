@@ -32,5 +32,5 @@ _HandleTempestMove:
     // A terrible storm tears into you!
     PrintMessage BATTLE_MSG_TOTEM_TEMPEST_TERRIBLE_STORM, TAG_NONE
     Wait
-    WaitButtonABTime 30
+    WaitButtonABTime 10
     End
