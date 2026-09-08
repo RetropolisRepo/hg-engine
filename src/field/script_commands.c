@@ -497,7 +497,7 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
             // Move slot 2:
             data_2 = MOVE_DOUBLE_HIT;
             SetMonData(totem, MON_DATA_MOVE2, &data_2);
-            data_2 = GetMoveMaxPP(data_2, 0);
+            data_2 = 0;
             SetMonData(totem, MON_DATA_MOVE2PP, &data_2);
             data_2 = 0;
             SetMonData(totem, MON_DATA_MOVE2PPUP, &data_2);
@@ -505,7 +505,7 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
             // Move slot 3:
             data_2 = MOVE_SWIFT;
             SetMonData(totem, MON_DATA_MOVE3, &data_2);
-            data_2 = GetMoveMaxPP(data_2, 0);
+            data_2 = 0;
             SetMonData(totem, MON_DATA_MOVE3PP, &data_2);
             data_2 = 0;
             SetMonData(totem, MON_DATA_MOVE3PPUP, &data_2);
@@ -513,7 +513,7 @@ void SetupAndStartTotemBattle(TaskManager *taskManager, u16 species, u8 level, u
             // Move slot 4:
             data_2 = MOVE_DUAL_CHOP;
             SetMonData(totem, MON_DATA_MOVE4, &data_2);
-            data_2 = GetMoveMaxPP(data_2, 0);
+            data_2 = 0;
             SetMonData(totem, MON_DATA_MOVE4PP, &data_2);
             data_2 = 0;
             SetMonData(totem, MON_DATA_MOVE4PPUP, &data_2);
