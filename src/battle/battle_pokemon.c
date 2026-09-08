@@ -486,11 +486,11 @@ void BattleMessage_BufferNickname(struct BattleSystem *battleSystem, int bufferI
                 name->data[i + 6] = temp;
             }
             name->size += 6;
-            name->data[0] = 0x013E; // T
-            name->data[1] = 0x0153; // o
-            name->data[2] = 0x0158; // t
-            name->data[3] = 0x0149; // e
-            name->data[4] = 0x0151; // m
+            name->data[0] = 0x013A; // P
+            name->data[1] = 0x0156; // r
+            name->data[2] = 0x014D; // i
+            name->data[3] = 0x0151; // m
+            name->data[4] = 0x0149; // e
             name->data[5] = 0x01DE; // " "
             //} else {
             //    debug_printf("name is not big enough for Totem prefix :(");
