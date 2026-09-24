@@ -5633,7 +5633,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .effectChance = 0,
         },
         .battle = {
-            .target = RANGE_USER,
+            .target = RANGE_SINGLE_TARGET_USER_SIDE,
             .priority = 0,
             .flags = FLAG_SNATCH,
         },
@@ -12995,7 +12995,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Magic Room",
         },
         .data = {
-            .effect = MOVE_EFFECT_HIT,
+            .effect = MOVE_EFFECT_MAGIC_ROOM,
             .split = SPLIT_STATUS,
             .power = 0,
             .type = TYPE_PSYCHIC,
@@ -19529,7 +19529,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Mind Blown",
         },
         .data = {
-            .effect = MOVE_EFFECT_HIT,
+            .effect = MOVE_EFFECT_STEEL_BEAM,
             .split = SPLIT_SPECIAL,
             .power = 150,
             .type = TYPE_FIRE,
@@ -21581,7 +21581,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Steel Beam",
         },
         .data = {
-            .effect = MOVE_EFFECT_HIT,
+            .effect = MOVE_EFFECT_STEEL_BEAM,
             .split = SPLIT_SPECIAL,
             .power = 140,
             .type = TYPE_STEEL,
