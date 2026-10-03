@@ -409,4 +409,6 @@ BOOL LONG_CALL PlayerProfile_TestBadgeFlag(struct PlayerProfile *profile, s32 ba
 
 SysInfo_RTC LONG_CALL *Save_SysInfo_RTC_Get(SaveData *saveData);
 
+struct SavedMapObjectList LONG_CALL *Save_MapObjects_Get(SaveData *saveData);
+
 #endif // SAVE_H

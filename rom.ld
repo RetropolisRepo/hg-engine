@@ -928,3 +928,6 @@ sub_02006088 = 0x02006088 | 1;
 sub_02054874 = 0x02054874 | 1;
 GF_SndHandleMoveVolume = 0x02005408 | 1;
 StopSE = 0x02006154 | 1;
+
+MapObjectManager_RestoreFromSave = 0x0205E648 | 1;
+Save_MapObjects_Get = 0x0203B9D0 | 1;
