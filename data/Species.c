@@ -942,8 +942,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_PRETTY_FEATHER,
-                .rare = ITEM_NONE,
+                .common = ITEM_NONE,
+                .rare = ITEM_PRETTY_FEATHER,
             },
             .genderRatio = 127,
             .hatchCycles = 5,
@@ -1227,7 +1227,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_PRETTY_FEATHER,
+                .common = ITEM_NONE,
                 .rare = ITEM_SHARP_BEAK,
             },
             .genderRatio = 127,
@@ -1284,7 +1284,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 2,
             },
             .wildHeldItems = {
-                .common = ITEM_PRETTY_FEATHER,
+                .common = ITEM_NONE,
                 .rare = ITEM_SHARP_BEAK,
             },
             .genderRatio = 127,
