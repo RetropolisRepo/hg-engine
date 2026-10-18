@@ -316,7 +316,7 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
             && sp->battlemon[BATTLER_ENEMY].species == SPECIES_GYARADOS) {
                 sp->temp_work = (sp->total_turn + 1) % 3;
                 if (sp->temp_work) { // There are turns remaining until tempest hits.
-                    LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_TEMPEST);
+                    LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_TOTEM_TEMPEST);
                     sp->next_server_seq_no = sp->server_seq_no;
                     sp->server_seq_no = 22;
                     ret = 1;
@@ -365,7 +365,7 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
 
                             sp->futureSightSTAB = HasType(sp, sp->attack_client, TYPE_FLYING);
 
-                            LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_TEMPEST);
+                            LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_TOTEM_TEMPEST);
                             sp->waza_out_check_on_off |= (SYSCTL_SKIP_STATUS_CHECK | SYSCTL_SKIP_OBEDIENCE_CHECK | SYSCTL_SKIP_PP_DECREMENT);
                             sp->next_server_seq_no = CONTROLLER_COMMAND_23;
                             //sp->wb_seq_no = BEFORE_MOVE_STATE_TYPE_CHART_IMMUNITY;
@@ -845,6 +845,11 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                 if ((sp->battlemon[battlerId].condition & STATUS_POISON) && sp->battlemon[battlerId].hp != 0) {
                     sp->battlerIdTemp = battlerId;
                     sp->hp_calc_work = BattleDamageDivide(sp->battlemon[battlerId].maxhp * -1, 8);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+                    if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(battlerId) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(sp->battlemon[battlerId].species, sp->battlemon[battlerId].form_no))) {
+                        sp->hp_calc_work = BattleDamageDivide(sp->hp_calc_work, 2);
+                    }
+#endif
                     LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_POISON_DAMAGE);
                     sp->next_server_seq_no = sp->server_seq_no;
                     sp->server_seq_no = 22;
@@ -857,6 +862,17 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                     }
                     sp->hp_calc_work *= ((sp->battlemon[battlerId].condition & STATUS_POISON_COUNT) >> 8);
                     sp->hp_calc_work *= -1;
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+                    if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(battlerId) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(sp->battlemon[battlerId].species, sp->battlemon[battlerId].form_no))) {
+                        sp->hp_calc_work = BattleDamageDivide(sp->hp_calc_work, 2);
+
+                        // Toxic damage on Totems under this config caps at 25% per turn.
+                        int damageCap = BattleDamageDivide(sp->battlemon[battlerId].maxhp * -1, 4);
+                        if (sp->hp_calc_work < damageCap) {
+                            sp->hp_calc_work = damageCap;
+                        }
+                    }
+#endif
                     LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_POISON_DAMAGE);
                     sp->next_server_seq_no = sp->server_seq_no;
                     sp->server_seq_no = 22;
@@ -972,6 +988,11 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                     sp->binding_turns[battlerId]--;
                     if (sp->binding_turns[battlerId]) {
                         sp->hp_calc_work = BattleDamageDivide(sp->battlemon[battlerId].maxhp * -1, 8);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+                        if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(battlerId) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(sp->battlemon[battlerId].species, sp->battlemon[battlerId].form_no))) {
+                            sp->hp_calc_work = BattleDamageDivide(sp->hp_calc_work, 2);
+                        }
+#endif
                         LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_BIND_EFFECT);
                     } else {
                         LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_BIND_END);
@@ -1910,56 +1931,51 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
             break;
         }
         case ENDTURN_TOTEM_STAT_RESTORE: {
-            #ifdef DEBUG_ENDTURN_LOGIC
+#ifdef DEBUG_ENDTURN_LOGIC
             sprintf(buf, "In ENDTURN_TOTEM_STAT_RESTORE\n");
             debugsyscall(buf);
-            #endif
+#endif
 
-            if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM)
-            {
-                        int targetStatArray[8] = {6, 6, 6, 6, 6, 6, 6, 6};
-                        switch (sp->battlemon[BATTLER_ENEMY].species)
-                        {
-                            case SPECIES_GYARADOS:
-                                targetStatArray[STAT_SPECIAL_DEFENSE]++; // +1 Special Defense
-                                targetStatArray[STAT_SPEED]++; // +1 Speed
-                                break;
-                            case SPECIES_AMBIPOM:
-                                targetStatArray[STAT_ATTACK]++; // +1 Attack
-                                targetStatArray[STAT_DEFENSE]++; // +1 Defense
-                                targetStatArray[STAT_SPECIAL_DEFENSE]++; // +1 Special Defense
-                            default: break;
-                        }
+#ifdef TOTEM_STAT_RESTORE
+            if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM) {
+                int targetStatArray[8] = {6, 6, 6, 6, 6, 6, 6, 6};
+                switch (sp->battlemon[BATTLER_ENEMY].species) {
+                    case SPECIES_GYARADOS:
+                        targetStatArray[STAT_SPECIAL_DEFENSE]++; // +1 Special Defense
+                        targetStatArray[STAT_SPEED]++; // +1 Speed
+                        break;
+                    case SPECIES_AMBIPOM:
+                        targetStatArray[STAT_ATTACK]++; // +1 Attack
+                        targetStatArray[STAT_DEFENSE]++; // +1 Defense
+                        targetStatArray[STAT_SPECIAL_DEFENSE]++; // +1 Special Defense
+                    default: break;
+                }
 
-                        BOOL statsRestored = FALSE;
-                        // Skip STAT_HP (0)
-                        for (int stat = 1; stat < STAT_MAX; stat++)
-                        {
-                            if (sp->battlemon[BATTLER_ENEMY].states[stat] < targetStatArray[stat])
-                            {
-                                sp->battlemon[BATTLER_ENEMY].states[stat]++;
-                                statsRestored = TRUE;
-                            }
-                        }
+                BOOL statsRestored = FALSE;
+                // Skip STAT_HP (0)
+                for (int stat = 1; stat < STAT_MAX; stat++) {
+                    if (sp->battlemon[BATTLER_ENEMY].states[stat] < targetStatArray[stat]) {
+                        sp->battlemon[BATTLER_ENEMY].states[stat]++;
+                        statsRestored = TRUE;
+                    }
+                }
 
-                        if (statsRestored)
-                        {
-                            sp->mp.id = BATTLE_MSG_TOTEM_STATS_RETURNED_TO_NORMAL;  // The Totem Pokemon's lowered stats have returned to normal!
-                            sp->mp.tag = TAG_NONE; 
-                            for (int stat = 1; stat < STAT_MAX; stat++)
-                            {
-                                if (sp->battlemon[BATTLER_ENEMY].states[stat] < targetStatArray[stat])
-                                {
-                                    sp->mp.id = BATTLE_MSG_TOTEM_STATS_RETURNING_TO_NORMAL;  // The Totem Pokemon's lowered stats are returning to normal!
-                                    break;
-                                }
-                            }
-                            LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_STAT_RESTORE);
-                            sp->next_server_seq_no = sp->server_seq_no;
-                            sp->server_seq_no = 22;
-                            ret = 1;
+                if (statsRestored) {
+                    sp->mp.id = BATTLE_MSG_TOTEM_STATS_RETURNED_TO_NORMAL;  // The Totem Pokemon's lowered stats have returned to normal!
+                    sp->mp.tag = TAG_NONE; 
+                    for (int stat = 1; stat < STAT_MAX; stat++) {
+                        if (sp->battlemon[BATTLER_ENEMY].states[stat] < targetStatArray[stat]) {
+                            sp->mp.id = BATTLE_MSG_TOTEM_STATS_RETURNING_TO_NORMAL;  // The Totem Pokemon's lowered stats are returning to normal!
+                            break;
                         }
+                    }
+                    LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_TOTEM_STAT_RESTORE);
+                    sp->next_server_seq_no = sp->server_seq_no;
+                    sp->server_seq_no = 22;
+                    ret = 1;
+                }
             }
+#endif
             sp->fcc_seq_no++;
             break;
         }
@@ -1969,6 +1985,31 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
             debugsyscall(buf);
             #endif
 
+            int parkItems[22][2] = { 
+                { ITEM_LUM_BERRY,           BATTLE_MSG_PARK_PICKUP_DEFAULT          }, // An Aipom hands {0} a {1}!
+                { ITEM_FANCY_APPLE,         BATTLE_MSG_PARK_PICKUP_CRISP            }, // An Aipom hands {0} a perfectly crisp {1}!
+                { ITEM_COMET_SHARD,         BATTLE_MSG_PARK_PICKUP_GLITTERING       }, // An Aipom hands {0} a glittering {1}!
+                { ITEM_RARE_CANDY,          BATTLE_MSG_PARK_PICKUP_DEFAULT          },
+                { ITEM_CASTELIACONE,        BATTLE_MSG_PARK_PICKUP_MELTING          }, // An Aipom hands {0} a {1}! Hurry, or it’ll melt!
+                { ITEM_HEART_SCALE,         BATTLE_MSG_PARK_PICKUP_GLITTERING       },
+                { ITEM_TOXIC_ORB,           BATTLE_MSG_PARK_PICKUP_CAUTIOUS         }, // An Aipom cautiously hands {0} a {1}!
+                { ITEM_SNOWBALL,            BATTLE_MSG_PARK_PICKUP_OUT_OF_SEASON    }, // An Aipom hands {0} a {1}! At this time of year?
+                { ITEM_KINGS_ROCK,          BATTLE_MSG_PARK_PICKUP_POINTY           }, // An Aipom hands {0} a {1}! Pointy!
+                { ITEM_LIGHT_BALL,          BATTLE_MSG_PARK_PICKUP_BRIGHT           }, // An Aipom hands {0} a blindingly bright {1}!
+                { ITEM_DUBIOUS_DISC,        BATTLE_MSG_PARK_PICKUP_DEFAULT          },
+                { ITEM_LEEK,                BATTLE_MSG_PARK_PICKUP_LEAK             }, // An Aipom hands {0} a {1}! Watch your step!
+                { ITEM_UTILITY_UMBRELLA,    BATTLE_MSG_PARK_PICKUP_WEATHER          }, // An Aipom hands {0} a {1}! How’s the weather over there?
+                { ITEM_HEAT_ROCK,           BATTLE_MSG_PARK_PICKUP_WARM             }, // An Aipom hands {0} a pleasantly warm {1}!
+                { ITEM_POISON_BARB,         BATTLE_MSG_PARK_PICKUP_CAUTIOUS         },
+                { ITEM_TIN_OF_BEANS,        BATTLE_MSG_PARK_PICKUP_WELL_CHEWED      }, // An Aipom hands {0} a well-chewed {1}!
+                { ITEM_ODD_KEYSTONE,        BATTLE_MSG_PARK_PICKUP_SURPRISING       }, // An Aipom hands {0} an... {1}? Where did they get that?!
+                { ITEM_CHIPPED_POT,         BATTLE_MSG_PARK_PICKUP_DEFAULT          },
+                { ITEM_THICK_CLUB,          BATTLE_MSG_PARK_PICKUP_HEFTY            }, // An Aipom hands {0} a hefty {1}!
+                { ITEM_RARE_BONE,           BATTLE_MSG_PARK_PICKUP_HEFTY            },
+                { ITEM_HARD_STONE,          BATTLE_MSG_PARK_PICKUP_HEFTY            },
+                { ITEM_IRON_BALL,           BATTLE_MSG_PARK_PICKUP_VERY_HEAVY       }, // An Aipom, with considerable strain, hoists an {1} into {0}’s hands!
+            };
+
             if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM) == BATTLE_TYPE_TOTEM 
             && sp->battlemon[BATTLER_ENEMY].species == SPECIES_AMBIPOM
             && sp->battlemon[BATTLER_ENEMY].item == ITEM_NONE) {
@@ -1976,16 +2017,25 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                 // If the Totem Pokemon has any other non-volatile status, there is a 1 in 3 chance instead.
                 if ((sp->battlemon[BATTLER_ENEMY].condition & STATUS_BAD_POISON)
                 || ((sp->battlemon[BATTLER_ENEMY].condition & STATUS_ANY_PERSISTENT) && (BattleRand(bw) % 3 == 0))) {
-                    sp->item_work = ITEM_LUM_BERRY;
+                    sp->item_work = parkItems[0][0];
+                    sp->mp.id = parkItems[0][1];
                 }
-                else { // Otherwise, pick a random item from a set list.
-                    int parkItems[22] = {ITEM_LUM_BERRY, ITEM_FANCY_APPLE, ITEM_COMET_SHARD, ITEM_RARE_CANDY, ITEM_CASTELIACONE, ITEM_HEART_SCALE, ITEM_TOXIC_ORB, ITEM_SNOWBALL, ITEM_KINGS_ROCK, ITEM_LIGHT_BALL, ITEM_DUBIOUS_DISC, ITEM_LEEK, ITEM_UTILITY_UMBRELLA, ITEM_HEAT_ROCK, ITEM_POISON_BARB, ITEM_TIN_OF_BEANS, ITEM_ODD_KEYSTONE, ITEM_CHIPPED_POT, ITEM_THICK_CLUB, ITEM_RARE_BONE, ITEM_HARD_STONE, ITEM_IRON_BALL};
-                    sp->item_work = parkItems[BattleRand(bw) % 22];
+                else { // Otherwise, pick a random item and corresponding message from a set list.
+
+                    u8 entry = BattleRand(bw) % 22;
+                    sp->item_work = parkItems[entry][0];
+                    sp->mp.id = parkItems[entry][1];
                 }
                 sp->battlemon[BATTLER_ENEMY].item = sp->item_work;
                 sp->battlerIdTemp = BATTLER_ENEMY; // TODO: Check if this one is necessary.
-                sp->state_client = BATTLER_ENEMY; 
-                LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TOTEM_PARK_PICKUP);
+                sp->state_client = BATTLER_ENEMY;
+
+                sp->mp.tag = TAG_NICKNAME_ITEM;
+                sp->mp.param[0] = CreateNicknameTag(sp, BATTLER_ENEMY);
+                sp->mp.param[1] = sp->item_work;
+
+                LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_SHOW_PREPARED_MESSAGE);
+
                 sp->next_server_seq_no = sp->server_seq_no;
                 sp->server_seq_no = 22;
                 ret = 1;

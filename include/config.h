@@ -280,4 +280,25 @@
 // #define BUILD_DUMPED_EVENTDATA
 // #define BUILD_DUMPED_SCR_SEQ
 
+// TOTEM_STAT_RESTORE causes all Totem Pokemon to restore their stat stages to their boosted floors at a rate of 1 per turn.
+// Comment out this define if you want to disable this feature.
+#define TOTEM_STAT_RESTORE
+
+// TOTEM_STAT_COPY_IMMUNITY causes Totem Pokemon to have immunity to Psych Up and Heart Swap.
+// Comment out this define if you want to disable this feature.
+#define TOTEM_STAT_COPY_IMMUNITY
+
+// TOTEM_OHKO_RESISTANCE causes Totem Pokemon to only be affected by Destiny Bond and Perish Song while at 25% HP or less.
+// Regular OHKO moves are also converted to 200BP.
+// Comment out this define if you want to disable this feature.
+#define TOTEM_OHKO_RESISTANCE
+
+// TOTEM_FIXED_DAMAGE_REDUCTION reduces all fixed damage taken by Totem Pokemon.
+// Most sources are reduced by half, except:
+// Counter effects are 50% of damage taken (mostly quartered).
+// Toxic damage caps at 25% (instead of 100%).
+// Endeavour and Pain Split damage caps at 25%.
+// Comment out this define if you want to disable this feature.
+#define TOTEM_FIXED_DAMAGE_REDUCTION
+
 #endif

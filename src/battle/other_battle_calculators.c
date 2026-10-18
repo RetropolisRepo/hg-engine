@@ -2699,6 +2699,17 @@ BOOL LONG_CALL BattleSystem_CheckMoveEffect(void *bw, struct BattleStruct *sp, i
         // if (levelDiff >= 0) //checked in BeforeMove
         {
             if (lockOnOrNoGuard || ((BattleRand(bw) % 100) < accuracy)) {
+
+#ifdef TOTEM_OHKO_RESISTANCE
+                if ((BattleTypeGet(bw) & BATTLE_TYPE_TOTEM)
+                && BATTLER_IS_ENEMY(sp->defence_client)
+                && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(sp->battlemon[sp->defence_client].species, sp->battlemon[sp->defence_client].form_no))
+                && sp->battlemon[sp->defence_client].hp > (s32)(sp->battlemon[sp->defence_client].maxhp / 4)) {
+                    sp->waza_status_flag |= MOVE_STATUS_ONE_HIT_KO_FAILED;
+                    return FALSE;
+                }
+#endif
+
                 sp->waza_status_flag &= ~MOVE_STATUS_MISSED;
                 sp->waza_status_flag |= MOVE_STATUS_ONE_HIT_KO;
                 return TRUE;

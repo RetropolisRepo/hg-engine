@@ -229,7 +229,6 @@
 #define STEAL_EFFECT_CURSE                  (STEAL_EFFECT_BURN + 2)
 #define STEAL_EFFECT_RESTORE_HP_OR_POISON   (STEAL_EFFECT_BURN + 3)
 
-
 #define DRAGON_DARTS_NO_DIVERTING            0
 #define DRAGON_DARTS_CAN_DIVERT              1
 #define DRAGON_DARTS_DIVERTING               2

@@ -663,7 +663,11 @@ arm9 EncounterSlot_WildMonSlotRoll_Headbutt 022477C0 0
 
 0012 PlayerTrainerVictoryBGM_hook 0224DA9E 3
 
-0010 TrainerAI_Init_AssignAIFlags_hook 0221BEBC 0
+0010 TrainerAI_Init_AssignAIFlags_hook 0221BEBC
+
+0012 BtlCmd_Counter 022409B8 3
+0012 BtlCmd_MirrorCoat 02240AB4 3
+0012 BtlCmd_TryMetalBurst 02243798 3
 
 0001 FieldSystem_ProcessSoundplateAtCoords 021E7DFC 3
 

@@ -140,6 +140,7 @@ BOOL btl_scr_cmd_127_ActivateHealingWish(void *bsys UNUSED, struct BattleStruct 
 BOOL btl_scr_cmd_128_IsFieldCondition2On(void *bsys UNUSED, struct BattleStruct *ctx);
 BOOL btl_scr_cmd_129_SetFieldCondition2(void *bsys UNUSED, struct BattleStruct *ctx);
 BOOL btl_scr_cmd_12A_GoToIfMoveConditionFlagSet(void *bsys, struct BattleStruct *ctx);
+BOOL btl_scr_cmd_custom_0_iftotem(void *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_GoToMoveScript(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp);
@@ -164,6 +165,9 @@ BOOL BtlCmd_Transform(struct BattleSystem *bsys UNUSED, struct BattleStruct *ctx
 BOOL BtlCmd_MagicCoat(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_TryFeint(struct BattleSystem *bsys UNUSED, struct BattleStruct *ctx);
 BOOL BtlCmd_TryPerishSong(struct BattleSystem *bsys, struct BattleStruct *ctx);
+BOOL BtlCmd_Counter(struct BattleSystem *bsys, struct BattleStruct *ctx);
+BOOL BtlCmd_MirrorCoat(struct BattleSystem *bsys, struct BattleStruct *ctx);
+BOOL BtlCmd_TryMetalBurst(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL LONG_CALL BtlCmd_PrintMessage(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL LONG_CALL BtlCmd_PrintAttackMessage(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL LONG_CALL BtlCmd_PrintGlobalMessage(struct BattleSystem *bsys, struct BattleStruct *ctx);
@@ -483,7 +487,7 @@ const u8 *BattleScrCmdNames[] = {
     "IsFieldCondition2On",
     "SetFieldCondition2",
     "GoToIfMoveConditionFlagSet",
-    // "YourCustomCommand",
+    "GoToIfTotem",
 };
 
 u32 cmdAddress = 0;
@@ -568,7 +572,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] = {
     [0x128 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_128_IsFieldCondition2On,
     [0x129 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_129_SetFieldCondition2,
     [0x12A - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_12A_GoToIfMoveConditionFlagSet,
-    // [BASE_ENGINE_BTL_SCR_CMDS_MAX - START_OF_NEW_BTL_SCR_CMDS + 1] = btl_scr_cmd_custom_01_your_custom_command,
+    [(BASE_ENGINE_BTL_SCR_CMDS_MAX + 1) - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_custom_0_iftotem,
 };
 
 // clang-format on
@@ -3164,6 +3168,11 @@ BOOL btl_scr_cmd_103_checkprotectcontactmoves(void *bsys UNUSED, struct BattleSt
         case MOVE_SPIKY_SHIELD:
             if (GetBattlerAbility(ctx, ctx->attack_client) != ABILITY_MAGIC_GUARD) {
                 ctx->hp_calc_work = BattleDamageDivide(ctx->battlemon[ctx->attack_client].maxhp * -1, 8);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+                if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(ctx->attack_client) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[ctx->attack_client].species, ctx->battlemon[ctx->attack_client].form_no))) {
+                    ctx->hp_calc_work = BattleDamageDivide(ctx->hp_calc_work, 2);
+                }
+#endif
                 ctx->battlerIdTemp = ctx->attack_client;
                 SkillSequenceGosub(ctx, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_SPIKY_SHIELD);
             }
@@ -3358,12 +3367,22 @@ BOOL BtlCmd_EndOfTurnWeatherEffect(struct BattleSystem *bsys, struct BattleStruc
             && hold_effect != HOLD_EFFECT_SPORE_POWDER_IMMUNITY && !(ctx->battlemon[battlerId].effect_of_moves & 0x40080)) {
             ctx->waza_work = MOVE_SANDSTORM;
             ctx->hp_calc_work = BattleDamageDivide(ctx->battlemon[battlerId].maxhp * -1, 16);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+            if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(battlerId) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[battlerId].species, ctx->battlemon[battlerId].form_no))) {
+                ctx->hp_calc_work = BattleDamageDivide(ctx->hp_calc_work, 2);
+            }
+#endif
         }
     }
     if (weather & FIELD_CONDITION_SUN_ALL) {
         if (ctx->battlemon[battlerId].hp && !(ctx->battlemon[battlerId].effect_of_moves & 0x40080)) {
             if (ability == ABILITY_DRY_SKIN || ability == ABILITY_SOLAR_POWER) {
                 ctx->hp_calc_work = BattleDamageDivide(ctx->battlemon[battlerId].maxhp * -1, 8);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+                if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(battlerId) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[battlerId].species, ctx->battlemon[battlerId].form_no))) {
+                    ctx->hp_calc_work = BattleDamageDivide(ctx->hp_calc_work, 2);
+                }
+#endif
             }
             if (ability == ABILITY_SOLAR_POWER) {
                 ctx->temp_work = 2;
@@ -3379,6 +3398,11 @@ BOOL BtlCmd_EndOfTurnWeatherEffect(struct BattleSystem *bsys, struct BattleStruc
             } else if (!HasType(ctx, battlerId, TYPE_ICE) && ability != ABILITY_SNOW_CLOAK && ability != ABILITY_MAGIC_GUARD && ability != ABILITY_OVERCOAT && hold_effect != HOLD_EFFECT_SPORE_POWDER_IMMUNITY) {
                 ctx->waza_work = MOVE_HAIL;
                 ctx->hp_calc_work = BattleDamageDivide(ctx->battlemon[battlerId].maxhp * -1, 16);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+                if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(battlerId) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[battlerId].species, ctx->battlemon[battlerId].form_no))) {
+                    ctx->hp_calc_work = BattleDamageDivide(ctx->hp_calc_work, 2);
+                }
+#endif
             }
         }
     }
@@ -5868,6 +5892,130 @@ BOOL btl_scr_cmd_12A_GoToIfMoveConditionFlagSet(void *bsys, struct BattleStruct 
         break;
     default:
         break;
+    }
+
+    return FALSE;
+}
+
+BOOL btl_scr_cmd_custom_0_iftotem(void *bsys, struct BattleStruct *ctx)
+{
+    IncrementBattleScriptPtr(ctx, 1);
+
+    u32 category = read_battle_script_param(ctx);
+    u32 battlerID = GrabClientFromBattleScriptParam(bsys, ctx, category);
+    int jumpAddress = read_battle_script_param(ctx);
+
+    if (BATTLER_IS_ENEMY(battlerID) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[battlerID].species, ctx->battlemon[battlerID].form_no))) {
+        IncrementBattleScriptPtr(ctx, jumpAddress);
+    }
+
+    return FALSE;
+}
+
+BOOL BtlCmd_Counter(struct BattleSystem *bsys, struct BattleStruct *ctx) {
+    IncrementBattleScriptPtr(ctx, 1);
+
+    int battlerId = ctx->oneSelfFlag[ctx->attack_client].physical_damager;
+
+    int sideA = IsClientEnemy(bsys, ctx->attack_client);
+    int sideB = IsClientEnemy(bsys, battlerId);
+
+    if (ctx->oneSelfFlag[ctx->attack_client].physical_damage && sideA != sideB && ctx->battlemon[battlerId].hp) {        
+        ctx->damage = ctx->oneSelfFlag[ctx->attack_client].physical_damage * 2;
+        if (ctx->scw[sideB].followMeFlag && ctx->battlemon[ctx->scw[sideB].battlerIdFollowMe].hp) {
+            ctx->defence_client = ctx->scw[sideB].battlerIdFollowMe;
+        } else {
+            ctx->defence_client = battlerId;
+        }
+
+        if (ctx->battlemon[ctx->defence_client].hp == 0) {
+            ctx->defence_client = Battler_GetRandomOpposingBattlerId(bsys, ctx, ctx->attack_client);
+            if (ctx->battlemon[ctx->defence_client].hp == 0) {
+                ctx->next_server_seq_no = CONTROLLER_COMMAND_39;
+                JumpToMoveEffectScript(ctx, 1, BATTLE_SUBSCRIPT_NO_TARGET);
+            }
+        }
+        CheckPressureForPPDecrease(ctx, ctx->attack_client, ctx->defence_client);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+        if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(ctx->defence_client) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[ctx->defence_client].species, ctx->battlemon[ctx->defence_client].form_no))) {
+            ctx->damage = BattleDamageDivide(ctx->damage, 4);
+        }
+#endif
+    } else {
+        ctx->oneSelfFlag[ctx->attack_client].no_pressure_flag = 1;
+        ctx->waza_status_flag |= MOVE_STATUS_FAILED;
+    }
+
+    return FALSE;
+}
+
+BOOL BtlCmd_MirrorCoat(struct BattleSystem *bsys, struct BattleStruct *ctx) {
+    IncrementBattleScriptPtr(ctx, 1);
+
+    int battlerId = ctx->oneSelfFlag[ctx->attack_client].special_damager;
+
+    int sideA = IsClientEnemy(bsys, ctx->attack_client);
+    int sideB = IsClientEnemy(bsys, battlerId);
+
+    if (ctx->oneSelfFlag[ctx->attack_client].special_damage && sideA != sideB && ctx->battlemon[battlerId].hp) {
+        ctx->damage = ctx->oneSelfFlag[ctx->attack_client].special_damage * 2;
+        if (ctx->scw[sideB].followMeFlag && ctx->battlemon[ctx->scw[sideB].battlerIdFollowMe].hp) {
+            ctx->defence_client = ctx->scw[sideB].battlerIdFollowMe;
+        } else {
+            ctx->defence_client = battlerId;
+        }
+        if (ctx->battlemon[ctx->defence_client].hp == 0) {
+            ctx->defence_client = Battler_GetRandomOpposingBattlerId(bsys, ctx, ctx->attack_client);
+            if (ctx->battlemon[ctx->defence_client].hp == 0) {
+                ctx->next_server_seq_no = CONTROLLER_COMMAND_39;
+                JumpToMoveEffectScript(ctx, 1, BATTLE_SUBSCRIPT_NO_TARGET);
+            }
+        }
+        CheckPressureForPPDecrease(ctx, ctx->attack_client, ctx->defence_client);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+        if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(ctx->defence_client) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[ctx->defence_client].species, ctx->battlemon[ctx->defence_client].form_no))) {
+            ctx->damage = BattleDamageDivide(ctx->damage, 4);
+        }
+#endif
+    } else {
+        ctx->oneSelfFlag[ctx->attack_client].no_pressure_flag = 1;
+        ctx->waza_status_flag |= MOVE_STATUS_FAILED;
+    }
+
+    return FALSE;
+}
+
+BOOL BtlCmd_TryMetalBurst(struct BattleSystem *bsys, struct BattleStruct *ctx) {
+    IncrementBattleScriptPtr(ctx, 1);
+
+    int adrs = read_battle_script_param(ctx);
+
+    // TODO: Change to oneSelfFlag parameters for consistency.
+    int sideA = IsClientEnemy(bsys, ctx->attack_client);
+    int sideB = IsClientEnemy(bsys, ctx->oneTurnFlag[ctx->attack_client].last_damager);
+
+    if (ctx->oneTurnFlag[ctx->attack_client].last_damage && sideA != sideB && ctx->battlemon[ctx->oneTurnFlag[ctx->attack_client].last_damager].hp) {
+        ctx->damage = ctx->oneTurnFlag[ctx->attack_client].last_damage * 15 / 10;
+        if (ctx->scw[sideB].followMeFlag && ctx->battlemon[ctx->scw[sideB].battlerIdFollowMe].hp) {
+            ctx->defence_client = ctx->scw[sideB].battlerIdFollowMe;
+        } else {
+            ctx->defence_client = ctx->oneTurnFlag[ctx->attack_client].last_damager;
+        }
+        if (ctx->battlemon[ctx->defence_client].hp == 0) {
+            ctx->defence_client = Battler_GetRandomOpposingBattlerId(bsys, ctx, ctx->attack_client);
+            if (ctx->battlemon[ctx->defence_client].hp == 0) {
+                ctx->next_server_seq_no = CONTROLLER_COMMAND_39;
+                JumpToMoveEffectScript(ctx, 1, BATTLE_SUBSCRIPT_NO_TARGET);
+            }
+        }
+        CheckPressureForPPDecrease(ctx, ctx->attack_client, ctx->defence_client);
+#ifdef TOTEM_FIXED_DAMAGE_REDUCTION
+        if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(ctx->defence_client) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[ctx->defence_client].species, ctx->battlemon[ctx->defence_client].form_no))) {
+            ctx->damage = BattleDamageDivide(ctx->damage, 4);
+        }
+#endif
+    } else {
+        IncrementBattleScriptPtr(ctx, adrs);
     }
 
     return FALSE;

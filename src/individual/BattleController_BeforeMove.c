@@ -3807,7 +3807,22 @@ BOOL BattleController_CheckMoveAccuracy(struct BattleSystem *bsys, struct Battle
         ctx->waza_status_flag = 0;
         ctx->moveStatusFlagForSpreadMoves[defender] = MOVE_STATUS_ONE_HIT_KO_FAILED;
         ctx->battlerIdTemp = defender;
-        LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_MOVE_FAIL_MISSED); //{} avoided the attack
+#ifdef TOTEM_OHKO_RESISTANCE
+        if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM)
+        && BATTLER_IS_ENEMY(defender)
+        && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[defender].species, ctx->battlemon[defender].form_no))
+        && ctx->battlemon[defender].hp > (s32)(ctx->battlemon[defender].maxhp / 4)) {
+            ctx->mp.id = BATTLE_MSG_TOTEM_OHKO_IMMUNITY;
+            ctx->mp.tag = TAG_NICKNAME_MOVE;
+            ctx->mp.param[0] = CreateNicknameTag(ctx, defender);
+            ctx->mp.param[1] = ctx->current_move_index;
+            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_SHOW_PREPARED_MESSAGE); // {0} was too powerful to be taken down by {1}!
+        } else {
+#endif
+            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, BATTLE_SUBSCRIPT_MOVE_FAIL_MISSED); // {0} avoided the attack!
+#ifdef TOTEM_OHKO_RESISTANCE
+        }
+#endif
         ctx->next_server_seq_no = ctx->server_seq_no;
         ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
         return TRUE;
