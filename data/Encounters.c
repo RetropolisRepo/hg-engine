@@ -2123,7 +2123,7 @@ const EncounterData __data[] =
                 SPECIES_FLABEBE,
                 SPECIES_FLABEBE,
                 SPECIES_DROWZEE,
-                SPECIES_DROWZEE,
+                SPECIES_PIKACHU,
                 SPECIES_ABRA,
                 SPECIES_ABRA,
                 SPECIES_RATTATA,
@@ -2137,7 +2137,7 @@ const EncounterData __data[] =
                 SPECIES_FLABEBE,
                 SPECIES_FLABEBE,
                 SPECIES_DROWZEE,
-                SPECIES_DROWZEE,
+                SPECIES_PIKACHU,
                 SPECIES_ABRA,
                 SPECIES_ABRA,
                 SPECIES_RATTATA,
@@ -2151,7 +2151,7 @@ const EncounterData __data[] =
                 SPECIES_DROWZEE,
                 SPECIES_RATTATA,
                 SPECIES_DROWZEE,
-                SPECIES_DROWZEE,
+                SPECIES_PIKACHU,
                 SPECIES_ABRA,
                 SPECIES_ABRA,
                 SPECIES_FLABEBE,
@@ -2315,7 +2315,7 @@ const EncounterData __data[] =
         .rateSuperRod = 0,
         .landSlots = {
             .levels = {
-                13, 13, 15, 15, 13, 14, 14, 14, 14, 15, 14, 15
+                13, 13, 15, 15, 14, 15, 14, 14, 14, 15, 14, 15
             },
             .speciesMorning = {
                 SPECIES_CATERPIE,
@@ -2515,7 +2515,7 @@ const EncounterData __data[] =
         .rateSuperRod = 75,
         .landSlots = {
             .levels = {
-                14, 14, 13, 15, 15, 13, 14, 14, 13, 15, 13, 15
+                14, 14, 13, 15, 15, 13, 14, 14, 15, 13, 15, 13
             },
             .speciesMorning = {
                 SPECIES_NIDORAN_M,

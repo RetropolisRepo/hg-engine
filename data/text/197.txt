@@ -859,7 +859,7 @@ Announcer: You’re out of\nSafari Balls! Game over!
 {STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0}\nused one {STRVAR_1 8, 2, 0}!
 The Trainer blocked the Ball!
 Don’t be a thief!
-It dodged your thrown Poké Ball!\nThis Pokémon can’t be caught!
+It deflected your thrown Poké Ball!\nThis Pokémon can’t be caught!
 You missed the Pokémon!
 Oh, no!\nThe Pokémon broke free!
 Aww!\nIt appeared to be caught!

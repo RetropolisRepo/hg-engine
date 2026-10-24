@@ -2037,6 +2037,7 @@ static const u32 sPokedexAreaSpecialAreasNight_Pikachu[] =
 
 static const u32 sPokedexAreaRoutesAndCitiesMorning_Pikachu[] =
 {
+    DEX_ROUTE_34,
     DEX_ROUTE_39,
     DEX_ROUTE_2,
     DEX_ROUTE_2_2,
@@ -2045,6 +2046,7 @@ static const u32 sPokedexAreaRoutesAndCitiesMorning_Pikachu[] =
 
 static const u32 sPokedexAreaRoutesAndCitiesDay_Pikachu[] =
 {
+    DEX_ROUTE_34,
     DEX_ROUTE_39,
     DEX_ROUTE_2,
     DEX_ROUTE_2_2,
@@ -2053,6 +2055,7 @@ static const u32 sPokedexAreaRoutesAndCitiesDay_Pikachu[] =
 
 static const u32 sPokedexAreaRoutesAndCitiesNight_Pikachu[] =
 {
+    DEX_ROUTE_34,
     DEX_ROUTE_39,
     DEX_ROUTE_2,
     DEX_ROUTE_2_2,

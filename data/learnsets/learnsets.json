@@ -3683,7 +3683,7 @@
       },
       {
         "Level": 12,
-        "Move": "MOVE_ELECTRO_BALL"
+        "Move": "MOVE_SPARK"
       },
       {
         "Level": 16,
@@ -3691,15 +3691,15 @@
       },
       {
         "Level": 20,
-        "Move": "MOVE_SPARK"
+        "Move": "MOVE_ELECTRO_BALL"
       },
       {
         "Level": 24,
-        "Move": "MOVE_AGILITY"
+        "Move": "MOVE_SLAM"
       },
       {
         "Level": 28,
-        "Move": "MOVE_SLAM"
+        "Move": "MOVE_AGILITY"
       },
       {
         "Level": 30,
@@ -3718,7 +3718,11 @@
         "Move": "MOVE_LIGHT_SCREEN"
       },
       {
-        "Level": 44,
+        "Level": 43,
+        "Move": "MOVE_WILD_CHARGE"
+      },
+      {
+        "Level": 47,
         "Move": "MOVE_THUNDER"
       }
     ],
@@ -3906,6 +3910,10 @@
       {
         "Level": 1,
         "Move": "MOVE_QUICK_ATTACK"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_WILD_CHARGE"
       },
       {
         "Level": 1,
