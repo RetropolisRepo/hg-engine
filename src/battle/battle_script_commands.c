@@ -5912,24 +5912,23 @@ BOOL btl_scr_cmd_custom_0_iftotem(void *bsys, struct BattleStruct *ctx)
     return FALSE;
 }
 
-BOOL BtlCmd_Counter(struct BattleSystem *bsys, struct BattleStruct *ctx) {
+BOOL BtlCmd_Counter(struct BattleSystem *battleSystem, struct BattleStruct *ctx) {
     IncrementBattleScriptPtr(ctx, 1);
 
-    int battlerId = ctx->oneSelfFlag[ctx->attack_client].physical_damager;
+    int battlerId = ctx->oneTurnFlag[ctx->attack_client].physical_damager;
 
-    int sideA = IsClientEnemy(bsys, ctx->attack_client);
-    int sideB = IsClientEnemy(bsys, battlerId);
+    int sideA = IsClientEnemy(battleSystem, ctx->attack_client);
+    int sideB = IsClientEnemy(battleSystem, battlerId);
 
-    if (ctx->oneSelfFlag[ctx->attack_client].physical_damage && sideA != sideB && ctx->battlemon[battlerId].hp) {        
-        ctx->damage = ctx->oneSelfFlag[ctx->attack_client].physical_damage * 2;
+    if (ctx->oneTurnFlag[ctx->attack_client].physical_damage[battlerId] && sideA != sideB && ctx->battlemon[battlerId].hp) {
+        ctx->damage = ctx->oneTurnFlag[ctx->attack_client].physical_damage[battlerId] * 2;
         if (ctx->scw[sideB].followMeFlag && ctx->battlemon[ctx->scw[sideB].battlerIdFollowMe].hp) {
             ctx->defence_client = ctx->scw[sideB].battlerIdFollowMe;
         } else {
             ctx->defence_client = battlerId;
         }
-
         if (ctx->battlemon[ctx->defence_client].hp == 0) {
-            ctx->defence_client = Battler_GetRandomOpposingBattlerId(bsys, ctx, ctx->attack_client);
+            ctx->defence_client = Battler_GetRandomOpposingBattlerId(battleSystem, ctx, ctx->attack_client);
             if (ctx->battlemon[ctx->defence_client].hp == 0) {
                 ctx->next_server_seq_no = CONTROLLER_COMMAND_39;
                 JumpToMoveEffectScript(ctx, 1, BATTLE_SUBSCRIPT_NO_TARGET);
@@ -5937,12 +5936,12 @@ BOOL BtlCmd_Counter(struct BattleSystem *bsys, struct BattleStruct *ctx) {
         }
         CheckPressureForPPDecrease(ctx, ctx->attack_client, ctx->defence_client);
 #ifdef TOTEM_FIXED_DAMAGE_REDUCTION
-        if ((BattleTypeGet(bsys) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(ctx->defence_client) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[ctx->defence_client].species, ctx->battlemon[ctx->defence_client].form_no))) {
+        if ((BattleTypeGet(battleSystem) & BATTLE_TYPE_TOTEM) && BATTLER_IS_ENEMY(ctx->defence_client) && IS_SPECIES_TOTEM(PokeOtherFormMonsNoGet(ctx->battlemon[ctx->defence_client].species, ctx->battlemon[ctx->defence_client].form_no))) {
             ctx->damage = BattleDamageDivide(ctx->damage, 4);
         }
 #endif
     } else {
-        ctx->oneSelfFlag[ctx->attack_client].no_pressure_flag = 1;
+        ctx->oneSelfFlag[ctx->attack_client].no_pressure_flag = TRUE;
         ctx->waza_status_flag |= MOVE_STATUS_FAILED;
     }
 
@@ -5952,13 +5951,13 @@ BOOL BtlCmd_Counter(struct BattleSystem *bsys, struct BattleStruct *ctx) {
 BOOL BtlCmd_MirrorCoat(struct BattleSystem *bsys, struct BattleStruct *ctx) {
     IncrementBattleScriptPtr(ctx, 1);
 
-    int battlerId = ctx->oneSelfFlag[ctx->attack_client].special_damager;
+    int battlerId = ctx->oneTurnFlag[ctx->attack_client].special_damager;
 
     int sideA = IsClientEnemy(bsys, ctx->attack_client);
     int sideB = IsClientEnemy(bsys, battlerId);
 
-    if (ctx->oneSelfFlag[ctx->attack_client].special_damage && sideA != sideB && ctx->battlemon[battlerId].hp) {
-        ctx->damage = ctx->oneSelfFlag[ctx->attack_client].special_damage * 2;
+    if (ctx->oneTurnFlag[ctx->attack_client].special_damage[battlerId] && sideA != sideB && ctx->battlemon[battlerId].hp) {
+        ctx->damage = ctx->oneTurnFlag[ctx->attack_client].special_damage[battlerId] * 2;
         if (ctx->scw[sideB].followMeFlag && ctx->battlemon[ctx->scw[sideB].battlerIdFollowMe].hp) {
             ctx->defence_client = ctx->scw[sideB].battlerIdFollowMe;
         } else {
