@@ -258,7 +258,7 @@ $(MOVEDATAGEN): $(wildcard tools/source/movedatagen/*.c) data/Moves.c include/mo
 
 TOOLS += $(MOVEDATAGEN)
 
-$(POKEDEXDATAGEN): $(wildcard tools/source/pokedexdatagen/*.c) data/PokedexSort.c data/PokedexArea.c include/pokedex_archive_data.h include/constants/pokedex.h
+$(POKEDEXDATAGEN): $(wildcard tools/source/pokedexdatagen/*.c) data/PokedexSort.c data/PokedexArea.c data/RegionalDex.c include/pokedex_archive_data.h include/constants/pokedex.h include/constants/species.h
 	cd tools/source/pokedexdatagen ; $(MAKE) clean; $(MAKE)
 
 TOOLS += $(POKEDEXDATAGEN)
@@ -338,7 +338,7 @@ $(OUTPUT):$(LINK)
 
 # only reextract from the rom if the romname is newer than the extracted arm9.bin
 ifeq ($(ROM_TOOL),$(DSROM))
-$(BASE)/arm9.bin: $(ROMNAME) $(DSROM) $(VENV_ACTIVATE)
+$(BASE)/arm9.bin: $(ROMNAME) $(DSROM) $(VENV_ACTIVATE) scripts/dsrom_bridge.py
 	rm -rf $(BASE) $(BASE)_dsrom
 	@mkdir -p $(REQUIRED_DIRECTORIES)
 	$(DSROM_BRIDGE) extract --rom $(ROMNAME)
@@ -594,6 +594,9 @@ endif
 
 	@echo "ability flag params:"
 	cp $(ABILITY_FLAG_PARAMS_BIN) $(ABILITY_FLAG_PARAMS_TARGET)
+
+	@echo "machine moves:"
+	cp $(MACHINE_MOVES_PARAMS_BIN) $(MACHINE_MOVES_PARAMS_TARGET)
 
 update_machine_moves: $(VENV_ACTIVATE)
 	$(PYTHON) scripts/update_machine_moves.py --descriptions --sprites
