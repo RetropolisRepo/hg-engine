@@ -547,7 +547,9 @@
 // Define your custom map consts below here:
 #define MAP_ROUTE_32_VIOLET_GATEHOUSE                     (MAP_ID_MAX + 0)
 #define MAP_UNION_TRAIL                                   (MAP_ID_MAX + 1)
-#define MAP_STARVIEW_ISLET                                (MAP_ID_MAX + 2)
-#define MAP_BLACKTHORN_SPIRE                              (MAP_ID_MAX + 3)
+#define MAP_NEW_DAWN_WOODS                                (MAP_ID_MAX + 2)
+#define MAP_NEW_DAWN_CLEARING                             (MAP_ID_MAX + 3)
+#define MAP_STARVIEW_ISLET                                (MAP_ID_MAX + 4)
+#define MAP_BLACKTHORN_SPIRE                              (MAP_ID_MAX + 5)
 
 #endif // CONSTANTS_MAPS_H
