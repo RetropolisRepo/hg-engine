@@ -549,7 +549,8 @@
 #define MAP_UNION_TRAIL                                   (MAP_ID_MAX + 1)
 #define MAP_NEW_DAWN_WOODS                                (MAP_ID_MAX + 2)
 #define MAP_NEW_DAWN_CLEARING                             (MAP_ID_MAX + 3)
-#define MAP_STARVIEW_ISLET                                (MAP_ID_MAX + 4)
-#define MAP_BLACKTHORN_SPIRE                              (MAP_ID_MAX + 5)
+#define MAP_OLIVINE_LAB                                   (MAP_ID_MAX + 4)
+#define MAP_STARVIEW_ISLET                                (MAP_ID_MAX + 5)
+#define MAP_BLACKTHORN_SPIRE                              (MAP_ID_MAX + 6)
 
 #endif // CONSTANTS_MAPS_H
