@@ -506,7 +506,7 @@ u32 cmdAddress = 0;
 #pragma GCC diagnostic pop
 #endif // DEBUG_BATTLE_SCRIPT_COMMANDS
 
-#define BASE_ENGINE_BTL_SCR_CMDS_MAX 0x12E
+#define BASE_ENGINE_BTL_SCR_CMDS_MAX 0x12F
 
 // clang-format off
 const btl_scr_cmd_func NewBattleScriptCmdTable[] = {

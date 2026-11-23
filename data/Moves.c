@@ -6251,7 +6251,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .type = TYPE_STEEL,
             .accuracy = 75,
             .pp = 15,
-            .effectChance = 30,
+            .effectChance = 100,
         },
         .battle = {
             .target = RANGE_SINGLE_TARGET,

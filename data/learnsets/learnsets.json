@@ -2232,12 +2232,12 @@
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
-        "Level": 17,
-        "Move": "MOVE_WHIRLWIND"
+        "Level": 16,
+        "Move": "MOVE_WING_ATTACK"
       },
       {
-        "Level": 19,
-        "Move": "MOVE_WING_ATTACK"
+        "Level": 18,
+        "Move": "MOVE_WHIRLWIND"
       },
       {
         "Level": 21,
@@ -2363,12 +2363,12 @@
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
-        "Level": 17,
-        "Move": "MOVE_WHIRLWIND"
+        "Level": 16,
+        "Move": "MOVE_WING_ATTACK"
       },
       {
-        "Level": 20,
-        "Move": "MOVE_WING_ATTACK"
+        "Level": 18,
+        "Move": "MOVE_WHIRLWIND"
       },
       {
         "Level": 22,
@@ -2498,12 +2498,12 @@
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
-        "Level": 17,
-        "Move": "MOVE_WHIRLWIND"
+        "Level": 16,
+        "Move": "MOVE_WING_ATTACK"
       },
       {
-        "Level": 20,
-        "Move": "MOVE_WING_ATTACK"
+        "Level": 18,
+        "Move": "MOVE_WHIRLWIND"
       },
       {
         "Level": 22,
